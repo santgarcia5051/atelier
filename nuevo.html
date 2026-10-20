@@ -1208,14 +1208,15 @@ function notaInfo(p, t, i) {
   const k = (p.destacadas || [])[i];
   const n = k && typeof NOTAS !== "undefined" ? NOTAS[k] : null;
   const fallback = t === "salida" ? p.salida[0] : t === "corazon" ? p.corazon[0] : p.fondo[0];
-  return { k: n ? k : null, nombre: n ? n.nombre : fallback, desc: n ? n.desc : TIER_LABEL[t] };
+  const foto = n && n.foto !== false ? (n.foto || k) : null;
+  return { k: foto, nombre: n ? n.nombre : fallback, desc: n ? n.desc : TIER_LABEL[t], color: n && n.color };
 }
 function noteTiles(p) {
   return ["salida", "corazon", "fondo"].map((t, i) => {
     const n = notaInfo(p, t, i);
     const vis = n.k
       ? `<div class="nvis photo"><img src="fotos/notas/${n.k}.webp" alt="${n.nombre}" loading="lazy"><span>${TIER_LABEL[t]}</span></div>`
-      : `<div class="nvis" style="--c:${NOTE_COLORS[n.nombre.toLowerCase()] || TIER_COLORS[t]}" aria-hidden="true"><span>${TIER_LABEL[t]}</span></div>`;
+      : `<div class="nvis" style="--c:${n.color || NOTE_COLORS[n.nombre.toLowerCase()] || TIER_COLORS[t]}" aria-hidden="true"><span>${TIER_LABEL[t]}</span></div>`;
     return `<div class="ntile">${vis}<b>${n.nombre}</b><small>${n.desc}</small></div>`;
   }).join("");
 }
