@@ -685,7 +685,7 @@ h2 { font-weight: 500 !important; letter-spacing: -.01em; }
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script src="perfumes.js?v=20261020c"></script>
+<script src="perfumes.js?v=20261020d"></script>
 <script>
 
 const fmt = new Intl.NumberFormat("es-MX", { style: "currency", currency: "MXN", maximumFractionDigits: 0 });
@@ -1211,7 +1211,7 @@ let spotIdx = Math.max(0, PERFUMES.findIndex(p => p.id === DESTACADO));
 
 function sceneHTML(p) {
   if (!p.img) return media(p);
-  return `<img class="spot-img scene" src="fotos/escenas/${p.id}.webp" alt="${p.marca} ${p.nombre}" onerror="this.onerror=null;this.classList.remove('scene');this.src='${p.img}'">`;
+  return `<img class="spot-img scene" src="fotos/escenas/${p.id}.webp?v=3" alt="${p.marca} ${p.nombre}" onerror="this.onerror=null;this.classList.remove('scene');this.src='${p.img}'">`;
 }
 
 function notaInfo(p, t, i) {
