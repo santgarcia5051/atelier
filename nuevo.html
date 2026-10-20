@@ -1191,7 +1191,7 @@ function renderSpot(animate) {
     $("spotBody").textContent = parts.slice(1).join(" ");
     $("spotMeta").innerHTML = `<span>${p.pres.map(x => x.ml + " ml").join(" · ")}</span><span><b>${fmt.format(minPrice(p))}</b></span><span>Duración ${p.duracion}</span>`;
     const tiers = [["salida", p.salida[0]], ["corazon", p.corazon[0]], ["fondo", p.fondo[0]]];
-    $("notesText").textContent = `La combinación de ${tiers.map(t => t[1].toLowerCase()).join(", ").replace(/, ([^,]*)$/, " y $1")} define el carácter de ${p.nombre}: perfecto para ${p.temporada.toLowerCase().replace(" · ", " e ").replace(" e invierno", " e invierno")} e ideal para ${p.ocasion.toLowerCase().replace(" · ", " y ")}.`;
+    $("notesText").textContent = `La combinación de ${tiers.map(t => t[1].toLowerCase()).join(", ").replace(/, ([^,]*)$/, " y $1")} define el carácter de ${p.nombre}: perfecto para ${p.temporada.toLowerCase().replace(" · ", " y ").replace(" y i", " e i")} e ideal para ${p.ocasion.toLowerCase().replace(" · ", " y ").replace(" y i", " e i")}.`;
     $("notesGrid").innerHTML = tiers.map(([t, n]) => {
       const c = NOTE_COLORS[n.toLowerCase()] || TIER_COLORS[t];
       return `<div class="ntile"><div class="nvis" style="--c:${c}" aria-hidden="true"><span>${TIER_LABEL[t]}</span></div><b>${n}</b><small>${TIER_LABEL[t]}</small></div>`;
