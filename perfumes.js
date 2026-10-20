@@ -228,8 +228,8 @@ const SECCIONES = ["Mujer", "Hombre"];
 const ENVIO = {
   gratisDesde: 2,
   zonas: {
-    local:     { nombre: "Local",     cubre: "Ciudad de México y Estado de México", precio: 129, dias: "1 a 3 días hábiles" },
-    nacional:  { nombre: "Nacional",  cubre: "Resto de la República",               precio: 179, dias: "3 a 6 días hábiles" },
-    extendida: { nombre: "Extendida", cubre: "Baja California, Baja California Sur, Chiapas, Quintana Roo y Yucatán", precio: 299, dias: "5 a 8 días hábiles" }
+    local:     { nombre: "Local",     cubre: "Ciudad de México y Estado de México", precio: 169, dias: "1 a 3 días hábiles" },
+    nacional:  { nombre: "Nacional",  cubre: "Resto de la República",               precio: 229, dias: "3 a 6 días hábiles" },
+    extendida: { nombre: "Extendida", cubre: "Baja California, Baja California Sur, Chiapas, Quintana Roo y Yucatán", precio: 349, dias: "5 a 8 días hábiles" }
   }
 };
