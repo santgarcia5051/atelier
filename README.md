@@ -1,4 +1,4 @@
-# Atelier Gris Perfumería
+# Scantalia Perfumería
 
 Página de la tienda. Se publica sola con GitHub Pages cada vez que se guarda un cambio.
 

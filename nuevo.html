@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Atelier Gris Perfumería</title>
+<title>Scantalia Perfumería</title>
 <meta name="theme-color" content="#0E0D0C">
 <meta name="description" content="Perfumería original con ficha olfativa de cada fragancia, envío a todo México y envío gratis en la compra de 2 perfumes o más.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23E8E1D6' stroke='%232A2927' stroke-width='2'/%3E%3Ctext x='32' y='40' font-family='Arial' font-size='22' text-anchor='middle' fill='%232A2927'%3EAG%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23E8E1D6' stroke='%232A2927' stroke-width='2'/%3E%3Ctext x='32' y='42' font-family='Arial' font-size='30' text-anchor='middle' fill='%232A2927'%3ES%3C/text%3E%3C/svg%3E">
 <script>try{var t=localStorage.getItem("ag2-theme");document.documentElement.setAttribute("data-theme",t==="light"?"light":"dark")}catch(e){document.documentElement.setAttribute("data-theme","dark")}</script>
 <style>
 :root { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
@@ -510,9 +510,9 @@ h2 { font-weight: 500 !important; letter-spacing: -.01em; }
 <body>
 <header class="top">
   <div class="wrap top-inner">
-    <a class="brand" href="#inicio" aria-label="Atelier Gris, inicio">
-      <span class="brand-mark" aria-hidden="true">AG</span>
-      <span><span class="brand-name">Atelier Gris</span><span class="brand-sub">El arte de la perfumería</span></span>
+    <a class="brand" href="#inicio" aria-label="Scantalia, inicio">
+      <span class="brand-mark" aria-hidden="true">S</span>
+      <span><span class="brand-name">Scantalia</span><span class="brand-sub">El arte de la perfumería</span></span>
     </a>
     <nav class="links" aria-label="Secciones">
       <a href="#perfumes">Perfumes</a>
@@ -629,21 +629,21 @@ h2 { font-weight: 500 !important; letter-spacing: -.01em; }
         <h2 id="contacto-title" style="font-size:clamp(30px,4vw,44px);font-weight:300">Contacto</h2>
         <p>Arme su pedido en el carrito y envíenos el resumen por mensaje directo o correo. El costo de envío se calcula automáticamente con su código postal. Le confirmaremos disponibilidad y le enviaremos un link de pago seguro con tarjeta, transferencia o efectivo en OXXO.</p>
         <div class="mail-row">
-          <code id="mailText">contacto@ateliergris.mx</code>
+          <code id="mailText">contacto@scantalia.mx</code>
           <button class="small-btn" type="button" id="copyMail">Copiar correo</button>
         </div>
       </div>
       <div class="socials">
         <a class="social" href="https://www.instagram.com/" target="_blank" rel="noopener">
-          <span><span class="social-name">Instagram</span><br><span class="social-handle">@ateliergris</span></span>
+          <span><span class="social-name">Instagram</span><br><span class="social-handle">@scantalia</span></span>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
         </a>
         <a class="social" href="https://www.tiktok.com/" target="_blank" rel="noopener">
-          <span><span class="social-name">TikTok</span><br><span class="social-handle">@ateliergris</span></span>
+          <span><span class="social-name">TikTok</span><br><span class="social-handle">@scantalia</span></span>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
         </a>
         <a class="social" href="https://www.facebook.com/" target="_blank" rel="noopener">
-          <span><span class="social-name">Facebook</span><br><span class="social-handle">Atelier Gris Perfumería</span></span>
+          <span><span class="social-name">Facebook</span><br><span class="social-handle">Scantalia Perfumería</span></span>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
         </a>
         <!-- WhatsApp: para activarlo, quite el atributo "hidden" y cambie el número en el enlace (formato 52 + 10 dígitos). -->
@@ -658,7 +658,7 @@ h2 { font-weight: 500 !important; letter-spacing: -.01em; }
 
 <footer>
   <div class="wrap foot-inner">
-    <span>© 2026 Atelier Gris Perfumería</span>
+    <span>© 2026 Scantalia Perfumería</span>
     <span>Todas las fragancias son originales y se entregan selladas.</span>
   </div>
 </footer>
@@ -1111,7 +1111,7 @@ const escapeAttr = escapeHTML;
 function newFolio() {
   const d = new Date();
   const dd = String(d.getDate()).padStart(2, "0"), mm = String(d.getMonth() + 1).padStart(2, "0");
-  return `AG-${dd}${mm}-${String(Math.floor(Math.random() * 900) + 100)}`;
+  return `SC-${dd}${mm}-${String(Math.floor(Math.random() * 900) + 100)}`;
 }
 
 $("cartBody").addEventListener("click", e => {
