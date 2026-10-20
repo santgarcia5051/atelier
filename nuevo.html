@@ -241,6 +241,10 @@ tbody tr:hover { background: var(--tile); }
 .small-btn:hover { border-color: var(--fg); }
 @media (max-width: 760px) { .contact { grid-template-columns: 1fr; } }
 
+.foot-link { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.foot-link:hover { color: var(--gold); }
+.privacy-note { font-size: 12.5px; line-height: 1.5; color: var(--muted); margin: 4px 0 12px; }
+.privacy-note a { color: inherit; text-decoration: underline; }
 footer { padding-block: 32px 40px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
 .foot-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
 
@@ -656,6 +660,7 @@ h2 { font-weight: 500 !important; letter-spacing: -.01em; }
   <div class="wrap foot-inner">
     <span>© 2026 Scantalia Perfumería</span>
     <span>Todas las fragancias son originales y se entregan selladas.</span>
+    <a class="foot-link" href="privacidad.html">Aviso de privacidad</a>
   </div>
 </footer>
 
@@ -681,7 +686,7 @@ h2 { font-weight: 500 !important; letter-spacing: -.01em; }
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script src="perfumes.js?v=20261020e"></script>
+<script src="perfumes.js?v=20261020f"></script>
 <script>
 
 const fmt = new Intl.NumberFormat("es-MX", { style: "currency", currency: "MXN", maximumFractionDigits: 0 });
@@ -1056,6 +1061,7 @@ function renderCart() {
         <div class="field"><label for="fNotas">Notas (opcional)</label>
           <textarea id="fNotas" name="notas" rows="2" placeholder="Ej. Es para regalo">${escapeHTML(d.notas)}</textarea></div>
         <div id="sumWrap">${summaryHTML()}</div>
+        <p class="privacy-note">Usaremos sus datos solo para procesar, cobrar y enviar su pedido. Consulte nuestro <a href="privacidad.html" target="_blank" rel="noopener">aviso de privacidad</a>.</p>
         <div class="stack">
           <button class="btn block" type="submit">Generar pedido</button>
           <button class="btn ghost block" type="button" data-act="back">Volver al carrito</button>
