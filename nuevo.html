@@ -432,6 +432,11 @@ h2 { font-weight: 500 !important; letter-spacing: -.01em; }
   #drawer .drawer-scroll { gap: 30px; }
 }
 
+.spot-media.has-scene { background: #0B0907; }
+.spot-media.has-scene::after { display: none; }
+.spot-media img.scene { left: 0; bottom: 0; top: 0; width: 100%; height: 100%; max-width: none; object-fit: cover; transform: none; filter: none; }
+.spot-media.swap img.scene { opacity: 0; transform: scale(1.02); }
+
 /* Envíos */
 .ship { margin-top: 40px; display: grid; gap: 20px; }
 .ship-head { display: grid; gap: 6px; }
@@ -1204,6 +1209,11 @@ const TINT = p => p.liquido || "#E8A85A";
 let spotIdx = Math.max(0, PERFUMES.findIndex(p => p.id === DESTACADO));
 
 
+function sceneHTML(p) {
+  if (!p.img) return media(p);
+  return `<img class="spot-img scene" src="fotos/escenas/${p.id}.webp" alt="${p.marca} ${p.nombre}" onerror="this.onerror=null;this.classList.remove('scene');this.src='${p.img}'">`;
+}
+
 function notaInfo(p, t, i) {
   const k = (p.destacadas || [])[i];
   const n = k && typeof NOTAS !== "undefined" ? NOTAS[k] : null;
@@ -1234,7 +1244,7 @@ function renderDrawer(p) {
   const notes = arr => arr.map(n => `<span class="note">${n}</span>`).join("");
   $("drawerBody").innerHTML = `
     <div class="dx-top reveal">
-      <div class="spot-media dx-media" style="--tint:${TINT(p)}">${media(p)}<span class="spot-tag">${p.marca} · ${p.seccion}</span></div>
+      <div class="spot-media dx-media${p.img ? " has-scene" : ""}" style="--tint:${TINT(p)}">${sceneHTML(p)}<span class="spot-tag">${p.marca} · ${p.seccion}</span></div>
       <div class="dx-copy">
         <span class="eyebrow">${p.marca} · ${p.nombre}</span>
         <h2 id="dName">${p.lema}</h2>
@@ -1293,7 +1303,8 @@ function renderSpot(animate) {
   const apply = () => {
     m.style.setProperty("--tint", TINT(p));
     m.querySelector(".spot-img")?.remove();
-    const tmp = document.createElement("div"); tmp.innerHTML = media(p);
+    m.classList.toggle("has-scene", !!p.img);
+    const tmp = document.createElement("div"); tmp.innerHTML = sceneHTML(p);
     const el = tmp.firstElementChild; el.classList.add("spot-img"); if (el.tagName === "IMG") el.loading = "eager"; m.insertBefore(el, m.firstChild);
     $("spotTag").textContent = `${p.marca} · ${p.seccion}`;
     $("spotEyebrow").textContent = `${p.marca} · ${p.conc} · ${p.familia}`;
