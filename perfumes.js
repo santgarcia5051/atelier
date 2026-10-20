@@ -37,7 +37,31 @@ const PERFUMES = [
     salida: ["Lavanda", "Salvia", "Elemí"], corazon: ["Oud", "Trufa", "Geranio"], fondo: ["Roble", "Vainilla", "Vetiver"],
     acordes: [["Amaderado", 88], ["Aromático", 72], ["Avainillado", 62], ["Terroso", 55]],
     duracion: "10–12 h", proyeccion: 4, temporada: "Otoño · Invierno", ocasion: "Noche · Citas",
-    pres: [{ ml: 100, precio: 3099 }], forma: "facetado", liquido: "#1D3A8A", img: "fotos/bad-boy-cobalt-absolute.webp" }
+    pres: [{ ml: 100, precio: 3099 }], forma: "facetado", liquido: "#1D3A8A", img: "fotos/bad-boy-cobalt-absolute.webp" },
+  { id: "neroli-portofino", marca: "Tom Ford", nombre: "Neroli Portofino", conc: "EDP",
+    seccion: "Hombre", familia: "Cítrico aromático",
+    lema: "La Riviera italiana en un frasco.",
+    venta: "Neroli Portofino captura la luz del verano en la costa italiana. Bergamota, mandarina y limón de Amalfi abren con una frescura chispeante, matizada por lavanda, romero y mirto; el corazón de flor de naranjo y neroli aporta una elegancia luminosa, y un fondo suave de ámbar y angélica lo mantiene limpio y sofisticado. La fragancia de lujo ideal para el día, el calor y para quien busca distinguirse con discreción.",
+    salida: ["Bergamota", "Mandarina", "Limón de Amalfi", "Lavanda", "Romero"], corazon: ["Neroli", "Flor de naranjo", "Jazmín"], fondo: ["Ámbar", "Ambreta", "Angélica"],
+    acordes: [["Cítrico", 95], ["Floral blanco", 70], ["Aromático", 60], ["Fresco", 55]],
+    duracion: "5–7 h", proyeccion: 3, temporada: "Primavera · Verano", ocasion: "Día · Vacaciones",
+    pres: [{ ml: 100, precio: 7899 }], forma: "cuadrado", liquido: "#1AA3A3", img: "fotos/neroli-portofino.webp" },
+  { id: "perseus", marca: "Parfums de Marly", nombre: "Perseus", conc: "EDP",
+    seccion: "Hombre", familia: "Cítrico aromático",
+    lema: "Frescura luminosa con carácter.",
+    venta: "Perseus es la propuesta más vibrante de Parfums de Marly. Toronja rosada, bergamota y grosella negra abren con una energía fresca y jugosa; el vetiver, la mandarina verde y el geranio le dan un corazón verde y elegante, y un fondo de maderas secas, madera de cachemira y ámbar gris lo vuelve sofisticado y duradero. Una fragancia de nicho que transmite seguridad y buen gusto desde la primera aplicación.",
+    salida: ["Toronja rosada", "Bergamota", "Grosella negra"], corazon: ["Vetiver", "Mandarina verde", "Geranio"], fondo: ["Maderas secas", "Madera de cachemira", "Ámbar gris"],
+    acordes: [["Cítrico", 90], ["Afrutado", 62], ["Amaderado", 60], ["Aromático", 55]],
+    duracion: "7–9 h", proyeccion: 4, temporada: "Primavera · Verano", ocasion: "Día · Oficina",
+    pres: [{ ml: 125, precio: 6699 }], forma: "cuadrado", liquido: "#F39A1E", img: "fotos/perseus.webp" },
+  { id: "acqua-di-gio-profondo-parfum", marca: "Giorgio Armani", nombre: "Acqua di Giò Profondo", conc: "Parfum",
+    seccion: "Hombre", familia: "Acuático aromático",
+    lema: "La profundidad del mar en su versión más intensa.",
+    venta: "Acqua di Giò Profondo Parfum lleva el clásico marino de Giorgio Armani a su concentración más rica. Notas marinas y mandarina verde abren con una frescura oceánica; un corazón de mimosa aporta una calidez suave y ligeramente atalcada, y un fondo de pachulí y ládano le da profundidad ambarada y gran duración. Fresco para el día y elegante para la noche: un perfume que funciona en cualquier ocasión.",
+    salida: ["Notas marinas", "Mandarina verde"], corazon: ["Mimosa"], fondo: ["Pachulí", "Ládano"],
+    acordes: [["Acuático", 90], ["Ambarado", 62], ["Aromático", 58], ["Terroso", 45]],
+    duracion: "8–10 h", proyeccion: 4, temporada: "Todo el año", ocasion: "Día · Noche",
+    pres: [{ ml: 100, precio: 3299 }], forma: "alto", liquido: "#1E3A6B", img: "fotos/acqua-di-gio-profondo-parfum.webp" }
 ];
 const SECCIONES = ["Mujer", "Hombre"];
 
