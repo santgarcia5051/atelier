@@ -279,6 +279,18 @@ tbody tr:hover { background: var(--tile); }
 
 .foot-link { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
 .foot-link:hover { color: var(--gold); }
+/* ===== Aviso de cookies ===== */
+.cookies { position: fixed; z-index: 60; left: max(16px, env(safe-area-inset-left, 0px)); right: max(16px, env(safe-area-inset-right, 0px)); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); max-width: 760px; margin: 0 auto; display: grid; grid-template-columns: 1fr auto; gap: 18px; align-items: center; padding: 18px 20px; border-radius: 22px; background: var(--surface); color: var(--fg); border: 1px solid var(--line); box-shadow: 0 24px 60px -20px rgba(0,0,0,.45); animation: ckIn .6s cubic-bezier(.2,.7,.2,1); }
+.cookies b { display: block; font-family: var(--font-display); font-size: 20px; font-weight: 500; margin-bottom: 2px; }
+.cookies p { margin: 0; font-size: 14px; line-height: 1.5; color: var(--muted); }
+.cookies a { color: inherit; text-underline-offset: 3px; }
+.cookies .ck-btns { display: flex; gap: 8px; flex-wrap: wrap; }
+.cookies button { border-radius: 999px; padding: 11px 18px; font-size: 13px; cursor: pointer; border: 1px solid var(--fg); background: transparent; color: var(--fg); }
+.cookies button.ck-ok { background: var(--fg); color: var(--bg); }
+@keyframes ckIn { from { transform: translateY(30px); opacity: 0; } to { transform: none; opacity: 1; } }
+@media (max-width: 640px) { .cookies { grid-template-columns: 1fr; } }
+.foot-link.btn-link { background: none; border: 0; padding: 0; font: inherit; cursor: pointer; }
+
 .privacy-note { font-size: 12.5px; line-height: 1.5; color: var(--muted); margin: 4px 0 12px; }
 .privacy-note a { color: inherit; text-decoration: underline; }
 footer { padding-block: 32px 40px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
@@ -565,8 +577,13 @@ footer { padding-block: 32px 40px; border-top: 1px solid var(--line); font-size:
     <span>© 2026 Scantalia Perfumería</span>
     <span>Todas las fragancias son originales y se entregan selladas.</span>
     <a class="foot-link" href="privacidad.html">Aviso de privacidad</a>
+    <button class="foot-link btn-link" type="button" id="ckAbrir">Preferencias de cookies</button>
   </div>
 </footer>
+<div class="cookies" id="cookies" role="dialog" aria-labelledby="ckTit" hidden>
+  <div><b id="ckTit">Cookies y almacenamiento</b><p>Guardamos en su navegador su carrito, el modo claro u oscuro y, si lo permite, los perfumes que explora para recomendarle "perfumes similares según sus gustos". No usamos publicidad ni rastreo. <a href="privacidad.html#navegador">Aviso de privacidad</a></p></div>
+  <div class="ck-btns"><button type="button" id="ckSolo">Solo necesarias</button><button type="button" class="ck-ok" id="ckTodo">Aceptar todo</button></div>
+</div>
 
 <div class="overlay" id="overlay" hidden></div>
 <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="dName" hidden>
@@ -792,7 +809,9 @@ function simCoseno(a, b) {
 const SIM_CACHE = new Map();
 const simDe = p => { if (!SIM_CACHE.has(p.id)) SIM_CACHE.set(p.id, simPerfil(p)); return SIM_CACHE.get(p.id); };
 function gustosLeer() { try { const g = JSON.parse(localStorage.getItem("sc-gustos") || "{}"); return g && typeof g === "object" ? g : {}; } catch (e) { return {}; } }
+function consentimiento() { try { return localStorage.getItem("sc-cookies"); } catch (e) { return null; } }
 function gustoSumar(id, peso) {
+  if (consentimiento() !== "todo") return;  // personalización solo con permiso
   const g = gustosLeer(); g[id] = Math.min((g[id] || 0) + peso, 20);
   try { localStorage.setItem("sc-gustos", JSON.stringify(g)); } catch (e) {}
 }
@@ -1173,6 +1192,16 @@ $("cartBody").addEventListener("submit", e => {
 updateBadge();
 
 /* ===== Copiar al portapapeles ===== */
+/* ===== Aviso de cookies ===== */
+(function () {
+  const box = document.getElementById("cookies");
+  const elegir = v => { try { localStorage.setItem("sc-cookies", v); if (v !== "todo") localStorage.removeItem("sc-gustos"); } catch (e) {} box.hidden = true; toast(v === "todo" ? "Preferencias guardadas: recomendaciones activadas." : "Preferencias guardadas: solo lo necesario."); };
+  document.getElementById("ckTodo").addEventListener("click", () => elegir("todo"));
+  document.getElementById("ckSolo").addEventListener("click", () => elegir("necesarias"));
+  document.getElementById("ckAbrir").addEventListener("click", () => { box.hidden = false; });
+  if (!consentimiento()) setTimeout(() => { box.hidden = false; }, 900);
+})();
+
 function toast(msg) {
   const t = $("toast"); t.textContent = msg; t.classList.add("show");
   clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.remove("show"), 2600);
