@@ -123,6 +123,10 @@ section.block { border-top: 0; }
 .card-name { font-size: 28px !important; line-height: 1.04; font-weight: 500 !important; }
 .card-lema { font-family: var(--font-display); font-size: 17px !important; }
 .card-price { display: flex !important; align-items: center; gap: 6px; padding-right: 54px; min-height: 44px; }
+.card-price .ahorro { display: none; }
+.foto-tienda-wrap { background: #EFE7DA !important; }
+.foto-tienda-wrap img { mix-blend-mode: multiply !important; }
+.card.destacada .card-price { color: #F1EADF; }
 .desc-badge { position: absolute; z-index: 2; top: 12px; right: 12px; background: var(--gold); color: #211B16; border-radius: 999px; padding: 5px 10px; font-size: 12px; font-weight: 600; }
 .notas-hover { position: absolute; z-index: 2; left: 10px; right: 10px; bottom: 10px; background: rgba(251,248,243,.9); color: #211B16; backdrop-filter: blur(8px); border-radius: 14px; padding: 10px 13px; font-size: 13px; line-height: 1.4; transform: translateY(140%); transition: transform .5s cubic-bezier(.2,.7,.2,1); text-align: left; }
 .notas-hover small { display: block; font-size: 10px; letter-spacing: .24em; text-transform: uppercase; color: #9A7B45; font-weight: 600; margin-bottom: 2px; }
@@ -215,7 +219,7 @@ s = s[:i] + HERO + s[j:]
 # ---------- Tarjetas: tono del perfume, descuento, notas al pasar el cursor, botón rápido de agregar
 old_card = '''    <button class="card${disponible(p) ? "" : " agotado"}" type="button" data-id="${p.id}" aria-label="Ver ficha de ${p.nombre}${disponible(p) ? "" : " (no disponible)"}">
       <div class="card-media${esFotoTienda(p) ? " foto-tienda-wrap" : ""}${p.recorte ? " recorte-wrap" : ""}">${disponible(p) ? `<span class="card-tag">${p.conc}</span>` : `<span class="card-tag agotado-tag">No disponible</span>`}${media(p)}</div>'''
-new_card = '''    <button class="card sr${disponible(p) ? "" : " agotado"}${k === 0 ? " destacada" : ""}" type="button" data-id="${p.id}" aria-label="Ver ficha de ${p.nombre}${disponible(p) ? "" : " (no disponible)"}" style="--tint:${tono(p.liquido)}">
+new_card = '''    <button class="card sr${disponible(p) ? "" : " agotado"}${p.id === destacadaId ? " destacada" : ""}" type="button" data-id="${p.id}" aria-label="Ver ficha de ${p.nombre}${disponible(p) ? "" : " (no disponible)"}" style="--tint:${tono(p.liquido)}">
       <div class="card-media${fondoProfundo(p) ? " profundo" : (esFotoTienda(p) ? " foto-tienda-wrap" : "")}">${disponible(p) ? `<span class="card-tag">${p.conc}</span>` : `<span class="card-tag agotado-tag">No disponible</span>`}${descBadge(p)}${media(p)}<span class="notas-hover"><small>Notas</small>${[p.salida[0], p.corazon[0], p.fondo[0]].filter(Boolean).join(" · ")}</span></div>'''
 s = rep(old_card, new_card, s)
 s = rep('''        <span class="card-price">${priceLine(p)}</span>
@@ -225,7 +229,7 @@ s = rep('''        <span class="card-price">${priceLine(p)}</span>
       <span class="q-add" role="button" tabindex="0" data-add="${p.id}" aria-label="Agregar ${p.nombre} al carrito"><i>+</i><b>Agregar</b></span>
     </button>`).join("")''', s)
 s = rep('$("grid").innerHTML = list.length ? list.map(p => `', '$("grid").innerHTML = list.length ? list.map((p, k) => `', s)
-s = rep('const list = sorted(PERFUMES).filter(p => p.seccion === state.seccion);', 'const list = sorted(PERFUMES).filter(p => p.seccion === state.seccion && cumpleEstilo(p));', s)
+s = rep('const list = sorted(PERFUMES).filter(p => p.seccion === state.seccion);', 'const list = sorted(PERFUMES).filter(p => p.seccion === state.seccion && cumpleEstilo(p));\n  const destacadaId = (list.find(p => disponible(p) && p.antes && p.pres.length === 1 && fondoProfundo(p)) || list.find(p => disponible(p) && p.antes && p.pres.length === 1) || {}).id;', s)
 
 # Agregar rápido sin abrir la ficha
 s = rep('$("grid").addEventListener("click", e => { const c = e.target.closest(".card"); if (c) openDrawer(c.dataset.id, c); });',
