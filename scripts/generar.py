@@ -70,7 +70,7 @@ for prod in costco["productos"]:
     por_id[pid] = item
     salida.append(item)
 
-orden = {s: i for i, s in enumerate(["Mujer", "Hombre"])}
+orden = {s: i for i, s in enumerate(["Mujer", "Hombre", "Unisex"])}
 salida.sort(key=lambda p: (orden.get(p["seccion"], 9), not p["disponible"], p["marca"], p["nombre"]))
 
 lineas = []
@@ -103,6 +103,7 @@ resumen = {
     "agotados": sum(not p["disponible"] for p in salida),
     "mujer": sum(p["seccion"] == "Mujer" for p in salida),
     "hombre": sum(p["seccion"] == "Hombre" for p in salida),
+    "unisex": sum(p["seccion"] == "Unisex" for p in salida),
     "sin_margen": len(sin_margen),
     "faltan_ficha": faltan_ficha,
     "notas_sin_definir": huerfanas,

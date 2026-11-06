@@ -641,7 +641,9 @@ function sorted(list) {
 }
 
 function renderChips() {
-  $("chips").innerHTML = SECCIONES.map(s => {
+  const conPerfumes = SECCIONES.filter(s => PERFUMES.some(p => p.seccion === s));
+  if (!conPerfumes.includes(state.seccion) && conPerfumes.length) state.seccion = conPerfumes[0];
+  $("chips").innerHTML = conPerfumes.map(s => {
     const n = PERFUMES.filter(p => p.seccion === s).length;
     return `<button class="tab" type="button" role="tab" data-sec="${s}" aria-selected="${s === state.seccion}">${s}<span>${n}</span></button>`;
   }).join("");

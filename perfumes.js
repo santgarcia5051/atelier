@@ -105,7 +105,7 @@ const NOTAS = {
   castana:   { nombre: "Castaña",       desc: "Gourmand" }
 };
 
-const SECCIONES = ["Mujer", "Hombre"];
+const SECCIONES = ["Mujer", "Hombre", "Unisex"];
 
 /* ===== ENVÍOS =====
    Tarifas que paga el cliente según la zona de su código postal.
