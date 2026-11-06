@@ -39,7 +39,7 @@ CSS = r"""
 :root, :root[data-theme="dark"] {
   --bg: #0F0F0E; --surface: #171715; --tile: #1E1D1B; --fg: #ECE9E2; --muted: #9C988F; --line: #2A2926; --line2: #2A2926;
   --accent: #C9A35E; --accent-fg: #111110; --paper: #ECE9E2; --ink: #111110; --dim: #4A4843;
-  --overlay: rgba(0,0,0,.7); --shadow: 0 30px 60px -20px rgba(0,0,0,.8); --glow: rgba(201,163,94,.12); --danger: #E2907F; --ok: #A3C495;
+  --overlay: rgba(0,0,0,.7); --shadow: 0 30px 60px -20px rgba(0,0,0,.8); --glow: rgba(201,163,94,.12); --danger: #E0A64B; --ok: #C9A35E;
   --font-display: "Big Shoulders Display", Impact, "Arial Narrow", sans-serif;
   --font-body: "IBM Plex Mono", ui-monospace, Menlo, monospace;
   --font-type: "Courier Prime", "Courier New", monospace;
@@ -48,7 +48,7 @@ CSS = r"""
 :root[data-theme="light"] {
   --bg: #EFEDE7; --surface: #F8F6F1; --tile: #E3E0D8; --fg: #141413; --muted: #6E6B64; --line: #141413; --line2: #CFCBC2;
   --accent: #8C6A2E; --accent-fg: #FFFFFF; --paper: #F8F6F1; --ink: #141413; --dim: #B5B0A6;
-  --overlay: rgba(20,20,19,.5); --shadow: 0 26px 50px -20px rgba(0,0,0,.3); --glow: rgba(194,59,34,.08); --danger: #A6463A; --ok: #4C6A43;
+  --overlay: rgba(20,20,19,.5); --shadow: 0 26px 50px -20px rgba(0,0,0,.3); --glow: rgba(140,106,46,.10); --danger: #9A5B12; --ok: #8C6A2E;
   color-scheme: light;
 }
 body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 14px; }
@@ -144,6 +144,9 @@ section.block { border-top: 1px solid var(--line); padding-block: 56px; }
 .it.off .t { text-decoration: line-through; text-decoration-thickness: 3px; }
 .it.off .th img { opacity: .45; }
 .it.off .qa { display: none; }
+#drawer *, #cart *, .drawer .close-btn { border-radius: 0 !important; }
+.close-btn { border-color: var(--line) !important; }
+.close-btn:hover { border-color: var(--accent) !important; color: var(--accent); }
 @media (hover: hover) {
   .it:hover .th img, .it.sel .th img { transform: scale(1.05); }
   .it:hover .mn img, .it.sel .mn img { filter: none; }
@@ -510,18 +513,18 @@ rep("</style>\n</head>", r"""
 .qz-alt b { font-family: var(--font-display); font-weight: 900; font-size: 34px; line-height: .95; text-transform: uppercase; }
 .qz-alt span { font-family: var(--font-type); font-size: 20px; align-self: end; }
 .qz-fin { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 18px; }
-.guias { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line); }
+.guias { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid var(--line); }
 .guias a { text-decoration: none; padding: 18px 18px 24px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); transition: background 0.51s; }
 .guias a:last-child { border-right: 0; } .guias a:hover { background: var(--surface); } .guias a:hover b { color: var(--accent); }
 .guias span { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
-.guias b { display: block; font-family: var(--font-display); font-weight: 900; text-transform: uppercase; font-size: 32px; line-height: .95; margin-top: 8px; transition: color 0.51s; }
+.guias b { display: block; font-family: var(--font-display); font-weight: 900; text-transform: uppercase; font-size: 32px; overflow-wrap: anywhere; hyphens: auto; line-height: .95; margin-top: 8px; transition: color 0.51s; }
 @media (max-width: 900px) {
   .testband { padding: 16px; } .testband .btn { width: 100%; justify-content: center; }
   .qz-ops { grid-template-columns: 1fr 1fr; } .qz-op { min-height: 120px; } .qz-op .lb { font-size: 24px; } .qz-op .big { font-size: 40px; }
   .qz-res { grid-template-columns: 1fr; } .qz-res .a { border-right: 0; border-bottom: 1px solid var(--line); }
   .qz-alt { grid-template-columns: 1fr; } .qz-alt button { border-right: 0; border-bottom: 1px solid var(--line); }
   .qz-pct { width: 86px; height: 86px; } .qz-pct b { font-size: 24px; }
-  .guias { grid-template-columns: 1fr 1fr; } .guias a:nth-child(2n) { border-right: 0; } .guias b { font-size: 26px; }
+  .guias { grid-template-columns: repeat(2, minmax(0, 1fr)); } .guias a { min-width: 0; overflow-wrap: anywhere; padding: 14px 12px 18px; } .guias a:nth-child(2n) { border-right: 0; } .guias b { font-size: 26px; }
 }
 </style>
 </head>""")

@@ -343,7 +343,7 @@ def pagina(titulo, desc, cuerpo, canon, raiz="../"):
 <body>
 <header class="top"><div class="top-in"><a class="logo" href="{TIENDA}">SCANTALIA</a><nav><a href="{TIENDA}#perfumes">Tienda</a><a href="index.html" class="keep">Guías</a><a href="{TIENDA}#test" class="keep">Test de perfume</a></nav></div></header>
 {cuerpo}
-<footer><div class="wrap"><span>© 2026 Scantalia Perfumería · Perfumes originales · México</span><span><a href="../privacidad.html">Aviso de privacidad</a></span></div></footer>
+<footer><div class="wrap"><span>© 2026 Scantalia Perfumería · Perfumes originales · México</span><span><a href="../terminos.html">Términos y condiciones</a> · <a href="../terminos.html#devoluciones">Devoluciones</a> · <a href="../privacidad.html">Aviso de privacidad</a></span></div></footer>
 <script src="../perfumes.js?v=VERSION"></script>
 <script>{js}</script>
 </body>

@@ -293,6 +293,19 @@ tbody tr:hover { background: var(--tile); }
 
 .privacy-note { font-size: 12.5px; line-height: 1.5; color: var(--muted); margin: 4px 0 12px; }
 .privacy-note a { color: inherit; text-decoration: underline; }
+.acepta { border: 1px solid var(--line); padding: 14px 16px 10px; margin: 6px 0 14px; }
+.acepta legend { padding: 0 6px; font-size: 11px; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); }
+.ac { position: relative; display: grid; grid-template-columns: 22px 1fr; gap: 12px; align-items: start; font-size: 13px; line-height: 1.5; padding: 8px 0; cursor: pointer; }
+.ac input { position: absolute; left: 0; top: 8px; width: 22px; height: 22px; margin: 0; opacity: 0; pointer-events: none; }
+.ac-box { width: 22px; height: 22px; border: 1.5px solid var(--fg); display: grid; place-items: center; transition: background .5s, border-color .5s; margin-top: 1px; }
+.ac-box::after { content: ""; width: 10px; height: 5px; border-left: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(-45deg) scale(0); transition: transform .45s cubic-bezier(.2,1.6,.4,1); margin-top: -3px; }
+.ac input:checked + .ac-box { background: var(--accent, var(--gold)); border-color: var(--accent, var(--gold)); color: var(--accent-fg, #111); }
+.ac input:checked + .ac-box::after { transform: rotate(-45deg) scale(1); }
+.ac input:focus-visible + .ac-box { outline: 2px solid var(--accent, var(--gold)); outline-offset: 3px; }
+.ac a { color: inherit; text-decoration: underline; }
+.btn:disabled { opacity: .35; cursor: not-allowed; }
+@media (max-width: 900px) { .cart-form input, .cart-form textarea, .cart-form select { font-size: 16px !important; } }
+.cart-form .stack { position: relative; z-index: 3; padding-bottom: env(safe-area-inset-bottom, 0px); }
 footer { padding-block: 32px 40px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
 .foot-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
 
@@ -368,7 +381,7 @@ footer { padding-block: 32px 40px; border-top: 1px solid var(--line); font-size:
 
 @media (max-width: 640px) {
   .drawer {
-    top: auto; left: 0; width: 100%; max-height: 90vh; border-radius: var(--r-lg) var(--r-lg) 0 0;
+    top: auto; left: 0; width: 100%; max-height: 90vh; max-height: 90dvh; border-radius: var(--r-lg) var(--r-lg) 0 0;
     transform: translateY(105%); padding-left: env(safe-area-inset-left, 0px);
   }
   .drawer.open { transform: translateY(0); }
@@ -561,6 +574,8 @@ footer { padding-block: 32px 40px; border-top: 1px solid var(--line); font-size:
   <div class="wrap foot-inner">
     <span>© 2026 Scantalia Perfumería</span>
     <span>Todas las fragancias son originales y se entregan selladas.</span>
+    <a class="foot-link" href="terminos.html">Términos y condiciones</a>
+    <a class="foot-link" href="terminos.html#devoluciones">Devoluciones</a>
     <a class="foot-link" href="privacidad.html">Aviso de privacidad</a>
     <button class="foot-link btn-link" type="button" id="ckAbrir">Preferencias de cookies</button>
   </div>
@@ -592,7 +607,7 @@ footer { padding-block: 32px 40px; border-top: 1px solid var(--line); font-size:
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script src="perfumes.js?v=202611062155"></script>
+<script src="perfumes.js?v=202611062324"></script>
 <script>
 
 const fmt = new Intl.NumberFormat("es-MX", { style: "currency", currency: "MXN", maximumFractionDigits: 0 });
@@ -1020,7 +1035,9 @@ function orderText() {
     `Subtotal: ${fmt.format(subtotal())}`,
     envioLine(),
     `Total: ${fmt.format(subtotal() + (envioInfo().costo || 0))}`,
-    d.notas ? `Notas: ${d.notas}` : null
+    d.notas ? `Notas: ${d.notas}` : null,
+    ``,
+    `✓ Acepté los términos y condiciones, el aviso de privacidad y la política de devoluciones (caja cerrada, reporte en 2 días).`
   ].filter(l => l !== null).join("\n");
 }
 
@@ -1083,9 +1100,14 @@ function renderCart() {
         <div class="field"><label for="fNotas">Notas (opcional)</label>
           <textarea id="fNotas" name="notas" rows="2" placeholder="Ej. Es para regalo">${escapeHTML(d.notas)}</textarea></div>
         <div id="sumWrap">${summaryHTML()}</div>
-        <p class="privacy-note">Usaremos sus datos solo para procesar, cobrar y enviar su pedido. Consulte nuestro <a href="privacidad.html" target="_blank" rel="noopener">aviso de privacidad</a>.</p>
+        <fieldset class="acepta" id="acepta">
+          <legend>Antes de generar su pedido</legend>
+          <label class="ac"><input type="checkbox" id="acTerminos" required><span class="ac-box" aria-hidden="true"></span><span>He leído y acepto los <a href="terminos.html" target="_blank" rel="noopener">términos y condiciones</a> y el <a href="privacidad.html" target="_blank" rel="noopener">aviso de privacidad</a>.</span></label>
+          <label class="ac"><input type="checkbox" id="acDevol" required><span class="ac-box" aria-hidden="true"></span><span>Acepto la <a href="terminos.html#devoluciones" target="_blank" rel="noopener">política de devoluciones</a>: solo procede con la caja cerrada y sellada, reportando el motivo dentro de los 2 días siguientes a la entrega.</span></label>
+          <span class="err" id="eAcepta" hidden>Para continuar, marque las dos casillas.</span>
+        </fieldset>
         <div class="stack">
-          <button class="btn block" type="submit">Generar pedido</button>
+          <button class="btn block" type="submit" id="btnGenerar" disabled aria-describedby="eAcepta">Generar pedido</button>
           <button class="btn ghost block" type="button" data-act="back">Volver al carrito</button>
         </div>
       </form>`;
@@ -1159,6 +1181,11 @@ function saveDatos() {
   cart.datos = { nombre: $("fNombre").value.trim(), destino: $("fDestino").value.trim(), cp: $("fCP").value.trim(), notas: $("fNotas").value.trim() };
 }
 
+$("cartBody").addEventListener("change", e => {
+  if (!e.target.closest || !e.target.closest("#acepta")) return;
+  const ok = $("acTerminos").checked && $("acDevol").checked;
+  $("btnGenerar").disabled = !ok; if (ok) $("eAcepta").hidden = true;
+});
 $("cartBody").addEventListener("submit", e => {
   e.preventDefault();
   saveDatos();
@@ -1170,6 +1197,7 @@ $("cartBody").addEventListener("submit", e => {
     if (!valid && ok) { $(inp).focus(); ok = false; }
   });
   if (!ok) return;
+  if (!($("acTerminos").checked && $("acDevol").checked)) { $("eAcepta").hidden = false; $("acepta").scrollIntoView({ block: "center", behavior: "smooth" }); return; }
   cart.folio = newFolio(); cart.step = "listo";
   renderCart(); $("cartBody").scrollTop = 0;
 });

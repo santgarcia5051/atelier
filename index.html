@@ -295,6 +295,19 @@ tbody tr:hover { background: var(--tile); }
 
 .privacy-note { font-size: 12.5px; line-height: 1.5; color: var(--muted); margin: 4px 0 12px; }
 .privacy-note a { color: inherit; text-decoration: underline; }
+.acepta { border: 1px solid var(--line); padding: 14px 16px 10px; margin: 6px 0 14px; }
+.acepta legend { padding: 0 6px; font-size: 11px; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); }
+.ac { position: relative; display: grid; grid-template-columns: 22px 1fr; gap: 12px; align-items: start; font-size: 13px; line-height: 1.5; padding: 8px 0; cursor: pointer; }
+.ac input { position: absolute; left: 0; top: 8px; width: 22px; height: 22px; margin: 0; opacity: 0; pointer-events: none; }
+.ac-box { width: 22px; height: 22px; border: 1.5px solid var(--fg); display: grid; place-items: center; transition: background .5s, border-color .5s; margin-top: 1px; }
+.ac-box::after { content: ""; width: 10px; height: 5px; border-left: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(-45deg) scale(0); transition: transform .45s cubic-bezier(.2,1.6,.4,1); margin-top: -3px; }
+.ac input:checked + .ac-box { background: var(--accent, var(--gold)); border-color: var(--accent, var(--gold)); color: var(--accent-fg, #111); }
+.ac input:checked + .ac-box::after { transform: rotate(-45deg) scale(1); }
+.ac input:focus-visible + .ac-box { outline: 2px solid var(--accent, var(--gold)); outline-offset: 3px; }
+.ac a { color: inherit; text-decoration: underline; }
+.btn:disabled { opacity: .35; cursor: not-allowed; }
+@media (max-width: 900px) { .cart-form input, .cart-form textarea, .cart-form select { font-size: 16px !important; } }
+.cart-form .stack { position: relative; z-index: 3; padding-bottom: env(safe-area-inset-bottom, 0px); }
 footer { padding-block: 32px 40px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
 .foot-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
 
@@ -370,7 +383,7 @@ footer { padding-block: 32px 40px; border-top: 1px solid var(--line); font-size:
 
 @media (max-width: 640px) {
   .drawer {
-    top: auto; left: 0; width: 100%; max-height: 90vh; border-radius: var(--r-lg) var(--r-lg) 0 0;
+    top: auto; left: 0; width: 100%; max-height: 90vh; max-height: 90dvh; border-radius: var(--r-lg) var(--r-lg) 0 0;
     transform: translateY(105%); padding-left: env(safe-area-inset-left, 0px);
   }
   .drawer.open { transform: translateY(0); }
@@ -455,7 +468,7 @@ footer { padding-block: 32px 40px; border-top: 1px solid var(--line); font-size:
 :root, :root[data-theme="dark"] {
   --bg: #0F0F0E; --surface: #171715; --tile: #1E1D1B; --fg: #ECE9E2; --muted: #9C988F; --line: #2A2926; --line2: #2A2926;
   --accent: #C9A35E; --accent-fg: #111110; --paper: #ECE9E2; --ink: #111110; --dim: #4A4843;
-  --overlay: rgba(0,0,0,.7); --shadow: 0 30px 60px -20px rgba(0,0,0,.8); --glow: rgba(201,163,94,.12); --danger: #E2907F; --ok: #A3C495;
+  --overlay: rgba(0,0,0,.7); --shadow: 0 30px 60px -20px rgba(0,0,0,.8); --glow: rgba(201,163,94,.12); --danger: #E0A64B; --ok: #C9A35E;
   --font-display: "Big Shoulders Display", Impact, "Arial Narrow", sans-serif;
   --font-body: "IBM Plex Mono", ui-monospace, Menlo, monospace;
   --font-type: "Courier Prime", "Courier New", monospace;
@@ -464,7 +477,7 @@ footer { padding-block: 32px 40px; border-top: 1px solid var(--line); font-size:
 :root[data-theme="light"] {
   --bg: #EFEDE7; --surface: #F8F6F1; --tile: #E3E0D8; --fg: #141413; --muted: #6E6B64; --line: #141413; --line2: #CFCBC2;
   --accent: #8C6A2E; --accent-fg: #FFFFFF; --paper: #F8F6F1; --ink: #141413; --dim: #B5B0A6;
-  --overlay: rgba(20,20,19,.5); --shadow: 0 26px 50px -20px rgba(0,0,0,.3); --glow: rgba(194,59,34,.08); --danger: #A6463A; --ok: #4C6A43;
+  --overlay: rgba(20,20,19,.5); --shadow: 0 26px 50px -20px rgba(0,0,0,.3); --glow: rgba(140,106,46,.10); --danger: #9A5B12; --ok: #8C6A2E;
   color-scheme: light;
 }
 body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 14px; }
@@ -560,6 +573,9 @@ section.block { border-top: 1px solid var(--line); padding-block: 56px; }
 .it.off .t { text-decoration: line-through; text-decoration-thickness: 3px; }
 .it.off .th img { opacity: .45; }
 .it.off .qa { display: none; }
+#drawer *, #cart *, .drawer .close-btn { border-radius: 0 !important; }
+.close-btn { border-color: var(--line) !important; }
+.close-btn:hover { border-color: var(--accent) !important; color: var(--accent); }
 @media (hover: hover) {
   .it:hover .th img, .it.sel .th img { transform: scale(1.05); }
   .it:hover .mn img, .it.sel .mn img { filter: none; }
@@ -722,18 +738,18 @@ footer { border-top: 1px solid var(--line); font-size: 12px; }
 .qz-alt b { font-family: var(--font-display); font-weight: 900; font-size: 34px; line-height: .95; text-transform: uppercase; }
 .qz-alt span { font-family: var(--font-type); font-size: 20px; align-self: end; }
 .qz-fin { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 18px; }
-.guias { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line); }
+.guias { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid var(--line); }
 .guias a { text-decoration: none; padding: 18px 18px 24px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); transition: background 0.51s; }
 .guias a:last-child { border-right: 0; } .guias a:hover { background: var(--surface); } .guias a:hover b { color: var(--accent); }
 .guias span { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
-.guias b { display: block; font-family: var(--font-display); font-weight: 900; text-transform: uppercase; font-size: 32px; line-height: .95; margin-top: 8px; transition: color 0.51s; }
+.guias b { display: block; font-family: var(--font-display); font-weight: 900; text-transform: uppercase; font-size: 32px; overflow-wrap: anywhere; hyphens: auto; line-height: .95; margin-top: 8px; transition: color 0.51s; }
 @media (max-width: 900px) {
   .testband { padding: 16px; } .testband .btn { width: 100%; justify-content: center; }
   .qz-ops { grid-template-columns: 1fr 1fr; } .qz-op { min-height: 120px; } .qz-op .lb { font-size: 24px; } .qz-op .big { font-size: 40px; }
   .qz-res { grid-template-columns: 1fr; } .qz-res .a { border-right: 0; border-bottom: 1px solid var(--line); }
   .qz-alt { grid-template-columns: 1fr; } .qz-alt button { border-right: 0; border-bottom: 1px solid var(--line); }
   .qz-pct { width: 86px; height: 86px; } .qz-pct b { font-size: 24px; }
-  .guias { grid-template-columns: 1fr 1fr; } .guias a:nth-child(2n) { border-right: 0; } .guias b { font-size: 26px; }
+  .guias { grid-template-columns: repeat(2, minmax(0, 1fr)); } .guias a { min-width: 0; overflow-wrap: anywhere; padding: 14px 12px 18px; } .guias a:nth-child(2n) { border-right: 0; } .guias b { font-size: 26px; }
 }
 </style>
 </head>
@@ -857,6 +873,8 @@ footer { border-top: 1px solid var(--line); font-size: 12px; }
   <div class="wrap foot-inner">
     <span>© 2026 Scantalia Perfumería</span>
     <span>Todas las fragancias son originales y se entregan selladas.</span>
+    <a class="foot-link" href="terminos.html">Términos y condiciones</a>
+    <a class="foot-link" href="terminos.html#devoluciones">Devoluciones</a>
     <a class="foot-link" href="privacidad.html">Aviso de privacidad</a>
     <button class="foot-link btn-link" type="button" id="ckAbrir">Preferencias de cookies</button>
   </div>
@@ -888,7 +906,7 @@ footer { border-top: 1px solid var(--line); font-size: 12px; }
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script src="perfumes.js?v=202611062155"></script>
+<script src="perfumes.js?v=202611062324"></script>
 <script>
 
 const fmt = new Intl.NumberFormat("es-MX", { style: "currency", currency: "MXN", maximumFractionDigits: 0 });
@@ -1326,7 +1344,9 @@ function orderText() {
     `Subtotal: ${fmt.format(subtotal())}`,
     envioLine(),
     `Total: ${fmt.format(subtotal() + (envioInfo().costo || 0))}`,
-    d.notas ? `Notas: ${d.notas}` : null
+    d.notas ? `Notas: ${d.notas}` : null,
+    ``,
+    `✓ Acepté los términos y condiciones, el aviso de privacidad y la política de devoluciones (caja cerrada, reporte en 2 días).`
   ].filter(l => l !== null).join("\n");
 }
 
@@ -1389,9 +1409,14 @@ function renderCart() {
         <div class="field"><label for="fNotas">Notas (opcional)</label>
           <textarea id="fNotas" name="notas" rows="2" placeholder="Ej. Es para regalo">${escapeHTML(d.notas)}</textarea></div>
         <div id="sumWrap">${summaryHTML()}</div>
-        <p class="privacy-note">Usaremos sus datos solo para procesar, cobrar y enviar su pedido. Consulte nuestro <a href="privacidad.html" target="_blank" rel="noopener">aviso de privacidad</a>.</p>
+        <fieldset class="acepta" id="acepta">
+          <legend>Antes de generar su pedido</legend>
+          <label class="ac"><input type="checkbox" id="acTerminos" required><span class="ac-box" aria-hidden="true"></span><span>He leído y acepto los <a href="terminos.html" target="_blank" rel="noopener">términos y condiciones</a> y el <a href="privacidad.html" target="_blank" rel="noopener">aviso de privacidad</a>.</span></label>
+          <label class="ac"><input type="checkbox" id="acDevol" required><span class="ac-box" aria-hidden="true"></span><span>Acepto la <a href="terminos.html#devoluciones" target="_blank" rel="noopener">política de devoluciones</a>: solo procede con la caja cerrada y sellada, reportando el motivo dentro de los 2 días siguientes a la entrega.</span></label>
+          <span class="err" id="eAcepta" hidden>Para continuar, marque las dos casillas.</span>
+        </fieldset>
         <div class="stack">
-          <button class="btn block" type="submit">Generar pedido</button>
+          <button class="btn block" type="submit" id="btnGenerar" disabled aria-describedby="eAcepta">Generar pedido</button>
           <button class="btn ghost block" type="button" data-act="back">Volver al carrito</button>
         </div>
       </form>`;
@@ -1465,6 +1490,11 @@ function saveDatos() {
   cart.datos = { nombre: $("fNombre").value.trim(), destino: $("fDestino").value.trim(), cp: $("fCP").value.trim(), notas: $("fNotas").value.trim() };
 }
 
+$("cartBody").addEventListener("change", e => {
+  if (!e.target.closest || !e.target.closest("#acepta")) return;
+  const ok = $("acTerminos").checked && $("acDevol").checked;
+  $("btnGenerar").disabled = !ok; if (ok) $("eAcepta").hidden = true;
+});
 $("cartBody").addEventListener("submit", e => {
   e.preventDefault();
   saveDatos();
@@ -1476,6 +1506,7 @@ $("cartBody").addEventListener("submit", e => {
     if (!valid && ok) { $(inp).focus(); ok = false; }
   });
   if (!ok) return;
+  if (!($("acTerminos").checked && $("acDevol").checked)) { $("eAcepta").hidden = false; $("acepta").scrollIntoView({ block: "center", behavior: "smooth" }); return; }
   cart.folio = newFolio(); cart.step = "listo";
   renderCart(); $("cartBody").scrollTop = 0;
 });

@@ -11,4 +11,5 @@ open(p, "w", encoding="utf-8").write(s2)
 subprocess.run([sys.executable, os.path.join(RAIZ, "scripts", "construir_nuevo.py")], check=True)
 subprocess.run([sys.executable, os.path.join(RAIZ, "scripts", "construir_recetas.py")], check=True)  # index.html, diseño "Mostrador de recetas"
 subprocess.run([sys.executable, os.path.join(RAIZ, "scripts", "construir_blog.py")], check=True)
+subprocess.run([sys.executable, os.path.join(RAIZ, "scripts", "construir_legales.py")], check=True)
 print("versión", v)
