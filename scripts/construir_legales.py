@@ -86,7 +86,7 @@ TERMINOS = """
 </ul>
 
 <h2 id="quienes">2. Quiénes somos y cómo contactarnos</h2>
-<p>Scantalia Perfumería es un comercio en línea que vende perfumes originales y realiza envíos a toda la República Mexicana. Los datos del responsable, el domicilio para recibir notificaciones y el correo de contacto se encuentran en nuestro <a href="privacidad.html">aviso de privacidad</a>. También puede escribirnos por mensaje directo en nuestras redes sociales oficiales.</p>
+<p>Scantalia Perfumería es un comercio en línea que vende perfumes originales y realiza envíos a toda la República Mexicana. Puede escribirnos a <a href="mailto:contacto@scantalia.mx">contacto@scantalia.mx</a>. Los datos del responsable y el domicilio para recibir notificaciones se encuentran en nuestro <a href="privacidad.html">aviso de privacidad</a>. También puede escribirnos por mensaje directo en nuestras redes sociales oficiales.</p>
 <p>Respondemos en un plazo de 1 a 2 días hábiles. Para cualquier aclaración, tenga a la mano el folio de su pedido.</p>
 
 <h2 id="aceptacion">3. Aceptación de los términos</h2>
@@ -152,57 +152,90 @@ TERMINOS = """
 <li>La entrega se considera hecha cuando la paquetería entrega el paquete en el domicilio indicado, a usted o a la persona que lo reciba ahí.</li>
 <li>No enviamos fuera de México por ahora.</li>
 </ul>
-<p><b>Al recibir su paquete, revíselo antes de abrir la caja del perfume.</b> Si llega golpeado, mojado o abierto, tómele fotos y repórtelo dentro de los 2 días naturales siguientes (vea la sección 11).</p>
+<p><b>Al recibir su paquete, revíselo antes de abrir la caja del perfume.</b> Si llega golpeado, mojado o abierto, tómele fotos o grabe un video al abrirlo y repórtelo dentro de los 2 días naturales siguientes (vea la sección 11).</p>
 
 <h2 id="cancelaciones">10. Cancelaciones</h2>
 <ul>
 <li><b>Antes de pagar:</b> puede cancelar su pedido en cualquier momento, sin costo; basta con no pagar el link o avisarnos.</li>
 <li><b>Después de pagar y antes del envío:</b> escríbanos lo antes posible. Si su pedido aún no sale, le reembolsamos el total.</li>
-<li><b>Después del envío:</b> ya no es posible cancelar; aplica la política de devoluciones de la sección 11.</li>
+<li><b>Después del envío:</b> ya no es posible cancelar; aplica la política de devoluciones de la sección 11, a partir de la entrega.</li>
 </ul>
 
 <h2 id="devoluciones">11. Política de devoluciones</h2>
 <div class="box dest">
 <div class="k">En resumen</div>
-<p style="margin:0">Tiene <b>2 días naturales</b> desde que recibe su pedido para solicitar una devolución, indicando el motivo. Solo aceptamos devoluciones de perfumes <b>con la caja cerrada y el sello o celofán intacto</b>.</p>
+<p style="margin:0">Tiene <b>5 días hábiles</b> a partir de la entrega para solicitar una devolución por correo, indicando el motivo. Solo procede con el perfume <b>sin abrir, con la caja cerrada y el celofán original de fábrica intacto</b>. El envío de regreso corre por su cuenta.</p>
 </div>
+<p>Esta política aplica el derecho de revocación que el artículo 56 de la Ley Federal de Protección al Consumidor otorga en las compras a distancia, con las condiciones necesarias para proteger la higiene y la originalidad de nuestros productos. Le pedimos leerla con atención: cada requisito existe para que todos nuestros clientes reciban siempre perfumes nuevos y sellados.</p>
 
-<h3>Cómo solicitarla</h3>
+<h3>11.1 Plazo</h3>
+<ul>
+<li>Cuenta con <b>5 días hábiles</b> a partir de la fecha de entrega que registre la guía de rastreo. Los sábados, domingos y días festivos oficiales no cuentan.</li>
+<li>La fecha de su solicitud es la del correo que recibamos en <a href="mailto:contacto@scantalia.mx">contacto@scantalia.mx</a>. Las solicitudes recibidas después de ese plazo no proceden.</li>
+</ul>
+
+<h3>11.2 Cómo solicitarla</h3>
+<p>Las devoluciones se tramitan <b>únicamente por correo</b>, para que quede constancia por escrito. Escriba a <a href="mailto:contacto@scantalia.mx">contacto@scantalia.mx</a> con el asunto <b>«Devolución – folio de su pedido»</b> e incluya:</p>
 <ol class="pasos">
-<li>Escríbanos dentro de los 2 días naturales siguientes a la entrega, según la fecha que marque la guía de rastreo.</li>
-<li>Indique su número de pedido y el <b>motivo</b> de la devolución.</li>
-<li>Envíe fotos claras del perfume, de su caja y del paquete en que lo recibió.</li>
-<li>Le confirmaremos si procede y le daremos las indicaciones para enviarlo de regreso. No envíe productos sin nuestra confirmación.</li>
+<li>Folio del pedido, nombre completo de quien compró y fecha en que lo recibió.</li>
+<li>Producto que desea devolver y el <b>motivo</b> de la devolución.</li>
+<li>Fotos claras de las seis caras de la caja, en las que se vea el celofán completo y sin cortes.</li>
+<li>Foto del código de lote impreso en la caja (normalmente en la base o en un costado).</li>
+<li>Foto del paquete y de la guía con la que lo recibió.</li>
 </ol>
+<p>Si falta algún dato o foto, le pediremos completarlo; su solicitud conserva la fecha en que la envió, pero no se autoriza hasta estar completa.</p>
 
-<h3>Cuándo procede y cuándo no</h3>
+<h3>11.3 Autorización y envío de regreso</h3>
+<ul>
+<li>Revisamos su solicitud en un máximo de 2 días hábiles. Si cumple los requisitos, le enviamos un <b>número de autorización</b> y la dirección de devolución.</li>
+<li>Debe enviar el producto <b>dentro de los 5 días hábiles siguientes a la autorización</b>. Si no lo envía en ese plazo, la solicitud se cancela.</li>
+<li>Escriba el número de autorización por fuera del paquete. No podemos identificar ni procesar paquetes sin ese número.</li>
+<li>Empaque el perfume dentro de una caja de cartón, protegido, para que la caja original no se maltrate. <b>No pegue cinta, etiquetas ni guías sobre la caja del perfume.</b></li>
+<li>Conforme a la ley, <b>el costo del envío de regreso y su seguro corren por cuenta del cliente</b>. Le recomendamos enviarlo asegurado y con número de rastreo: el producto viaja bajo su responsabilidad hasta que lo recibimos.</li>
+<li>No recibimos devoluciones entregadas en persona ni envíos por cobrar.</li>
+</ul>
+
+<h3>11.4 Revisión del producto</h3>
+<p>Al recibirlo, revisamos el producto. La devolución procede solo si se cumplen <b>todas</b> estas condiciones:</p>
 <div class="si-no">
 <div class="box"><div class="k">Sí procede</div><ul>
-<li>La caja está cerrada y el sello o celofán de fábrica está intacto.</li>
-<li>El perfume no se ha usado ni probado.</li>
-<li>Se devuelve completo, con su empaque y lo que incluía.</li>
-<li>La solicitud se hizo dentro de los 2 días naturales.</li>
+<li>Caja cerrada, con el celofán original de fábrica completo, sin cortes ni señales de haberse vuelto a sellar.</li>
+<li>Perfume sin abrir, sin rociar y con el mismo contenido con el que se envió.</li>
+<li>El código de lote coincide con el del producto que le enviamos.</li>
+<li>Caja sin golpes, manchas, rayones, etiquetas ni escritura.</li>
+<li>Se devuelve completo, con todo lo que incluía.</li>
+<li>Solicitud autorizada dentro del plazo y paquete con su número de autorización.</li>
 </ul></div>
 <div class="box"><div class="k">No procede</div><ul>
-<li>La caja fue abierta o el sello o celofán está roto.</li>
-<li>El perfume fue abierto, rociado o muestra uso.</li>
-<li>El producto está incompleto o dañado por mal uso.</li>
-<li>La solicitud llega después de los 2 días naturales.</li>
+<li>La caja fue abierta, o el celofán está roto, incompleto o no es el original.</li>
+<li>El perfume fue abierto, probado o rociado, aunque sea una vez.</li>
+<li>El código de lote no coincide con el producto enviado.</li>
+<li>La caja llega dañada por un mal empaque del envío de regreso.</li>
+<li>La solicitud llegó fuera de plazo, o el paquete llegó sin autorización.</li>
+<li>Productos que no fueron comprados en Scantalia.</li>
 </ul></div>
 </div>
-<p>Por higiene y para garantizar la originalidad de lo que vendemos, <b>no aceptamos devoluciones de perfumes cuya caja haya sido abierta</b>. Que una fragancia no sea de su agrado una vez abierta no es motivo de devolución, por lo que le pedimos revisar con calma su elección antes de comprar; si tiene dudas, pruebe nuestro <a href="index.html#test">test de perfume</a> o escríbanos.</p>
+<p>Por higiene y para garantizar la originalidad de lo que vendemos, <b>un perfume con la caja abierta no puede devolverse</b>. Que la fragancia no sea de su agrado una vez abierta, o que le dure o se perciba distinto en su piel, no es motivo de devolución. Por eso le pedimos elegir con calma: revise la ficha olfativa, haga nuestro <a href="index.html#test">test de perfume</a> o escríbanos antes de comprar.</p>
+<p>Si el producto no cumple las condiciones, se lo informaremos con fotos y se lo regresaremos; el costo de ese envío corre por su cuenta. Si no lo cubre dentro de los 30 días naturales siguientes, el producto se le reenviará al cubrirlo.</p>
 
-<h3>Producto dañado, equivocado o incompleto</h3>
-<p>Si su perfume llegó roto, con fugas, si recibió un producto distinto al que pidió o falta algún artículo, repórtelo dentro de los mismos 2 días naturales con fotos o video del paquete y del producto. En estos casos la caja abierta no impide la reposición: le enviaremos el producto correcto o le reembolsaremos, y nosotros cubrimos los envíos.</p>
-
-<h3>Reembolsos</h3>
+<h3>11.5 Reembolso</h3>
 <ul>
-<li>Revisamos el producto al recibirlo. Si cumple las condiciones, reembolsamos el precio del perfume por el mismo medio de pago en un plazo de hasta 10 días hábiles. El tiempo en que se refleje depende de su banco.</li>
-<li>Cuando la devolución no se debe a un error nuestro, el costo del envío de regreso corre por cuenta del cliente y el envío original no es reembolsable.</li>
-<li>Si el producto devuelto no cumple las condiciones, se lo regresaremos y el costo de ese envío correrá por su cuenta.</li>
-<li>No hacemos reembolsos en efectivo.</li>
+<li>Si la devolución procede, reembolsamos el <b>precio del perfume</b> por el mismo medio de pago, en un plazo de hasta 10 días hábiles después de revisarlo. El tiempo en que se refleje depende de su banco.</li>
+<li>El costo del envío original no se reembolsa, porque ese servicio ya se prestó.</li>
+<li>Si su pedido tuvo envío gratis por llevar 2 perfumes o más y la devolución lo deja por debajo de ese mínimo, descontaremos del reembolso el costo de envío que le habría correspondido.</li>
+<li>No hacemos reembolsos en efectivo ni a cuentas de terceros.</li>
+<li>Si prefiere cambiarlo por otro perfume, se lo cambiamos por uno de igual o mayor precio, pagando usted la diferencia y el envío.</li>
 </ul>
-<p>Esta política no limita los derechos que la Ley Federal de Protección al Consumidor le otorga.</p>
+
+<h3>11.6 Producto dañado, equivocado o incompleto</h3>
+<p>Esto no es una devolución por cambio de opinión, sino un error o un daño que nosotros resolvemos:</p>
+<ul>
+<li>Revise su paquete al recibirlo. Si el perfume llegó roto, con fugas, si recibió un producto distinto al que pidió o falta algo, escríbanos a <a href="mailto:contacto@scantalia.mx">contacto@scantalia.mx</a> <b>dentro de los 2 días naturales siguientes a la entrega</b>, para poder hacer el reclamo a la paquetería a tiempo.</li>
+<li>Envíe fotos o, de preferencia, el <b>video de cuando abrió el paquete</b>, junto con fotos de la caja exterior y de la guía. Le recomendamos grabar siempre la apertura de sus paquetes: sin evidencia del estado en que llegó, puede no ser posible acreditar el daño.</li>
+<li>Si se confirma, le enviamos el producto correcto o le reembolsamos el total, incluido el envío, y nosotros cubrimos los costos. En este caso la caja abierta no impide la reposición.</li>
+<li>Los reportes posteriores a ese plazo también se atienden conforme a la ley, pero podrían tardar más en resolverse.</li>
+</ul>
+<p>Nada de esta política limita los derechos que la Ley Federal de Protección al Consumidor le otorga.</p>
 
 <h2 id="garantia">12. Garantía de originalidad y defectos</h2>
 <ul>

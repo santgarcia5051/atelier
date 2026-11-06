@@ -906,7 +906,7 @@ footer { border-top: 1px solid var(--line); font-size: 12px; }
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script src="perfumes.js?v=202611062330"></script>
+<script src="perfumes.js?v=202611062338"></script>
 <script>
 
 const fmt = new Intl.NumberFormat("es-MX", { style: "currency", currency: "MXN", maximumFractionDigits: 0 });
@@ -1346,7 +1346,7 @@ function orderText() {
     `Total: ${fmt.format(subtotal() + (envioInfo().costo || 0))}`,
     d.notas ? `Notas: ${d.notas}` : null,
     ``,
-    `✓ Acepté los términos y condiciones, el aviso de privacidad y la política de devoluciones (caja cerrada, reporte en 2 días).`
+    `✓ Acepté los términos y condiciones, el aviso de privacidad y la política de devoluciones (5 días hábiles, solo con la caja cerrada y sellada).`
   ].filter(l => l !== null).join("\n");
 }
 
@@ -1412,7 +1412,7 @@ function renderCart() {
         <fieldset class="acepta" id="acepta">
           <legend>Antes de generar su pedido</legend>
           <label class="ac"><input type="checkbox" id="acTerminos" required><span class="ac-box" aria-hidden="true"></span><span>He leído y acepto los <a href="terminos.html" target="_blank" rel="noopener">términos y condiciones</a> y el <a href="privacidad.html" target="_blank" rel="noopener">aviso de privacidad</a>.</span></label>
-          <label class="ac"><input type="checkbox" id="acDevol" required><span class="ac-box" aria-hidden="true"></span><span>Acepto la <a href="terminos.html#devoluciones" target="_blank" rel="noopener">política de devoluciones</a>: solo procede con la caja cerrada y sellada, reportando el motivo dentro de los 2 días siguientes a la entrega.</span></label>
+          <label class="ac"><input type="checkbox" id="acDevol" required><span class="ac-box" aria-hidden="true"></span><span>Acepto la <a href="terminos.html#devoluciones" target="_blank" rel="noopener">política de devoluciones</a>: solo procede con el perfume sin abrir, la caja cerrada y el celofán intacto, solicitándola por correo dentro de los 5 días hábiles siguientes a la entrega. El envío de regreso corre por mi cuenta.</span></label>
           <span class="err" id="eAcepta" hidden>Para continuar, marque las dos casillas.</span>
         </fieldset>
         <div class="stack">
