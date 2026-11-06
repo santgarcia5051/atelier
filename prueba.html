@@ -775,7 +775,7 @@ section.block { border-top: 0; }
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script src="perfumes.js?v=202611061605"></script>
+<script src="perfumes.js?v=202611061736"></script>
 <script>
 
 const fmt = new Intl.NumberFormat("es-MX", { style: "currency", currency: "MXN", maximumFractionDigits: 0 });
@@ -1181,7 +1181,7 @@ function summaryHTML() {
 }
 
 function renderShipInfo() {
-  $("shipLead").textContent = `Envío gratis a todo México en la compra de ${ENVIO.gratisDesde} perfumes o más. El costo se calcula automáticamente con su código postal y todos los pedidos incluyen número de rastreo.`;
+  $("shipLead").textContent = `Envío gratis a todo México en la compra de ${ENVIO.gratisDesde} perfumes o más. Cada pedido se revisa, se empaca a mano y se envía asegurado y con número de rastreo, para que su perfume llegue sellado y en perfecto estado. El costo se calcula con su código postal.`;
   $("heroShip").textContent = `Envío gratis a todo México en la compra de ${ENVIO.gratisDesde} perfumes o más.`;
   $("shipGrid").innerHTML = Object.values(ENVIO.zonas).map(z => `
     <div class="zone"><span class="zn">${z.nombre}</span><b>${fmt.format(z.precio)}</b><span>${z.cubre}</span><span class="zd">${z.dias}</span></div>`).join("");
