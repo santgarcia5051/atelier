@@ -4,11 +4,12 @@ en fotos/recortes/<id>.webp. La página la muestra sobre fondo blanco (modo clar
 
 Origen de la foto, en este orden:
   1) El Palacio de Hierro (datos/palacio.json: id del perfume -> pid de Palacio), 1200 px
-  2) La foto de Costco (datos/costco.json)
+  2) Liverpool (datos/liverpool_fotos.json: id del perfume -> URL de la foto)
+  3) La foto de Costco (datos/costco.json)
 Solo procesa los que aún no tienen recorte (use --todos para rehacerlos).
 
 Uso: python3 scripts/fotos.py   (después: python3 scripts/generar.py)
-Requiere: pip install "rembg[cpu]" pillow  y acceso a elpalaciodehierro.com y costco.com.mx
+Requiere: pip install "rembg[cpu]" pillow  y acceso a elpalaciodehierro.com, liverpool.com.mx y costco.com.mx
 """
 import io, json, os, sys, urllib.request
 from PIL import Image
@@ -49,6 +50,7 @@ def main():
     from rembg import new_session
     sesion = new_session("isnet-general-use")
     fichas, costco, palacio = leer("fichas.json"), leer("costco.json"), leer("palacio.json")
+    liverpool = leer("liverpool_fotos.json")
     foto_costco = {}
     for p in costco["productos"]:
         f = fichas.get(p["codigo"])
@@ -63,6 +65,8 @@ def main():
         fuentes = []
         if pid_perf in palacio:
             fuentes.append(("palacio", PALACIO.format(pid=palacio[pid_perf]["pid"])))
+        if pid_perf in liverpool:
+            fuentes.append(("liverpool", liverpool[pid_perf]["img"]))
         fuentes.append(("costco", url_costco))
         for origen, url in fuentes:
             try:

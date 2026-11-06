@@ -43,6 +43,7 @@ img { max-width: 100%; }
 img.foto-tienda { mix-blend-mode: multiply; }
 .foto-tienda-wrap img { mix-blend-mode: multiply; filter: none !important; box-shadow: none !important; background: transparent !important; }
 /* Fotos recortadas (fondo transparente): blanco en modo claro, negro en modo oscuro */
+.foto-tienda-wrap.recorte-wrap { background: #EFE7DA !important; }
 .foto-tienda-wrap.recorte-wrap img { mix-blend-mode: normal; object-fit: contain; }
 :root[data-theme="dark"] .foto-tienda-wrap.recorte-wrap { background: #000000 !important; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .foto-tienda-wrap.recorte-wrap { background: #000000 !important; } }
@@ -722,7 +723,7 @@ h2 { font-weight: 500 !important; letter-spacing: -.01em; }
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script src="perfumes.js?v=202611061553"></script>
+<script src="perfumes.js?v=202611061605"></script>
 <script>
 
 const fmt = new Intl.NumberFormat("es-MX", { style: "currency", currency: "MXN", maximumFractionDigits: 0 });
