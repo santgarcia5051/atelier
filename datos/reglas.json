@@ -1,0 +1,7 @@
+{
+  "ganancia_minima": 1000,
+  "descuentos_pct": [20],
+  "comision_pct": 4.05,
+  "comision_fija": 4.64,
+  "_nota": "Precio = precio de tienda departamental (Liverpool) menos el descuento, redondeado a ...99. Solo se publica si deja al menos ganancia_minima después de la comisión de Mercado Pago (3.49% + $4 + IVA). Si se ponen varios descuentos, se usa el primero que cumpla."
+}
