@@ -29,6 +29,16 @@ img { max-width: 100%; }
 .sim-info .sim-why { color: var(--muted); font-size: 12.5px; line-height: 1.35; }
 .sim-info .sim-price { font-size: 14px; }
 .sim-match { justify-self: start; font-size: 11.5px; padding: 2px 8px; border-radius: var(--r-pill); border: 1px solid var(--line); color: var(--accent); }
+
+/* ===== Disponibilidad, precio de referencia y fotos de tienda ===== */
+.card.agotado .card-media > img, .card.agotado .card-media > svg { opacity: .45; filter: grayscale(.6); }
+.card-tag.agotado-tag { background: var(--danger); color: #fff; border-color: transparent; }
+.card-price s, .ref-price s { color: var(--muted); font-weight: 400; margin-right: 4px; }
+.ahorro { color: var(--ok); font-size: 12.5px; margin-left: 4px; }
+.ref-price { margin: 10px 0 0; font-size: 14px; color: var(--muted); }
+.agotado-note { margin: 10px 0 0; padding: 10px 14px; border-radius: var(--r-sm); border: 1px solid var(--danger); color: var(--danger); font-size: 14px; }
+.foto-tienda-wrap { background: #F6F3EE !important; }
+img.foto-tienda { mix-blend-mode: multiply; }
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -601,8 +611,14 @@ function bottleSVG(forma, liquido) {
     <path d="M${forma === 'redondo' ? '34 84 q-6 16 0 34' : '32 72 v40'}" stroke="#fff" stroke-opacity=".55" stroke-width="3" stroke-linecap="round" fill="none"/>
   </svg>`;
 }
+const esFotoTienda = p => !!(p.img && /^https?:/.test(p.img));
 function media(p) {
-  return p.img ? `<img src="${p.img}" alt="Frasco de ${p.nombre}" loading="lazy">` : bottleSVG(p.forma, p.liquido);
+  return p.img ? `<img src="${p.img}" alt="Frasco de ${p.nombre}" loading="lazy"${esFotoTienda(p) ? ' class="foto-tienda" referrerpolicy="no-referrer"' : ""}>` : bottleSVG(p.forma, p.liquido);
+}
+const disponible = p => p.disponible !== false;
+function ahorroHTML(p, precio) {
+  if (!p.antes || p.antes <= precio) return "";
+  return `<span class="ahorro">−${Math.round((1 - precio / p.antes) * 100)} %</span>`;
 }
 
 /* ===== Estado ===== */
@@ -630,7 +646,9 @@ function renderChips() {
 }
 
 function priceLine(p) {
-  if (p.pres.length === 1) return `${p.pres[0].ml} ml · <b>${fmt.format(p.pres[0].precio)}</b>`;
+  if (!disponible(p)) return `${p.pres[0].ml} ml · <b>No disponible</b>`;
+  const antes = p.antes && p.pres.length === 1 && p.antes > p.pres[0].precio ? `<s>${fmt.format(p.antes)}</s>` : "";
+  if (p.pres.length === 1) return `${p.pres[0].ml} ml · ${antes}<b>${fmt.format(p.pres[0].precio)}</b>${antes ? ahorroHTML(p, p.pres[0].precio) : ""}`;
   return `Desde <b>${fmt.format(minPrice(p))}</b>`;
 }
 
@@ -638,8 +656,8 @@ function renderGrid() {
   const list = sorted(PERFUMES).filter(p => p.seccion === state.seccion);
   $("count").textContent = `${list.length} ${list.length === 1 ? "fragancia" : "fragancias"}`;
   $("grid").innerHTML = list.length ? list.map(p => `
-    <button class="card" type="button" data-id="${p.id}" aria-label="Ver ficha de ${p.nombre}">
-      <div class="card-media"><span class="card-tag">${p.conc}</span>${media(p)}</div>
+    <button class="card${disponible(p) ? "" : " agotado"}" type="button" data-id="${p.id}" aria-label="Ver ficha de ${p.nombre}${disponible(p) ? "" : " (no disponible)"}">
+      <div class="card-media${esFotoTienda(p) ? " foto-tienda-wrap" : ""}">${disponible(p) ? `<span class="card-tag">${p.conc}</span>` : `<span class="card-tag agotado-tag">No disponible</span>`}${media(p)}</div>
       <div class="card-body">
         <span class="card-family">${p.marca}</span>
         <span class="card-name">${p.nombre}</span>
@@ -823,11 +841,23 @@ document.addEventListener("click", e => {
   const id = c.dataset.sim;
   current = PERFUMES.find(x => x.id === id); if (!current) return;
   gustoSumar(id, 1);
-  renderDrawer(current);
+  renderDrawer(current); extrasFicha(current);
   const body = $("drawerBody"); body.scrollTop = 0; if (body.parentElement) body.parentElement.scrollTop = 0;
   body.querySelectorAll(".accord-fill").forEach(f => requestAnimationFrame(() => f.style.width = f.dataset.w + "%"));
 });
 
+function extrasFicha(p) {
+  const body = $("drawerBody"), btn = body.querySelector("#addCart");
+  const sizes = body.querySelector(".sizes");
+  if (p.antes && sizes && p.antes > p.pres[0].precio && disponible(p)) {
+    sizes.insertAdjacentHTML("afterend", `<p class="ref-price">Precio en tienda departamental <s>${fmt.format(p.antes)}</s> · Usted ahorra <b>${fmt.format(p.antes - p.pres[0].precio)}</b></p>`);
+  }
+  if (!disponible(p) && btn) {
+    btn.disabled = true; btn.textContent = "No disponible por ahora";
+    btn.insertAdjacentHTML("beforebegin", `<p class="agotado-note">Esta fragancia está agotada temporalmente. Le mostramos opciones similares más abajo.</p>`);
+  }
+  body.querySelectorAll(".dx-media, .d-media").forEach(m => { if (esFotoTienda(p)) m.classList.add("foto-tienda-wrap"); });
+}
 /* ===== Paneles deslizables (ficha y carrito) ===== */
 let activePanel = null;
 function openPanel(panel, trigger) {
@@ -864,7 +894,7 @@ function closePanel() {
 function openDrawer(id, trigger) {
   current = PERFUMES.find(p => p.id === id); if (!current) return;
   gustoSumar(id, 1);
-  renderDrawer(current);
+  renderDrawer(current); extrasFicha(current);
   openPanel($("drawer"), trigger);
 }
 
@@ -886,7 +916,7 @@ $("drawerBody").addEventListener("click", e => {
 
 /* ===== Carrito ===== */
 const cart = { items: [], step: "items", datos: { nombre: "", destino: "", cp: "", notas: "" }, folio: "" };
-try { const saved = JSON.parse(localStorage.getItem("ag-cart") || "[]"); if (Array.isArray(saved)) cart.items = saved.filter(i => PERFUMES.some(p => p.id === i.id && p.pres.some(x => x.ml === i.ml))); } catch (e) {}
+try { const saved = JSON.parse(localStorage.getItem("ag-cart") || "[]"); if (Array.isArray(saved)) cart.items = saved.filter(i => PERFUMES.some(p => p.id === i.id && disponible(p) && p.pres.some(x => x.ml === i.ml))); } catch (e) {}
 function saveCart() { try { localStorage.setItem("ag-cart", JSON.stringify(cart.items)); } catch (e) {} }
 
 const unitPrice = (p, ml) => (p.pres.find(x => x.ml === ml) || p.pres[0]).precio;
@@ -900,6 +930,7 @@ function updateBadge(bump) {
 }
 
 function addToCart(id, ml) {
+  { const q = PERFUMES.find(x => x.id === id); if (q && !disponible(q)) return; }
   const found = cart.items.find(i => i.id === id && i.ml === ml);
   if (found) found.qty += 1; else cart.items.push({ id, ml, qty: 1 });
   cart.step = "items";
