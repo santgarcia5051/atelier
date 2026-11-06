@@ -4,7 +4,7 @@ import re
 
 import os
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SRC = os.path.join(RAIZ, 'index.html')
+SRC = os.path.join(RAIZ, 'base.html')
 DST = os.path.join(RAIZ, 'nuevo.html')
 s = open(SRC, encoding='utf-8').read()
 

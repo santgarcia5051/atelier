@@ -21,6 +21,10 @@ leer = lambda n: json.load(open(os.path.join(RAIZ, "datos", n), encoding="utf-8"
 costco = leer("costco.json")
 fichas = leer("fichas.json")
 base = open(os.path.join(RAIZ, "datos", "base.js"), encoding="utf-8").read()
+# Fotos de alta calidad: El Palacio de Hierro primero, luego Liverpool; si no hay, la de Costco
+palacio = leer("palacio.json")
+liverpool = leer("liverpool_fotos.json")
+FOTO_PALACIO = "https://www.elpalaciodehierro.com/dw/image/v2/BDKB_PRD/on/demandware.static/-/Sites-palacio-master-catalog/default/images/{pid}/large/{pid}_x1.jpg?sw=1000&sh=1000&sm=fit&q=90"
 
 
 import sys as _s; _s.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -74,6 +78,10 @@ for prod in costco["productos"]:
     if os.path.exists(rec) and not f.get("img"):  # foto recortada (fondo transparente): blanco en modo claro, negro en oscuro
         item["img"] = f"fotos/recortes/{pid}.webp?v={int(os.path.getmtime(rec)) % 100000}"
         item["recorte"] = True
+    elif not f.get("img") and pid in palacio:
+        item["img"] = FOTO_PALACIO.format(pid=palacio[pid]["pid"])
+    elif not f.get("img") and pid in liverpool:
+        item["img"] = liverpool[pid]["img"] if liverpool[pid].get("xl") is False else re.sub(r"https://s[ps]701\.liverpool\.com\.mx/(?:i|lg)/", "https://ss701.liverpool.com.mx/xl/", liverpool[pid]["img"])  # versión grande (940 px)
     por_id[pid] = item
     salida.append(item)
 

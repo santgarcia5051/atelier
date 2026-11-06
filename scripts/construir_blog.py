@@ -9,7 +9,7 @@ Uso: python3 scripts/construir_blog.py
 import html, json, os, re
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TIENDA = "../prueba.html"   # cambiar a "../index.html" cuando el diseño nuevo pase a la página principal
+TIENDA = "../index.html"
 SITIO = "https://santgarcia5051.github.io/atelier"
 
 ARTICULOS = [
@@ -357,7 +357,7 @@ def fichas(texto):
 
 def main():
     os.makedirs(os.path.join(RAIZ, "blog"), exist_ok=True)
-    ver = re.search(r"perfumes\.js\?v=([0-9a-z]+)", open(os.path.join(RAIZ, "index.html"), encoding="utf-8").read()).group(1)
+    ver = re.search(r"perfumes\.js\?v=([0-9a-z]+)", open(os.path.join(RAIZ, "base.html"), encoding="utf-8").read()).group(1)
     open(os.path.join(RAIZ, "blog", "blog.css"), "w", encoding="utf-8").write(CSS)
     banner = f'<div class="testban"><div><span class="k" style="color:#555">¿No sabe cuál escoger?</span><b>Haga el test de perfume</b></div><a href="{TIENDA}#test">Empezar el test →</a></div>'
     for a in ARTICULOS:

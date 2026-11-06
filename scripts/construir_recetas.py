@@ -10,7 +10,7 @@ Uso: python3 scripts/construir_recetas.py
 import os
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-s = open(os.path.join(RAIZ, "index.html"), encoding="utf-8").read()
+s = open(os.path.join(RAIZ, "base.html"), encoding="utf-8").read()
 
 
 def rep(old, new, n=1):
@@ -664,5 +664,6 @@ setTimeout(porHash, 60);
 """
 rep("function toast(msg) {", QZJS + "\nfunction toast(msg) {")
 
-open(os.path.join(RAIZ, "prueba.html"), "w", encoding="utf-8").write(s)
-print("prueba.html lista (Mostrador de recetas)")
+open(os.path.join(RAIZ, "index.html"), "w", encoding="utf-8").write(s)
+open(os.path.join(RAIZ, "prueba.html"), "w", encoding="utf-8").write('<!doctype html><meta charset="utf-8"><meta name="robots" content="noindex"><title>Scantalia</title><script>location.replace("index.html" + location.hash)</script><a href="index.html">Ir a Scantalia</a>')
+print("index.html lista (Mostrador de recetas)")
