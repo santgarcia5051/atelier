@@ -1,11 +1,11 @@
 /* PASO 1 — Ejecutar en una pestaña de https://www.costco.com.mx/
-   Lee todas las fragancias de Costco (solo perfumes con costo >= $800, los demás
-   nunca alcanzan la ganancia mínima), las compara con datos/costco.json publicado
+   Lee todas las fragancias de Costco (sin sets ni kits), trae la descripción (notas)
+   de las que aún no la tienen, las compara con datos/costco.json publicado
    y deja los cambios en window.name para el paso 2 (en Liverpool, misma pestaña).
    Devuelve un resumen corto. */
 (async () => {
   const SITIO = "https://santgarcia5051.github.io/atelier/datos/costco.json";
-  const COSTO_MIN = 800;
+  const COSTO_MIN = 0;
   const NO_PERFUME = /\b(set|estuche|kit|loci[oó]n corporal|desodorante|gel de ba[ñn]o|crema|mini|minis|travel|body|bruma|mist|paquete|coffret|d[uú]o|tr[ií]o|regalo|miniaturas?|vela|difusor|shower|jab[oó]n|aceite|cofre|pzas?|piezas)\b|\+/i;
   const todos = [];
   for (let pg = 0; pg < 20; pg++) {
@@ -39,6 +39,24 @@
     for (const k of ["costo", "existencia", "foto", "ml"]) if (a[k] !== p[k]) c[k] = p[k];
     if (Object.keys(c).length > 1) cambios.push(c);
   }
+  /* Descripción de Costco (trae familia y notas) para los que aún no la tienen */
+  const faltaDesc = todos.filter(p => !(prev.get(p.codigo) || {}).desc);
+  let k = 0;
+  const leerDesc = async () => {
+    while (k < faltaDesc.length) {
+      const p = faltaDesc[k++];
+      try {
+        const d = await (await fetch(`/rest/v2/mexico/products/${p.codigo}?fields=FULL&lang=es_MX&curr=MXN`)).json();
+        const div = document.createElement("div"); div.innerHTML = (d.description || "").replace(/<!--[\s\S]*?-->/g, " ");
+        p.desc = div.textContent.replace(/\.{4,}/g, " ").replace(/\s+/g, " ").trim().slice(0, 900);
+      } catch (e) {}
+      if (p.desc) {
+        const a = prev.get(p.codigo);
+        if (a) { const c = cambios.find(x => x.codigo === p.codigo); if (c) c.desc = p.desc; else cambios.push({ codigo: p.codigo, desc: p.desc }); }
+      }
+    }
+  };
+  await Promise.all([leerDesc(), leerDesc(), leerDesc(), leerDesc(), leerDesc(), leerDesc()]);
   const hoy = todos.map(p => p.codigo);
   const quitados = [...prev.keys()].filter(c => !hoy.includes(c));
   window.name = "SCX2" + JSON.stringify({ fecha: new Date().toISOString(), presentes: hoy, nuevos, cambios, quitados });

@@ -18,34 +18,13 @@ import json, math, os, re, sys
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 leer = lambda n: json.load(open(os.path.join(RAIZ, "datos", n), encoding="utf-8"))
 
-reglas = leer("reglas.json")
 costco = leer("costco.json")
 fichas = leer("fichas.json")
 base = open(os.path.join(RAIZ, "datos", "base.js"), encoding="utf-8").read()
 
 
-def comision(p):
-    return reglas["comision_pct"] / 100 * p + reglas["comision_fija"]
-
-
-def a_99(x):
-    return int(math.floor((x + 1) / 100) * 100 - 1)
-
-
-def precio_para(prod):
-    """Devuelve (precio, ganancia, descuento %) o None si no conviene publicarlo."""
-    costo = prod["costo"]
-    ref = prod.get("antes")
-    if not ref:
-        return None
-    for d in reglas["descuentos_pct"]:
-        p = a_99(ref * (1 - d / 100))
-        g = p - costo - comision(p)
-        if g >= reglas["ganancia_minima"]:
-            return p, round(g), round((1 - p / ref) * 100)
-    return None
-
-
+import sys as _s; _s.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from precios import precio as precio_para
 def js(v):
     return json.dumps(v, ensure_ascii=False)
 
@@ -62,12 +41,12 @@ for prod in costco["productos"]:
     if not f:
         faltan_ficha.append(code)
         continue
-    precio, gan, desc = r
+    precio, gan, antes = r
     pid = f.get("id") or code
     if pid in por_id:  # mismo perfume en otra presentación: se agrega como tamaño
         item = por_id[pid]
         if not any(x["ml"] == prod["ml"] for x in item["pres"]):
-            item["pres"].append({"ml": prod["ml"], "precio": precio, "antes": prod["antes"]})
+            item["pres"].append({"ml": prod["ml"], "precio": precio, "antes": antes})
             item["pres"].sort(key=lambda x: x["ml"])
             item["antes"] = item["pres"][0]["antes"]
             item["costco"] += "," + code
@@ -82,8 +61,8 @@ for prod in costco["productos"]:
         "salida": f["salida"], "corazon": f["corazon"], "fondo": f["fondo"],
         "acordes": f["acordes"], "duracion": f["duracion"], "proyeccion": f["proyeccion"],
         "temporada": f["temporada"], "ocasion": f["ocasion"],
-        "pres": [{"ml": prod["ml"], "precio": precio, "antes": prod["antes"]}],
-        "antes": prod["antes"],
+        "pres": [{"ml": prod["ml"], "precio": precio, "antes": antes}],
+        "antes": antes,
         "disponible": bool(prod["existencia"]),
         "forma": f.get("forma", "cuadrado"), "liquido": f.get("liquido", "#C9A46A"),
         "img": f.get("img") or prod["foto"],

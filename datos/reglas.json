@@ -1,7 +1,15 @@
 {
-  "ganancia_minima": 1000,
-  "descuentos_pct": [20],
+  "con_referencia": {
+    "descuentos_pct": [20, 15, 10],
+    "ganancia_minima": 350,
+    "_nota": "Si Liverpool tiene el perfume: precio = Liverpool menos el primer descuento de la lista que deje al menos la ganancia mínima. Se muestra el precio de Liverpool tachado. Si ninguno cumple, el perfume no se publica (Liverpool estaría igual o más barato)."
+  },
+  "sin_referencia": {
+    "margen_pct": 30,
+    "ganancia_minima": 350,
+    "_nota": "Si Liverpool no lo tiene: precio = costo de Costco + margen_pct, o lo necesario para la ganancia mínima, lo que sea mayor. No se muestra precio tachado."
+  },
   "comision_pct": 4.05,
   "comision_fija": 4.64,
-  "_nota": "Precio = precio de tienda departamental (Liverpool) menos el descuento, redondeado a ...99. Solo se publica si deja al menos ganancia_minima después de la comisión de Mercado Pago (3.49% + $4 + IVA). Si se ponen varios descuentos, se usa el primero que cumpla."
+  "_nota": "Comisión de Mercado Pago: 3.49% + $4 + IVA. Todos los precios terminan en 99."
 }

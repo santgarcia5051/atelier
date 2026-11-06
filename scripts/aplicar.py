@@ -39,16 +39,10 @@ actual["productos"] = sorted(por.values(), key=lambda p: p["nombre"])
 actual["actualizado"] = D["fecha"]
 json.dump(actual, open(ruta, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
-reglas = json.load(open(os.path.join(RAIZ, "datos", "reglas.json"), encoding="utf-8"))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from precios import precio
 fichas = json.load(open(os.path.join(RAIZ, "datos", "fichas.json"), encoding="utf-8")) if os.path.exists(os.path.join(RAIZ, "datos", "fichas.json")) else {}
-def califica(p):
-    if not p.get("antes"):
-        return False
-    for d in reglas["descuentos_pct"]:
-        P = math.floor((p["antes"] * (1 - d / 100) + 1) / 100) * 100 - 1
-        if P - p["costo"] - (reglas["comision_pct"] / 100 * P + reglas["comision_fija"]) >= reglas["ganancia_minima"]:
-            return True
-    return False
+califica = lambda p: precio(p) is not None
 faltan = [p for p in actual["productos"] if califica(p) and p["codigo"] not in fichas]
 print(json.dumps({
     "productos": len(actual["productos"]), "nuevos": len(D.get("nuevos", [])), "cambios": len(D.get("cambios", [])),
