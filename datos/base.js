@@ -70,7 +70,7 @@ const SECCIONES = ["Mujer", "Hombre", "Unisex"];
 const ENVIO = {
   gratisDesde: 2,
   zonas: {
-    local:     { nombre: "Local",     cubre: "Ciudad de México y Estado de México", precio: 169, dias: "Llega en una semana" },
+    local:     { nombre: "Local",     cubre: "Ciudad de México y Estado de México", precio: 169, dias: "Llega en 5 a 7 días hábiles" },
     nacional:  { nombre: "Nacional",  cubre: "Resto de la República",               precio: 229, dias: "Llega en 7 a 10 días hábiles" },
     extendida: { nombre: "Extendida", cubre: "Baja California, Baja California Sur, Chiapas, Quintana Roo y Yucatán", precio: 349, dias: "Llega en 8 a 12 días hábiles" }
   }
