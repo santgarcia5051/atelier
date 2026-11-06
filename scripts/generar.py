@@ -70,6 +70,10 @@ for prod in costco["productos"]:
         "forma": f.get("forma", "cuadrado"), "liquido": f.get("liquido", "#C9A46A"),
         "img": f.get("img") or prod["foto"],
     }
+    rec = os.path.join(RAIZ, "fotos", "recortes", pid + ".webp")
+    if os.path.exists(rec) and not f.get("img"):  # foto recortada (fondo transparente): blanco en modo claro, negro en oscuro
+        item["img"] = f"fotos/recortes/{pid}.webp?v={int(os.path.getmtime(rec)) % 100000}"
+        item["recorte"] = True
     por_id[pid] = item
     salida.append(item)
 
