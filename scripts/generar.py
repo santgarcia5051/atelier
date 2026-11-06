@@ -51,6 +51,7 @@ def js(v):
 
 
 salida, faltan_ficha, sin_margen = [], [], []
+por_id = {}
 for prod in costco["productos"]:
     code = prod["codigo"]
     r = precio_para(prod)
@@ -62,8 +63,18 @@ for prod in costco["productos"]:
         faltan_ficha.append(code)
         continue
     precio, gan, desc = r
+    pid = f.get("id") or code
+    if pid in por_id:  # mismo perfume en otra presentación: se agrega como tamaño
+        item = por_id[pid]
+        if not any(x["ml"] == prod["ml"] for x in item["pres"]):
+            item["pres"].append({"ml": prod["ml"], "precio": precio, "antes": prod["antes"]})
+            item["pres"].sort(key=lambda x: x["ml"])
+            item["antes"] = item["pres"][0]["antes"]
+            item["costco"] += "," + code
+        item["disponible"] = item["disponible"] or bool(prod["existencia"])
+        continue
     item = {
-        "id": f.get("id") or code,
+        "id": pid,
         "costco": code,
         "destacadas": f["destacadas"],
         "marca": f["marca"], "nombre": f["nombre"], "conc": f["conc"],
@@ -71,12 +82,13 @@ for prod in costco["productos"]:
         "salida": f["salida"], "corazon": f["corazon"], "fondo": f["fondo"],
         "acordes": f["acordes"], "duracion": f["duracion"], "proyeccion": f["proyeccion"],
         "temporada": f["temporada"], "ocasion": f["ocasion"],
-        "pres": [{"ml": prod["ml"], "precio": precio}],
+        "pres": [{"ml": prod["ml"], "precio": precio, "antes": prod["antes"]}],
         "antes": prod["antes"],
         "disponible": bool(prod["existencia"]),
         "forma": f.get("forma", "cuadrado"), "liquido": f.get("liquido", "#C9A46A"),
         "img": f.get("img") or prod["foto"],
     }
+    por_id[pid] = item
     salida.append(item)
 
 orden = {s: i for i, s in enumerate(["Mujer", "Hombre"])}

@@ -52,6 +52,13 @@ const NOTAS = {
   violeta:   { nombre: "Hoja de violeta", desc: "Verde" },
   salvia:    { nombre: "Salvia",        desc: "Aromática" },
   manzana:   { nombre: "Manzana",       desc: "Afrutada" },
+  fresa:     { nombre: "Fresa",         desc: "Afrutada",         foto: false, color: "#C8344A" },
+  avellana:  { nombre: "Avellana",      desc: "Gourmand",         foto: false, color: "#9A6A3E" },
+  gardenia:  { nombre: "Gardenia",      desc: "Floral blanco",    foto: false, color: "#EFE6D2" },
+  azucena:   { nombre: "Azucena",       desc: "Floral blanco",    foto: false, color: "#F1EADB" },
+  merengue:  { nombre: "Merengue",      desc: "Gourmand",         foto: false, color: "#F3E7D6" },
+  loto:      { nombre: "Flor de loto",  desc: "Acuático floral",  foto: false, color: "#7C93C9" },
+  fresia:    { nombre: "Fresia",        desc: "Floral fresco",    foto: false, color: "#C7A3D6" },
   castana:   { nombre: "Castaña",       desc: "Gourmand" }
 };
 

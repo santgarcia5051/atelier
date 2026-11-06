@@ -1,0 +1,1628 @@
+{
+ "662796": {
+  "destacadas": [
+   "bergamota",
+   "vetiver",
+   "pachuli"
+  ],
+  "marca": "Montblanc",
+  "nombre": "Explorer",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Amaderado aromático",
+  "lema": "Para quien busca nuevos horizontes.",
+  "venta": "Explorer es una invitación a la aventura. La bergamota, la pimienta rosa y la salvia abren con frescura; el vetiver de Haití y el cuero dan un corazón amaderado con carácter, y un fondo de pachulí y ambroxan lo vuelve elegante y duradero. Un perfume versátil, de calidad de nicho, para el día a día.",
+  "salida": [
+   "Bergamota",
+   "Pimienta rosa",
+   "Salvia"
+  ],
+  "corazon": [
+   "Vetiver",
+   "Cuero"
+  ],
+  "fondo": [
+   "Pachulí",
+   "Ambroxan",
+   "Cacao"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    85
+   ],
+   [
+    "Terroso",
+    65
+   ],
+   [
+    "Cítrico",
+    55
+   ],
+   [
+    "Aromático",
+    50
+   ]
+  ],
+  "duracion": "8–10 h",
+  "proyeccion": 4,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Oficina",
+  "forma": "redondo",
+  "liquido": "#7A5A3C",
+  "id": "explorer",
+  "img": "fotos/explorer.webp?v=3"
+ },
+ "673768": {
+  "destacadas": [
+   "lavanda",
+   "manzana",
+   "haba"
+  ],
+  "marca": "Montblanc",
+  "nombre": "Legend",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Aromático fougère",
+  "lema": "Un clásico fresco y elegante.",
+  "venta": "Montblanc Legend es un clásico fresco y elegante. La lavanda, la piña y la bergamota abren con frescura; la manzana roja, la rosa y el geranio forman un corazón limpio, y un fondo de haba tonka, sándalo y musgo de roble le da calidez y seguridad. Ideal para la oficina y el día a día.",
+  "salida": [
+   "Lavanda",
+   "Piña",
+   "Bergamota"
+  ],
+  "corazon": [
+   "Manzana roja",
+   "Rosa",
+   "Geranio"
+  ],
+  "fondo": [
+   "Haba tonka",
+   "Sándalo",
+   "Musgo de roble"
+  ],
+  "acordes": [
+   [
+    "Aromático",
+    82
+   ],
+   [
+    "Fresco",
+    70
+   ],
+   [
+    "Afrutado",
+    55
+   ],
+   [
+    "Cálido",
+    45
+   ]
+  ],
+  "duracion": "6–8 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "cuadrado",
+  "liquido": "#2C2C2C",
+  "id": "legend",
+  "img": "fotos/legend.webp?v=3"
+ },
+ "643835": {
+  "destacadas": [
+   "bergamota",
+   "pachuli",
+   "ambar"
+  ],
+  "marca": "Versace",
+  "nombre": "Dylan Blue",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Aromático fougère",
+  "lema": "Fuerza mediterránea, fresca y moderna.",
+  "venta": "Dylan Blue es la fragancia que define al hombre Versace contemporáneo. La bergamota, la toronja y la hoja de higo abren con frescura mediterránea; la pimienta, la violeta y el pachulí dan un corazón aromático con carácter, y un fondo de ámbar, incienso y almizcle lo mantiene magnético. Versátil, duradero y fácil de llevar.",
+  "salida": [
+   "Bergamota",
+   "Toronja",
+   "Hoja de higo"
+  ],
+  "corazon": [
+   "Pimienta",
+   "Violeta",
+   "Pachulí"
+  ],
+  "fondo": [
+   "Ámbar",
+   "Incienso",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Fresco",
+    80
+   ],
+   [
+    "Aromático",
+    75
+   ],
+   [
+    "Ambarado",
+    60
+   ],
+   [
+    "Cítrico",
+    55
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Oficina",
+  "forma": "cuadrado",
+  "liquido": "#1F3A6E",
+  "id": "dylan-blue",
+  "img": "fotos/dylan-blue.webp?v=3"
+ },
+ "702492": {
+  "destacadas": [
+   "limon",
+   "jazmin",
+   "cedro"
+  ],
+  "marca": "Dolce & Gabbana",
+  "nombre": "Light Blue",
+  "conc": "EDT",
+  "seccion": "Mujer",
+  "familia": "Cítrico afrutado",
+  "lema": "El verano mediterráneo, todo el año.",
+  "venta": "Light Blue es la fragancia del verano mediterráneo de Dolce & Gabbana. El limón siciliano, la manzana verde y la campanilla abren con frescura; el jazmín y la rosa blanca forman un corazón luminoso, y un fondo de cedro, ámbar y almizcle lo deja limpio y elegante. Un clásico para todos los días.",
+  "salida": [
+   "Limón siciliano",
+   "Manzana",
+   "Campánula"
+  ],
+  "corazon": [
+   "Bambú",
+   "Jazmín",
+   "Rosa blanca"
+  ],
+  "fondo": [
+   "Cedro",
+   "Almizcle",
+   "Ámbar"
+  ],
+  "acordes": [
+   [
+    "Cítrico",
+    90
+   ],
+   [
+    "Afrutado",
+    70
+   ],
+   [
+    "Fresco",
+    62
+   ],
+   [
+    "Amaderado",
+    45
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Vacaciones",
+  "forma": "alto",
+  "liquido": "#CFE3F2",
+  "id": "light-blue",
+  "img": "fotos/light-blue.webp?v=3"
+ },
+ "643823": {
+  "id": "euphoria-men",
+  "destacadas": [
+   "pimienta",
+   "salvia",
+   "ambar"
+  ],
+  "marca": "Calvin Klein",
+  "nombre": "Euphoria Men",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Amaderado especiado",
+  "lema": "Seducción sobria y moderna.",
+  "venta": "Euphoria Men es la versión masculina del clásico de Calvin Klein. El jengibre y la pimienta abren con energía; la salvia, la albahaca negra y la hoja de cedro forman un corazón aromático, y un fondo de ámbar, gamuza y pachulí lo vuelve cálido y seductor. Elegante para la noche y versátil para la oficina.",
+  "salida": [
+   "Jengibre",
+   "Pimienta"
+  ],
+  "corazon": [
+   "Salvia",
+   "Albahaca negra",
+   "Hoja de cedro"
+  ],
+  "fondo": [
+   "Ámbar",
+   "Gamuza",
+   "Pachulí"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    80
+   ],
+   [
+    "Cálido especiado",
+    72
+   ],
+   [
+    "Ambarado",
+    60
+   ],
+   [
+    "Aromático",
+    55
+   ]
+  ],
+  "duracion": "6–8 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Oficina",
+  "forma": "cuadrado",
+  "liquido": "#6B4A2F"
+ },
+ "697030": {
+  "id": "homme-ideal-intense",
+  "destacadas": [
+   "almendra",
+   "rosa",
+   "cuero"
+  ],
+  "marca": "Guerlain",
+  "nombre": "L'Homme Idéal L'Intense",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Oriental amaderado",
+  "lema": "El ideal masculino, más intenso.",
+  "venta": "L'Homme Idéal L'Intense es la versión más oscura y sensual del perfume masculino de Guerlain. El chile, la almendra amarga y el cardamomo abren con un contraste especiado; la rosa de Damasco aporta un corazón elegante, y un fondo de cuero, haba tonka y pachulí lo vuelve profundo y muy duradero. Para noches importantes.",
+  "salida": [
+   "Chile",
+   "Almendra",
+   "Cardamomo"
+  ],
+  "corazon": [
+   "Rosa de Damasco",
+   "Iris"
+  ],
+  "fondo": [
+   "Cuero",
+   "Haba tonka",
+   "Pachulí"
+  ],
+  "acordes": [
+   [
+    "Cálido especiado",
+    80
+   ],
+   [
+    "Gourmand",
+    70
+   ],
+   [
+    "Cuero",
+    65
+   ],
+   [
+    "Amaderado",
+    60
+   ]
+  ],
+  "duracion": "9–11 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Eventos formales",
+  "forma": "cuadrado",
+  "liquido": "#4A2418"
+ },
+ "676789": {
+  "id": "guerlain-vetiver",
+  "destacadas": [
+   "limon",
+   "vetiver",
+   "tabaco"
+  ],
+  "marca": "Guerlain",
+  "nombre": "Vetiver",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Amaderado aromático",
+  "lema": "Elegancia clásica francesa.",
+  "venta": "Vetiver de Guerlain es un ícono de la perfumería masculina desde 1961. La bergamota, el limón, el neroli y el cilantro abren con frescura; el vetiver de Haití, la nuez moscada y la pimienta forman un corazón seco y elegante, y un fondo de tabaco, haba tonka y musgo de roble le da distinción. Un perfume de caballero para cualquier ocasión.",
+  "salida": [
+   "Bergamota",
+   "Limón",
+   "Neroli",
+   "Cilantro"
+  ],
+  "corazon": [
+   "Vetiver",
+   "Nuez moscada",
+   "Pimienta"
+  ],
+  "fondo": [
+   "Tabaco",
+   "Haba tonka",
+   "Musgo de roble"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    85
+   ],
+   [
+    "Cítrico",
+    65
+   ],
+   [
+    "Aromático",
+    60
+   ],
+   [
+    "Terroso",
+    55
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Oficina · Día",
+  "forma": "cuadrado",
+  "liquido": "#C9B27A"
+ },
+ "697048": {
+  "id": "guerlain-vetiver",
+  "destacadas": [
+   "limon",
+   "vetiver",
+   "tabaco"
+  ],
+  "marca": "Guerlain",
+  "nombre": "Vetiver",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Amaderado aromático",
+  "lema": "Elegancia clásica francesa.",
+  "venta": "Vetiver de Guerlain es un ícono de la perfumería masculina desde 1961. La bergamota, el limón, el neroli y el cilantro abren con frescura; el vetiver de Haití, la nuez moscada y la pimienta forman un corazón seco y elegante, y un fondo de tabaco, haba tonka y musgo de roble le da distinción. Un perfume de caballero para cualquier ocasión.",
+  "salida": [
+   "Bergamota",
+   "Limón",
+   "Neroli",
+   "Cilantro"
+  ],
+  "corazon": [
+   "Vetiver",
+   "Nuez moscada",
+   "Pimienta"
+  ],
+  "fondo": [
+   "Tabaco",
+   "Haba tonka",
+   "Musgo de roble"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    85
+   ],
+   [
+    "Cítrico",
+    65
+   ],
+   [
+    "Aromático",
+    60
+   ],
+   [
+    "Terroso",
+    55
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Oficina · Día",
+  "forma": "cuadrado",
+  "liquido": "#C9B27A"
+ },
+ "653639": {
+  "id": "bottled-tonic",
+  "destacadas": [
+   "toronja",
+   "canela",
+   "vetiver"
+  ],
+  "marca": "Hugo Boss",
+  "nombre": "Boss Bottled Tonic",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Amaderado especiado",
+  "lema": "Frescura con energía.",
+  "venta": "Boss Bottled Tonic le da al clásico de Hugo Boss un giro cítrico y vibrante. La toronja, la manzana y la naranja amarga abren con una frescura chispeante; el jengibre, el clavo y la canela forman un corazón especiado, y un fondo de vetiver y cedro lo deja limpio y masculino. Perfecto para el día y la oficina.",
+  "salida": [
+   "Toronja",
+   "Manzana",
+   "Naranja amarga"
+  ],
+  "corazon": [
+   "Jengibre",
+   "Clavo",
+   "Canela"
+  ],
+  "fondo": [
+   "Vetiver",
+   "Cedro"
+  ],
+  "acordes": [
+   [
+    "Cítrico",
+    80
+   ],
+   [
+    "Cálido especiado",
+    65
+   ],
+   [
+    "Amaderado",
+    60
+   ],
+   [
+    "Fresco",
+    55
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "alto",
+  "liquido": "#D8A85A"
+ },
+ "695815": {
+  "id": "legend-blue",
+  "destacadas": [
+   "lavanda",
+   "sandalo",
+   "haba"
+  ],
+  "marca": "Montblanc",
+  "nombre": "Legend Blue",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Aromático amaderado",
+  "lema": "La frescura de Legend, más intensa.",
+  "venta": "Legend Blue lleva el carácter de Montblanc Legend a una versión más profunda y moderna. La lavanda y la menta abren con frescura aromática; el sándalo y el cedro forman un corazón cremoso, y un fondo de haba tonka y ámbar gris lo vuelve envolvente y duradero. Un perfume versátil para el día y la noche.",
+  "salida": [
+   "Lavanda",
+   "Menta"
+  ],
+  "corazon": [
+   "Sándalo",
+   "Cedro"
+  ],
+  "fondo": [
+   "Haba tonka",
+   "Ámbar gris"
+  ],
+  "acordes": [
+   [
+    "Aromático",
+    80
+   ],
+   [
+    "Amaderado",
+    72
+   ],
+   [
+    "Fresco",
+    60
+   ],
+   [
+    "Cálido",
+    50
+   ]
+  ],
+  "duracion": "8–10 h",
+  "proyeccion": 4,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#24324F"
+ },
+ "676812": {
+  "id": "legend-red",
+  "destacadas": [
+   "cardamomo",
+   "cedro",
+   "haba"
+  ],
+  "marca": "Montblanc",
+  "nombre": "Legend Red",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Amaderado especiado",
+  "lema": "Energía y pasión.",
+  "venta": "Legend Red es la cara más intensa y apasionada de la línea Legend. La naranja sanguina y el cardamomo abren con un toque vibrante y especiado; el cedro y la lavanda aportan un corazón elegante, y un fondo de haba tonka y ámbar lo vuelve cálido y magnético. Ideal para salir de noche.",
+  "salida": [
+   "Naranja sanguina",
+   "Cardamomo"
+  ],
+  "corazon": [
+   "Cedro",
+   "Lavanda"
+  ],
+  "fondo": [
+   "Haba tonka",
+   "Ámbar"
+  ],
+  "acordes": [
+   [
+    "Cálido especiado",
+    78
+   ],
+   [
+    "Amaderado",
+    72
+   ],
+   [
+    "Afrutado",
+    55
+   ],
+   [
+    "Ambarado",
+    55
+   ]
+  ],
+  "duracion": "8–10 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "cuadrado",
+  "liquido": "#7A1F1F"
+ },
+ "692975": {
+  "id": "toy2-pearl",
+  "destacadas": [
+   "limon",
+   "iris",
+   "maderas"
+  ],
+  "marca": "Moschino",
+  "nombre": "Toy 2 Pearl",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Floral almizclado",
+  "lema": "Brillo divertido y elegante.",
+  "venta": "Toy 2 Pearl llega en el inconfundible osito de Moschino con un aire fresco y luminoso. El limón, el sorbete y el orégano abren con un contraste original; un acorde de perla e iris forma un corazón suave y elegante, y un fondo de maderas y almizcle lo deja limpio y agradable. Una fragancia unisex para el día a día.",
+  "salida": [
+   "Limón",
+   "Sorbete",
+   "Orégano"
+  ],
+  "corazon": [
+   "Acorde de perla",
+   "Iris"
+  ],
+  "fondo": [
+   "Maderas",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Fresco",
+    75
+   ],
+   [
+    "Atalcado",
+    65
+   ],
+   [
+    "Cítrico",
+    60
+   ],
+   [
+    "Almizclado",
+    55
+   ]
+  ],
+  "duracion": "6–8 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "redondo",
+  "liquido": "#E7E3DA"
+ },
+ "696818": {
+  "id": "percival",
+  "destacadas": [
+   "bergamota",
+   "lavanda",
+   "maderas"
+  ],
+  "marca": "Parfums de Marly",
+  "nombre": "Percival",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Aromático fougère",
+  "lema": "Nobleza fresca de alta perfumería.",
+  "venta": "Percival es una de las fragancias más versátiles de Parfums de Marly, la casa de nicho inspirada en la corte de Luis XV. La bergamota y la mandarina abren con frescura luminosa; la lavanda, el geranio y la canela forman un corazón floral y herbáceo, y un fondo de ámbar gris, almizcle y cedro lo vuelve elegante y muy duradero. Un perfume de nicho para todos los días.",
+  "salida": [
+   "Bergamota",
+   "Mandarina"
+  ],
+  "corazon": [
+   "Lavanda",
+   "Geranio",
+   "Canela"
+  ],
+  "fondo": [
+   "Ámbar gris",
+   "Almizcle",
+   "Cedro"
+  ],
+  "acordes": [
+   [
+    "Fresco",
+    78
+   ],
+   [
+    "Aromático",
+    75
+   ],
+   [
+    "Amaderado",
+    60
+   ],
+   [
+    "Almizclado",
+    55
+   ]
+  ],
+  "duracion": "9–11 h",
+  "proyeccion": 4,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Oficina · Eventos",
+  "forma": "cuadrado",
+  "liquido": "#9FB6CF"
+ },
+ "517548": {
+  "id": "versace-eau-fraiche",
+  "destacadas": [
+   "limon",
+   "salvia",
+   "ambar"
+  ],
+  "marca": "Versace",
+  "nombre": "Man Eau Fraîche",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Amaderado acuático",
+  "lema": "Frescura mediterránea.",
+  "venta": "Versace Man Eau Fraîche es una fragancia ligera y luminosa, perfecta para el calor. El limón, la bergamota, el palo de rosa y la carambola abren con frescura; el estragón, la salvia y el cedro forman un corazón aromático, y un fondo de almizcle, ámbar y sicomoro lo deja limpio y elegante. Ideal para el día y la oficina.",
+  "salida": [
+   "Limón",
+   "Bergamota",
+   "Carambola"
+  ],
+  "corazon": [
+   "Estragón",
+   "Salvia",
+   "Cedro"
+  ],
+  "fondo": [
+   "Almizcle",
+   "Ámbar",
+   "Sicomoro"
+  ],
+  "acordes": [
+   [
+    "Fresco",
+    85
+   ],
+   [
+    "Cítrico",
+    75
+   ],
+   [
+    "Amaderado",
+    55
+   ],
+   [
+    "Acuático",
+    50
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "cuadrado",
+  "liquido": "#9CC3B7"
+ },
+ "701454": {
+  "id": "eros-energy",
+  "destacadas": [
+   "toronja",
+   "pimienta",
+   "pachuli"
+  ],
+  "marca": "Versace",
+  "nombre": "Eros Energy",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Cítrico amaderado",
+  "lema": "Toda la energía de Eros.",
+  "venta": "Eros Energy es la versión más luminosa y vibrante de la línea Eros de Versace. El limón, la lima, la toronja, la naranja sanguina y la bergamota abren con una explosión cítrica; la pimienta rosa aporta un corazón chispeante, y un fondo de pachulí, almizcle blanco y maderas lo vuelve moderno y duradero. Para el día, el calor y la actividad.",
+  "salida": [
+   "Limón",
+   "Lima",
+   "Toronja",
+   "Naranja sanguina"
+  ],
+  "corazon": [
+   "Pimienta rosa"
+  ],
+  "fondo": [
+   "Pachulí",
+   "Almizcle blanco",
+   "Maderas"
+  ],
+  "acordes": [
+   [
+    "Cítrico",
+    88
+   ],
+   [
+    "Fresco",
+    70
+   ],
+   [
+    "Amaderado",
+    55
+   ],
+   [
+    "Especiado",
+    45
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Deporte",
+  "forma": "cuadrado",
+  "liquido": "#D9C24A"
+ },
+ "517550": {
+  "id": "versace-pour-homme",
+  "destacadas": [
+   "limon",
+   "salvia",
+   "haba"
+  ],
+  "marca": "Versace",
+  "nombre": "Pour Homme",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Aromático fougère",
+  "lema": "El clásico mediterráneo de Versace.",
+  "venta": "Versace Pour Homme es una fragancia fresca y elegante inspirada en el Mediterráneo. El limón, la bergamota, el neroli y la rosa abren con luminosidad; el jacinto, la salvia, el cedro y el geranio forman un corazón aromático, y un fondo de haba tonka, almizcle y ámbar lo deja cálido y refinado. Un básico para la oficina y el día a día.",
+  "salida": [
+   "Limón",
+   "Bergamota",
+   "Neroli"
+  ],
+  "corazon": [
+   "Jacinto",
+   "Salvia",
+   "Geranio"
+  ],
+  "fondo": [
+   "Haba tonka",
+   "Almizcle",
+   "Ámbar"
+  ],
+  "acordes": [
+   [
+    "Aromático",
+    80
+   ],
+   [
+    "Cítrico",
+    72
+   ],
+   [
+    "Fresco",
+    65
+   ],
+   [
+    "Almizclado",
+    50
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "cuadrado",
+  "liquido": "#5E86A8"
+ },
+ "667087": {
+  "id": "coach-floral",
+  "destacadas": [
+   "pina",
+   "rosa",
+   "pachuli"
+  ],
+  "marca": "Coach",
+  "nombre": "Floral",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral afrutado",
+  "lema": "Romántica y llena de vida.",
+  "venta": "Coach Floral es una fragancia alegre y romántica. El sorbete de piña, la pimienta rosa y los cítricos abren con frescura; la rosa, la gardenia y el jazmín sambac forman un ramo femenino, y un fondo de almizcle, pachulí y praliné lo deja suave y envolvente. Perfecta para el día y para regalar.",
+  "salida": [
+   "Sorbete de piña",
+   "Pimienta rosa",
+   "Cítricos"
+  ],
+  "corazon": [
+   "Rosa",
+   "Gardenia",
+   "Jazmín sambac"
+  ],
+  "fondo": [
+   "Almizcle",
+   "Pachulí",
+   "Praliné"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    85
+   ],
+   [
+    "Afrutado",
+    70
+   ],
+   [
+    "Dulce",
+    55
+   ],
+   [
+    "Almizclado",
+    50
+   ]
+  ],
+  "duracion": "6–8 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "cuadrado",
+  "liquido": "#F2B7C4"
+ },
+ "697026": {
+  "id": "coach-love",
+  "destacadas": [
+   "fresa",
+   "rosa",
+   "sandalo"
+  ],
+  "marca": "Coach",
+  "nombre": "Love",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral afrutado",
+  "lema": "Dulce como el primer amor.",
+  "venta": "Coach Love es una fragancia tierna y alegre. La fresa salvaje abre con un toque jugoso; la rosa roja forma un corazón romántico y femenino, y un fondo cálido de cachemira y sándalo lo deja suave y cercano. Ideal para el día y para regalar.",
+  "salida": [
+   "Fresa salvaje"
+  ],
+  "corazon": [
+   "Rosa roja"
+  ],
+  "fondo": [
+   "Cachemira",
+   "Sándalo"
+  ],
+  "acordes": [
+   [
+    "Afrutado",
+    80
+   ],
+   [
+    "Floral",
+    75
+   ],
+   [
+    "Dulce",
+    60
+   ],
+   [
+    "Almizclado",
+    45
+   ]
+  ],
+  "duracion": "6–8 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Citas",
+  "forma": "cuadrado",
+  "liquido": "#E58BA0"
+ },
+ "676783": {
+  "id": "coach-wild-rose",
+  "destacadas": [
+   "pera",
+   "rosa",
+   "maderas"
+  ],
+  "marca": "Coach",
+  "nombre": "Wild Rose",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral frutal",
+  "lema": "Una rosa libre y luminosa.",
+  "venta": "Coach Wild Rose captura la frescura de las rosas silvestres. Las notas frutales y la pera abren con luz; la rosa forma un corazón natural y femenino, y un fondo de almizcle y maderas suaves lo deja limpio y agradable. Un perfume versátil para todos los días.",
+  "salida": [
+   "Pera",
+   "Notas frutales"
+  ],
+  "corazon": [
+   "Rosa silvestre"
+  ],
+  "fondo": [
+   "Almizcle",
+   "Maderas suaves"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    85
+   ],
+   [
+    "Afrutado",
+    60
+   ],
+   [
+    "Fresco",
+    55
+   ],
+   [
+    "Almizclado",
+    50
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "cuadrado",
+  "liquido": "#F0A9B8"
+ },
+ "701446": {
+  "id": "devotion-intense",
+  "destacadas": [
+   "avellana",
+   "azahar",
+   "vainilla"
+  ],
+  "marca": "Dolce & Gabbana",
+  "nombre": "Devotion Intense",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Oriental gourmand",
+  "lema": "Devoción más intensa.",
+  "venta": "Devotion Intense lleva la dulzura italiana de Devotion a una versión más rica. La avellana abre con un toque tostado y goloso; la flor de azahar forma un corazón floral y luminoso, y un fondo de vainilla cremosa lo vuelve cálido y envolvente. Un perfume elegante para la noche y los días frescos.",
+  "salida": [
+   "Avellana"
+  ],
+  "corazon": [
+   "Flor de azahar"
+  ],
+  "fondo": [
+   "Vainilla"
+  ],
+  "acordes": [
+   [
+    "Gourmand",
+    88
+   ],
+   [
+    "Avainillado",
+    80
+   ],
+   [
+    "Floral",
+    50
+   ],
+   [
+    "Cálido",
+    55
+   ]
+  ],
+  "duracion": "8–10 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "redondo",
+  "liquido": "#E7B977"
+ },
+ "682331": {
+  "id": "dg-q",
+  "destacadas": [
+   "limon",
+   "jazmin",
+   "cedro"
+  ],
+  "marca": "Dolce & Gabbana",
+  "nombre": "Q",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral afrutado",
+  "lema": "Una reina moderna.",
+  "venta": "Q de Dolce & Gabbana es una fragancia luminosa coronada con el sello de la casa. El limón siciliano y la naranja sanguina abren con energía; el jazmín y el heliotropo forman un corazón floral y elegante, y un fondo de cedro y vainilla lo deja cálido y sofisticado. Para la mujer que se sabe protagonista.",
+  "salida": [
+   "Limón siciliano",
+   "Naranja sanguina"
+  ],
+  "corazon": [
+   "Jazmín",
+   "Heliotropo"
+  ],
+  "fondo": [
+   "Cedro",
+   "Vainilla"
+  ],
+  "acordes": [
+   [
+    "Afrutado",
+    75
+   ],
+   [
+    "Floral",
+    72
+   ],
+   [
+    "Cítrico",
+    65
+   ],
+   [
+    "Amaderado",
+    55
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Otoño",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E04B5A"
+ },
+ "702543": {
+  "id": "fiamma",
+  "destacadas": [
+   "pera",
+   "gardenia",
+   "ambar"
+  ],
+  "marca": "Ferragamo",
+  "nombre": "Fiamma",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral ambarado",
+  "lema": "Una llama de feminidad.",
+  "venta": "Fiamma de Ferragamo celebra la pasión y la elegancia italiana. La pera blanca abre con frescura jugosa; la gardenia y las especias forman un corazón floral cálido, y un fondo ambarado y amaderado lo vuelve sensual y duradero. Ideal para la tarde y la noche.",
+  "salida": [
+   "Pera blanca"
+  ],
+  "corazon": [
+   "Gardenia",
+   "Especias"
+  ],
+  "fondo": [
+   "Ámbar",
+   "Maderas"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    80
+   ],
+   [
+    "Ambarado",
+    70
+   ],
+   [
+    "Afrutado",
+    55
+   ],
+   [
+    "Cálido especiado",
+    50
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Tarde · Noche",
+  "forma": "redondo",
+  "liquido": "#E89A6A"
+ },
+ "617756": {
+  "id": "acqua-di-gioia",
+  "destacadas": [
+   "menta",
+   "jazmin",
+   "cedro"
+  ],
+  "marca": "Giorgio Armani",
+  "nombre": "Acqua di Gioia",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Acuático floral",
+  "lema": "La alegría del agua.",
+  "venta": "Acqua di Gioia es la fragancia femenina más fresca de Giorgio Armani. El limón y la menta abren con una frescura acuática; el jazmín y la pimienta rosa forman un corazón luminoso, y un fondo de cedro, azúcar morena y ládano lo deja suave y natural. Perfecta para el calor y el día a día.",
+  "salida": [
+   "Limón",
+   "Menta"
+  ],
+  "corazon": [
+   "Jazmín",
+   "Pimienta rosa"
+  ],
+  "fondo": [
+   "Cedro",
+   "Azúcar morena",
+   "Ládano"
+  ],
+  "acordes": [
+   [
+    "Fresco",
+    85
+   ],
+   [
+    "Acuático",
+    75
+   ],
+   [
+    "Floral",
+    60
+   ],
+   [
+    "Cítrico",
+    55
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "cuadrado",
+  "liquido": "#9FD3D0"
+ },
+ "701565": {
+  "id": "ange-demon-secret",
+  "destacadas": [
+   "limon",
+   "jazmin",
+   "maderas"
+  ],
+  "marca": "Givenchy",
+  "nombre": "Ange ou Démon Le Secret",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral fresco",
+  "lema": "Un secreto entre lo dulce y lo misterioso.",
+  "venta": "Ange ou Démon Le Secret de Givenchy es una fragancia fresca y misteriosa. El limón de Amalfi, el té y el arándano abren con luminosidad; el jazmín y la peonía forman un corazón floral delicado, y un fondo de maderas blancas y almizcle lo deja elegante y sofisticado. Para la mujer que guarda su encanto.",
+  "salida": [
+   "Limón de Amalfi",
+   "Té",
+   "Arándano"
+  ],
+  "corazon": [
+   "Jazmín",
+   "Peonía"
+  ],
+  "fondo": [
+   "Maderas blancas",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    80
+   ],
+   [
+    "Fresco",
+    70
+   ],
+   [
+    "Cítrico",
+    60
+   ],
+   [
+    "Almizclado",
+    50
+   ]
+  ],
+  "duracion": "6–8 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Noche",
+  "forma": "facetado",
+  "liquido": "#F0C9D2"
+ },
+ "676791": {
+  "id": "shalimar",
+  "destacadas": [
+   "bergamota",
+   "iris",
+   "vainilla"
+  ],
+  "marca": "Guerlain",
+  "nombre": "Shalimar",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Oriental avainillado",
+  "lema": "La leyenda oriental de Guerlain.",
+  "venta": "Shalimar es uno de los perfumes más legendarios del mundo, creado por Guerlain en 1925. La bergamota y el limón abren con luminosidad; el iris, el jazmín y la rosa forman un corazón empolvado y elegante, y un fondo de vainilla, haba tonka e incienso lo vuelve cálido, sensual e inolvidable. Un clásico de colección.",
+  "salida": [
+   "Bergamota",
+   "Limón"
+  ],
+  "corazon": [
+   "Iris",
+   "Jazmín",
+   "Rosa"
+  ],
+  "fondo": [
+   "Vainilla",
+   "Haba tonka",
+   "Incienso"
+  ],
+  "acordes": [
+   [
+    "Avainillado",
+    88
+   ],
+   [
+    "Ambarado",
+    75
+   ],
+   [
+    "Atalcado",
+    65
+   ],
+   [
+    "Cítrico",
+    45
+   ]
+  ],
+  "duracion": "9–11 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Eventos",
+  "forma": "redondo",
+  "liquido": "#C9944A"
+ },
+ "697031": {
+  "id": "gaultier-divine",
+  "destacadas": [
+   "mar",
+   "azucena",
+   "merengue"
+  ],
+  "marca": "Jean Paul Gaultier",
+  "nombre": "Gaultier Divine",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral marino",
+  "lema": "Una diosa entre el mar y el dulce.",
+  "venta": "Gaultier Divine es la fragancia femenina más luminosa de Jean Paul Gaultier, con su icónico frasco de rayas marineras. Las notas marinas, las bayas rojas y la bergamota abren con frescura; la azucena y el ylang-ylang forman un corazón floral radiante, y un fondo de merengue salado y almizcle lo vuelve dulce y adictivo. Original y muy femenina.",
+  "salida": [
+   "Notas marinas",
+   "Bayas rojas",
+   "Bergamota"
+  ],
+  "corazon": [
+   "Azucena",
+   "Ylang-ylang"
+  ],
+  "fondo": [
+   "Merengue",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    80
+   ],
+   [
+    "Dulce",
+    70
+   ],
+   [
+    "Acuático",
+    60
+   ],
+   [
+    "Salado",
+    50
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Noche",
+  "forma": "alto",
+  "liquido": "#F2DCE0"
+ },
+ "701560": {
+  "id": "la-belle-paradise",
+  "destacadas": [
+   "loto",
+   "iris",
+   "vainilla"
+  ],
+  "marca": "Jean Paul Gaultier",
+  "nombre": "La Belle Paradise Garden",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral avainillado",
+  "lema": "Un paraíso tentador.",
+  "venta": "La Belle Paradise Garden lleva el icónico busto de Jean Paul Gaultier a un jardín exuberante. La flor de loto azul abre con frescura acuática; el iris forma un corazón suave y elegante, y un fondo de vainilla lo deja cálido y adictivo. Para la mujer que vive su propio paraíso.",
+  "salida": [
+   "Flor de loto azul"
+  ],
+  "corazon": [
+   "Iris"
+  ],
+  "fondo": [
+   "Vainilla"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    80
+   ],
+   [
+    "Avainillado",
+    75
+   ],
+   [
+    "Acuático",
+    55
+   ],
+   [
+    "Atalcado",
+    50
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Noche",
+  "forma": "alto",
+  "liquido": "#7FB59A"
+ },
+ "667095": {
+  "id": "montblanc-signature",
+  "destacadas": [
+   "mandarina",
+   "peonia",
+   "vainilla"
+  ],
+  "marca": "Montblanc",
+  "nombre": "Signature",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Ámbar floral",
+  "lema": "Una firma femenina y suave.",
+  "venta": "Signature de Montblanc es una fragancia delicada y envolvente. La mandarina abre con luminosidad; la magnolia, la peonía y el ylang-ylang forman un corazón floral suave, y un fondo de vainilla, almizcle blanco y benjuí lo deja cálido y cercano. Un perfume elegante para todos los días.",
+  "salida": [
+   "Mandarina"
+  ],
+  "corazon": [
+   "Magnolia",
+   "Peonía",
+   "Ylang-ylang"
+  ],
+  "fondo": [
+   "Vainilla",
+   "Almizcle blanco",
+   "Benjuí"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    78
+   ],
+   [
+    "Avainillado",
+    72
+   ],
+   [
+    "Almizclado",
+    60
+   ],
+   [
+    "Cítrico",
+    45
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Oficina",
+  "forma": "redondo",
+  "liquido": "#EBCFB8"
+ },
+ "701489": {
+  "id": "valaya",
+  "destacadas": [
+   "durazno",
+   "azahar",
+   "vainilla"
+  ],
+  "marca": "Parfums de Marly",
+  "nombre": "Valaya",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral almizclado",
+  "lema": "Pureza de alta perfumería.",
+  "venta": "Valaya es una de las joyas femeninas de Parfums de Marly, casa de nicho inspirada en la corte de Luis XV. Los aldehídos, el durazno blanco, la bergamota y la mandarina abren con luz y elegancia; la flor de azahar y las flores blancas forman un corazón luminoso, y un fondo de almizcle blanco, vainilla y maderas lo deja sedoso y sofisticado. Una pieza de colección.",
+  "salida": [
+   "Aldehídos",
+   "Durazno blanco",
+   "Bergamota",
+   "Mandarina"
+  ],
+  "corazon": [
+   "Flor de azahar",
+   "Flores blancas"
+  ],
+  "fondo": [
+   "Almizcle blanco",
+   "Vainilla",
+   "Maderas"
+  ],
+  "acordes": [
+   [
+    "Almizclado",
+    85
+   ],
+   [
+    "Floral",
+    78
+   ],
+   [
+    "Afrutado",
+    55
+   ],
+   [
+    "Atalcado",
+    55
+   ]
+  ],
+  "duracion": "8–10 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Eventos · Ocasiones especiales",
+  "forma": "facetado",
+  "liquido": "#F3E9E3"
+ },
+ "701453": {
+  "id": "bright-crystal-parfum",
+  "destacadas": [
+   "granada",
+   "peonia",
+   "ambar"
+  ],
+  "marca": "Versace",
+  "nombre": "Bright Crystal Parfum",
+  "conc": "Parfum",
+  "seccion": "Mujer",
+  "familia": "Floral afrutado",
+  "lema": "El brillo de Bright Crystal, más intenso.",
+  "venta": "Bright Crystal Parfum es la versión más rica del querido Bright Crystal de Versace. El yuzu, los frutos rojos y la granada abren con un toque jugoso; la peonía, la magnolia y el loto forman un corazón floral luminoso, y un fondo de ámbar, almizcle y caoba lo vuelve cálido y duradero. Para la tarde y la noche.",
+  "salida": [
+   "Yuzu",
+   "Frutos rojos",
+   "Granada"
+  ],
+  "corazon": [
+   "Peonía",
+   "Magnolia",
+   "Loto"
+  ],
+  "fondo": [
+   "Ámbar",
+   "Almizcle",
+   "Caoba"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    82
+   ],
+   [
+    "Afrutado",
+    72
+   ],
+   [
+    "Ambarado",
+    60
+   ],
+   [
+    "Dulce",
+    55
+   ]
+  ],
+  "duracion": "8–10 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Tarde · Noche",
+  "forma": "facetado",
+  "liquido": "#E57A9A"
+ },
+ "682982": {
+  "id": "dylan-purple",
+  "destacadas": [
+   "pera",
+   "fresia",
+   "pachuli"
+  ],
+  "marca": "Versace",
+  "nombre": "Dylan Purple",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral afrutado",
+  "lema": "Elegancia mediterránea en color.",
+  "venta": "Dylan Purple es la fragancia femenina más vibrante de la línea Dylan de Versace. La naranja amarga de Italia y la pera abren con frescura jugosa; la fresia y las flores forman un corazón luminoso, y un fondo de ambroxan y pachulí lo deja elegante y duradero. Para la mujer segura y moderna.",
+  "salida": [
+   "Naranja amarga",
+   "Pera"
+  ],
+  "corazon": [
+   "Fresia",
+   "Osmanto"
+  ],
+  "fondo": [
+   "Ambroxan",
+   "Pachulí"
+  ],
+  "acordes": [
+   [
+    "Afrutado",
+    78
+   ],
+   [
+    "Floral",
+    72
+   ],
+   [
+    "Amaderado",
+    55
+   ],
+   [
+    "Cítrico",
+    55
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Otoño",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#8C5BB8"
+ }
+}
