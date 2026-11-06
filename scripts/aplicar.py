@@ -25,7 +25,8 @@ for c in list(por):
         por.pop(c)
 for ch in D.get("cambios", []):
     if ch["codigo"] in por:
-        por[ch["codigo"]].update({k: v for k, v in ch.items() if k != "codigo"})
+        # Costco muestra precio 0 cuando un producto está agotado: se conserva el último costo conocido
+        por[ch["codigo"]].update({k: v for k, v in ch.items() if k != "codigo" and not (k == "costo" and not v)})
 refs = D.get("refs", {})
 for p in D.get("nuevos", []):
     por[p["codigo"]] = dict(p)

@@ -33,6 +33,9 @@ salida, faltan_ficha, sin_margen = [], [], []
 por_id = {}
 for prod in costco["productos"]:
     code = prod["codigo"]
+    if not prod.get("ml") or prod.get("costo", 0) < 150:  # datos incompletos en Costco: no se publica
+        sin_margen.append(code)
+        continue
     r = precio_para(prod)
     if not r:
         sin_margen.append(code)

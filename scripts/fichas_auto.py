@@ -44,30 +44,66 @@ MARCAS = ["Jean Paul Gaultier", "Carolina Herrera", "Dolce & Gabbana", "Dolce&Ga
           "Versace", "Guerlain", "Givenchy", "Burberry", "Prada", "Valentino", "Coach", "DKNY", "Cacharel", "Lacoste",
           "Azzaro", "Chloé", "Chloe", "Dior", "Chanel", "Gucci", "Creed", "Mugler", "Kenzo", "Davidoff", "Moschino",
           "Ferragamo", "Boss", "Hugo", "Shakira", "Halloween", "Lalique", "Loewe", "Ph", "Vichy", "Tous", "Benetton",
-          "Clinique", "Estée Lauder", "Estee Lauder", "Cartier", "Chopard", "Police", "Diesel", "Guess", "Replay", "Zara"]
+          "Clinique", "Estée Lauder", "Estee Lauder", "Cartier", "Chopard", "Police", "Diesel", "Guess", "Replay", "Zara",
+          "Acqua Di Parma", "Billie Eilish", "Juicy Couture", "Sabrina Carpenter", "Ormonde Jayne", "Masque Milano",
+          "Carner Barcelona", "Carner", "Jeroboam", "Orens", "Atkinsons", "Moncler", "Nautica", "Dumont", "Bharara",
+          "Delroba", "Amouage", "J.U.S.", "Elizabeth Arden", "Donna Karan", "Matiere Premiere", "Thierry Mugler"]
 MARCAS.sort(key=len, reverse=True)
 BONITA = {"Dolce&Gabbana": "Dolce & Gabbana", "Parfums De Marly": "Parfums de Marly", "Viktor&Rolf": "Viktor & Rolf",
           "Abercrombie&Fitch": "Abercrombie & Fitch", "Mont Blanc": "Montblanc", "Lancome": "Lancôme", "Hermes": "Hermès",
           "Chloe": "Chloé", "Estee Lauder": "Estée Lauder", "Bulgari": "Bvlgari", "Adolfo Domínguez": "Adolfo Domínguez",
-          "Adolfo Dominguez": "Adolfo Domínguez", "Jesus Del Pozo": "Jesús del Pozo", "Ph": "PH"}
+          "Adolfo Dominguez": "Adolfo Domínguez", "Jesus Del Pozo": "Jesús del Pozo", "Ph": "PH", "Rabanne": "Paco Rabanne",
+          "Thierry Mugler": "Mugler", "Ferragamo": "Salvatore Ferragamo", "Acqua Di Parma": "Acqua di Parma",
+          "Carner": "Carner Barcelona", "Boss": "Hugo Boss", "Hugo": "Hugo Boss", "Matiere Premiere": "Matière Première"}
+
+# Líneas que Costco nombra sin la marca: (inicio del nombre, marca, nombre que se muestra en lugar del inicio)
+ALIAS = [("acqua di gio", "Giorgio Armani", "Acqua di Giò"), ("armani code", "Giorgio Armani", "Armani Code"),
+         ("anais anais", "Cacharel", "Anaïs Anaïs"), ("ari by ariana grande", "Ariana Grande", "Ari"),
+         ("ch ", "Carolina Herrera", "CH "), ("ck ", "Calvin Klein", "CK "), ("eternity", "Calvin Klein", "Eternity"),
+         ("halloween", "Jesús del Pozo", "Halloween"), ("invictus", "Paco Rabanne", "Invictus"),
+         ("olympea", "Paco Rabanne", "Olympea"), ("one million", "Paco Rabanne", "1 Million"),
+         ("lady million", "Paco Rabanne", "Lady Million"), ("phantom", "Paco Rabanne", "Phantom"),
+         ("very good girl", "Carolina Herrera", "Very Good Girl"), ("good girl", "Carolina Herrera", "Good Girl"),
+         ("viva la juicy", "Juicy Couture", "Viva la Juicy"), ("tommy girl", "Tommy Hilfiger", "Tommy Girl"),
+         ("tommy impact", "Tommy Hilfiger", "Impact"), ("tommy ", "Tommy Hilfiger", "Tommy "),
+         ("matiere ", "Matière Première", ""), ("boss ", "Hugo Boss", "Boss "), ("ph mistral", "Ph", "Mistral")]
+ERRATAS = [(r"\bOsyssey\b", "Odyssey"), (r"\bPou Homme\b", "Pour Homme"), (r"\bPasion\b", "Pasión"),
+           (r"\bRevolucion\b", "Revolución"), (r"\bBambu\b", "Bambú"), (r"\bJazmin\b", "Jazmín"),
+           (r"\bNoir\b(?= ?$)", "Noire") ]
 
 
 def marca_nombre(nombre):
     n = re.sub(r"\s+", " ", nombre).strip()
     n = re.sub(r"\b\d+(?:[.,]\d+)?\s*ml\b", "", n, flags=re.I)
-    n = re.sub(r"\b(edp|edt|eau de parfum|eau de toilette|spray|vaporizador|refillable|recargable|para dama|para caballero|para hombre|para mujer)\b", "", n, flags=re.I)
+    n = re.sub(r"\b(edp|edt|eau de parfum|eau de toilette|spray|vaporizador|refillable|refill|recargable|para dama|para caballero|para hombre|para mujer)\b", "", n, flags=re.I)
     n = re.sub(r"\s*,\s*", " ", n).strip(" ,-")
+    n = re.sub(r"\s*-?\s*\bunisex\b", "", n, flags=re.I)
+    n = re.sub(r"\bextracto de perfume\b", "", n, flags=re.I)
+    n = re.sub(r"\s+", " ", n).strip(" ,-")
+    for pat, rep in ERRATAS:
+        n = re.sub(pat, rep, n)
     marca = None
-    for m in MARCAS:
+    for ini, m, mostrado in ALIAS:
+        if sin_acentos(n).startswith(ini):
+            resto = (mostrado + n[len(ini):]).strip()
+            marca = m
+            # la marca puede venir después (p. ej. "Tommy Hilfiger Tommy Forever")
+            break
+    for m in ([] if marca else MARCAS):
         if sin_acentos(n).startswith(sin_acentos(m) + " ") or sin_acentos(n) == sin_acentos(m):
             marca, resto = m, n[len(m):].strip()
             break
+    if marca and sin_acentos(resto).startswith(sin_acentos(marca) + " "):
+        resto = resto[len(marca):].strip()
+    if marca in ("Tommy Hilfiger",) and False:
+        pass
     if not marca:
         partes = n.split(" ", 1)
         marca, resto = partes[0], (partes[1] if len(partes) > 1 else partes[0])
     marca = BONITA.get(marca, marca)
     if marca == "Hugo Boss" and resto.lower().startswith("boss "):
         pass
+    resto = re.sub(r"(?i)\bacqua di gio\b(?!ia)", "Acqua di Giò", resto)
     resto = re.sub(r"\s+", " ", resto).strip() or marca
     # Títulos: respetar mayúsculas existentes salvo TODO EN MAYÚSCULAS
     if resto.isupper() and len(resto) > 4:
@@ -84,12 +120,14 @@ def limpiar_nota(t):
     t = re.sub(r"\s+", " ", t).strip()
     if not t or len(t) > 40 or len(t) < 2:
         return None
+    if re.fullmatch(r"(?:[A-ZÁÉÍÓÚÑ][a-záéíóúñü'’]*\s?){2,}", t):  # "Flor De Azahar" -> "Flor de azahar"
+        t = t[0] + t[1:].lower()
     return t[0].upper() + t[1:]
 
 
 def partir(txt):
     txt = re.sub(r"\([^)]*\)", "", txt)
-    piezas = re.split(r",|;|•|•|\s+y\s+|\s+e\s+(?=[a-záéíóú])|\.\s|\s+&\s+", txt)
+    piezas = re.split(r",|;|•|•|\s+[yY]\s+|\s+e\s+(?=[a-záéíóú])|\.\s|\s+&\s+", txt)
     out = []
     for p in piezas:
         c = limpiar_nota(p)
@@ -140,6 +178,8 @@ def familia_de(desc):
         return None
     f = m.group(1).strip().lower()
     f = re.sub(r"^(de\s+la\s+|la\s+)", "", f)
+    if re.search(r"\bpara\b|hombres|mujeres", f):
+        return None
     return f[0].upper() + f[1:] if f else None
 
 
@@ -148,7 +188,38 @@ def anio_de(desc):
     return m.group(1) if m else None
 
 
-def conc_de(nombre, desc):
+# (texto en el nombre, concentración) para líneas que Costco no etiqueta; el orden importa
+CONOCIDAS = [("acqua di gio profondo", "EDP"), ("acqua di gio", "EDT"), ("blu mediterraneo", "EDT"),
+             ("acqua di parma club", "EDC"), ("acqua di parma essenza", "EDC"), ("agua fresca de", "EDT"),
+             ("agua de bambu", "EDT"), ("adolfo dominguez bambu", "EDT"), ("armani code", "EDT"), ("azzaro 200 ml", "EDT"),
+             ("light blue 200", "EDT"), ("stronger with you 100", "EDT"), ("stronger with you 150", "EDT"),
+             ("eternity aqua", "EDT"), ("halloween man x", "EDT"), ("hugo boss dark blue", "EDT"), ("hugo boss number one", "EDT"),
+             ("hugo green", "EDT"), ("invictus victory absolu", "Parfum"), ("lacoste blanc", "EDT"),
+             ("born in roma green stravaganza", "EDT"), ("bright crystal 200", "EDT"), ("versace eau fraiche", "EDT"),
+             ("hugo boss orange", "EDT")]
+
+# Correcciones a mano por código de Costco (se aplican aunque la ficha se regenere)
+CORRECCIONES = {
+    "695837": {"seccion": "Mujer"},             # Bright Crystal es de dama
+    "643832": {"nombre": "CK One"},
+    "681756": {"nombre": "CK IN2U"},
+    "681757": {"nombre": "CK IN2U"},
+}
+
+
+def conc_de(nombre, desc, tipo=""):
+    nn = sin_acentos(nombre)
+    if "eau de toilette" in nn or re.search(r"\bedt\b", nn):
+        return "EDT"
+    if re.search(r"extrait|extracto|\belixir\b|\bparfum\b(?! de)", nn):
+        return "Parfum"
+    if "eau de parfum" in nn or re.search(r"\bedp\b", nn):
+        return "EDP"
+    if tipo:
+        return tipo
+    for k, v in CONOCIDAS:
+        if k in nn:
+            return v
     t = sin_acentos(nombre + " " + (desc or ""))
     if "eau de toilette" in t or re.search(r"\bedt\b", t):
         return "EDT"
@@ -284,6 +355,8 @@ def slug(t):
 
 
 def seccion_de(p, nombre):
+    if re.search(r"\bunisex\b", sin_acentos(nombre)) or re.search(r"para hombres? y mujer(es)?|para mujeres? y hombres?|para ambos", sin_acentos(p.get("desc", ""))):
+        return "Unisex"
     if p.get("dama") and not p.get("caballero"):
         return "Mujer"
     if p.get("caballero") and not p.get("dama"):
@@ -296,6 +369,8 @@ def seccion_de(p, nombre):
     return "Unisex"
 
 
+if "--rehacer" in sys.argv:
+    fichas = {k: v for k, v in fichas.items() if not v.get("auto")}
 creadas, sin_notas = 0, []
 existentes_id = {f.get("id") for f in fichas.values()}
 for p in costco["productos"]:
@@ -307,7 +382,7 @@ for p in costco["productos"]:
         continue
     marca, nombre = marca_nombre(p["nombre"])
     seccion = seccion_de(p, p["nombre"])
-    conc = conc_de(p["nombre"], p.get("desc", ""))
+    conc = conc_de(p["nombre"], p.get("desc", ""), p.get("tipo", ""))
     acordes = acordes_de(n)
     cats = [a[0] for a in acordes[:2]]
     if any(c in CALIDOS for c in cats[:1]) and not any(c in FRESCOS for c in cats[:1]):
@@ -328,6 +403,10 @@ for p in costco["productos"]:
         "duracion": dur, "proyeccion": proy, "temporada": temporada, "ocasion": ocasion,
         "forma": ["cuadrado", "alto", "redondo", "facetado"][sem % 4], "liquido": COLOR.get(acordes[0][0], "#C9A46A"),
     }
+    if p["codigo"] in CORRECCIONES:
+        f = fichas[p["codigo"]]
+        f.update(CORRECCIONES[p["codigo"]])
+        f["id"] = slug(f"{f['marca']} {f['nombre']} {f['conc']} {f['seccion']}")
     creadas += 1
 
 json.dump(fichas, open(ruta_f, "w", encoding="utf-8"), ensure_ascii=False, indent=1)

@@ -40,7 +40,7 @@
     if (Object.keys(c).length > 1) cambios.push(c);
   }
   /* Descripción de Costco (trae familia y notas) para los que aún no la tienen */
-  const faltaDesc = todos.filter(p => !(prev.get(p.codigo) || {}).desc);
+  const faltaDesc = todos.filter(p => { const a = prev.get(p.codigo) || {}; return !a.desc || !("tipo" in a); });
   let k = 0;
   const leerDesc = async () => {
     while (k < faltaDesc.length) {
@@ -49,10 +49,14 @@
         const d = await (await fetch(`/rest/v2/mexico/products/${p.codigo}?fields=FULL&lang=es_MX&curr=MXN`)).json();
         const div = document.createElement("div"); div.innerHTML = (d.description || "").replace(/<!--[\s\S]*?-->/g, " ");
         p.desc = div.textContent.replace(/\.{4,}/g, " ").replace(/\s+/g, " ").trim().slice(0, 900);
+        /* Tipo (Eau de Toilette, Eau de Parfum…) según la ficha técnica de Costco */
+        const f = {}; for (const g of d.classifications || []) for (const x of g.features || []) f[x.name] = (x.featureValues || []).map(v => v.value).join("/");
+        const t = (f["Tipo"] || "").toLowerCase();
+        p.tipo = /toil|toiltte/.test(t) ? "EDT" : /eau de parfum/.test(t) ? "EDP" : /extracto|extrait|^parfum/.test(t) ? "Parfum" : /cologne|colonia/.test(t) ? "EDC" : "";
       } catch (e) {}
-      if (p.desc) {
+      if (p.desc || "tipo" in p) {
         const a = prev.get(p.codigo);
-        if (a) { const c = cambios.find(x => x.codigo === p.codigo); if (c) c.desc = p.desc; else cambios.push({ codigo: p.codigo, desc: p.desc }); }
+        if (a) { const c = cambios.find(x => x.codigo === p.codigo) || (cambios.push({ codigo: p.codigo }), cambios[cambios.length - 1]); if (p.desc) c.desc = p.desc; if ("tipo" in p) c.tipo = p.tipo; }
       }
     }
   };
