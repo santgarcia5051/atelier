@@ -9,4 +9,5 @@ v = datetime.datetime.utcnow().strftime("%Y%m%d%H%M")
 s2 = re.sub(r"perfumes\.js\?v=[0-9a-z]+", "perfumes.js?v=" + v, s)
 open(p, "w", encoding="utf-8").write(s2)
 subprocess.run([sys.executable, os.path.join(RAIZ, "scripts", "construir_nuevo.py")], check=True)
+subprocess.run([sys.executable, os.path.join(RAIZ, "scripts", "construir_recetas.py")], check=True)  # página de prueba "Mostrador de recetas"
 print("versión", v)
