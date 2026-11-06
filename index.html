@@ -11,6 +11,24 @@
 body { margin: 0; }
 img { max-width: 100%; }
 [hidden] { display: none !important; }
+
+/* ===== Perfumes similares ===== */
+.sim { display: grid; gap: 14px; }
+.sim-head { display: grid; gap: 4px; }
+.sim-head .eyebrow { color: var(--accent); }
+.sim-head p { margin: 0; color: var(--muted); font-size: 14px; }
+.sim-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+@media (max-width: 720px) { .sim-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.sim-card { display: grid; grid-template-rows: auto 1fr; text-align: left; padding: 0; border: 1px solid var(--line); border-radius: var(--r-md); background: var(--surface); color: inherit; font: inherit; cursor: pointer; overflow: hidden; transition: transform .25s ease, border-color .25s ease; }
+.sim-card:hover, .sim-card:focus-visible { transform: translateY(-3px); border-color: var(--accent); }
+.sim-img { height: 150px; display: flex; align-items: center; justify-content: center; background: var(--tile); padding: 12px; }
+.sim-img img { max-height: 100%; max-width: 100%; object-fit: contain; }
+.sim-info { display: grid; gap: 3px; padding: 10px 12px 12px; align-content: start; }
+.sim-info small { color: var(--muted); font-size: 11.5px; letter-spacing: .06em; text-transform: uppercase; }
+.sim-info b { font-weight: 500; font-size: 15px; line-height: 1.25; }
+.sim-info .sim-why { color: var(--muted); font-size: 12.5px; line-height: 1.35; }
+.sim-info .sim-price { font-size: 14px; }
+.sim-match { justify-self: start; font-size: 11.5px; padding: 2px 8px; border-radius: var(--r-pill); border: 1px solid var(--line); color: var(--accent); }
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -555,7 +573,7 @@ footer { padding-block: 32px 40px; border-top: 1px solid var(--line); font-size:
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script src="perfumes.js?v=20261020f"></script>
+<script src="perfumes.js?v=20261105a"></script>
 <script>
 
 const fmt = new Intl.NumberFormat("es-MX", { style: "currency", currency: "MXN", maximumFractionDigits: 0 });
@@ -717,8 +735,98 @@ function renderDrawer(p) {
       <button class="btn" type="button" id="addCart">Agregar al carrito</button>
       <button class="btn ghost" type="button" id="viewCart">Ver carrito</button>
       <p>Puede agregar varias fragancias y enviar su pedido completo al finalizar.</p>
-    </div>`;
+    </div>
+    <div class="reveal" style="animation-delay:.35s">${similaresHTML(p)}</div>`;
 }
+
+
+/* ===== Perfumes similares, según sus gustos ===== */
+const SIM_CLAVES = ["vainilla","jazmin","rosa","ambar","pachuli","tonka","bergamota","lavanda","iris","cedro","sandalo","vetiver","almizcle","cardamomo","canela","pimienta","mandarina","naranja","toronja","limon","cacao","cuero","tabaco","coco","pina","pera","manzana","lichi","grosella","frambuesa","peonia","azahar","neroli","tuberosa","salvia","menta","romero","maderas","madera","marin","mar","caramelo","praline","almendra","cafe","miel","incienso","oud","geranio","higo","violeta","magnolia","gardenia","orquidea","mimosa","durazno","mango","castana","jengibre","azafran","ciruela","cachemira","gamuza","musgo","cipres","mastique","ambroxan","cilantro","albahaca","heno","champan","te","yuzu","granada","loto","guayaco","comino","clavel","ruibarbo","lirio"];
+const simNorm = t => t.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+function simPerfil(p) {
+  const f = new Map();
+  const add = (k, w) => f.set(k, (f.get(k) || 0) + w);
+  [["salida", 1], ["corazon", 1.3], ["fondo", 1.5]].forEach(([t, w]) => (p[t] || []).forEach(n => {
+    const nn = simNorm(n); let hit = false;
+    SIM_CLAVES.forEach(k => { if (nn.includes(k)) { add("n:" + (k === "madera" ? "maderas" : k === "marin" ? "mar" : k), w); hit = true; } });
+    if (!hit) add("n:" + nn, w);
+  }));
+  (p.destacadas || []).forEach(k => add("n:" + simNorm(k), 1));
+  (p.acordes || []).forEach(([a, v]) => add("a:" + simNorm(a), v / 50));
+  if (p.familia) simNorm(p.familia).split(/\s+/).forEach(w => add("f:" + w, 1.2));
+  return f;
+}
+function simCoseno(a, b) {
+  let dot = 0, na = 0, nb = 0;
+  a.forEach((v, k) => { na += v * v; if (b.has(k)) dot += v * b.get(k); });
+  b.forEach(v => nb += v * v);
+  return na && nb ? dot / Math.sqrt(na * nb) : 0;
+}
+const SIM_CACHE = new Map();
+const simDe = p => { if (!SIM_CACHE.has(p.id)) SIM_CACHE.set(p.id, simPerfil(p)); return SIM_CACHE.get(p.id); };
+function gustosLeer() { try { const g = JSON.parse(localStorage.getItem("sc-gustos") || "{}"); return g && typeof g === "object" ? g : {}; } catch (e) { return {}; } }
+function gustoSumar(id, peso) {
+  const g = gustosLeer(); g[id] = Math.min((g[id] || 0) + peso, 20);
+  try { localStorage.setItem("sc-gustos", JSON.stringify(g)); } catch (e) {}
+}
+function perfilGustos(excluir) {
+  const g = gustosLeer(), perfil = new Map(); let n = 0;
+  Object.entries(g).forEach(([id, w]) => {
+    const q = PERFUMES.find(x => x.id === id); if (!q || id === excluir) return; n++;
+    simDe(q).forEach((v, k) => perfil.set(k, (perfil.get(k) || 0) + v * w));
+  });
+  return n >= 2 ? perfil : null;
+}
+function notasComunes(p, q) {
+  const a = simDe(p), b = simDe(q), out = [];
+  a.forEach((v, k) => { if (k.startsWith("n:") && b.has(k)) out.push([k.slice(2), v + b.get(k)]); });
+  const bonito = { tonka: "haba tonka", mar: "notas marinas", pina: "piña", sandalo: "sándalo", ambar: "ámbar", jazmin: "jazmín", pachuli: "pachulí", limon: "limón", cafe: "café", peonia: "peonía", castana: "castaña", cipres: "ciprés", azafran: "azafrán", champan: "champán", guayaco: "guayaco", te: "té", orquidea: "orquídea", mastique: "mástique" };
+  return out.sort((x, y) => y[1] - x[1]).slice(0, 3).map(([k]) => bonito[k] || k);
+}
+function similares(p, n = 4) {
+  const base = simDe(p), gustos = perfilGustos(p.id);
+  return PERFUMES.filter(q => q.id !== p.id && q.disponible !== false).map(q => {
+    let s = simCoseno(base, simDe(q));
+    if (gustos) s = s * 0.75 + simCoseno(gustos, simDe(q)) * 0.25;
+    if (q.seccion === p.seccion) s += 0.04;
+    return { q, s };
+  }).sort((a, b) => b.s - a.s).slice(0, n).map(x => ({ ...x, gustos: !!gustos }));
+}
+function similaresHTML(p) {
+  const lista = similares(p); if (!lista.length) return "";
+  const conGustos = lista[0].gustos;
+  return `
+    <section class="d-section sim" aria-labelledby="simTitle">
+      <div class="sim-head">
+        <span class="eyebrow">Según sus gustos</span>
+        <h3 id="simTitle">Perfumes similares</h3>
+        <p>${conGustos ? `Con notas parecidas a ${p.nombre} y a las fragancias que ha explorado.` : `Con notas parecidas a ${p.nombre}.`}</p>
+      </div>
+      <div class="sim-grid">${lista.map(({ q, s }) => {
+        const comunes = notasComunes(p, q);
+        return `
+        <button class="sim-card" type="button" data-sim="${q.id}" aria-label="Ver ${q.marca} ${q.nombre}">
+          <div class="sim-img">${q.img ? `<img src="${q.img}" alt="" loading="lazy">` : media(q)}</div>
+          <div class="sim-info">
+            <small>${q.marca}</small>
+            <b>${q.nombre}</b>
+            ${comunes.length ? `<span class="sim-why">Comparte ${comunes.length > 1 ? comunes.slice(0, -1).join(", ") + " y " + comunes[comunes.length - 1] : comunes[0]}</span>` : `<span class="sim-why">${q.familia}</span>`}
+            <span class="sim-match">${Math.max(50, Math.min(98, Math.round(s * 100)))} % afín</span>
+            <span class="sim-price">${fmt.format(q.pres[0].precio)}</span>
+          </div>
+        </button>`; }).join("")}
+      </div>
+    </section>`;
+}
+document.addEventListener("click", e => {
+  const c = e.target.closest("[data-sim]"); if (!c) return;
+  const id = c.dataset.sim;
+  current = PERFUMES.find(x => x.id === id); if (!current) return;
+  gustoSumar(id, 1);
+  renderDrawer(current);
+  const body = $("drawerBody"); body.scrollTop = 0; if (body.parentElement) body.parentElement.scrollTop = 0;
+  body.querySelectorAll(".accord-fill").forEach(f => requestAnimationFrame(() => f.style.width = f.dataset.w + "%"));
+});
 
 /* ===== Paneles deslizables (ficha y carrito) ===== */
 let activePanel = null;
@@ -755,6 +863,7 @@ function closePanel() {
 
 function openDrawer(id, trigger) {
   current = PERFUMES.find(p => p.id === id); if (!current) return;
+  gustoSumar(id, 1);
   renderDrawer(current);
   openPanel($("drawer"), trigger);
 }
@@ -771,7 +880,7 @@ $("drawerBody").addEventListener("click", e => {
     $("drawerBody").querySelectorAll(".size").forEach(b => b.setAttribute("aria-checked", String(b === s)));
     return;
   }
-  if (e.target.closest("#addCart")) { addToCart(current.id, selectedSize); return; }
+  if (e.target.closest("#addCart")) { gustoSumar(current.id, 3); addToCart(current.id, selectedSize); return; }
   if (e.target.closest("#viewCart")) openCart();
 });
 
