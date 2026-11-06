@@ -238,7 +238,7 @@ TERMINOS = """
 
 <h2 id="propiedad">16. Propiedad intelectual</h2>
 <p>Los textos, guías, test, fotografías propias, ilustraciones y el diseño del sitio pertenecen a Scantalia y están protegidos por la ley. No pueden copiarse, modificarse ni usarse con fines comerciales sin nuestra autorización por escrito.</p>
-<p>Las marcas, logotipos y nombres de los perfumes pertenecen a sus respectivos titulares. Los mencionamos solo para identificar los productos que vendemos. Scantalia es un comercio independiente y no está afiliado, patrocinado ni respaldado por esas marcas. Algunas fotografías de producto son proporcionadas por los distribuidores de cada marca.</p>
+<p>Las marcas, logotipos y nombres de los perfumes pertenecen a sus respectivos titulares. Los mencionamos solo para identificar los productos que vendemos. Scantalia es un comercio independiente y no está afiliado, patrocinado ni respaldado por esas marcas. Algunas fotografías de producto provienen de las marcas, sus distribuidores u otras tiendas, y se usan solo para identificar el producto.</p>
 
 <h2 id="responsabilidad">17. Limitación de responsabilidad</h2>
 <ul>
