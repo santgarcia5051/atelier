@@ -613,7 +613,9 @@ function qzPaso() {
     <div class="qz-ops">${Q.ops.map((o, k) => `<button type="button" class="qz-op${o.foto ? " foto" : ""}" data-k="${k}">${o.foto ? `<img src="fotos/notas/${o.foto}.webp" alt="">` : ""}${o.big ? `<span class="big">${o.big}</span>` : ""}<span class="lb">${o.lb}</span><span class="ds">${o.ds}</span></button>`).join("")}</div></div>`;
   b.scrollTop = 0;
   const at = $("qzAtras"); if (at) at.onclick = () => { qzI--; qzPaso(); };
+  let qzElegido = false;
   b.querySelectorAll(".qz-op").forEach(el => el.onclick = () => {
+    if (qzElegido) return; qzElegido = true;
     el.classList.add("pick"); qzR[Q.id] = Q.ops[+el.dataset.k].v;
     setTimeout(() => { qzI++; qzI < QZ.length ? qzPaso() : qzMezclar(); }, 650);
   });
