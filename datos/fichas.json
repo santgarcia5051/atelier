@@ -21176,5 +21176,712 @@
   "ocasion": "Día · Oficina",
   "forma": "redondo",
   "liquido": "#E8C25A"
+ },
+ "696775": {
+  "id": "acqua-di-parma-blu-mediterraneo-mandarino-di-sicilia-edt-uni",
+  "auto": true,
+  "destacadas": [
+   "mandarina",
+   "lavanda",
+   "cedro"
+  ],
+  "marca": "Acqua di Parma",
+  "nombre": "Blu Mediterraneo Mandarino Di Sicilia",
+  "conc": "EDT",
+  "seccion": "Unisex",
+  "familia": "Cítrico almizclado",
+  "lema": "Brillo fresco y limpio.",
+  "venta": "Blu Mediterraneo Mandarino Di Sicilia de Acqua di Parma es una fragancia cítrico almizclado unisex. Su salida de mandarina verde, naranja sanguina, bergamota y limón da paso a un corazón de spearmint y petit grain, que descansa sobre un fondo de almizcle, cedro y pachulí. Una elección versátil para todos los días.",
+  "salida": [
+   "Mandarina verde",
+   "Naranja sanguina",
+   "Bergamota",
+   "Limón"
+  ],
+  "corazon": [
+   "Spearmint",
+   "Petit grain"
+  ],
+  "fondo": [
+   "Almizcle",
+   "Cedro",
+   "Pachulí"
+  ],
+  "acordes": [
+   [
+    "Cítrico",
+    90
+   ],
+   [
+    "Almizclado",
+    65
+   ],
+   [
+    "Amaderado",
+    65
+   ],
+   [
+    "Aromático",
+    60
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "facetado",
+  "liquido": "#E8C25A"
+ },
+ "696771": {
+  "id": "acqua-di-parma-essenza-edc-hombre",
+  "auto": true,
+  "destacadas": [
+   "limon",
+   "rosa",
+   "vetiver"
+  ],
+  "marca": "Acqua di Parma",
+  "nombre": "Essenza",
+  "conc": "EDC",
+  "seccion": "Hombre",
+  "familia": "Cítrico floral",
+  "lema": "Ligereza y elegancia.",
+  "venta": "Essenza de Acqua di Parma es una fragancia cítrico floral para él. Las notas de limón, naranja, bergamota, mandarina y pomelo abren con personalidad; romero, acorde de rosa, acorde de jazmín y clavo forman su corazón, y vetiver, pachulí, almizcle blanco y ámbar dejan una estela memorable. Perfecto para el día a día.",
+  "salida": [
+   "Limón",
+   "Naranja",
+   "Bergamota",
+   "Mandarina",
+   "Pomelo"
+  ],
+  "corazon": [
+   "Romero",
+   "Acorde de rosa",
+   "Acorde de jazmín",
+   "Clavo"
+  ],
+  "fondo": [
+   "Vetiver",
+   "Pachulí",
+   "Almizcle blanco",
+   "Ámbar"
+  ],
+  "acordes": [
+   [
+    "Cítrico",
+    90
+   ],
+   [
+    "Floral",
+    71
+   ],
+   [
+    "Amaderado",
+    62
+   ],
+   [
+    "Almizclado",
+    62
+   ]
+  ],
+  "duracion": "3–5 h",
+  "proyeccion": 2,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "redondo",
+  "liquido": "#E8C25A"
+ },
+ "671612": {
+  "id": "acqua-di-parma-oud-edp-hombre",
+  "auto": true,
+  "destacadas": [
+   "mandarina",
+   "oud",
+   "sandalo"
+  ],
+  "marca": "Acqua di Parma",
+  "nombre": "Oud",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Oriental amaderada",
+  "lema": "Profundidad natural.",
+  "venta": "Oud de Acqua di Parma es una fragancia oriental amaderada para él. Abre con naranja y bergamota de Calabria; en el corazón aparecen flor de cuaba blanca, cilantro y madera de oud, y un fondo de sándalo, cuero, cedro, pachulí y almizcle le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Naranja",
+   "Bergamota de Calabria"
+  ],
+  "corazon": [
+   "Flor de cuaba blanca",
+   "Cilantro",
+   "Madera de oud"
+  ],
+  "fondo": [
+   "Sándalo",
+   "Cuero",
+   "Cedro",
+   "Pachulí",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Cítrico",
+    69
+   ],
+   [
+    "Cuero",
+    64
+   ],
+   [
+    "Almizclado",
+    64
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "alto",
+  "liquido": "#8A6A48"
+ },
+ "676762": {
+  "id": "bond-no-9-chinatown-edp-unisex",
+  "auto": true,
+  "destacadas": [
+   "bergamota",
+   "gardenia",
+   "cardamomo"
+  ],
+  "marca": "Bond No. 9",
+  "nombre": "Chinatown",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Ámbar floral",
+  "lema": "Un ramo elegante.",
+  "venta": "Chinatown de Bond No. 9 es una fragancia ámbar floral unisex. Su salida de flor del duraznero y bergamota da paso a un corazón de nardos, gardenia, peonía y flor de azahar del naranjo, que descansa sobre un fondo de cardamomo, vainilla, sándalo, madera de gaiac y pachulí. Funciona tanto de día como de noche.",
+  "salida": [
+   "Flor del duraznero",
+   "Bergamota"
+  ],
+  "corazon": [
+   "Nardos",
+   "Gardenia",
+   "Peonía",
+   "Flor de azahar del naranjo"
+  ],
+  "fondo": [
+   "Cardamomo",
+   "Vainilla",
+   "Sándalo",
+   "Madera de gaiac",
+   "Pachulí"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Amaderado",
+    74
+   ],
+   [
+    "Cálido especiado",
+    62
+   ],
+   [
+    "Avainillado",
+    62
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E9A9BC"
+ },
+ "684224": {
+  "id": "burberry-burberry-edp-mujer",
+  "auto": true,
+  "destacadas": [
+   "grosella",
+   "jazmin",
+   "vainilla"
+  ],
+  "marca": "Burberry",
+  "nombre": "Burberry",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Afrutado amaderado",
+  "lema": "Jugosa y alegre.",
+  "venta": "Burberry de Burberry es una fragancia afrutado amaderado para ella. Las notas de grosellas negras, durazno, chabacano, pera y manzana verde abren con personalidad; jazmín, sándalo y musgo forman su corazón, y almizcle, vainilla y cedro dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Grosellas negras",
+   "Durazno",
+   "Chabacano",
+   "Pera",
+   "Manzana verde"
+  ],
+  "corazon": [
+   "Jazmín",
+   "Sándalo",
+   "Musgo"
+  ],
+  "fondo": [
+   "Almizcle",
+   "Vainilla",
+   "Cedro"
+  ],
+  "acordes": [
+   [
+    "Afrutado",
+    90
+   ],
+   [
+    "Amaderado",
+    78
+   ],
+   [
+    "Almizclado",
+    65
+   ],
+   [
+    "Avainillado",
+    65
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E57A8A"
+ },
+ "682933": {
+  "id": "dkny-be-delicious-fresh-blossom-edp-mujer",
+  "auto": true,
+  "destacadas": [
+   "toronja",
+   "rosa",
+   "manzana"
+  ],
+  "marca": "DKNY",
+  "nombre": "Be Delicious Fresh Blossom",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral afrutado",
+  "lema": "Delicadeza que se recuerda.",
+  "venta": "Be Delicious Fresh Blossom de DKNY es una fragancia floral afrutado para ella. Abre con toronja, chabacano y casis; en el corazón aparecen rosa, lirio de los valles y jazmín, y un fondo de manzana roja y notas amaderadas le da carácter y duración. Versátil para el día y la noche.",
+  "salida": [
+   "Toronja",
+   "Chabacano",
+   "Casis"
+  ],
+  "corazon": [
+   "Rosa",
+   "Lirio de los valles",
+   "Jazmín"
+  ],
+  "fondo": [
+   "Manzana roja",
+   "Notas amaderadas"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Afrutado",
+    76
+   ],
+   [
+    "Amaderado",
+    65
+   ],
+   [
+    "Cítrico",
+    60
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "facetado",
+  "liquido": "#E9A9BC"
+ },
+ "628230": {
+  "id": "davidoff-cool-water-woman-edt-mujer",
+  "auto": true,
+  "destacadas": [
+   "grosella",
+   "miel",
+   "violeta"
+  ],
+  "marca": "Davidoff",
+  "nombre": "Cool Water Woman",
+  "conc": "EDT",
+  "seccion": "Mujer",
+  "familia": "Floral afrutado",
+  "lema": "Feminidad luminosa.",
+  "venta": "Cool Water Woman de Davidoff es una fragancia floral afrutado para ella, lanzada en 1996. Las notas de membrillo, grosellas, azucena, melón y limón abren con personalidad; miel, flor de espino, jazmín, nenúfar y lirio forman su corazón, y zarzamora, raíz de violeta, sándalo, almizcle y frambuesa dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Membrillo",
+   "Grosellas",
+   "Azucena",
+   "Melón",
+   "Limón"
+  ],
+  "corazon": [
+   "Miel",
+   "Flor de espino",
+   "Jazmín",
+   "Nenúfar",
+   "Lirio"
+  ],
+  "fondo": [
+   "Zarzamora",
+   "Raíz de violeta",
+   "Sándalo",
+   "Almizcle",
+   "Frambuesa"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Afrutado",
+    81
+   ],
+   [
+    "Amaderado",
+    59
+   ],
+   [
+    "Almizclado",
+    59
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "alto",
+  "liquido": "#E9A9BC"
+ },
+ "682937": {
+  "id": "gucci-bloom-edp-mujer",
+  "auto": true,
+  "destacadas": [
+   "jazmin",
+   "rosa",
+   "maderas"
+  ],
+  "marca": "Gucci",
+  "nombre": "Bloom",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral",
+  "lema": "Flores con carácter.",
+  "venta": "Bloom de Gucci es una fragancia floral para ella, lanzada en 2017. Abre con jazmín sambac, en el corazón brillan los nardos y el fondo de enredadera de Rangún deja una estela floral memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Jazmín"
+  ],
+  "corazon": [
+   "Nardos"
+  ],
+  "fondo": [
+   "Enredadera de Rangún"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "redondo",
+  "liquido": "#E9A9BC"
+ },
+ "520120": {
+  "id": "jimmy-choo-jimmy-choo-edp-mujer",
+  "auto": true,
+  "destacadas": [
+   "mandarina",
+   "rosa",
+   "caramelo"
+  ],
+  "marca": "Jimmy Choo",
+  "nombre": "Jimmy Choo",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Chipre frutal",
+  "lema": "Una tentación dulce.",
+  "venta": "Jimmy Choo de Jimmy Choo es una fragancia chipre frutal para ella, lanzada en 2011. Abre con mandarina, pera y notas verdes; en el corazón aparece la orquídea, y un fondo de toffee y pachulí le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Mandarina",
+   "Pera",
+   "Notas verdes"
+  ],
+  "corazon": [
+   "Orquídea"
+  ],
+  "fondo": [
+   "Toffee",
+   "Pachulí"
+  ],
+  "acordes": [
+   [
+    "Gourmand",
+    90
+   ],
+   [
+    "Floral",
+    85
+   ],
+   [
+    "Cítrico",
+    77
+   ],
+   [
+    "Afrutado",
+    77
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "cuadrado",
+  "liquido": "#A0673A"
+ },
+ "653647": {
+  "id": "nautica-voyage-edt-hombre",
+  "auto": true,
+  "destacadas": [
+   "manzana",
+   "mimosa",
+   "ambar"
+  ],
+  "marca": "Nautica",
+  "nombre": "Voyage",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Aromático acuático",
+  "lema": "Un ramo elegante.",
+  "venta": "Voyage de Nautica es una fragancia aromático acuático para él, lanzada en 2006. Abre con hojas verdes y manzana; en el corazón aparecen mimosa y flor de loto, y un fondo de ámbar, almizcle, musgo de roble y cedro le da carácter y duración. Versátil para el día y la noche.",
+  "salida": [
+   "Hojas verdes",
+   "Manzana"
+  ],
+  "corazon": [
+   "Mimosa",
+   "Flor de loto"
+  ],
+  "fondo": [
+   "Ámbar",
+   "Almizcle",
+   "Musgo de roble",
+   "Cedro"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Ambarado",
+    73
+   ],
+   [
+    "Almizclado",
+    73
+   ],
+   [
+    "Amaderado",
+    73
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E9A9BC"
+ },
+ "679666": {
+  "id": "salvatore-ferragamo-incanto-shine-edt-mujer",
+  "auto": true,
+  "destacadas": [
+   "pina",
+   "fresia",
+   "ambar"
+  ],
+  "marca": "Salvatore Ferragamo",
+  "nombre": "Incanto Shine",
+  "conc": "EDT",
+  "seccion": "Mujer",
+  "familia": "Floral frutal",
+  "lema": "Jugosa y alegre.",
+  "venta": "Incanto Shine de Salvatore Ferragamo es una fragancia floral frutal para ella. Abre con piña, maracuyá y bergamota; en el corazón aparecen fresia, durazno y peonía rosa, y un fondo de ámbar, almizcle y cedro le da carácter y duración. Versátil para el día y la noche.",
+  "salida": [
+   "Piña",
+   "Maracuyá",
+   "Bergamota"
+  ],
+  "corazon": [
+   "Fresia",
+   "Durazno",
+   "Peonía rosa"
+  ],
+  "fondo": [
+   "Ámbar",
+   "Almizcle",
+   "Cedro"
+  ],
+  "acordes": [
+   [
+    "Afrutado",
+    90
+   ],
+   [
+    "Floral",
+    82
+   ],
+   [
+    "Ambarado",
+    68
+   ],
+   [
+    "Almizclado",
+    68
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E57A8A"
+ },
+ "694243": {
+  "id": "salvatore-ferragamo-uomo-edt-hombre",
+  "auto": true,
+  "destacadas": [
+   "cardamomo",
+   "ambar",
+   "haba"
+  ],
+  "marca": "Salvatore Ferragamo",
+  "nombre": "Uomo",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Amaderado cálido especiado",
+  "lema": "Profundidad natural.",
+  "venta": "Uomo de Salvatore Ferragamo es una fragancia amaderado cálido especiado para él. Las notas de cardamomo, pimienta negra y bergamota abren con personalidad; notas dulces, ambroxan y flor de azahar del naranjo forman su corazón, y haba tonka, sándalo y madera de cachemira dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Cardamomo",
+   "Pimienta negra",
+   "Bergamota"
+  ],
+  "corazon": [
+   "Notas dulces",
+   "Ambroxan",
+   "Flor de azahar del naranjo"
+  ],
+  "fondo": [
+   "Haba tonka",
+   "Sándalo",
+   "Madera de cachemira"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Cálido especiado",
+    77
+   ],
+   [
+    "Avainillado",
+    70
+   ],
+   [
+    "Ambarado",
+    67
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "alto",
+  "liquido": "#8A6A48"
+ },
+ "695839": {
+  "id": "versace-pour-homme",
+  "auto": true,
+  "destacadas": [
+   "limon",
+   "salvia",
+   "haba"
+  ],
+  "marca": "Versace",
+  "nombre": "Pour Homme",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Aromático fougère",
+  "lema": "El clásico mediterráneo de Versace.",
+  "venta": "Versace Pour Homme es una fragancia fresca y elegante inspirada en el Mediterráneo. El limón, la bergamota, el neroli y la rosa abren con luminosidad; el jacinto, la salvia, el cedro y el geranio forman un corazón aromático, y un fondo de haba tonka, almizcle y ámbar lo deja cálido y refinado. Un básico para la oficina y el día a día.",
+  "salida": [
+   "Limón",
+   "Bergamota",
+   "Neroli"
+  ],
+  "corazon": [
+   "Jacinto",
+   "Salvia",
+   "Geranio"
+  ],
+  "fondo": [
+   "Haba tonka",
+   "Almizcle",
+   "Ámbar"
+  ],
+  "acordes": [
+   [
+    "Aromático",
+    80
+   ],
+   [
+    "Cítrico",
+    72
+   ],
+   [
+    "Fresco",
+    65
+   ],
+   [
+    "Almizclado",
+    50
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "cuadrado",
+  "liquido": "#5E86A8"
  }
 }
