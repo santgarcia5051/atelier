@@ -261,6 +261,9 @@ cortar('<header class="top">', '<main id="inicio">', '''<header class="rtop">
     <nav aria-label="Secciones"><button type="button" data-ir="Mujer">Mujer</button><button type="button" data-ir="Hombre">Hombre</button><button type="button" data-ir="Unisex">Unisex</button><a href="#envios">Envíos</a></nav>
     <a class="rlogo" href="#inicio" aria-label="Scantalia, inicio">SCANTALIA</a>
     <div class="top-actions">
+      <button class="theme-toggle" id="lupaBtn" type="button" aria-label="Buscar perfume" aria-expanded="false" aria-controls="buscaForm">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg>
+      </button>
       <button class="theme-toggle" id="themeToggle" type="button" aria-label="Cambiar entre modo claro y oscuro">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></svg>
         <span id="themeLabel">Modo claro</span>
@@ -273,6 +276,10 @@ cortar('<header class="top">', '<main id="inicio">', '''<header class="rtop">
     </div>
   </div>
 </header>
+<style>.rbusca{padding:10px 16px}.rbusca input{width:100%;font:inherit;padding:12px 14px;border:1px solid currentColor;background:transparent;color:inherit;border-radius:2px}</style>
+<form class="rbusca" id="buscaForm" role="search" hidden>
+  <input id="buscaInput" type="search" placeholder="Buscar perfume o nota" aria-label="Buscar perfume" autocomplete="off">
+</form>
 <div class="ticker" aria-hidden="true"><div id="ticker"></div></div>
 
 ''')
@@ -301,10 +308,10 @@ rep('''      <div class="tabs" id="chips" role="tablist" aria-label="Sección"><
 i = s.index("function renderGrid() {")
 j = s.index("\nfunction renderTable()", i)
 s = s[:i] + r'''function renderGrid() {
-  const list = sorted(PERFUMES).filter(p => p.seccion === state.seccion && cumpleNota(p));
+  const list = sorted(PERFUMES).filter(p => (state.texto ? cumpleTexto(p) : p.seccion === state.seccion) && cumpleNota(p));
   $("count").textContent = `${list.length} ${list.length === 1 ? "fragancia" : "fragancias"}`;
   const nota = state.nota ? ` · con ${NOTAS[state.nota] ? NOTAS[state.nota].nombre.toLowerCase() : state.nota}` : "";
-  $("lstHd").textContent = `Mostrador · ${state.seccion}${nota} · ${list.length}`;
+  $("lstHd").textContent = state.texto ? `Búsqueda · ${list.length}` : `Mostrador · ${state.seccion}${nota} · ${list.length}`;
   $("grid").innerHTML = list.length ? list.map(p => {
     const ns = notas3(p), d = descPct(p);
     return `<button class="it sr${disponible(p) ? "" : " off"}" type="button" data-id="${p.id}" aria-label="Ver ficha de ${p.nombre}">
@@ -315,10 +322,28 @@ s = s[:i] + r'''function renderGrid() {
       <span class="th">${p.img ? `<img src="${p.img}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ""}</span>
       ${disponible(p) ? `<span class="qa" role="button" tabindex="0" data-add="${p.id}" aria-label="Agregar ${p.nombre} a la bolsa">+</span>` : ""}
     </button>`;
-  }).join("") : `<p class="vacio">No hay fragancias con esa nota en esta sección. Pruebe otra nota o quite el filtro.</p>`;
+  }).join("") : `<p class="vacio">${state.texto ? "No encontramos perfumes con esa búsqueda. Pruebe otra palabra." : "No hay fragancias con esa nota en esta sección. Pruebe otra nota o quite el filtro."}</p>`;
   const prim = list.find(disponible) || list[0];
   if (prim) mostrarReceta(prim.id); else $("side").innerHTML = "";
 }
+const normTxt = s => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();
+function cumpleTexto(p) {
+  return normTxt(`${p.marca} ${p.nombre} ${p.conc} ${p.familia || ""}`).includes(state.texto);
+}
+$("lupaBtn").addEventListener("click", () => {
+  const f = $("buscaForm"), abrir = f.hidden;
+  f.hidden = !abrir; $("lupaBtn").setAttribute("aria-expanded", String(abrir));
+  if (abrir) $("buscaInput").focus();
+});
+$("buscaInput").addEventListener("input", e => {
+  const v = e.target.value.trim();
+  if (v === "1234567890987654321") {
+    activarPrueba(); state.texto = ""; state.seccion = "Unisex"; e.target.value = "";
+    renderAll(); $("perfumes").scrollIntoView({ behavior: "smooth" }); return;
+  }
+  state.texto = normTxt(v);
+  renderGrid();
+});
 ''' + s[j:]
 
 rep('$("grid").addEventListener("click", e => { const c = e.target.closest(".card"); if (c) openDrawer(c.dataset.id, c); });',
