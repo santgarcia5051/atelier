@@ -47,14 +47,14 @@ MARCAS = ["Jean Paul Gaultier", "Carolina Herrera", "Dolce & Gabbana", "Dolce&Ga
           "Clinique", "Estée Lauder", "Estee Lauder", "Cartier", "Chopard", "Police", "Diesel", "Guess", "Replay", "Zara",
           "Acqua Di Parma", "Billie Eilish", "Juicy Couture", "Sabrina Carpenter", "Ormonde Jayne", "Masque Milano",
           "Carner Barcelona", "Carner", "Jeroboam", "Orens", "Atkinsons", "Moncler", "Nautica", "Dumont", "Bharara",
-          "Delroba", "Amouage", "J.U.S.", "Elizabeth Arden", "Donna Karan", "Matiere Premiere", "Thierry Mugler"]
+          "Delroba", "Amouage", "Kate Spade", "BDK Parfums", "Bdk", "J.U.S.", "Elizabeth Arden", "Donna Karan", "Matiere Premiere", "Thierry Mugler"]
 MARCAS.sort(key=len, reverse=True)
 BONITA = {"Dolce&Gabbana": "Dolce & Gabbana", "Parfums De Marly": "Parfums de Marly", "Viktor&Rolf": "Viktor & Rolf",
           "Abercrombie&Fitch": "Abercrombie & Fitch", "Mont Blanc": "Montblanc", "Lancome": "Lancôme", "Hermes": "Hermès",
           "Chloe": "Chloé", "Estee Lauder": "Estée Lauder", "Bulgari": "Bvlgari", "Adolfo Domínguez": "Adolfo Domínguez",
           "Adolfo Dominguez": "Adolfo Domínguez", "Jesus Del Pozo": "Jesús del Pozo", "Ph": "PH", "Rabanne": "Paco Rabanne",
           "Thierry Mugler": "Mugler", "Ferragamo": "Salvatore Ferragamo", "Acqua Di Parma": "Acqua di Parma",
-          "Carner": "Carner Barcelona", "Boss": "Hugo Boss", "Hugo": "Hugo Boss", "Matiere Premiere": "Matière Première"}
+          "Carner": "Carner Barcelona", "Boss": "Hugo Boss", "Hugo": "Hugo Boss", "Matiere Premiere": "Matière Première", "Bdk": "BDK Parfums"}
 
 # Líneas que Costco nombra sin la marca: (inicio del nombre, marca, nombre que se muestra en lugar del inicio)
 ALIAS = [("acqua di gio", "Giorgio Armani", "Acqua di Giò"), ("armani code", "Giorgio Armani", "Armani Code"),
@@ -204,6 +204,10 @@ CORRECCIONES = {
     "643832": {"nombre": "CK One"},
     "681756": {"nombre": "CK IN2U"},
     "681757": {"nombre": "CK IN2U"},
+    "695777": {"nombre": "Eternity for Men", "conc": "EDT"},   # Costco lo nombra solo «Eternity»; las notas son las de la versión masculina
+    "685029": {"conc": "EDP"},                  # Y Intense es Eau de Parfum
+    "697027": {"conc": "EDT"},                  # Legend Spirit es Eau de Toilette
+    "684229": {"nombre": "CK IN2U"},
 }
 
 

@@ -6,7 +6,7 @@
 (async () => {
   const SITIO = "https://santgarcia5051.github.io/atelier/datos/costco.json";
   const COSTO_MIN = 0;
-  const NO_PERFUME = /\b(set|estuche|kit|loci[oó]n corporal|desodorante|gel de ba[ñn]o|crema|mini|minis|travel|body|bruma|mist|paquete|coffret|d[uú]o|tr[ií]o|regalo|miniaturas?|vela|difusor|shower|jab[oó]n|aceite|cofre|pzas?|piezas)\b|\+/i;
+  const NO_PERFUME = /\b(set|estuche|kit|loci[oó]n corporal|desodorante|gel de ba[ñn]o|crema|mini|minis|travel|body|bruma|mist|paquete|coffret|d[uú]o|tr[ií]o|regalo|miniaturas?|vela|difusor|shower|jab[oó]n|aceite|cofre|pzas?|pzs|piezas)\b|\+/i;
   const todos = [];
   for (let pg = 0; pg < 20; pg++) {
     const r = await fetch(`/rest/v2/mexico/products/search?fields=FULL&query=:relevance:allCategories:cos_13.1&pageSize=100&currentPage=${pg}&lang=es_MX&curr=MXN`, { headers: { Accept: "application/json" } });

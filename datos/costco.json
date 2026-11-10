@@ -1,6 +1,32 @@
 {
  "productos": [
   {
+   "codigo": "706889",
+   "nombre": "212 Vip Rose Limited Edition 80 ml",
+   "ml": 80,
+   "costo": 649,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 0,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h16/h79/523674584809502.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/212-Vip-Rose-Limited-Edition-80-ml/p/706889",
+   "desc": "",
+   "tipo": "EDP"
+  },
+  {
+   "codigo": "706881",
+   "nombre": "212 Vip Rose Limited Edition 80 ml",
+   "ml": 80,
+   "costo": 1899,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 0,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h12/hb2/523359348686878.jpg",
+   "url": "https://www.costco.com.mx/c/212-Vip-Rose-Limited-Edition-80-ml/p/706881",
+   "desc": "",
+   "tipo": ""
+  },
+  {
    "codigo": "696978",
    "nombre": "Acqua Di Gio Parfum 100 ml",
    "ml": 100,
@@ -64,7 +90,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Acqua-Di-Parma-Ambra-180-ml/p/671611",
    "antes": 3280.03,
    "liverpool": "ACQUA DI PARMA Eau de parfum Ambra para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Ambra Eau de Parfum de Acqua di Parma es una fragancia de la familia olfativa Amaderada Aromática para Hombres. Disfruta de sus notas: Salida: naranja, bergamota de Calabria y petit grain Corazón: rosa, cipriol, cedro y pachulí Fondo: ámbar gris, sándalo, ládano, vainilla y almizcle",
    "tipo": "EDP"
   },
@@ -73,7 +99,7 @@
    "nombre": "Acqua Di Parma Blu Mediterraneo Arancia Di Capri 180 ml",
    "ml": 180,
    "costo": 2499,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 1,
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h74/h44/384372754382878.jpg",
@@ -92,6 +118,32 @@
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h6d/h4e/522187480498206.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Acqua-Di-Parma-Blu-Mediterraneo-Fico-Di-Amalfi-180-ml/p/696772",
    "desc": "Las Notas de Salida son toronja (pomelo), bergamota, cidra y limón (lima ácida); las Notas de Corazón son néctar de higo, jazmín y pimienta rosa; las Notas de Fondo son árbol de la higuera, cedro y benjuí.",
+   "tipo": ""
+  },
+  {
+   "codigo": "696775",
+   "nombre": "Acqua Di Parma Blu Mediterraneo Mandarino Di Sicilia 180 ml",
+   "ml": 180,
+   "costo": 1999,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h74/heb/384372750778398.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Acqua-Di-Parma-Blu-Mediterraneo-Mandarino-Di-Sicilia-180-ml/p/696775",
+   "desc": "Las Notas de Salida son mandarina verde, naranja sanguina, bergamota y limón (lima ácida); las Notas de Corazón son Spearmint y petit grain; las Notas de Fondo son almizcle, cedro y pachulí.",
+   "tipo": ""
+  },
+  {
+   "codigo": "697069",
+   "nombre": "Acqua Di Parma Blu Mediterraneo Mirto Di Panarea 180 ml",
+   "ml": 180,
+   "costo": 2699,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h52/had/386580125974558.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Acqua-Di-Parma-Blu-Mediterraneo-Mirto-Di-Panarea-180-ml/p/697069",
+   "desc": "Mirto di Panarea evoca la calidez aromática del mirto combinada con albahaca y toques cítricos de limón y bergamota calabresa. Los matices marinos y las notas de enebro fresco se unen al jazmín y la rosa para crear una irresistible sensación de calma y armonía.",
    "tipo": ""
   },
   {
@@ -189,6 +241,19 @@
    "tipo": ""
   },
   {
+   "codigo": "696771",
+   "nombre": "Acqua Di Parma Essenza 180 ml",
+   "ml": 180,
+   "costo": 2499,
+   "existencia": 1,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h2d/hfa/384372738588702.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Acqua-Di-Parma-Essenza-180-ml/p/696771",
+   "desc": "Notas de salida: limón, naranja, bergamota, mandarina, pomelo, neroli. Notas de corazón: romero, acorde de rosa, acorde de jazmín y clavo. Notas de fondo: vetiver, pachuli, almizcle blanco y ámbar.",
+   "tipo": ""
+  },
+  {
    "codigo": "671449",
    "nombre": "Acqua Di Parma Osmanthus 100 ml",
    "ml": 100,
@@ -219,15 +284,28 @@
    "nombre": "Acqua Di Parma Oud 180 ml",
    "ml": 180,
    "costo": 3799,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 0,
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/hcb/h90/99096929009694.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Acqua-Di-Parma-Oud-180-ml/p/671612",
-   "antes": 4378.77,
+   "antes": 5149,
    "liverpool": "ACQUA DI PARMA Eau de parfum Oud para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Oud Eau de Parfum de Acqua di Parma es una fragancia de la familia olfativa Oriental Amaderada para Hombres. Disfruta de sus notas: Salida: naranja y bergamota de Calabria Corazón: flor de cuaba blanca, cilantro y madera de oud Fondo: sándalo, cuero, cedro, pachulí y almizcle",
+   "tipo": "EDP"
+  },
+  {
+   "codigo": "671451",
+   "nombre": "Acqua Di Parma Peonia 100 ml",
+   "ml": 100,
+   "costo": 2299,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 0,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h4d/h44/99096910069790.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Acqua-Di-Parma-Peonia-100-ml/p/671451",
+   "desc": "Peonia Nobile de Acqua di Parma es una fragancia de la familia olfativa Floral para Mujeres. Peonia Nobile se lanzó en 2016. La fragancia contiene pimienta negra, frambuesa, peonía, geranio, rosa turca, fresia, ámbar, pachulí y almizcle.",
    "tipo": "EDP"
   },
   {
@@ -235,7 +313,7 @@
    "nombre": "Acqua Di Parma Quercia 100 ml",
    "ml": 100,
    "costo": 2849,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 0,
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/hf8/h1a/104622302756894.jpg",
@@ -270,22 +348,6 @@
    "tipo": "EDP"
   },
   {
-   "codigo": "671448",
-   "nombre": "Acqua Di Parma Yuzu 100 ml",
-   "ml": 100,
-   "costo": 3099,
-   "existencia": 1,
-   "dama": 1,
-   "caballero": 1,
-   "foto": "https://www.costco.com.mx/medias/sys_master/products/h4c/he0/99096903352350.jpg",
-   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Acqua-Di-Parma-Yuzu-100-ml/p/671448",
-   "antes": 4948.6,
-   "liverpool": "ACQUA DI PARMA Eau de parfum Yuzu unisex",
-   "ref_fecha": "2026-11-06",
-   "desc": "Yuzu Eau de Parfum de Acqua di Parma es una fragancia de la familia olfativa Cítrica Aromática para Hombres y Mujeres. Disfruta de sus notas: Salida son bergamota de Calabria, pimienta de Sichuan y yuzu Corazón: mimosa, flor de loto, hojas de violeta y jazmín Fondo: almizcle, regaliz y sándalo",
-   "tipo": "EDP"
-  },
-  {
    "codigo": "701461",
    "nombre": "Acqua Di Parma Zafferano 180 ml",
    "ml": 180,
@@ -312,6 +374,22 @@
    "tipo": ""
   },
   {
+   "codigo": "701513",
+   "nombre": "Adolfo Dominguez Agua Fresca Citrus Cedro 120 ml",
+   "ml": 120,
+   "costo": 0,
+   "existencia": 0,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/ha2/h75/420616859123742.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Adolfo-Dominguez-Agua-Fresca-Citrus-Cedro-120-ml/p/701513",
+   "desc": "Las notas principales incluyen bergamota, madera de cedro, ámbar y almizcle. Con toques de jengibre, pimienta rosa y comino.",
+   "tipo": "",
+   "antes": 2000,
+   "liverpool": "ADOLFO DOMINGUEZ Eau de toilette Agua Fresca Citrus Cedro para hombre",
+   "ref_fecha": "2026-11-09"
+  },
+  {
    "codigo": "706268",
    "nombre": "Adolfo Dominguez Agua Fresca De Rosas 120 ml",
    "ml": 120,
@@ -324,7 +402,7 @@
    "desc": "La fragancia contiene rosa, jazmín, lirio de los valles (muguete), sándalo, musgo de roble y almizcle.",
    "antes": 1900,
    "liverpool": "ADOLFO DOMINGUEZ Eau de toilette Agua Fresca De Rosas para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDT"
   },
   {
@@ -340,7 +418,7 @@
    "desc": "Las Notas de Salida son mandarina, limón (lima ácida) y petit grain; las Notas de Corazón son gardenia, magnolia y fresia; las Notas de Fondo son almizcle, cedro y pachulí.",
    "antes": 1900,
    "liverpool": "ADOLFO DOMINGUEZ Eau de toilette Agua Fresca De Gardenia Musk para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": ""
   },
   {
@@ -356,7 +434,7 @@
    "desc": "Las Notas de Salida son yuzu, gálbano, mandarina y toronja (pomelo); las Notas de Corazón son rosa blanca, ciclamen (violeta persa), jazmín, lila, té, cedro, vetiver y sándalo; las Notas de Fondo son pachulí, musgo de roble, ámbar, almizcle y vainilla.",
    "antes": 2000,
    "liverpool": "ADOLFO DOMINGUEZ Eau de toilette Agua Fresca De Rosas Blancas para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": ""
   },
   {
@@ -372,7 +450,7 @@
    "desc": "Las Notas de Salida son flor de loto, bambú y yuzu; las Notas de Corazón son flor de loto, fresia y jazmín; las Notas de Fondo son almizcle y cedro.",
    "antes": 2000,
    "liverpool": "ADOLFO DOMINGUEZ Eau de toilette Agua De Bambú para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": ""
   },
   {
@@ -388,7 +466,7 @@
    "desc": "Las Notas de Salida son bambú y acordes verdes; la Nota de Corazón es cardamomo; las Notas de Fondo son cedro, almizcle, cuero y pachulí.",
    "antes": 2200,
    "liverpool": "ADOLFO DOMINGUEZ Eau de parfum Bambú para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": ""
   },
   {
@@ -404,7 +482,7 @@
    "desc": "Las Notas de Salida son sandía, bergamota y limón (lima ácida); las Notas de Corazón son peonía, jazmín, fresia y iris; las Notas de Fondo son almizcle, Amberwood, heliotropo y cedro.",
    "antes": 2200,
    "liverpool": "ADOLFO DOMINGUEZ Eau de parfum Fresia Solar para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": ""
   },
   {
@@ -420,7 +498,7 @@
    "desc": "Las Notas de Salida son grosellas negras y frambuesa; las Notas de Corazón son iris, jazmín y fresia; las Notas de Fondo son vainilla y almizcle.",
    "antes": 2200,
    "liverpool": "ADOLFO DOMINGUEZ Eau de parfum Iris Vainilla para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
@@ -436,7 +514,7 @@
    "desc": "Las Notas de Salida son elemí, grosellas negras, limón italiano (lima italiana) y frambuesa; las Notas de Corazón son jazmín egipcio, ámbar, iris y fresia; las Notas de Fondo son vainilla, almizcle, cachemira, sándalo y ambrarome.",
    "antes": 2200,
    "liverpool": "ADOLFO DOMINGUEZ Eau de parfum Jazmín Tonka para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
@@ -452,7 +530,7 @@
    "desc": "Las Notas de Salida son bergamota y menta; las Notas de Corazón son neroli y jazmín; las Notas de Fondo son cedro y ámbar.",
    "antes": 1900,
    "liverpool": "ADOLFO DOMINGUEZ Eau de toilette Neroli para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": ""
   },
   {
@@ -468,8 +546,24 @@
    "desc": "Las Notas De Salida Son Lichi, Bergamota Y Fresia; Las Notas De Corazón Son Flor De Azahar Del Naranjo, Jazmín Y Flor De Tiaré; Las Notas De Fondo Son Almizcle, Vainilla, Iris Y Almizcle Ambreta.",
    "antes": 2050,
    "liverpool": "ADOLFO DOMINGUEZ Eau de parfum Terracota Musk para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
+  },
+  {
+   "codigo": "706266",
+   "nombre": "Adolfo Dominguez Vetiver Terra 120 ml",
+   "ml": 120,
+   "costo": 799,
+   "existencia": 1,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hfe/h7d/520116238909470.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Adolfo-Dominguez-Vetiver-Terra-120-ml/p/706266",
+   "desc": "Las Notas de Salida son neroli, flor del naranjo africano, ruibarbo, bergamota, lavanda y mandarina; las Notas de Corazón son jazmín, azucena y clavo de olor; las Notas de Fondo son vetiver, tintura de tierra, pachulí, cuero, cedro de Virginia y ámbar.",
+   "tipo": "EDP",
+   "antes": 2050,
+   "liverpool": "ADOLFO DOMINGUEZ Eau de toilette Vetiver Terra para hombre",
+   "ref_fecha": "2026-11-10"
   },
   {
    "codigo": "701436",
@@ -484,7 +578,7 @@
    "desc": "Las notas de salida son limón (lima ácida), mandarina, cardamomo y pimienta rosa; las notas de corazón son lavanda, manzana verde, flor de azahar del naranjo y rosa; las notas de fondo son almizcle, musgo, cedro y pachulí.",
    "antes": 553.48,
    "liverpool": "AFNAN Eau de parfum 9am para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
@@ -500,7 +594,7 @@
    "desc": "Las Notas de Salida son limón (lima ácida), menta, grosellas negras y pimienta rosa; las Notas de Corazón son manzana, incienso y cedro; las Notas de Fondo son jengibre, sándalo, pachulí y jazmín.",
    "antes": 749.09,
    "liverpool": "AFNAN Eau de parfum 9am Dive unisex",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
@@ -516,7 +610,7 @@
    "desc": "Las Notas de Salida son limón (lima ácida), menta, grosellas negras y pimienta rosa; las Notas de Corazón son manzana, incienso y cedro; las Notas de Fondo son jengibre, sándalo, pachulí y jazmín.",
    "antes": 749.09,
    "liverpool": "AFNAN Eau de parfum 9am Dive unisex",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
@@ -537,7 +631,7 @@
    "nombre": "Afnan 9Pm 150 ml",
    "ml": 150,
    "costo": 749,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 0,
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h89/hc7/438561369653278.jpg",
@@ -558,7 +652,7 @@
    "desc": "",
    "antes": 1359.99,
    "liverpool": "AFNAN Eau de parfum Souvenir Desert Rose para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": ""
   },
   {
@@ -599,7 +693,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Al-Haramain-Amber-Oud-Gold-100-ml/p/686433",
    "antes": 739.72,
    "liverpool": "AL HARAMAIN Eau de parfum Amber Oud Gold unisex",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "as notas de salida son bergamota y notas verdes; las notas de corazón son notas dulces, melón, piña y ámbar; las notas de fondo son almizcle, vainilla y notas amaderadas.",
    "tipo": ""
   },
@@ -641,7 +735,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Al-Haramain-L-Aventure-Intense-100-Ml/p/684596",
    "antes": 670.23,
    "liverpool": "AL HARAMAIN Eau de parfum L Aventure Intense para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las notas de salida son bergamota, limón (lima ácida) y elemí; las notas de corazón son notas amaderadas, jazmín Y lirio de los valles (Muguete); Las notas de fondo son almizcle, ámbar y pachulí.",
    "tipo": "EDP"
   },
@@ -658,7 +752,7 @@
    "desc": "Las Notas de Salida son limón (lima ácida), bergamota y elemí; las Notas de Corazón son notas amaderadas, jazmín y lirio de los valles (muguete); las Notas de Fondo son almizcle, pachulí y ámbar.",
    "antes": 600.73,
    "liverpool": "AL HARAMAIN Eau de parfum L Aventure para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": ""
   },
   {
@@ -675,6 +769,19 @@
    "tipo": ""
   },
   {
+   "codigo": "682327",
+   "nombre": "Al Haramain Musk 100 ml",
+   "ml": 100,
+   "costo": 999,
+   "existencia": 1,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hbc/hca/188945433067550.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Al-Haramain-Musk-100-ml/p/682327",
+   "desc": "Las Notas de Salida son limón (lima ácida), menta y flores blancas; las Notas de Corazón son jengibre, nuez moscada, jazmín y lirio de los valles (muguete); las Notas de Fondo son rosa, almizcle, sándalo, cedro y pachulí.",
+   "tipo": ""
+  },
+  {
    "codigo": "685004",
    "nombre": "Al Haramain Oudh Musk 100 ml",
    "ml": 100,
@@ -686,21 +793,60 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Al-Haramain-Oudh-Musk-100-ml/p/685004",
    "antes": 806.43,
    "liverpool": "AL HARAMAIN Eau de parfum Oudh Musk para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas De Salida Son Hojas De Tabaco, Canela, Pimienta Negra Y Jengibre; Las Notas De Corazón Son Vainilla, Clavos De Olor, Anís Estrellado, Cacao, Haba Tonka E Incienso; Las Notas De Fondo Son Tabaco, Frutos Secos Y Notas Amaderadas",
    "tipo": "EDP"
   },
   {
-   "codigo": "701480",
-   "nombre": "Amouage Guidance 46 Extracto De Perfume 100 ml",
+   "codigo": "706836",
+   "nombre": "Amouage Ashore 100 ml",
    "ml": 100,
    "costo": 0,
    "existencia": 0,
    "dama": 1,
    "caballero": 1,
-   "foto": "https://www.costco.com.mx/medias/sys_master/products/hf2/h57/420616839725086.jpg",
-   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Amouage-Guidance-46-Extracto-De-Perfume-100-ml/p/701480",
-   "desc": "Las Notas de Salida son agua de rosas, pera, avellana, almendra amarga, Incienso y pimienta rosa; las Notas de Corazón son rosa, osmanto (olivo oloroso), azafrán y jazmín sambac (sampaguita); las Notas de Fondo son sándalo, Akigalawood, vainilla, almizcle ambreta, Georgywood, ámbar gris, ládano y cipriol (nagarmota).",
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hec/h3b/523359420874782.jpg",
+   "url": "https://www.costco.com.mx/c/Amouage-Ashore-100-ml/p/706836",
+   "desc": "",
+   "tipo": ""
+  },
+  {
+   "codigo": "706835",
+   "nombre": "Amouage Epic Woman 100 ml",
+   "ml": 100,
+   "costo": 0,
+   "existencia": 0,
+   "dama": 1,
+   "caballero": 0,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hf0/h58/523359422611486.jpg",
+   "url": "https://www.costco.com.mx/c/Amouage-Epic-Woman-100-ml/p/706835",
+   "desc": "",
+   "tipo": "EDP"
+  },
+  {
+   "codigo": "706834",
+   "nombre": "Amouage Honour 100 ml",
+   "ml": 100,
+   "costo": 0,
+   "existencia": 0,
+   "dama": 1,
+   "caballero": 0,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hcb/h46/523359424577566.jpg",
+   "url": "https://www.costco.com.mx/c/Amouage-Honour-100-ml/p/706834",
+   "desc": "",
+   "tipo": ""
+  },
+  {
+   "codigo": "706837",
+   "nombre": "Amouage Lineage 100 ml",
+   "ml": 100,
+   "costo": 0,
+   "existencia": 0,
+   "dama": 1,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hc7/h03/523359418744862.jpg",
+   "url": "https://www.costco.com.mx/c/Amouage-Lineage-100-ml/p/706837",
+   "desc": "",
    "tipo": ""
   },
   {
@@ -747,7 +893,7 @@
    "nombre": "Ariana Grande Moonlight 100 ml",
    "ml": 100,
    "costo": 749,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 1,
    "caballero": 0,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h75/hb9/420616739061790.jpg",
@@ -755,7 +901,7 @@
    "desc": "Las notas de salida son grosellas negras y ciruela; las notas de corazón son malvavisco (bombón) y peonía; las notas de fondo son ámbar, sándalo y vainilla.",
    "antes": 1500,
    "liverpool": "ARIANA GRANDE Eau de parfum Moonlight para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": ""
   },
   {
@@ -770,7 +916,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Ariana-Grande-REM/p/686466",
    "antes": 1250,
    "liverpool": "ARIANA GRANDE Eau de parfum R.E.M. para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "R.E.M. de Ariana Grande es una fragancia de la familia olfativa Ámbar Vainilla para Mujeres. Las Notas de Salida son Zéfiro, caramelo, sal, higo y membrillo; las Notas de Corazón son lavanda y flor del peral; las Notas de Fondo son almizcle, haba tonka y sándalo.",
    "tipo": "EDP"
   },
@@ -786,7 +932,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Ariana-Grande-Sweet-Like-Candy-100-ml/p/695013",
    "antes": 1900,
    "liverpool": "ARIANA GRANDE Eau de parfum Sweet Like Candy para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
@@ -801,7 +947,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Ariana-Grande-Thank-U-Next-100-ml/p/695014",
    "antes": 1250,
    "liverpool": "ARIANA GRANDE Eau de parfum Thank U Next para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
@@ -817,7 +963,7 @@
    "desc": "Las Notas de Salida son limón (lima ácida), piña, grosellas negras, bergamota y manzana; las Notas de Corazón son abedul, jazmín y rosa; las Notas de Fondo son almizcle, ámbar gris, pachulí y vainilla.",
    "antes": 1508,
    "liverpool": "ARMAF Eau de toilette Club De Nuit Intense para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDT"
   },
   {
@@ -856,9 +1002,9 @@
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h1b/h08/223982804008990.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Armaf-Club-De-Nuit-Untold-105-ml/p/685005",
-   "antes": 1200,
+   "antes": 1060,
    "liverpool": "ARMAF Eau de parfum Club de Nuit Untold unisex",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas De Salida Son Azafrán Y Jazmín; Las Notas De Corazón Son Amberwood Y Ámbar Gris; Las Notas De Fondo Son Resina De Abeto Y Cedro.",
    "tipo": "EDP"
   },
@@ -886,9 +1032,9 @@
    "foto": "https://www.costco.com.mx/medias/sys_master/products/heb/hbe/207590381223966.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Armaf-Club-De-Nuit-Woman-105Ml/p/684223",
    "desc": ". Las Notas de Salida son naranja, bergamota, toronja y durazno, las Notas de Corazón son rosa, jazmín, geranio y lichi; las Notas de Fondo son pachuli, vainilla, almizcle y vetiver.",
-   "antes": 879,
+   "antes": 880.88,
    "liverpool": "ARMAF Perfume Club de Nuit Woman para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
@@ -904,7 +1050,7 @@
    "desc": "Fragancia floral afrutada tiene una mezcla de bergamota, pomelo, melocotón, naranja, geranio, jazmín, litchi, rosa, almizcle, pachulí, vainilla y vetiver",
    "antes": 559,
    "liverpool": "ARMAF Eau de parfum Milestone Club de Nuit unisex",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": ""
   },
   {
@@ -964,7 +1110,7 @@
    "nombre": "Armaf Odyssey Mandarin Sky 100 Ml",
    "ml": 100,
    "costo": 599,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 0,
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/heb/hdc/210941478338590.jpg",
@@ -972,7 +1118,7 @@
    "desc": "Las Notas de Salida son mandarina, naranja, azafrán y salvia; las Notas de Corazón son caramelo, haba tonka y cempasúchil (tagete, clavelón); las Notas de Fondo son ambroxan, vetiver y cedro.",
    "antes": 373.03,
    "liverpool": "ARMAF Eau de parfum Odyssey Mandarin SKY para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
@@ -1041,19 +1187,6 @@
    "tipo": ""
   },
   {
-   "codigo": "696984",
-   "nombre": "Armani Code 75 ml",
-   "ml": 75,
-   "costo": 0,
-   "existencia": 0,
-   "dama": 0,
-   "caballero": 1,
-   "foto": "https://www.costco.com.mx/medias/sys_master/products/hcc/h04/386579655983134.jpg",
-   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Armani-Code-75-ml/p/696984",
-   "desc": "Las Notas de Salida son bergamota y limón (lima ácida); las Notas de Corazón son anís estrellado, flor del olivo y madera de gaiac; las Notas de Fondo son cuero, tabaco y haba tonka.",
-   "tipo": ""
-  },
-  {
    "codigo": "696786",
    "nombre": "Atkinsons 24 Old Bond Street 100 ml",
    "ml": 100,
@@ -1103,9 +1236,9 @@
    "foto": "https://www.costco.com.mx/medias/sys_master/products/hba/h9e/30938862288926.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Azzaro-Chrome-100ml/p/660243",
    "desc": "Chrome de Azzaro es una fragancia de la familia olfativa Cítrica Aromática para Hombres. Salida: Romero, piña, neroli, bergamota y limón (lima ácida). Corazón: Ciclamen (violeta persa), cilantro, jazmín y musgo de roble. Fondo: Sándalo, haba tonka, almizcle, musgo de roble, cedro, palo de rosa de Brasil y cardamomo.",
-   "antes": 824,
+   "antes": 839,
    "liverpool": "AZZARO Eau de toilette Chrome para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDT"
   },
   {
@@ -1118,9 +1251,9 @@
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h57/h36/66389071495198.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Azzaro-Chrome-200-ml/p/666380",
-   "antes": 824,
+   "antes": 839,
    "liverpool": "AZZARO Eau de toilette Chrome para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Chrome de Azzaro es una fragancia de la familia olfativa cítrica aromática para Hombres. Disfruta de sus notas: Salida: Romero, piña, neroli, bergamota y limón (lima ácida) Corazón: Ciclamen (violeta persa), cilantro, jazmín y musgo de roble Fondo: Sándalo, haba tonka, almizcle, musgo de roble, cedro, palo de rosa de Brasil y cardamomo",
    "tipo": "EDT"
   },
@@ -1134,9 +1267,9 @@
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/hb9/hd0/314760239415326.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Azzaro-Chrome-Parfum-100-ml/p/692954",
-   "antes": 1003.79,
-   "liverpool": "AZZARO Eau de parfum Chrome para hombre",
-   "ref_fecha": "2026-11-06",
+   "antes": 1507.26,
+   "liverpool": "AZZARO Eau de parfum Chrome Parfum para hombre",
+   "ref_fecha": "2026-11-09",
    "desc": "La Nota de Salida es bergamota; la Nota de Corazón es salvia; la Nota de Fondo es resina de abeto.",
    "tipo": ""
   },
@@ -1145,7 +1278,7 @@
    "nombre": "Azzaro Sport 100 ml",
    "ml": 100,
    "costo": 399,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 0,
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h86/hb0/174584237588510.jpg",
@@ -1153,7 +1286,7 @@
    "desc": "Azzaro sport eau de toilette de azzaro es una fragancia de la familia olfativa aromática fougère para hombres. Disfruta de sus notas: Salida: toronja Corazón: esclarea Fondo: sándalo y haba tonka",
    "antes": 517.34,
    "liverpool": "AZZARO Eau de toilette Sport para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDT"
   },
   {
@@ -1168,7 +1301,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Azzaro-The-Most-Wanted-Intense-100-ml/p/695773",
    "antes": 1890,
    "liverpool": "AZZARO Eau de parfum THE MOST WANTED INTENSE para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "La Nota de Salida es cardamomo; la Nota de Corazón es tófe; la Nota de Fondo es Amberwood.",
    "tipo": ""
   },
@@ -1184,7 +1317,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Azzaro-The-Most-Wanted-Intense-100-ml/p/697043",
    "antes": 1890,
    "liverpool": "AZZARO Eau de parfum THE MOST WANTED INTENSE para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "La Nota de Salida es bergamota; la Nota de Corazón es lavanda; las Notas de Fondo son Licor y musgo.",
    "tipo": ""
   },
@@ -1199,8 +1332,8 @@
    "foto": "https://www.costco.com.mx/medias/sys_master/products/hd2/hfa/10769309728798.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Azzaro-Wanted-100-ml/p/644216",
    "antes": 823.11,
-   "liverpool": "AZZARO Eau de parfum Wanted para hombre",
-   "ref_fecha": "2026-11-06",
+   "liverpool": "AZZARO Eau de toilette Wanted para hombre",
+   "ref_fecha": "2026-11-09",
    "desc": "Disfruta de sus notas: Salida: limón (lima ácida), jengibre, lavanda y menta. Corazón: cardamomo guatemalteco, enebro de Virginia, manzana y geranio. Fondo: vetiver de Haití, haba tonka y Amberwood.",
    "tipo": "EDT"
   },
@@ -1215,10 +1348,23 @@
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h73/h63/420616729034782.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Azzaro-Wanted-100-ml/p/701443",
    "antes": 823.11,
-   "liverpool": "AZZARO Eau de parfum Wanted para hombre",
-   "ref_fecha": "2026-11-06",
+   "liverpool": "AZZARO Eau de toilette Wanted para hombre",
+   "ref_fecha": "2026-11-09",
    "desc": "La nota de salida es bayas de enebro; la nota de corazón es salvia; la nota de fondo es vetiver.",
    "tipo": ""
+  },
+  {
+   "codigo": "706838",
+   "nombre": "Bdk French Bouquet 100 ml",
+   "ml": 100,
+   "costo": 3749,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hfb/h84/523359416188958.jpg",
+   "url": "https://www.costco.com.mx/c/Bdk-French-Bouquet-100-ml/p/706838",
+   "desc": "Notas de Salida: Aldehídos, cilantro y bergamota de Italia.Notas de Corazón: Rosa de Marruecos, jazmín y flor de azahar del naranjo.Notas de Fondo: Violeta, ládano, tabaco, sándalo, pachulí, haba tonka y vetiver de Hait",
+   "tipo": "EDP"
   },
   {
    "codigo": "704840",
@@ -1258,7 +1404,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Bharara-Elegance-100-ml/p/693737",
    "antes": 1114.98,
    "liverpool": "BHARARA Eau de parfum Elegance unisex",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "\"• Notas de Salida: Bergamota, Mandarina. • Notas de Corazón: Flor de Naranja, Jazmín, Rosa. • Notas de Fondo: Ámbar, Cedro, Sándalo.\"",
    "tipo": "EDP"
   },
@@ -1274,7 +1420,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Bharara-Enigma-100-ml/p/693739",
    "antes": 929.3,
    "liverpool": "BHARARA Eau de parfum Enigma unisex",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "• Notas de Salida: Bergamota, Azafrán. • Notas de Corazón: Rosa Búlgara, Oud. • Notas de Fondo: Ámbar, Musgo de Roble, Caña de Azúcar, Haba Tonka.",
    "tipo": "EDP"
   },
@@ -1290,7 +1436,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Bharara-Essence-100-ml/p/693740",
    "antes": 929.3,
    "liverpool": "BHARARA Eau de parfum Essence unisex",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "• Notas de Salida: Leche, Caramelo. • Notas de Corazón: Miel, Haba Tonka. • Notas de Fondo: Vainilla, Almizcle Blanco.",
    "tipo": "EDP"
   },
@@ -1306,7 +1452,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Bharara-King-100-ml/p/682920",
    "antes": 1169,
    "liverpool": "BHARARA Eau de parfum King 200 ml para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": ""
   },
   {
@@ -1321,7 +1467,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Bharara-King-100-ml/p/686435",
    "antes": 1169,
    "liverpool": "BHARARA Eau de parfum King 200 ml para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las notas de salida son naranjas, bergamota y limón (lima ácida); la nota de corazón es notas afrutadas; las notas de fondo son vainilla, almizcle blanco y ámbar.",
    "tipo": ""
   },
@@ -1349,7 +1495,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Bharara-Queen-100-ml/p/686434",
    "antes": 1078.29,
    "liverpool": "BHARARA Eau de parfum Queen para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Mezcla floral dulce, con acordes caramelo y flores Blancas",
    "tipo": ""
   },
@@ -1378,7 +1524,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Bharara-Rohit-Delicate-100-ml/p/693742",
    "antes": 730.27,
    "liverpool": "BHARARA Eau de parfum Rohit Delicate para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "• Notas de Salida: Frutas Frescas y Bergamota. • Notas de Corazón: Rosa y Jazmín. • Notas de Fondo: Vainilla, Almizcle y Madera de Sándalo",
    "tipo": "EDP"
   },
@@ -1394,7 +1540,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Bharara-Rose-100-ml/p/692957",
    "antes": 1128.05,
    "liverpool": "BHARARA Eau de parfum Rose para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son lichi, ruibarbo, bergamota y nuez moscada; las Notas de Corazón son rosa turca, peonía, almizcle, petalia y vainilla; las Notas de Fondo son cachemira, incienso, cedro y vetiver de Haití.",
    "tipo": ""
   },
@@ -1410,7 +1556,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Bharara-Viking-Dubai-100-ml/p/682919",
    "antes": 1885,
    "liverpool": "BHARARA Perfume Viking Dubai para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "La apertura de esta fragancia está llena de energía, gracias a la fusión perfecta de bergamota, naranja dulce, limón, pomelo y jengibre. Este cóctel de cítricos y especias te envuelve en una sensación de frescura y vitalidad. A medida que la fragancia evoluciona, descubrirás un corazón rico y complejo de madera de cachemira, magnolia blanca, violeta y haba tonka. Estas notas amaderadas y florales añaden profundidad y misterio a la fragancia, atrapando la atención de aquellos que lo perciben. La base de esta cautivadora fragancia cuenta con notas de ambroxina terrosa y sensual, pachulí, beriberi y almizcle blanco. Estos ingredientes otorgan un toque seductor y duradero a la fragancia.",
    "tipo": ""
   },
@@ -1426,7 +1572,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Billie-Eilish-100-ml/p/676766",
    "antes": 1744,
    "liverpool": "BILLIE EILISH Eau de parfum Eilish unisex",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Eilish de Billie Eilish es una fragancia de la familia olfativa ámbar vainilla para mujeres. lDisfruta de sus notas: Salida: azúcar, bayas rojas y mandarina Corazón: vainilla, cacao, notas especiadas y rosa Fondo: haba tonka, ámbar, almizcle y notas amaderadas.",
    "tipo": "EDP"
   },
@@ -1442,9 +1588,178 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Billie-Eilish-No2-100-ml/p/682921",
    "antes": 2100,
    "liverpool": "BILLIE EILISH Eau de parfum Eilish No. 2 unisex",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son bergamota y flor de manzano; las Notas de Corazón son pimienta negra, papiro de Egipto y amapola; las Notas de Fondo son palo santo, ébano y vainilla.",
    "tipo": ""
+  },
+  {
+   "codigo": "706842",
+   "nombre": "Birkholz Berlin Soul 100 ml",
+   "ml": 100,
+   "costo": 2549,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hf3/hc3/523359410290718.jpg",
+   "url": "https://www.costco.com.mx/c/Birkholz-Berlin-Soul-100-ml/p/706842",
+   "desc": "Las Notas de Salida son avellana y whisky; las Notas de Corazón son madera de oud, tabaco, cedro, sándalo, iris y vetiver; las Notas de Fondo son pachulí, haba tonka, almizcle y ámbar.",
+   "tipo": "EDP"
+  },
+  {
+   "codigo": "706839",
+   "nombre": "Birkholz Cedar N' Pepper 100 ml",
+   "ml": 100,
+   "costo": 4149,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h99/h5a/523359415762974.jpg",
+   "url": "https://www.costco.com.mx/c/Birkholz-Cedar-N-Pepper-100-ml/p/706839",
+   "desc": "Las Notas de Salida son pimienta rosa y rosa; las Notas de Corazón son madera de cachemira y extracto de cedro blanco; las Notas de Fondo son almizcle y ámbar.",
+   "tipo": "EDP"
+  },
+  {
+   "codigo": "706841",
+   "nombre": "Birkholz Citrus Splash 100 ml",
+   "ml": 100,
+   "costo": 2549,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hcf/hb0/523359413305374.jpg",
+   "url": "https://www.costco.com.mx/c/Birkholz-Citrus-Splash-100-ml/p/706841",
+   "desc": "Las Notas de Salida son bergamota y neroli; las Notas de Corazón son rosa de té y fresia; las Notas de Fondo son cedro y almizcle.",
+   "tipo": "EDP"
+  },
+  {
+   "codigo": "706846",
+   "nombre": "Birkholz Incense N' Fire 100 ml",
+   "ml": 100,
+   "costo": 4049,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h0a/h62/523359404163102.jpg",
+   "url": "https://www.costco.com.mx/c/BIRKHOLZ-INCENSE-N-FIRE/p/706846",
+   "desc": "",
+   "tipo": "EDP"
+  },
+  {
+   "codigo": "706844",
+   "nombre": "Birkholz Iris N' Wood 100 ml",
+   "ml": 100,
+   "costo": 4299,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h81/hff/523359407603742.jpg",
+   "url": "https://www.costco.com.mx/c/Birkholz-Iris-N-Wood-100-ml/p/706844",
+   "desc": "Notas de Salida: Cardamomo, comino y toronja (pomelo).Notas de Corazón: Iris, madera de cedro y lirio de los valles.Notas de Fondo: Sándalo, almizcle y madera de cachemira.",
+   "tipo": "EDP"
+  },
+  {
+   "codigo": "706840",
+   "nombre": "Birkholz Luxury Passion 100 ml",
+   "ml": 100,
+   "costo": 2489,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hc0/h1a/523359414222878.jpg",
+   "url": "https://www.costco.com.mx/c/Birkholz-Luxury-Passion-100-ml/p/706840",
+   "desc": "Notas de Salida: Notas acuáticas, mandarina y flor de azahar del naranjo.Notas de Corazón: Menta fresca, anís y geranio.Notas de Fondo: Sándalo, ámbar y pachulí.",
+   "tipo": "EDP"
+  },
+  {
+   "codigo": "706847",
+   "nombre": "Birkholz Roads Of Rome 100 ml",
+   "ml": 100,
+   "costo": 3249,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h04/h18/523359402950686.jpg",
+   "url": "https://www.costco.com.mx/c/Birkholz-Roads-Of-Rome-100-ml/p/706847",
+   "desc": "",
+   "tipo": "EDP"
+  },
+  {
+   "codigo": "706845",
+   "nombre": "Birkholz Royal Amber 100 ml",
+   "ml": 100,
+   "costo": 4049,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hb2/h1e/523359406030878.jpg",
+   "url": "https://www.costco.com.mx/c/Birkholz-Royal-Amber-100-ml/p/706845",
+   "desc": "",
+   "tipo": "EDP"
+  },
+  {
+   "codigo": "706850",
+   "nombre": "Boadicea The Victorious Energizer 100 ml",
+   "ml": 100,
+   "costo": 3619,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h47/h63/523359398363166.jpg",
+   "url": "https://www.costco.com.mx/c/Boadicea-The-Victorious-Energizer-100-ml/p/706850",
+   "desc": "",
+   "tipo": "EDP"
+  },
+  {
+   "codigo": "706848",
+   "nombre": "Boadicea The Victorious Glorious 100 ml",
+   "ml": 100,
+   "costo": 3619,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h0d/h8e/523359401050142.jpg",
+   "url": "https://www.costco.com.mx/c/BOADICEA-THE-VICTORIOUS-G/p/706848",
+   "desc": "",
+   "tipo": "EDP"
+  },
+  {
+   "codigo": "706849",
+   "nombre": "Boadicea The Victorious Monarch 100 ml",
+   "ml": 100,
+   "costo": 3619,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h57/h6b/523359399608350.jpg",
+   "url": "https://www.costco.com.mx/c/Boadicea-The-Victorious-Monarch-100-ml/p/706849",
+   "desc": "",
+   "tipo": "EDP"
+  },
+  {
+   "codigo": "676762",
+   "nombre": "Bond No.9 Chinatown 100 ml",
+   "ml": 100,
+   "costo": 6499,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 0,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hbe/ha3/139273678389278.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Bond-No9-Chinatown-100-ml/p/676762",
+   "desc": "Chinatown de bond no 9 es una fragancia de la familia olfativa ámbar floral para hombres y mujeres. Disfruta de sus notas: Salida: flor del duraznero y bergamota Corazón: nardos, gardenia, peonía y flor de azahar del naranjo Fondo: cardamomo, vainilla, sándalo, madera de gaiac, pachulí y cedro de virginia.",
+   "tipo": "EDP"
+  },
+  {
+   "codigo": "520114",
+   "nombre": "Bond No.9 New York Signature Scent 100ml",
+   "ml": 100,
+   "costo": 7399,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 0,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h5b/h53/12984273272862.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Bond-No9-New-York-Signature-Scent-100ml/p/520114",
+   "desc": "New York Signature Scent es una seductora fragancia de Bond No-9 que mezcla maderas orientales y flores occidentales. Disfruta de sus notas: Extracto de Oud, rosa, habas tonka y almizcle.",
+   "tipo": "EDP"
   },
   {
    "codigo": "695793",
@@ -1469,9 +1784,9 @@
    "caballero": 0,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h3e/h6a/207590382469150.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Burberry-100-Ml/p/684224",
-   "antes": 1348,
+   "antes": 3950,
    "liverpool": "BURBERRY Eau de parfum para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son grosellas negras, durazno (melocotón), chabacano, pera y manzana verde; las Notas de Corazón son jazmín, sándalo y musgo; las Notas de Fondo son almizcle, vainilla y cedro.",
    "tipo": "EDP"
   },
@@ -1488,7 +1803,7 @@
    "desc": "Las Notas de Salida son bergamota, lavanda, menta y tomillo; las Notas de Corazón son sándalo, jazmín, cedro, musgo de roble y geranio; las Notas de Fondo son almizcle, vainilla y ámbar.",
    "antes": 1348,
    "liverpool": "BURBERRY Eau de toilette para Hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": ""
   },
   {
@@ -1595,6 +1910,38 @@
    "tipo": "EDT"
   },
   {
+   "codigo": "702533",
+   "nombre": "Bvlgari Omnia Crystalline 100 ml",
+   "ml": 100,
+   "costo": 2399,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 0,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h11/ha4/438561483489310.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Bvlgari-Omnia-Crystalline-100-ml/p/702533",
+   "desc": "Las Notas de Salida son bambú y pera; las Notas de Corazón son flor de loto, té y casia; las Notas de Fondo son almizcle, madera de gaiac y musgo de roble.",
+   "tipo": "EDP",
+   "antes": 3100,
+   "liverpool": "BVLGARI Eau de toilette Omnia Crystalline para mujer",
+   "ref_fecha": "2026-11-10"
+  },
+  {
+   "codigo": "702528",
+   "nombre": "Bvlgari Omnia Crystalline 100 ml",
+   "ml": 100,
+   "costo": 1899,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 0,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h39/h94/438561475690526.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Bvlgari-Omnia-Crystalline-100-ml/p/702528",
+   "desc": "Las Notas de Salida son bambú y pera; las Notas de Corazón son flor de loto, té y casia; las Notas de Fondo son almizcle, madera de gaiac y musgo de roble.",
+   "tipo": "EDT",
+   "antes": 3100,
+   "liverpool": "BVLGARI Eau de toilette Omnia Crystalline para mujer",
+   "ref_fecha": "2026-11-10"
+  },
+  {
    "codigo": "684235",
    "nombre": "CH Men Pasion 100 ml",
    "ml": 100,
@@ -1620,7 +1967,7 @@
    "desc": "CK Everyone de Calvin Klein es una fragancia de la familia olfativa Cítrica Aromática para Hombres y Mujeres. Disfruta de sus notas: Salida: aceite de naranja y jengibre Corazón: notas acuosas y té Fondo: almizcle, cedro, ámbar y pachulí.",
    "antes": 2300,
    "liverpool": "CK Eau de toilette Everyone unisex",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDT"
   },
   {
@@ -1660,9 +2007,9 @@
    "foto": "https://www.costco.com.mx/medias/sys_master/products/hee/hc3/420616737488926.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Cacharel-Noa-100-ml/p/701448",
    "desc": "Las notas de salida son almizcle blanco, peonía, fresia, notas verdes, durazno (melocotón) y ciruela; las notas de corazón son azucena, lirio de los valles (muguete), hierba verde, jazmín, ylang-ylang y rosa; las notas de fondo son café, vainilla, cilantro, sándalo, incienso, haba tonka y cedro.",
-   "antes": 1403.24,
+   "antes": 1395.03,
    "liverpool": "CACHAREL Eau de toilette Noa para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDT"
   },
   {
@@ -1798,6 +2145,19 @@
    "tipo": "EDT"
   },
   {
+   "codigo": "684229",
+   "nombre": "Calvin Klein In 2U 100 ml",
+   "ml": 100,
+   "costo": 499,
+   "existencia": 1,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hdd/h86/207590390661150.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Calvin-Klein-In-2U-100-ml/p/684229",
+   "desc": "Las Notas de Salida son limón (lima ácida) y hojas de tomatera; las Notas de Corazón son y vaina de cacao; las Notas de Fondo son vetiver, cedro y almizcle blanco.",
+   "tipo": "EDT"
+  },
+  {
    "codigo": "643832",
    "nombre": "Calvin Klein ONE 200 ml",
    "ml": 200,
@@ -1919,13 +2279,26 @@
    "nombre": "Carner Botafumeiro 100 ml",
    "ml": 100,
    "costo": 2849,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 1,
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h91/h7a/420616835399710.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Carner-Botafumeiro-100-ml/p/701468",
    "desc": "Las Notas de Salida son nuez moscada de Indonesia, pimienta rosa y bergamota; las Notas de Corazón son ládano español, hojas de pachulí de Indonesia, fresia y lirio de los valles (muguete); las Notas de Fondo son incienso, styrax y almizcle.",
    "tipo": ""
+  },
+  {
+   "codigo": "706851",
+   "nombre": "Carner Lukomorie 100 ml",
+   "ml": 100,
+   "costo": 2779,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hda/h2c/523359396331550.jpg",
+   "url": "https://www.costco.com.mx/c/Carner-Lukomorie-100-ml/p/706851",
+   "desc": "",
+   "tipo": "EDP"
   },
   {
    "codigo": "704881",
@@ -1952,7 +2325,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Carolina-Herrera-212-Heroes-150-ml/p/680678",
    "antes": 2890,
    "liverpool": "CAROLINA HERRERA Eau de toilette 212 heroes para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "212 heroes de carolina herrera es una fragancia de la familia olfativa aromática frutal para hombres. esta fragancia es nueva. Disfruta de sus notas: Salida: pera, jengibre y marihuana Corazón: geranio y salvia Fondo: almizcle y cuero.",
    "tipo": "EDT"
   },
@@ -1981,8 +2354,21 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Carolina-Herrera-212-Heroes-90-ml/p/674516",
    "antes": 2890,
    "liverpool": "CAROLINA HERRERA Eau de toilette 212 heroes para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "212 Heroes de Carolina Herrera es una fragancia de la familia olfativa Aromática Frutal para Hombres. Disfruta de sus notas: Salida: pera, jengibre y marihuana Corazón: geranio y salvia Fondo: almizcle y cuero.",
+   "tipo": "EDT"
+  },
+  {
+   "codigo": "706863",
+   "nombre": "Carolina Herrera 212 Men",
+   "ml": null,
+   "costo": 1599,
+   "existencia": 1,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hae/hd7/523359377195038.jpg",
+   "url": "https://www.costco.com.mx/c/Carolina-Herrera-212-Men/p/706863",
+   "desc": "",
    "tipo": "EDT"
   },
   {
@@ -1999,6 +2385,19 @@
    "tipo": "EDT"
   },
   {
+   "codigo": "706880",
+   "nombre": "Carolina Herrera 212 Men Mtv 100 ml",
+   "ml": 100,
+   "costo": 1399,
+   "existencia": 1,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h4f/h84/523359350325278.jpg",
+   "url": "https://www.costco.com.mx/c/Carolina-Herrera-212-Men-Mtv-100-ml/p/706880",
+   "desc": "",
+   "tipo": "EDT"
+  },
+  {
    "codigo": "656330",
    "nombre": "Carolina Herrera 212 Men NYC, 100 ml",
    "ml": 100,
@@ -2010,7 +2409,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Carolina-Herrera-212-Men-NYC-100-ml/p/656330",
    "antes": 2285,
    "liverpool": "CAROLINA HERRERA Eau de toilette 212 Nyc Men para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Disfruta de sus notas: Salida: Especias, petit grain, lavanda, notas verdes, toronja y bergamota. Corazón: Jengibre, , gardenia, violeta y salvia. Fondo: Ládano, sándalo, almizcle, madera de gaiac, vetiver y incienso.",
    "tipo": "EDT"
   },
@@ -2024,9 +2423,9 @@
    "caballero": 0,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/ha5/h44/10754708799518.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Carolina-Herrera-212-NYC-100-ml/p/623549",
-   "antes": 2285,
+   "antes": 3200,
    "liverpool": "CAROLINA HERRERA Eau de toilette 212 Nyc para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "212 NYC es un perfume moderno, urbano, carismático, único, como la ciudad de Nueva York. Es optimista, un símbolo de curiosidad y energía de una joven urbana viviendo en una ciudad cosmopólita.Disfruta de sus notas:Nariz detrás de esta fragrancia es Alberto MorillasSalida son flor de azahar del naranjo, mandarina, flor de cactus y bergamotaCorazón son camelia blanca, azucena, gardenia, fresia, jazmín, rosa y lirio de los valles (muguete);Fondo son sándalo y almizcle.",
    "tipo": "EDT"
   },
@@ -2055,7 +2454,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Carolina-Herrera-212-VIP-Men-200ml/p/524225",
    "antes": 2750,
    "liverpool": "CAROLINA HERRERA Eau de toilette 212 Vip Men para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "212 VIP Men de Carolina Herrera se lanzó en el 2011. Disfruta de sus notas: Salida: Lima (limón verde), pimienta, jengibre y maracuyá (fruta de la pasión). Corazón: Especias, vodka, ginebra y menta. Fondo: Ámbar, cuero y notas amaderadas.",
    "tipo": "EDT"
   },
@@ -2071,7 +2470,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Carolina-Herrera-212-VIP-Rose-Elixir-80-ml/p/693767",
    "antes": 3020,
    "liverpool": "CAROLINA HERRERA Eau de parfum 212 Vip Rosé Elixir para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
@@ -2086,7 +2485,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Carolina-Herrera-212-VIP-Rose-125ml/p/530134",
    "antes": 1815,
    "liverpool": "CAROLINA HERRERA Eau de parfum 212 Vip Rosé para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "212 VIP Rosé de Carolina Herrera se lanzó en el 2014. Disfruta de sus notas: Salida: Champaña y notas afrutadas. Corazón: Flor del duraznero (flor del melocotonero). Fondo: Notas amaderadas, almizcle blanco y ámbar.",
    "tipo": "EDP"
   },
@@ -2102,7 +2501,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Carolina-Herrera-212-Vip-Black-Elixir-100-ml/p/701520",
    "antes": 2490,
    "liverpool": "CAROLINA HERRERA Eau de parfum 212 VIP Black Elixir para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "La Nota de Salida es lavanda; la Nota de Corazón es regaliz negro; la Nota de Fondo es vainilla.",
    "tipo": ""
   },
@@ -2118,7 +2517,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Carolina-Herrera-212-Vip-Black-Men-100-ml/p/660246",
    "antes": 2890,
    "liverpool": "CAROLINA HERRERA Eau de parfum 212 Vip Black para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "212 VIP Black de Carolina Herrera es una fragancia de la familia olfativa Aromática Fougère para Hombres. Disfruta las notas: Salida: Absenta, anís y hinojo. Corazón: Lavanda; Fondo: Almizcle y vaina de vainilla negra.",
    "tipo": "EDP"
   },
@@ -2134,7 +2533,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Carolina-Herrera-212-Vip-Black-Men-200-ml/p/697045",
    "antes": 2890,
    "liverpool": "CAROLINA HERRERA Eau de parfum 212 Vip Black para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son absenta, anís y hinojo; la Nota de Corazón es lavanda; las Notas de Fondo son almizcle y vaina de vainilla negra.",
    "tipo": ""
   },
@@ -2150,7 +2549,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Carolina-Herrera-212-Vip-Men-100-ml/p/628264",
    "antes": 2750,
    "liverpool": "CAROLINA HERRERA Eau de toilette 212 Vip Men para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "212 VIP Men fue creado para quienes gustan de la noche y su ambiente, abarrotado de gente que busca diversión. Representa un estilo y la actitud de los hombres VIP de Nueva York. Inspirado en las fiestas más exclusivas.La marca Carolina Herrera lanzó en el 2011 la fragancia 212 VIP para hombre con la frase \" When you touch quality, you know It\".Disfuta de las notas:Salida: Lima, Caviar, Pimienta, Jengibre, Maracuyá.Corazón: Especias, Vodka, Ginebra, Menta.Fondo: Ámbar, Cuero, notas Amaderadas.",
    "tipo": "EDT"
   },
@@ -2166,7 +2565,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Carolina-Herrera-212-Vip-Rose-80-ml/p/628265",
    "antes": 1815,
    "liverpool": "CAROLINA HERRERA Eau de parfum 212 Vip Rosé para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "212 VIP Rosé fue creada para la mujer glamourosa, elegante, que gusta del ambiente de diversión, la moda. Disfruta las notas:Notas de salida: Champán, Afrutado.Notas de Corazón: Flor de Durazno.Notas de Fondo: Amaderadas Almiscle, Ámbar.",
    "tipo": "EDP"
   },
@@ -2182,7 +2581,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Carolina-Herrera-Bad-Boy-100ml/p/529344",
    "antes": 2155,
    "liverpool": "CAROLINA HERRERA Eau de toilette Bad Boy para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Bad Boy de Carolina Herrera se lanzó en el 2019. Disfruta de sus notas: Salida: Bergamota, pimienta negra y pimienta blanca. Corazón: Cedro y salvia. Fondo: Haba tonka, Amberwood y cacao.",
    "tipo": "EDT"
   },
@@ -2198,7 +2597,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Carolina-Herrera-Bad-Boy-Cobalt-100-ml/p/679424",
    "antes": 3140,
    "liverpool": "CAROLINA HERRERA Eau de parfum Bad Boy Cobalt para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Bad boy cobalt parfum electrique de carolina herrera es una fragancia de la familia olfativa amaderada aromática para hombres. Disfruta de sus notas: Salida: pimienta rosa y lavanda Corazón: ciruela y geranio Fondo: trufa, vetiver, cedro y roble.",
    "tipo": "EDP"
   },
@@ -2214,7 +2613,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Carolina-Herrera-Bad-Boy-Cobalt-Elixir-100-ml/p/695779",
    "antes": 2585,
    "liverpool": "CAROLINA HERRERA Eau de parfum Carolina Herrera Bad Boy Cobalt Elixir para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son pimienta negra y salvia; las Notas de Corazón son trufa y notas amaderadas; las Notas de Fondo son vainilla e Incienso.",
    "tipo": ""
   },
@@ -2230,7 +2629,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Carolina-Herrera-Bad-Boy-Elixir-100ml/p/701553",
    "antes": 2585,
    "liverpool": "CAROLINA HERRERA Eau de parfum Bad Boy Elixir para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "La Nota de Salida es salvia; la Nota de Corazón es cuero; la Nota de Fondo es cedro.",
    "tipo": ""
   },
@@ -2246,7 +2645,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Carolina-Herrera-Bad-Boy-Elixir-150-ml/p/701554",
    "antes": 2585,
    "liverpool": "CAROLINA HERRERA Eau de parfum Bad Boy Elixir para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "La Nota de Salida es salvia; la Nota de Corazón es cuero; la Nota de Fondo es cedro.",
    "tipo": ""
   },
@@ -2288,7 +2687,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Carolina-Herrera-CH-200-ml/p/656329",
    "antes": 2850,
    "liverpool": "CAROLINA HERRERA Eau de toilette Ch Men para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Disfruta de sus notas: Salida: Bergamota, toronja (pomelo), limón de Amalfi, fruta tropical y notas acuáticas. Corazón: Jazmín, flor del naranjo africano, canela, tintura de rosas y praliné. Fondo: Sándalo, pachulí, madera de cachemira, cedro de Virginia, almizcle, gamuza y ámbar.",
    "tipo": "EDT"
   },
@@ -2304,7 +2703,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Carolina-Herrera-CH-Men-100-ml/p/617780",
    "antes": 2850,
    "liverpool": "CAROLINA HERRERA Eau de toilette Ch Men para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "CH Men es la fragancia para caballero de Carolina Herrera ideal para el hombre innovador y viajero.Disfruta de sus notas:Salida son bergamota, toronja (pomelo) y hierbaCorazón son azafrán, nuez moscada, notas amaderadas, jazmín y violetaFondo son musgo de roble, ámbar, vainilla, cuero, azúcar, vetiver, sándalo, gamuza y madera de cachemira.",
    "tipo": "EDT"
   },
@@ -2320,8 +2719,21 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Carolina-Herrera-Good-Girl-150-ml/p/679638",
    "antes": 1995,
    "liverpool": "CAROLINA HERRERA Eau de parfum Good Girl para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Good Girl de Carolina Herrera es una fragancia de la familia olfativa Oriental Floral para Mujeres. Disfruta de sus notas: Salida: almendra, café, bergamota y limón Corazón: jazmín sambac, nardos, raíz de lirio, rosa de Bulgaria y flor de azahar del naranjo Fondo: haba tonka, cacao, sándalo, vainilla, praliné, canela, cedro, madera de cachemira, pachulí, ámbar y almizcle.",
+   "tipo": "EDP"
+  },
+  {
+   "codigo": "706864",
+   "nombre": "Carolina Herrera Good Girl 3piezas",
+   "ml": null,
+   "costo": 2129,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 0,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h06/hfc/523359376474142.jpg",
+   "url": "https://www.costco.com.mx/c/CAROLINA-HERRERA-GOOD-GIR/p/706864",
+   "desc": "",
    "tipo": "EDP"
   },
   {
@@ -2336,7 +2748,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Carolina-Herrera-Good-Girl-80-ml/p/647842",
    "antes": 1995,
    "liverpool": "CAROLINA HERRERA Eau de parfum Good Girl para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Good Girl es la fragancia con aroma oriental floral lanzada en el 2016 por Carolina Herrera. Es ideal para la mujer segura de sí misma, que va más alla de lo establecido, independiente, poderosa, sexy y rebelde. Las Notas de Salida son almendra y café. Las Notas de Corazón son jazmín sambac (sampaguita), nardos y raíz de lirio.Las Notas de Fondo son haba tonka, cacao, sándalo y vainilla.",
    "tipo": "EDP"
   },
@@ -2352,7 +2764,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Carolina-Herrera-Good-Girl-Blush-80-Ml/p/686461",
    "antes": 3135,
    "liverpool": "CAROLINA HERRERA Eau de parfum Good Girl Blush para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son bergamota y almendra amarga; las Notas de Corazón son peonía y ylang-ylang; las Notas de Fondo son vainilla y cumarina.",
    "tipo": "EDP"
   },
@@ -2368,7 +2780,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Carolina-Herrera-Good-Girl-Blush-Elixir-80-Ml/p/686445",
    "antes": 3320,
    "liverpool": "CAROLINA HERRERA Eau de parfum Carolina Herrera Good Girl Blush Elixir para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son bergamota y mandarina; las Notas de Corazón son ylang-ylang y rosa; las Notas de Fondo son vainilla y pachulí.",
    "tipo": ""
   },
@@ -2384,7 +2796,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Carolina-Herrera-Men-Wild-Love-100-ml/p/701556",
    "antes": 2710,
    "liverpool": "CAROLINA HERRERA Eau de parfum Carolina Herrera Men Wild Love para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "La Nota de Salida es salvia; la Nota de Corazón es pachulí; la Nota de Fondo es cuero.",
    "tipo": ""
   },
@@ -2400,7 +2812,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Carolina-Herrera-Very-Good-Girl-80ml/p/667080",
    "antes": 4020,
    "liverpool": "CAROLINA HERRERA Eau de parfum Very Good Girl para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Very Good Girl de Carolina Herrera es una fragancia de la familia olfativa Floral Frutal para Mujeres. Disfruta de sus notas: Salida: Lichi y grosella roja Corazón: Rosa Fondo: Vainilla y vetiver",
    "tipo": "EDP"
   },
@@ -2416,7 +2828,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Carolina-Herrera-Very-Good-Girl-Elixir-80-ml/p/701524",
    "antes": 3320,
    "liverpool": "CAROLINA HERRERA Eau de parfum Very Good Girl Elixir para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son Cereza negra y almendra amarga; las Notas de Corazón son rosa y nardos; las Notas de Fondo son vainilla y cacao.",
    "tipo": ""
   },
@@ -2460,6 +2872,19 @@
    "tipo": "EDT"
   },
   {
+   "codigo": "706852",
+   "nombre": "Clive Christian Original N° 1 Men 50 ml",
+   "ml": 50,
+   "costo": 12259,
+   "existencia": 1,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h6a/h06/523359395086366.jpg",
+   "url": "https://www.costco.com.mx/c/CLIVE-CHRISTIAN-ORIGINAL/p/706852",
+   "desc": "",
+   "tipo": "EDP"
+  },
+  {
    "codigo": "644241",
    "nombre": "Coach 90 ml",
    "ml": 90,
@@ -2497,7 +2922,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Coach-Floral-90ml/p/667087",
    "antes": 2650,
    "liverpool": "COACH Eau de parfum Floral para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Coach Floral Eau The Parfum de Coach es una fragancia de la familia olfativa Almizcle Floral Amaderado para Mujeres. Disfruta de sus notas: Salida: Piña, pimienta rosa, naranja, bergamota y limón (lima ácida) Corazón: Gardenia, rosa de té, jazmín sambac (sampaguita) y hediona Fondo: Almizcle, pachulí, vainilla, notas amaderadas y sándalo",
    "tipo": "EDP"
   },
@@ -2526,7 +2951,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Coach-Love-90-ml/p/697026",
    "antes": 2650,
    "liverpool": "COACH Eau de parfum Love para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "La Nota de Salida es fresa salvaje; la Nota de Corazón es rosa roja; la Nota de Fondo es cedro.",
    "tipo": ""
   },
@@ -2542,7 +2967,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Coach-Man-100ml/p/520119",
    "antes": 2590,
    "liverpool": "COACH Eau de toilette Man para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Coach for Men de Coach es una fragancia de la familia olfativa amaderada aromática lanzasa en el 2017. Disfruta de sus notas: Salida: Pera, bergamota, kumquat (naranja enana), toronja (pomelo) y lavanda. Corazón: Cardamomo, cilantro y geranio. Fondo: Vetiver de Haití, gamuza, ámbar gris y Amberwood.",
    "tipo": "EDT"
   },
@@ -2571,7 +2996,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Coach-Wild-Rose-90-ml/p/676783",
    "antes": 2650,
    "liverpool": "COACH Eau de parfum Wild Rose para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Coach Wild Rose De Coach Es Una Fragancia De La Familia Olfativa Floral Frutal Para Mujeres. Disfruta de sus notas: Salida: Grosella Roja y Bergamota Corazón: Rosa y Jazmín Sambac Fondo: Ambroxan, Haba Tonka Y Musgo.",
    "tipo": "EDP"
   },
@@ -2593,7 +3018,7 @@
    "nombre": "Creed Love In Black 75 ml",
    "ml": 75,
    "costo": 6499,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 1,
    "caballero": 0,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h60/h1f/150557269622814.jpg",
@@ -2606,7 +3031,7 @@
    "nombre": "DKNY Be Delicious 100ml",
    "ml": 100,
    "costo": 799,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 1,
    "caballero": 0,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h73/h49/11021996425246.jpg",
@@ -2614,15 +3039,28 @@
    "desc": "Be Delicious de DKNY está inspirada en \"La Gran Manzana\", la manzana es el símbolo de Nueva York, representa el concepto de abundante, lleno de vida y accesible. Es también la fruta de Adán, transporta valores de libertad, sensualidad e inocencia. Es ideal para una mujer que puede ser inocente y sexy, sencilla y a la vez sofisticada.Disfruta de sus notas:Salida son toronja (pomelo), pepino y magnoliaCorazón son nardos, rosa, lirio de los valles (muguete), violeta y manzana verdeFondo son notas amaderadas, ámbar y sándalo.",
    "antes": 1150,
    "liverpool": "DKNY Eau de parfum Be Delicious para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
+  },
+  {
+   "codigo": "682933",
+   "nombre": "DKNY Be Delicious Fresh Blossom 100 ml",
+   "ml": 100,
+   "costo": 0,
+   "existencia": 0,
+   "dama": 1,
+   "caballero": 0,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h03/h36/189581920960542.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/DKNY-Be-Delicious-Fresh-Blossom-100-ml/p/682933",
+   "desc": "Las Notas de Salida son toronja (pomelo), chabacano y casis (grosellero negro); las Notas de Corazón son rosa, lirio de los valles (muguete) y jazmín; las Notas de Fondo son manzana roja y notas amaderadas.",
+   "tipo": ""
   },
   {
    "codigo": "702534",
    "nombre": "DKNY Be Delicious Ice Pop Berry Bliss 50 ml",
    "ml": 50,
    "costo": 599,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 1,
    "caballero": 0,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h48/h97/438561485062174.jpg",
@@ -2630,22 +3068,6 @@
    "desc": "Las Notas de Salida son mango, menta y flor del almendro; las Notas de Corazón son fresa, frambuesa, azucena y fresia; las Notas de Fondo son algodón de azúcar, coco y sándalo.",
    "antes": 1499,
    "liverpool": "DKNY Eau de parfum Be Delicious Ice Pop Berry Bliss para mujer",
-   "ref_fecha": "2026-11-06",
-   "tipo": "EDP"
-  },
-  {
-   "codigo": "702538",
-   "nombre": "DKNY Be Delicious Ice Pop Very Cherry 50 ml",
-   "ml": 50,
-   "costo": 0,
-   "existencia": 0,
-   "dama": 1,
-   "caballero": 0,
-   "foto": "https://www.costco.com.mx/medias/sys_master/products/h42/h28/438561489322014.jpg",
-   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/DKNY-Be-Delicious-Ice-Pop-Very-Cherry-50-ml/p/702538",
-   "desc": "Las Notas de Salida son cereza, lichi, helado y bergamota; las Notas de Corazón son peonía, pera y amapola roja; las Notas de Fondo son almizcle, ámbar y sándalo.",
-   "antes": 1499,
-   "liverpool": "DKNY Eau de parfum Be Delicious Ice Pop Very Cherry para mujer",
    "ref_fecha": "2026-11-06",
    "tipo": "EDP"
   },
@@ -2660,9 +3082,9 @@
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h8c/hf6/522187476271134.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Davidoff-Cool-Water-100ml/p/628230",
    "desc": "Cool Water fue creada por Pierre Bourdon en 1996, el aroma es muy tranquilo, con notas acuáticas que nos recuerdan la brisa del mar, la fría agua de mar, frutas y maderas.Disfruta de sus notas:Notas de Salida: Membrillo, Grosellas, Azucena, Melón, Limón, Flor de loto, Calone.Notas de Corazón: Miel, Flor de Espino, Jazmín, Nenúfar, Lirio, Flor de loto, Rosa.Notas de Fondo: Zarzamora, Raíz de Violeta, Sándalo, Almizcle, Frambuesa, Vainilla, Durazno, Vetiver.",
-   "antes": 557.3,
+   "antes": 1750,
    "liverpool": "DAVIDOFF Eau de toilette Cool Water para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDT"
   },
   {
@@ -2678,8 +3100,24 @@
    "desc": "Las Notas de Salida son agua de mar, lavanda, menta, notas verdes, romero, calone y cilantro; las Notas de Corazón son sándalo, neroli, geranio y jazmín; las Notas de Fondo son almizcle, tabaco, musgo de roble, cedro y ámbar gris.",
    "antes": 619.6,
    "liverpool": "DAVIDOFF Eau de toilette Cool Water para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": ""
+  },
+  {
+   "codigo": "702531",
+   "nombre": "Davidoff Cool Water Sea Rose 100 ml",
+   "ml": 100,
+   "costo": 399,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 0,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h22/hc5/438561480474654.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Davidoff-Cool-Water-Sea-Rose-100-ml/p/702531",
+   "desc": "La Nota de Salida es mandarina; la Nota de Corazón es rosa; la Nota de Fondo es cachemira.",
+   "tipo": "EDT",
+   "antes": 604,
+   "liverpool": "DAVIDOFF Eau de toilette Cool Water Sea Rose para mujer",
+   "ref_fecha": "2026-11-10"
   },
   {
    "codigo": "628229",
@@ -2694,7 +3132,7 @@
    "desc": "Cool Water es una fragancia fresca, nítida, sencilla y muy masculina creada por Pierre Bourdon en 1988, Cool Water ha seducido al consumidor por su sencillez, su frescura y corrección. Disfruta de sus notas: Notas de salida: Hoja de menta, Matices verdes, Lavanda, Cilantro, Romero. Notas de Corazón: Geranio, Neroli, Jazmín, Sándalo. Notas de Fondo: Cedro, Almizcle, Ámbar, Tabaco.",
    "antes": 619.6,
    "liverpool": "DAVIDOFF Eau de toilette Cool Water para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDT"
   },
   {
@@ -2709,7 +3147,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Delroba-Black-Musk-100-ml/p/694217",
    "antes": 920.4,
    "liverpool": "DELROBA Eau de parfum Black Musk para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son bergamota, manzana, tomillo, albahaca y piña; las Notas de Corazón son rosa, jazmín, pimienta rosa y cedro; las Notas de Fondo son pachulí, cuero, almizcle, musgo, ámbar y vainilla.",
    "tipo": "EDP"
   },
@@ -2749,9 +3187,9 @@
    "caballero": 0,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/ha3/hac/277728586563614.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Dolce-Gabbana-Devotion-100-ml/p/688786",
-   "antes": 3250,
+   "antes": 3690,
    "liverpool": "DOLCE&GABBANA Eau de parfum Devotion para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "La Nota de Salida es Candied Lemon; las Notas de Corazón son flor de azahar del naranjo, panacota y ron; la Nota de Fondo es vainilla.",
    "tipo": "EDP"
   },
@@ -2767,7 +3205,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Dolce-Gabbana-Devotion-Intense-100-ml/p/701446",
    "antes": 3950,
    "liverpool": "DOLCE&GABBANA Eau de parfum Intense Devotion para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "La nota de salida es avellana; la nota de corazón es flor de azahar del naranjo; la nota de fondo es vainilla.",
    "tipo": "EDP"
   },
@@ -2809,7 +3247,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Dolce-Gabbana-Dolce-Rose-75-ml/p/692966",
    "antes": 2850,
    "liverpool": "DOLCE&GABBANA Eau de toilette Dolce Rose para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son grosella roja, manzana verde y mandarina; las Notas de Corazón son rosa, rosa de mayo, durazno blanco (melocotón blanco) y magnolia; las Notas de Fondo son almizcle, madera blanca y sándalo.",
    "tipo": "EDT"
   },
@@ -2825,7 +3263,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Dolce-Gabbana-Dolce-Violet-75-ml/p/702499",
    "antes": 1697,
    "liverpool": "DOLCE&GABBANA Eau de toilette Dolce Violet para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son casis (grosellero negro), ciclamen (violeta persa) y mandarina; las Notas de Corazón son grosellas negras, violeta y pera; las Notas de Fondo son almizcle, vainilla de Madagascar y sándalo.",
    "tipo": "EDT"
   },
@@ -2839,9 +3277,9 @@
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h69/hdb/133940788559902.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Dolce-Gabbana-K-100-ml/p/675505",
-   "antes": 1727.7,
+   "antes": 1727.69,
    "liverpool": "DOLCE&GABBANA Eau de parfum K para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "K by Dolce & Gabbana de Dolce&Gabbana es una fragancia de la familia olfativa Amaderada Aromática para Hombres. Disfruta de sus notas: Salida: bayas de enebro, cítricos, naranja sanguina y limón siciliano Corazón: pimiento morrón, lavanda, esclarea y geranio Fondo: vetiver, cedro y pachulí.",
    "tipo": "EDP"
   },
@@ -2855,9 +3293,9 @@
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/ha6/hd9/520116243628062.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Dolce-Gabbana-K-100-ml/p/706274",
-   "antes": 1727.7,
+   "antes": 1727.69,
    "liverpool": "DOLCE&GABBANA Eau de parfum K para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son higo y caramelo; la Nota de Corazón es regaliz; las Notas de Fondo son sándalo y notas amaderadas.",
    "tipo": "Parfum"
   },
@@ -2871,9 +3309,9 @@
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/hbe/h47/169351782137886.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Dolce-Gabbana-K-100-ml/p/680679",
-   "antes": 1727.7,
+   "antes": 1727.69,
    "liverpool": "DOLCE&GABBANA Eau de parfum K para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Dolce & Gabbana k 100ml edt sprayk by dolce & gabbana de dolce&gabbana es una fragancia de la familia olfativa amaderada aromática para hombres. Disfruta de sus notas: Salida: bayas de enebro, cítricos, naranja sanguina y limón siciliano Corazón: pimiento morrón, lavanda, esclarea y geranio Fondo: vetiver, cedro y pachulí.",
    "tipo": "EDT"
   },
@@ -2887,9 +3325,9 @@
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h38/h31/367525745131550.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Dolce-Gabbana-K-200-ml/p/695784",
-   "antes": 1727.7,
+   "antes": 1727.69,
    "liverpool": "DOLCE&GABBANA Eau de parfum K para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son naranja sanguina, bayas de enebro, pimiento morrón, limón (lima ácida), limón siciliano (lima siciliana) y cardamomo; las Notas de Corazón son néctar de higo, lavanda, geranio y esclarea; las Notas de Fondo son cedro, pachulí, vetiver y cipriol (nagarmota).",
    "tipo": ""
   },
@@ -2916,9 +3354,9 @@
    "caballero": 0,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h80/h43/438561354907678.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Dolce-Gabbana-Light-Blue-100-ml/p/702492",
-   "antes": 2990,
+   "antes": 3250,
    "liverpool": "DOLCE&GABBANA Eau de toilette Light Blue para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las notas de salida: una apertura especiada y aromática con benjuí, pimienta rosa, salvia esclarea, lavanda, cardamomo y bayas de enebro; las notas de fondo son amaderadas y resinosas de vetiver, pachulí, sándalo, cedro, mirra, incienso y opopónaco.",
    "tipo": "EDT"
   },
@@ -2940,14 +3378,14 @@
    "nombre": "Dolce & Gabbana Light Blue 200 ml",
    "ml": 200,
    "costo": 1649,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 1,
    "caballero": 0,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/hda/h94/367525744803870.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Dolce-Gabbana-Light-Blue-200-ml/p/695783",
-   "antes": 2990,
+   "antes": 3250,
    "liverpool": "DOLCE&GABBANA Eau de toilette Light Blue para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son limón siciliano (lima siciliana), manzana Granny Smith, cedro y campanilla; las Notas de Corazón son bambú, jazmín y rosa; las Notas de Fondo son cedro, almizcle y ámbar.",
    "tipo": ""
   },
@@ -2964,8 +3402,24 @@
    "desc": "Las Notas de Salida son manzana, cedro, campanilla y limón siciliano (lima siciliana); las Notas de Corazón son rosa blanca, bambú y jazmín; las Notas de Fondo son ámbar, almizcle y cedro.",
    "antes": 3250,
    "liverpool": "DOLCE&GABBANA Eau de toilette Light Blue para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDT"
+  },
+  {
+   "codigo": "701444",
+   "nombre": "Dolce & Gabbana Light Blue Capri In Love 100 ml",
+   "ml": 100,
+   "costo": 1349,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 0,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h33/h9d/420616729624606.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Dolce-Gabbana-Light-Blue-Capri-In-Love-100-ml/p/701444",
+   "desc": "La nota de salida es Té del jazmín; la nota de corazón es manzana; la nota de fondo es Longoza.",
+   "tipo": "",
+   "antes": 3650,
+   "liverpool": "DOLCE&GABBANA Eau de parfum Light Blue Capri In Love para mujer",
+   "ref_fecha": "2026-11-10"
   },
   {
    "codigo": "702498",
@@ -3005,9 +3459,25 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Dolce-Gabbana-Pour-Homme-125ml/p/623554",
    "antes": 2600,
    "liverpool": "DOLCE&GABBANA Eau de toilette Pour Homme para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Pour homme está creado para un hombre fuerte, que se permite el capricho de la vanidad y no disimula su propia fragilidad.Es fresco y pimentado, ilustra la elegancia y el estilo del hombre Dolce & Gabbana. La marca italiana ha realizado “una síntesis perfecta entre un amor innato de la tradición y un deseo ardiente de lo contemporáneo”.El santo y seña del hombre italiano: seductor y sofisticado.Disfruta sus notas:Salida intensa, se debe a las tonalidades frescas de la bergamota, la mandarina y el neroliCorazón especiado y aromático desvela un trío de pimienta, de lavanda y de salviaFondo seco asocia madera de cedro y tabaco con la calidez del haba tonka.",
    "tipo": "EDT"
+  },
+  {
+   "codigo": "702497",
+   "nombre": "Dolce & Gabbana Pour Homme 200 ml",
+   "ml": 200,
+   "costo": 0,
+   "existencia": 0,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h95/h8e/438561363984414.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Dolce-Gabbana-Pour-Homme-200-ml/p/702497",
+   "desc": "Las Notas de Salida son cítricos, bergamota, neroli y mandarina; las Notas de Corazón son lavanda, salvia y pimienta; las Notas de Fondo son tabaco, haba tonka y cedro.",
+   "tipo": "EDT",
+   "antes": 2600,
+   "liverpool": "DOLCE&GABBANA Eau de toilette Pour Homme para hombre",
+   "ref_fecha": "2026-11-10"
   },
   {
    "codigo": "682331",
@@ -3021,7 +3491,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Dolce-Gabbana-Q-100-ml/p/682331",
    "antes": 3550,
    "liverpool": "DOLCE&GABBANA Eau de parfum Q para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son limón siciliano (lima siciliana), naranja sanguina y jazmín; las Notas de Corazón son cereza y heliotropo; las Notas de Fondo son almizcle y cedro.",
    "tipo": "EDP"
   },
@@ -3064,7 +3534,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Dolce-Gabbana-The-One-100-ml/p/674518",
    "antes": 2750,
    "liverpool": "DOLCE&GABBANA Eau de parfum The One para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "The One for Men de Dolce&Gabbana es una fragancia de la familia olfativa Amaderada Especiada para Hombres. Disfruta de sus notas: Salida: cilantro, albahaca y toronja Corazón: jengibre, flor de azahar del naranjo y cardamomo Fondo: ámbar, cedro y tabaco.",
    "tipo": "EDP"
   },
@@ -3080,7 +3550,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Dolce-Gabbana-The-One-100-ml/p/656331",
    "antes": 2750,
    "liverpool": "DOLCE&GABBANA Eau de parfum The One para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Disfruta de sus notas: Salida: Cilantro, albahaca y toronja. Corazón: Jengibre, flor de azahar del naranjo y cardamomo. Fondo: Ámbar, cedro y tabaco.",
    "tipo": "EDT"
   },
@@ -3089,14 +3559,14 @@
    "nombre": "Dolce & Gabbana The One 150 ml",
    "ml": 150,
    "costo": 1699,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 0,
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h4b/hea/187466381787166.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Dolce-Gabbana-The-One-150-ml/p/682333",
    "antes": 2750,
    "liverpool": "DOLCE&GABBANA Eau de parfum The One para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son toronja (pomelo), cilantro y albahaca; las Notas de Corazón son cardamomo, jengibre y flor de azahar del naranjo; las Notas de Fondo son ámbar, tabaco y cedro.",
    "tipo": "EDP"
   },
@@ -3112,7 +3582,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Dolce-Gabbana-The-One-150-ml/p/659851",
    "antes": 2750,
    "liverpool": "DOLCE&GABBANA Eau de parfum The One para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "The One for Men de Dolce & Gabbana es una fragancia de la familia olfativa Amaderada Especiada para Hombres. Disfruta de sus notas: Salida: Cilantro, albahaca y toronja (pomelo). Corazón: Jengibre, flor de azahar del naranjo y cardamomo. Fondo: Ámbar, cedro y tabaco.",
    "tipo": "EDT"
   },
@@ -3233,7 +3703,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Emporio-Armani-Stronger-With-You-150-ml/p/695789",
    "antes": 3490.9,
    "liverpool": "EMPORIO ARMANI Perfume Stronger With You para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son cardamomo, pimienta rosa, hojas de violeta y menta; las Notas de Corazón son salvia, melón, piña, lavanda y canela; las Notas de Fondo son vainilla, castaña, cedro, Amberwood y madera de gaiac.",
    "tipo": ""
   },
@@ -3251,6 +3721,19 @@
    "tipo": ""
   },
   {
+   "codigo": "695777",
+   "nombre": "Eternity 200 ml",
+   "ml": 200,
+   "costo": 899,
+   "existencia": 1,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h20/h20/367525736316958.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Eternity-200-ml/p/695777",
+   "desc": "Las Notas de Salida son lavanda, mandarina, bergamota y limón (lima ácida); las Notas de Corazón son cilantro, azucena, flor de azahar del naranjo, bayas de enebro, albahaca, jazmín, salvia, lirio de los valles (muguete) y geranio; las Notas de Fondo son sándalo, ámbar, almizcle, vetiver y palo de rosa de Brasil.",
+   "tipo": ""
+  },
+  {
    "codigo": "695778",
    "nombre": "Eternity Aqua 100 ml",
    "ml": 100,
@@ -3262,6 +3745,32 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Eternity-Aqua-100-ml/p/695778",
    "desc": "Las Notas de Salida son cítricos, pepino, notas verdes y flor de loto; las Notas de Corazón son lavanda, cedro de Virginia, ciruela y pimienta de Sichuan; las Notas de Fondo son almizcle, sándalo, pachulí y madera de gaiac.",
    "tipo": ""
+  },
+  {
+   "codigo": "706854",
+   "nombre": "Ex Nihilo Musc Infini 100 ml",
+   "ml": 100,
+   "costo": 0,
+   "existencia": 0,
+   "dama": 1,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/ha8/hea/523359392792606.jpg",
+   "url": "https://www.costco.com.mx/c/Ex-Nihilo-Musc-Infini-100-ml/p/706854",
+   "desc": "",
+   "tipo": "EDP"
+  },
+  {
+   "codigo": "706855",
+   "nombre": "Ex Nihilo Rose Hubris 100 ml",
+   "ml": 100,
+   "costo": 4499,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hae/h36/523359390564382.jpg",
+   "url": "https://www.costco.com.mx/c/Ex-Nihilo-Rose-Hubris-100-ml/p/706855",
+   "desc": "",
+   "tipo": "EDP"
   },
   {
    "codigo": "697016",
@@ -3302,6 +3811,19 @@
    "tipo": "EDP"
   },
   {
+   "codigo": "706883",
+   "nombre": "Ferragamo Cieli Di Seta 100 ml",
+   "ml": 100,
+   "costo": 499,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h61/h90/523359345934366.jpg",
+   "url": "https://www.costco.com.mx/c/Ferragamo-Cieli-Di-Seta-100-ml/p/706883",
+   "desc": "",
+   "tipo": "EDP"
+  },
+  {
    "codigo": "694981",
    "nombre": "Ferragamo Convivio 100 ml",
    "ml": 100,
@@ -3325,8 +3847,21 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Ferragamo-Fiamma-100-ml/p/702543",
    "antes": 3200,
    "liverpool": "FERRAGAMO Eau de parfum Fiamma para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "La Nota de Salida es pera blanca; las Notas de Corazón son gardenia y especias; la Nota de Fondo es ámbar.",
+   "tipo": "EDP"
+  },
+  {
+   "codigo": "706882",
+   "nombre": "Ferragamo Foreste Di Seta 100 ml",
+   "ml": 100,
+   "costo": 499,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h62/h45/523359347376158.jpg",
+   "url": "https://www.costco.com.mx/c/Ferragamo-Foreste-Di-Seta-100-ml/p/706882",
+   "desc": "",
    "tipo": "EDP"
   },
   {
@@ -3340,6 +3875,32 @@
    "foto": "https://www.costco.com.mx/medias/sys_master/products/ha2/hc6/363028887732254.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Ferragamo-Gentil-Suono-100-ml/p/694987",
    "tipo": "EDP"
+  },
+  {
+   "codigo": "706886",
+   "nombre": "Ferragamo Giungle Di Seta 100 ml",
+   "ml": 100,
+   "costo": 449,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h5b/hd0/523359339446302.jpg",
+   "url": "https://www.costco.com.mx/c/Ferragamo-Giungle-Di-Seta-100-ml/p/706886",
+   "desc": "",
+   "tipo": "EDP"
+  },
+  {
+   "codigo": "706884",
+   "nombre": "Ferragamo Incanto Charms 100 ml",
+   "ml": 100,
+   "costo": 499,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 0,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/ha6/h75/523359342854174.jpg",
+   "url": "https://www.costco.com.mx/c/Ferragamo-Incanto-Charms-100-ml/p/706884",
+   "desc": "",
+   "tipo": "EDT"
   },
   {
    "codigo": "694986",
@@ -3404,6 +3965,22 @@
    "tipo": "EDP"
   },
   {
+   "codigo": "706885",
+   "nombre": "Ferragamo Sublime Leather 100 ml",
+   "ml": 100,
+   "costo": 499,
+   "existencia": 1,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hf6/h24/523359340003358.jpg",
+   "url": "https://www.costco.com.mx/c/Ferragamo-Sublime-Leather-100-ml/p/706885",
+   "desc": "",
+   "tipo": "EDP",
+   "antes": 2900,
+   "liverpool": "FERRAGAMO Eau de parfum Sublime Leather para hombre",
+   "ref_fecha": "2026-11-10"
+  },
+  {
    "codigo": "697014",
    "nombre": "Ferragamo Subtil 100 ml",
    "ml": 100,
@@ -3453,6 +4030,19 @@
    "tipo": "EDP"
   },
   {
+   "codigo": "639011",
+   "nombre": "Giorgio Armani 100 ml",
+   "ml": 100,
+   "costo": 1599,
+   "existencia": 1,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h21/h16/10764249301022.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Giorgio-Armani-100-ml/p/639011",
+   "desc": "Disfruta de sus notas:Notas de Salida bergamota, mandarina y albahaca.Notas de corazón clavos de olor, azucena y nuez moscada.Notas de Fondo pachulí, musgo de roble y sándalo.",
+   "tipo": "EDT"
+  },
+  {
    "codigo": "694278",
    "nombre": "Giorgio Armani Acqua Di Gioia Intense 100 ml",
    "ml": 100,
@@ -3490,7 +4080,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Giorgio-Armani-Acqua-di-Gioia100-ml/p/617756",
    "antes": 3990,
    "liverpool": "GIORGIO ARMANI Eau de parfum Acqua Di Gioia para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "El concepto de esta fragancia floral acuática se basa en un ideal de una mujer fuerte, serena con el espíritu libre.Esta fragancia explora el tema de la ósmosis entre la mujer y la naturaleza, muestra elegancia y madurez por su radiante aroma.Disfruta de sus notas:Salida se destacan notas de menta chispeante con cítricosCorazón lleva pimienta rosa con jazmín y peoniaFondo de madera de cedro, azúcar morena y láudano para dar un toque salvaje y animal al resultado final.",
    "tipo": "EDP"
   },
@@ -3505,8 +4095,8 @@
    "foto": "https://www.costco.com.mx/medias/sys_master/products/hc4/h3f/350511011659806.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Giorgio-Armani-Armani-Code-Refillable-125-ml/p/694277",
    "antes": 2230,
-   "liverpool": "GIORGIO ARMANI Eau de toilette Code para hombre",
-   "ref_fecha": "2026-11-06",
+   "liverpool": "GIORGIO ARMANI Eau de parfum Armani Code para hombre",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son limón (lima ácida) y bergamota; las Notas de Corazón son anís estrellado, flor del olivo y madera de gaiac; las Notas de Fondo son cuero, haba tonka y tabaco.",
    "tipo": "EDT"
   },
@@ -3514,8 +4104,8 @@
    "codigo": "647839",
    "nombre": "Giorgio Armani Eau de Nuit, 100 ml",
    "ml": 100,
-   "costo": 0,
-   "existencia": 0,
+   "costo": 1259,
+   "existencia": 1,
    "dama": 0,
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h8d/hc5/11050450157598.jpg",
@@ -3535,7 +4125,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Giorgio-Armani-Si-100ml/p/628278",
    "antes": 3990,
    "liverpool": "GIORGIO ARMANI Eau de parfum Sì para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Sí es la fragancia que rinde tributo a la feminidad moderna ideal para la mujer de espíritu libre.Disfruta de sus notas:Nota de Salida: Casis.Notas de Corazón: Fresia, Rosa.Notas de Fondo: Vainilla, Pachulí, Ambroxan, Notas Amaderadas.",
    "tipo": "EDP"
   },
@@ -3551,7 +4141,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Givenchy-Ange-Ou-Demon-100ml/p/639014",
    "antes": 3880,
    "liverpool": "GIVENCHY Eau de parfum Ange Ou Demón para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Ange Ou démon es una creación de una extrañeza sensual, de la familia oriental floral, lanzado en el 2006 por Givenchy. Disfuta de sus notas:Salida: Mandarina, azafrán y tomillo.Corazón: Azucena, orquídea, ylang ylang.Fondo: Haba tonka, vainilla, palo rosa de Brasil y musgo de roble.",
    "tipo": "EDP"
   },
@@ -3560,14 +4150,14 @@
    "nombre": "Givenchy Ange Ou Demon Le Secret 100 ml",
    "ml": 100,
    "costo": 1599,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 1,
    "caballero": 0,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/hb6/h5c/420616886353950.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Givenchy-Ange-Ou-Demon-Le-Secret-100-ml/p/701565",
    "antes": 3880,
    "liverpool": "GIVENCHY Eau de parfum Ange Ou Démon Le Secret para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son limón de Amalfi (lima de Amalfi), té y arándano; las Notas de Corazón son jazmín, peonía y nenúfar (lirio de agua); las Notas de Fondo son notas amaderadas y pachulí.",
    "tipo": ""
   },
@@ -3598,17 +4188,62 @@
    "tipo": "EDT"
   },
   {
+   "codigo": "706895",
+   "nombre": "Givenchy Irresistible Nude Velvet 80 ml",
+   "ml": 80,
+   "costo": 1599,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 0,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h98/ha8/523359292981278.jpg",
+   "url": "https://www.costco.com.mx/c/Givenchy-Irresistible-Nude-Velvet-80-ml/p/706895",
+   "desc": "",
+   "tipo": "EDP",
+   "antes": 2370,
+   "liverpool": "GIVENCHY Eau de parfum Irresistible Nude Velvet para mujer",
+   "ref_fecha": "2026-11-10"
+  },
+  {
+   "codigo": "706859",
+   "nombre": "Goldfield & Banks Island Lush 100 ml",
+   "ml": 100,
+   "costo": 3499,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/had/hdc/523359385059358.jpg",
+   "url": "https://www.costco.com.mx/c/GOLDFIELD-BANKS-ISLAND/p/706859",
+   "desc": "",
+   "tipo": "EDP"
+  },
+  {
    "codigo": "654431",
    "nombre": "Gucci Bamboo 75 ml",
    "ml": 75,
    "costo": 1799,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 1,
    "caballero": 0,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h18/h98/12260025270302.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Gucci-Bamboo-75-ml/p/654431",
    "desc": "Bamboo es una fragancia de Gucci. Disfruta sus notas: Salida:Bergamota. Corazón:Ylang-ylang, azucena casablanca y flor de azahar del naranjo. Fondo:Ámbar,sándalo y vainilla de Tahití.",
    "tipo": "EDP"
+  },
+  {
+   "codigo": "682937",
+   "nombre": "Gucci Bloom 100 ml",
+   "ml": 100,
+   "costo": 2199,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 0,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hff/h44/190476463046686.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Gucci-Bloom-100-ml/p/682937",
+   "desc": "Gucci Bloom de Gucci es una fragancia de la familia olfativa Floral para Mujeres. Gucci Bloom se lanzó en 2017. La Nariz detrás de esta fragrancia es Alberto Morillas. La Nota de Salida es jazmín; la Nota de Corazón es nardos; la Nota de Fondo es Camilla de Rangoon.",
+   "tipo": "EDP",
+   "antes": 3350,
+   "liverpool": "GUCCI Eau de parfum bloom para mujer",
+   "ref_fecha": "2026-11-09"
   },
   {
    "codigo": "628271",
@@ -3635,7 +4270,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Guerlain-LHomme-Ideal-LIntense-100-ml/p/697030",
    "antes": 3590,
    "liverpool": "GUERLAIN Eau de parfum L'homme Ideal L'intense para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son chile (ají), almendra y cardamomo; las Notas de Corazón son rosa de Bulgaria (rosa Damascena de Bulgaria), cuero y ládano; las Notas de Fondo son pachulí, sándalo, haba tonka, vainilla y Humo.",
    "tipo": ""
   },
@@ -3705,7 +4340,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Guerlain-Shalimar-90-ml/p/676791",
    "antes": 3410,
    "liverpool": "GUERLAIN Eau de parfum Shalimar para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Shalimar eau de parfum de guerlain es una fragancia de la familia olfativa oriental especiada para mujeres. Disfruta de sus notas: Salida: cítricos, mandarina, cedro, bergamota y limón Corazón: iris, pachulí, jazmín, vetiver y rosa Fondo: cuero, sándalo, opopónaco, almizcle, algalia, vainilla, incienso y haba tonka.",
    "tipo": "EDP"
   },
@@ -3720,8 +4355,8 @@
    "foto": "https://www.costco.com.mx/medias/sys_master/products/hdd/h9e/139273711255582.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Guerlain-Vetiver-100-ml/p/676789",
    "antes": 3050,
-   "liverpool": "GUERLAIN Eau de toilette Vetiver para hombre",
-   "ref_fecha": "2026-11-06",
+   "liverpool": "GUERLAIN Perfume Vetiver para hombre",
+   "ref_fecha": "2026-11-09",
    "desc": "Vetiver de guerlain es una fragancia de la familia olfativa amaderada aromática para hombres. Disfruta de sus notas: Salida: bergamota, tabaco, limón, nuez moscada, neroli, cilantro y mandarina Corazón: vetiver, pimienta, clavel, salvia, raíz de lirio y sándalo Fondo: vetiver, musgo de roble, cuero, algalia, mirra, haba tonka y ámbar.",
    "tipo": "EDT"
   },
@@ -3736,8 +4371,8 @@
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h75/hb1/386579910295582.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Guerlain-Vetiver-150-ml/p/697048",
    "antes": 3050,
-   "liverpool": "GUERLAIN Eau de toilette Vetiver para hombre",
-   "ref_fecha": "2026-11-06",
+   "liverpool": "GUERLAIN Perfume Vetiver para hombre",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas De Salida Son Nuez Moscada, Cilantro, Mandarina, Neroli, Bergamota, Tabaco Y Limón (Lima Ácida); Las Notas De Corazón Son Clavel, Sándalo, Pimienta, Raíz De Lirio, Salvia Y Vetiver; Las Notas De Fondo Son Cuero, Haba Tonka, Ámbar, Algalia (Civet), Musgo De Roble, Vetiver Y Mirra.",
    "tipo": ""
   },
@@ -3767,34 +4402,8 @@
    "desc": "Las notas de salida son cardamomo, lavanda y limón (lima ácida); las notas de corazón son whisky, café, cuero, canela y notas minerales; las notas de fondo son haba tonka, ámbar y incienso.",
    "antes": 1650,
    "liverpool": "HALLOWEEN Eau de toilette Man X para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": ""
-  },
-  {
-   "codigo": "706220",
-   "nombre": "Hermes 24 Faubourg 50 ml",
-   "ml": 50,
-   "costo": 0,
-   "existencia": 0,
-   "dama": 1,
-   "caballero": 0,
-   "foto": "https://www.costco.com.mx/medias/sys_master/products/h91/h74/520288625524766.jpg",
-   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Hermes-24-Faubourg-50-ml/p/706220",
-   "desc": "Las Notas de Salida son jacinto, naranja, ylang-ylang, durazno (melocotón) y bergamota; las Notas de Corazón son flor de azahar del naranjo, gardenia, jazmín, saúco negro y iris; las Notas de Fondo son ámbar, sándalo, pachulí y vainilla.",
-   "tipo": "EDT"
-  },
-  {
-   "codigo": "706225",
-   "nombre": "Hermes Bel Ami Vetiver 100 ml",
-   "ml": 100,
-   "costo": 0,
-   "existencia": 0,
-   "dama": 0,
-   "caballero": 1,
-   "foto": "https://www.costco.com.mx/medias/sys_master/products/h01/hd7/520288618184734.jpg",
-   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Hermes-Bel-Ami-Vetiver-100-ml/p/706225",
-   "desc": "La fragancia contiene vetiver, cuero ruso, elemí, styrax, ámbar, clavel, cardamomo, iris, algalia (civet), vainilla, albahaca y pachulí.",
-   "tipo": "EDT"
   },
   {
    "codigo": "706219",
@@ -3821,9 +4430,22 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Hermes-Rocabar-100-ml/p/706227",
    "antes": 3950,
    "liverpool": "HERMÈS Eau de toilette Rocabar para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son esencia de cedro, enebro, cilantro, limón (lima ácida) y bergamota; las Notas de Corazón son ciprés italiano, cedro, cardamomo, clavel y violeta; las Notas de Fondo son bálsamo de Canadá, benjuí, vainilla, musgo de roble y pachulí.",
    "tipo": "EDT"
+  },
+  {
+   "codigo": "706860",
+   "nombre": "Houbigant Bois Mystique 100 ml",
+   "ml": 100,
+   "costo": 3489,
+   "existencia": 1,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h79/h35/523359382568990.jpg",
+   "url": "https://www.costco.com.mx/c/Houbigant-Bois-Mystique-100-ml/p/706860",
+   "desc": "",
+   "tipo": "EDP"
   },
   {
    "codigo": "682938",
@@ -3891,7 +4513,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Hugo-Boss-Bottled-Tonic-100-ml/p/653639",
    "antes": 2900,
    "liverpool": "HUGO BOSS Eau de toilette Boss Bottled Tonic para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Bottled Tonic es la fragancia de Hugo Boss lanzada en el 2017. Disfruta sus notas: Salida: toronja (pomelo), naranja amarga, limón (lima ácida) y manzana. Corazón: jengibre, canela, clavos de olor y geranio. Fondo: vetiver y notas amaderadas.",
    "tipo": "EDT"
   },
@@ -3900,7 +4522,7 @@
    "nombre": "Hugo Boss Bottled Unlimited 100 ml",
    "ml": 100,
    "costo": 999,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 0,
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/hd8/h82/10768801792030.jpg",
@@ -3960,7 +4582,7 @@
    "desc": "Una fragancia que te hará sentir más femenina que nunca y llena de ilusión, creando historias nuevas cada día. Sus notas base se componen de lima y pomelo con mezclas de almizcle, azucena y ámbar cremoso.",
    "antes": 990,
    "liverpool": "HUGO BOSS Eau de parfum FEMME para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
@@ -4107,6 +4729,19 @@
    "tipo": ""
   },
   {
+   "codigo": "706861",
+   "nombre": "Initio Mystic Experience 90 ml",
+   "ml": 90,
+   "costo": 5299,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h98/h07/523359381717022.jpg",
+   "url": "https://www.costco.com.mx/c/Initio-Mystic-Experience-90-ml/p/706861",
+   "desc": "",
+   "tipo": "EDP"
+  },
+  {
    "codigo": "701483",
    "nombre": "Initio Oud For Greatness 90 ml",
    "ml": 90,
@@ -4196,7 +4831,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/JUS-Spicydelice-100-ml/p/706258",
    "antes": 3200,
    "liverpool": "J.U.S Perfume Spicydelice unisex",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son cardamomo, jengibre y pimienta rosa; las Notas de Corazón son canela, clavos de olor, nuez moscada y Davana; las Notas de Fondo son vainilla y Amberwood.",
    "tipo": "Parfum"
   },
@@ -4212,7 +4847,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Jean-Paul-Gaultier-Divine-100-ml/p/697031",
    "antes": 4000,
    "liverpool": "JEAN PAUL GAULTIER Eau de parfum Gaultier Divine para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas De Salida Son Calipsone, Bayas Rojas Y Bergamota; Las Notas De Corazón Son Azucena, Ylang-Ylang Y Jazmín; Las Notas De Fondo Son Merengue, Almizcle Y Pachulí.",
    "tipo": ""
   },
@@ -4228,7 +4863,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Jean-Paul-Gaultier-La-Belle-100-ml/p/695797",
    "antes": 3700,
    "liverpool": "JEAN PAUL GAULTIER Eau de parfum La Belle para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "La Nota de Salida es pera; la Nota de Corazón es vetiver; la Nota de Fondo es vainilla.",
    "tipo": ""
   },
@@ -4257,25 +4892,9 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Jean-Paul-Gaultier-La-Belle-Paradise-Garden-100-ml/p/701560",
    "antes": 4070,
    "liverpool": "JEAN PAUL GAULTIER Eau de parfum La Belle Paradise Garden para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "La Nota de Salida es flor de loto azul; la Nota de Corazón es iris; la Nota de Fondo es vainilla.",
    "tipo": ""
-  },
-  {
-   "codigo": "702508",
-   "nombre": "Jean Paul Gaultier Le Beau 125 ml",
-   "ml": 125,
-   "costo": 0,
-   "existencia": 0,
-   "dama": 0,
-   "caballero": 1,
-   "foto": "https://www.costco.com.mx/medias/sys_master/products/h86/heb/438561411006494.jpg",
-   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Jean-Paul-Gaultier-Le-Beau-125-ml/p/702508",
-   "desc": "La Nota de Salida es bergamota; la Nota de Corazón es coco; la Nota de Fondo es haba tonka.",
-   "antes": 3050,
-   "liverpool": "JEAN PAUL GAULTIER Eau de toilette Le Beau para hombre",
-   "ref_fecha": "2026-11-06",
-   "tipo": "EDT"
   },
   {
    "codigo": "697050",
@@ -4289,7 +4908,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Jean-Paul-Gaultier-Le-Beau-Paradise-Garden-125-ml/p/697050",
    "antes": 3355,
    "liverpool": "JEAN PAUL GAULTIER Eau de parfum Le Beau Paradise Garden para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son notas verdes, notas acuosas, menta y jengibre; las Notas de Corazón son coco, higo y sal; las Notas de Fondo son haba tonka y sándalo.",
    "tipo": ""
   },
@@ -4304,8 +4923,8 @@
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h60/h45/10754736914462.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Jean-Paul-Gaultier-Le-Male-125-ml/p/628256",
    "antes": 2950,
-   "liverpool": "JEAN PAUL GAULTIER Eau de parfum Le Male Le Parfum para hombre",
-   "ref_fecha": "2026-11-06",
+   "liverpool": "JEAN PAUL GAULTIER Eau de toilette Le Male para hombre",
+   "ref_fecha": "2026-11-09",
    "desc": "Le Male es una fragancia magnética, atractiva, que seduce con su singularidad; se basa en contrastes: tradicional y audaz, fresco y suaves, fuertes y sensuales, en una palabra: absolutamente irresistible.Fue lanzada en 1995Disfruta de sus notas:Notas de Salida: Abrótano, Lavanda, Menta, Bergamota, Cardamomo.Notas de Corazón: Alcaravea, Flor de Azahar, Canela.Notas de Fondo: Sándalo, Haba Tonka, Ámbar, Vainilla, Cedro.",
    "tipo": "EDT"
   },
@@ -4320,23 +4939,10 @@
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h75/h8d/119653231362078.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Jean-Paul-Gaultier-Le-Male-200-ml/p/674528",
    "antes": 2950,
-   "liverpool": "JEAN PAUL GAULTIER Eau de parfum Le Male Le Parfum para hombre",
-   "ref_fecha": "2026-11-06",
+   "liverpool": "JEAN PAUL GAULTIER Eau de toilette Le Male para hombre",
+   "ref_fecha": "2026-11-09",
    "desc": "Le Male de Jean Paul Gaultier es una fragancia de la familia olfativa Oriental Fougère para Hombres. Disfruta de sus notas: Salida: abrótano, lavanda, menta, bergamota y cardamomo Corazón: alcaravea, flor de azahar del naranjo y canela Fondo: sándalo, haba tonka, ámbar, vainilla y cedro.",
    "tipo": "EDT"
-  },
-  {
-   "codigo": "694992",
-   "nombre": "Jean Paul Gaultier Le Male Elixir Parfum 125 ml",
-   "ml": 125,
-   "costo": 0,
-   "existencia": 0,
-   "dama": 0,
-   "caballero": 1,
-   "foto": "https://www.costco.com.mx/medias/sys_master/products/h38/hfa/363028896972830.jpg",
-   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Jean-Paul-Gaultier-Le-Male-Elixir-Parfum-125-ml/p/694992",
-   "desc": "",
-   "tipo": "EDP"
   },
   {
    "codigo": "695800",
@@ -4402,7 +5008,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Jean-Paul-Gaultier-Scandal-Intense-80-ml/p/702512",
    "antes": 3730,
    "liverpool": "JEAN PAUL GAULTIER Eau de parfum Scandal Intense para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "La Nota de Salida es cardamomo; la Nota de Corazón es ylang-ylang; la Nota de Fondo es absoluto de vainilla.",
    "tipo": "EDP"
   },
@@ -4444,7 +5050,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Jean-Paul-Gaultier-Scandal-Pour-Homme-100-ml/p/676802",
    "antes": 3050,
    "liverpool": "JEAN PAUL GAULTIER Eau de toilette Scandal Pour Homme para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Scandal Pour Homme De Jean Paul Gaultier Es Una Fragancia De La Familia Olfativa Ámbar Amaderada Para Hombres. Disfruta de sus notas: Salida: Esclarea Y Mandarina Corazón: Caramelo Y Haba Tonka Fondo: Vetiver.",
    "tipo": "EDT"
   },
@@ -4452,8 +5058,8 @@
    "codigo": "704882",
    "nombre": "Jeroboam Oriento 30 ml Extracto De Perfume",
    "ml": 30,
-   "costo": 0,
-   "existencia": 0,
+   "costo": 1999,
+   "existencia": 1,
    "dama": 1,
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h11/h26/484393937698846.jpg",
@@ -4523,9 +5129,9 @@
    "caballero": 0,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h73/h9a/12984275042334.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Jimmy-Choo-100ml/p/520120",
-   "antes": 995.71,
+   "antes": 2570,
    "liverpool": "JIMMY CHOO Eau de parfum para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Jimmy Choo es una fragancia de la familia olfativa chipre frutal lanzada en el 2011. Disfruta de sus notas: Salida: Mandarina, pera y notas verdes. Corazón: Orquídea. Fondo: Tófe y pachulí.",
    "tipo": "EDP"
   },
@@ -4541,7 +5147,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Jimmy-Choo-Blossom-100ml/p/667091",
    "antes": 2290,
    "liverpool": "JIMMY CHOO Eau de parfum Blossom para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Jimmy Choo Blossom de Jimmy Choo es una fragancia de la familia olfativa Floral Frutal para Mujeres. Disfruta de sus notas: Salida: Pera, mandarina y bergamota Corazón: Hibisco (flor de Jamaica, cayena), lirio de los valles (muguete) y fresia rosa Fondo: Sándalo, almizcle blanco y ambroxan",
    "tipo": "EDP"
   },
@@ -4568,9 +5174,9 @@
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/heb/h62/12984276090910.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Jimmy-Choo-Man-100ml/p/520122",
-   "antes": 1612.84,
+   "antes": 1612.83,
    "liverpool": "JIMMY CHOO Eau de toilette Man para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Jimmy Choo Man es una fragancia de la familia olfativa aromática frutal lanzada en el 2014. Disfruta de sus notas: Pimienta rosa, hojas de piña, melón, lavanda, gamuza y pachulí.",
    "tipo": "EDT"
   },
@@ -4585,6 +5191,19 @@
    "foto": "https://www.costco.com.mx/medias/sys_master/products/he7/h0f/438561438138398.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Jimmy-Choo-Man-Extreme-100-ml/p/702524",
    "desc": "Las Notas de Salida son tomillo rojo y pimienta negra; las Notas de Corazón son geranio, salvia y nuez moscada; la Nota de Fondo es notas amaderadas.",
+   "tipo": "EDP"
+  },
+  {
+   "codigo": "693751",
+   "nombre": "Jimmy Choo Rose Passion 100 ml",
+   "ml": 100,
+   "costo": 929,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 0,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hd3/h9c/346414691516446.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Jimmy-Choo-Rose-Passion-100-ml/p/693751",
+   "desc": "• Notas de Salida: Frangipani (Plumeria, Plumaria, Atapaima) y Jazmín. • Notas de Corazón: Leche de Coco y Orquídea. • Notas de Fondo: Vainilla y Sándalo.",
    "tipo": "EDP"
   },
   {
@@ -4618,7 +5237,7 @@
    "nombre": "Jo Milano Game Of Spades King 100 ml Parfum",
    "ml": 100,
    "costo": 1199,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 1,
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/hc3/hc9/484393921413150.jpg",
@@ -4653,6 +5272,19 @@
    "tipo": "EDP"
   },
   {
+   "codigo": "695802",
+   "nombre": "Kate Spade Sparkle Intense 100 ml",
+   "ml": 100,
+   "costo": 799,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 0,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h30/hb1/367525830328350.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Kate-Spade-Sparkle-Intense-100-ml/p/695802",
+   "desc": "Las Notas de Salida son grosellas negras y pimienta rosa; las Notas de Corazón son peonía y flor del espino; las Notas de Fondo son vainilla, créme brulée y cedro.",
+   "tipo": ""
+  },
+  {
    "codigo": "654437",
    "nombre": "Kenzo Amour, 100 ml",
    "ml": 100,
@@ -4664,7 +5296,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Kenzo-Amour-100-ml/p/654437",
    "antes": 3100,
    "liverpool": "KENZO Eau de parfum Amour para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Amour es una fragancia de Kenzo para dama, disfruta de sus notas: Corazón:Flor del cerezo, frangipani (plumeria, plumaria, atapaima) y heliotropo. Fondo: Almizcle, vainilla, notas amaderadas y incienso",
    "tipo": "EDP"
   },
@@ -4680,7 +5312,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Kenzo-Flower-100-ml/p/602308",
    "antes": 1390,
    "liverpool": "KENZO Eau de toilette Flower para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Flower de Kenzo es la fragancia ideal para la mujer activa, fuerte, enérgica y expresiva .La flor de amapola es su emblema, dentro de un mundo urbanizado, tecnológico, esta flor es un enlace con la naturaleza, la amapola crece donde menos se le espera, en la ciudad.Disfruta de sus notas:Salida: Grosellas Negras, Flor de espino, Rosa de Bulgaria, MandarinaCorazón: Apopónax, Jazmín, Violeta, RosaFondo: Fondo suave y empolvado a base de opopanax, de vainilla y de almizcle blanco.",
    "tipo": "EDP"
   },
@@ -4696,7 +5328,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Kenzo-Flower-Poppy-Bouquet-100-ml/p/694993",
    "antes": 1665,
    "liverpool": "KENZO Eau de parfum Flower Poppy Bouquet para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
@@ -4854,7 +5486,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Lacoste-Lhomme-100-ml/p/679433",
    "antes": 1499,
    "liverpool": "LACOSTE Eau de toilette l´homme para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Lacoste L'homme es una fragancia Amaderada Especiada. Disfruta de sus notas: Salida: mandarina, ruibarbo, naranja dulce y membrillo Corazón: jengibre, almendra, pimienta negra y jazmín Fondo: vainilla, notas amaderadas, cedro, ámbar y almizcle.",
    "tipo": "EDT"
   },
@@ -4883,19 +5515,6 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Lacoste-Red-125-ml/p/680685",
    "desc": "Red de Lacoste Fragrances es una fragancia de la familia olfativa Amaderada Especiada para Hombres. Disfruta de sus notas: Salida: mandarina, mango y té rooibos Corazón: jengibre, cardamomo y pimienta Fondo son benjuí, acacia negra y notas amaderadas.",
    "tipo": "EDT"
-  },
-  {
-   "codigo": "680686",
-   "nombre": "Lacoste Rose 100 ml",
-   "ml": 100,
-   "costo": 1299,
-   "existencia": 1,
-   "dama": 1,
-   "caballero": 0,
-   "foto": "https://www.costco.com.mx/medias/sys_master/products/h6a/h5c/168570955759646.jpg",
-   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Lacoste-Rose-100-ml/p/680686",
-   "desc": "L.12.12 Eau de Parfum Rose For Her de Lacoste Fragrances es una fragancia de la familia olfativa Floral Frutal para Mujeres. Disfruta de sus notas: Salida: mandarina verde y menta Corazón: rosa y frangipani Fondo: almizcle y almizcle ambreta.",
-   "tipo": "EDP"
   },
   {
    "codigo": "643187",
@@ -4974,7 +5593,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Lancome-Idole-100-ml/p/680688",
    "antes": 1700,
    "liverpool": "LANCOME Eau de parfum Idôle para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Idôle de Lancome es una fragancia de la familia olfativa Chipre Floral para Mujeres. Esta fragrancia es nueva. Disfruta de sus notas: Salida: bergamota y pera Corazón: rosa turca, rosa de Mai y jazmín de la India Fondo: almizcle blanco y vainilla.",
    "tipo": "EDP"
   },
@@ -5003,7 +5622,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Lancome-La-Vie-Est-Belle-100-ml/p/628268",
    "antes": 1980,
    "liverpool": "LANCOME Eau de parfum La Vie Est Belle para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "La Vie Est Belle es el perfume de la felicidad, de la sonrisa y de la libertad. El perfume que hace que la vida sea más bella donde la mujer es la heroína principal.Disfruta de sus notas:Salida: pera, casís, notas aldehidasCorazón: azahar, jazmín e irisFondo: vainilla, praline, pachulí y Haba Tonk.",
    "tipo": "EDP"
   },
@@ -5019,7 +5638,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Lancome-La-Vie-Est-Belle-Iris-Absolu-100-ml/p/694235",
    "antes": 1950,
    "liverpool": "LANCOME Eau de parfum La Vie Est Belle Iris Absolu para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son grosellas negras, higo y flor de azahar del naranjo; las Notas de Corazón son flor de azahar del naranjo y jazmín; las Notas de Fondo son iris, Acuerdo goloso y pachulí.",
    "tipo": "EDP"
   },
@@ -5048,7 +5667,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Lancome-Miracle-100ml/p/666396",
    "antes": 1750,
    "liverpool": "LANCOME Eau de parfum Miracle para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Miracle de Lancome es una fragancia de la familia olfativa floral para mujeres. Disfruta de sus notas: Salida: Lichi y fresia Corazón: Magnolia, jengibre, mandarina, pimienta y jazmín Fondo son ámbar, almizcle y jazmín",
    "tipo": "EDP"
   },
@@ -5064,6 +5683,22 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Lancome-Poeme-100ml/p/653646",
    "desc": "Poeme es la fragancia de Lancome lanzada en 1995. Disfruta sus notas: Salida:grosellas negras, amapola azul del Himalaya, ciruela, notas verdes, mandarina, narciso, durazno (melocotón), bergamota y datura. Corazón:mimosa, cuero , flor de azahar del naranjo, fresia, jazmín, heliotropo, ylang-ylang, flor de vainilla, nardos y rosa. Fondo:haba tonka, ámbar, almizcle, vainilla, flor de azahar del naranjo y cedro.",
    "tipo": "EDP"
+  },
+  {
+   "codigo": "617765",
+   "nombre": "Lancome Tresor 100 ml",
+   "ml": 100,
+   "costo": 2299,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 0,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/haa/hc6/12053669412894.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Lancome-Tresor-100-ml/p/617765",
+   "desc": "El concepto de esta fragancia se basa en un ideal de una mujer romántica, sensual y emocional. Isabella Rosellini, modelo estrella de Lancôme, fue la encargada de dar a conocer este perfume. Fue escogida por ser cercana, sencilla, fuera del tiempo y eternamente femenina. Logró transmitir y compartir la emoción de un encuentro amoroso durante el lanzamiento. Actualmente, Inés Sastre, modelo de Lancôme, le da un segundo giro a la fragancia compartiendo la emoción de los \"momentos importantes\", con risas y lágrimas. El perfumista creador, Sophia Grosjman es especialista de aromas de rosa. En un principio, creó este perfume para ella, para que dé \"ganas de abrazar\". Sedujo a Lancôme cuyo emblema es la rosa. Su inmenso éxito mundial y la imagen de un perfume para una misma y no para los demás, marcó un cambio en la perfumería de los años 90. Disfruta de sus notas: Salida: Piña, lila, durazno ",
+   "tipo": "EDP",
+   "antes": 3790,
+   "liverpool": "LANCOME Eau de parfum Tresor para mujer",
+   "ref_fecha": "2026-11-10"
   },
   {
    "codigo": "682342",
@@ -5130,7 +5765,7 @@
    "desc": "Bade'e al oud amethyst de lattafa perfumes es una fragancia de la familia olfativa c para hombres y mujeres. Disfruta de sus notas: Salida: pimienta rosa y bergamota Corazón: rosa turca, rosa de bulgaria y jazmín Fondo: madera de oud, ámbar y vainilla.",
    "antes": 572.92,
    "liverpool": "LATTAFA Eau de parfum Amethyst Bade'e Al Oud para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
@@ -5157,9 +5792,9 @@
    "foto": "https://www.costco.com.mx/medias/sys_master/products/hd7/hac/210941619372062.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Lattafa-Ejaazi-100-Ml/p/684602",
    "desc": "Las Notas de Salida son cítricos, naranja, cardamomo, lavanda y mirto; las Notas de Corazón son pimienta, pachulí, lirio de los valles (muguete) y Hoja de la canela; las Notas de Fondo son ambroxan, notas amaderadas, ámbar, cedro, musgo de roble y vetiver.",
-   "antes": 448.49,
+   "antes": 461.75,
    "liverpool": "LATTAFA Eau de parfum Ejaazi unisex",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
@@ -5201,8 +5836,21 @@
    "desc": "Las Notas de Salida son pimienta y nuez moscada; las Notas de Corazón son cedro y ámbar; las Notas de Fondo son ládano y incienso.",
    "antes": 545.14,
    "liverpool": "LATTAFA Eau de parfum Hala unisex",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
+  },
+  {
+   "codigo": "697052",
+   "nombre": "Lattafa His Confession 100 ml",
+   "ml": 100,
+   "costo": 649,
+   "existencia": 1,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hce/hb1/386580054048798.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Lattafa-His-Confession-100-ml/p/697052",
+   "desc": "Las Notas de Salida son canela, lavanda y mandarina; las Notas de Corazón son iris, benjuí, ciprés y Mahonial; las Notas de Fondo son vainilla, haba tonka, ámbar, incienso, cedro y pachulí.",
+   "tipo": ""
   },
   {
    "codigo": "680691",
@@ -5248,7 +5896,7 @@
    "nombre": "Lattafa Pride Ansaam Gold 100 ml",
    "ml": 100,
    "costo": 449,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 0,
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/hb7/h2c/438561420902430.jpg",
@@ -5308,7 +5956,7 @@
    "desc": "Royal Sapphire de Lattafa Perfumes es una fragancia de la familia olfativa para Hombres y Mujeres. Las Notas de Salida son azafrán, mandarina y limón (lima ácida); las Notas de Corazón son jazmín y rosa; las Notas de Fondo son ámbar gris, vainilla y almizcle.",
    "antes": 642.42,
    "liverpool": "LATTAFA Eau de parfum Royal Sapphire unisex",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
@@ -5324,8 +5972,24 @@
    "desc": "Las Notas de Salida son jengibre, bergamota, enebro de Virginia y nuez moscada; las Notas de Corazón son lavanda y flor de azahar del naranjo; las Notas de Fondo son ambroxan, cuero, pachulí y vetiver.",
    "antes": 1248.99,
    "liverpool": "LATTAFA Eau de parfum Lattafa Ta'weel para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
+  },
+  {
+   "codigo": "686451",
+   "nombre": "Lattafa Wajood 100 ml",
+   "ml": 100,
+   "costo": 0,
+   "existencia": 0,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h2c/h41/245743026012190.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Lattafa-Wajood-100-ml/p/686451",
+   "desc": "Las Notas de Salida son notas marinas y pimienta rosa; las Notas de Corazón son vetiver y pachulí; las Notas de Fondo son sándalo y ámbar.",
+   "tipo": "EDP",
+   "antes": 960,
+   "liverpool": "LATTAFA Eau de parfum Wajood unisex",
+   "ref_fecha": "2026-11-10"
   },
   {
    "codigo": "693754",
@@ -5340,7 +6004,7 @@
    "desc": "• Notas de Salida: Grosellas Negras y Mandarina Verde. • Notas de Corazón: Strawberry Fizz Candy y Gardenia. • Notas de Fondo: Vainilla, Ámbar, Almizcle y Sándalo.",
    "antes": 797,
    "liverpool": "LATTAFA Eau de parfum Yara Candy para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
@@ -5354,9 +6018,9 @@
    "foto": "https://www.costco.com.mx/medias/sys_master/products/hcb/h46/438561429880862.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Lattafa-Yara-Elixir-100-ml/p/702520",
    "desc": "Las Notas de Salida son S'mores de Fresa y grosellas negras; las Notas de Corazón son flor de azahar del naranjo y jazmín; las Notas de Fondo son vainilla, caramelo, ámbar y almizcle",
-   "antes": 1073.99,
+   "antes": 1071,
    "liverpool": "LATTAFA Eau de parfum YARA ELIXIR para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
@@ -5370,9 +6034,9 @@
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h15/h22/210941612589086.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Lattafa-Yara-Moi-100-Ml/p/684601",
    "desc": "Las Notas de Salida son jazmín y durazno (melocotón); las Notas de Corazón son caramelo y ámbar; las Notas de Fondo son pachulí y sándalo.",
-   "antes": 349.71,
-   "liverpool": "LATTAFA Eau de parfum Yara Moi para mujer",
-   "ref_fecha": "2026-11-06",
+   "antes": 349.7,
+   "liverpool": "LATTAFA Eau de parfum YARA MOI para mujer",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
@@ -5386,9 +6050,9 @@
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h69/h89/349262841544734.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Lattafa-Yara-Tous-100-ml/p/694239",
    "desc": "Las Notas De Salida Son Mango, Coco Y Maracuyá (Fruta De La Pasión); Las Notas De Corazón Son Jazmín, Heliotropo Y Flor De Azahar Del Naranjo; Las Notas De Fondo Son Vainilla, Cachemira Y Almizcle.",
-   "antes": 543.44,
+   "antes": 555,
    "liverpool": "LATTAFA Eau de parfum Yara Tous para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
@@ -5442,7 +6106,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Michael-Kors-Pour-Femme-100-ml/p/695814",
    "antes": 2650,
    "liverpool": "MICHAEL KORS Eau de parfum Pour Femme para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son mandarina, grosellas negras y pimienta rosa; las Notas de Corazón son jazmín sambac (sampaguita), lirio de los valles (muguete) y rosa de Bulgaria (rosa Damascena de Bulgaria); las Notas de Fondo son almizcle, pachulí y vainilla.",
    "tipo": ""
   },
@@ -5458,7 +6122,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Michael-Kors-Pour-Homme-100-ml/p/695813",
    "antes": 2650,
    "liverpool": "MICHAEL KORS Eau de parfum Pour Homme para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son bergamota, lavanda y pimienta rosa; las Notas de Corazón son agua de mar, geranio y salvia; las Notas de Fondo son ámbar gris, vetiver y pachulí.",
    "tipo": ""
   },
@@ -5474,7 +6138,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Michael-Kors-Sexy-Amber-100ml/p/644219",
    "antes": 2300,
    "liverpool": "MICHAEL KORS Eau de parfum Sexy Amber para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "La fragrancia contiene ámbar, flores blancas y sándalo.",
    "tipo": "EDP"
   },
@@ -5528,7 +6192,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Moncler-Pour-Femme-150-ml/p/696792",
    "antes": 3348.99,
    "liverpool": "MONCLER Eau de parfum Pour Femme para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Notas corazón: Jazmín y heliotropo • Notas de salida: Acorde de nieve en polvo combinado con bergamota • Notas de fondo: Maderas preciosas de montaña y vainilla.",
    "tipo": "EDP"
   },
@@ -5584,15 +6248,15 @@
    "desc": "La fragancia contiene merengue, vainilla de Madagascar, leche, caramelo y almendra.",
    "antes": 2399.99,
    "liverpool": "MONTALE Eau de parfum Vanilla cake unisex",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
    "codigo": "518157",
    "nombre": "Montblanc Emblem 100ml",
    "ml": 100,
-   "costo": 0,
-   "existencia": 0,
+   "costo": 899,
+   "existencia": 1,
    "dama": 0,
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h13/hc9/10754110062622.jpg",
@@ -5612,7 +6276,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Montblanc-Explorer-100-ml/p/662796",
    "antes": 2920,
    "liverpool": "MONTBLANC Eau de parfum Explorer para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Explorer de Montblanc es una fragancia de la familia olfativa Amaderada Aromática para Hombres. Disfruta de sus notas: Salida: Bergamota, pimienta rosa y esclarea. Corazón: Cuero y vetiver de Haití. Fondo: Hojas de pachulí de Indonesia, vaina de cacao, Akigalawood y ambroxan.",
    "tipo": "EDP"
   },
@@ -5628,7 +6292,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Montblanc-Legend-100-ml/p/673768",
    "antes": 2750,
    "liverpool": "MONTBLANC Eau de toilette Legend para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Legend de Montblanc es una fragancia de la familia olfativa Aromática Fougère para Hombres. Disfruta de sus notas: Salida: lavanda, bergamota, cedrón y piña Corazón: cumarina, musgo de roble, geranio, rosa, manzana roja y frutos secos Fondo: sándalo y haba tonka.",
    "tipo": "EDP"
   },
@@ -5645,7 +6309,7 @@
    "desc": "Legend Men es la fragancia ideal para el hombre inspirador, virtuoso y seguro de sí mismos, valiente, apasionado y auténtico. Su fragancia es sutil pero impactante y masculina.Disfruta de sus notas:Salida son lavanda, bergamota, cedrón (hierba luisa, verbena de olor) y piña.Corazón son cumarina, musgo de roble, geranio, rosa, manzana roja y frutos secos.Fondo son sándalo y haba tonka.",
    "antes": 2750,
    "liverpool": "MONTBLANC Eau de toilette Legend para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDT"
   },
   {
@@ -5660,7 +6324,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Montblanc-Legend-200-ml/p/666384",
    "antes": 2750,
    "liverpool": "MONTBLANC Eau de toilette Legend para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Legend de Montblanc es una fragancia de la familia olfativa aromática fougère para hombres. Disfruta de sus notas: Salida: Lavanda, bergamota, cedrón (hierba luisa, verbena de olor) y piña Corazón: Cumarina, musgo de roble, geranio, rosa, manzana roja y frutos secos Fondo: Sándalo y haba tonka.",
    "tipo": "EDT"
   },
@@ -5676,7 +6340,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Montblanc-Legend-Blue-100-ml/p/695815",
    "antes": 2920,
    "liverpool": "MONTBLANC Eau de parfum Legend Blue para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son lavanda y menta; las Notas de Corazón son sándalo y cedro; las Notas de Fondo son ambroxan y musgo.",
    "tipo": ""
   },
@@ -5692,7 +6356,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Montblanc-Legend-Red-100-ml/p/676812",
    "antes": 2920,
    "liverpool": "MONTBLANC Eau de parfum Legend Red para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Legend red de montblanc es una fragancia de la familia olfativa para hombres. Disfruta de sus notas: Salida: naranja sanguina, toronja y cardamomo Corazón: cedro, esclarea y bayas de enebro Fondo: cedro del atlas, caoba y haba tonka.",
    "tipo": "EDP"
   },
@@ -5708,6 +6372,19 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Montblanc-Legend-Spirit-100-ml/p/643781",
    "desc": "Legend Spirit es la nueva fragancia de Mont Blanc lanzada en el 2016, más viril pero con las mismas dosis de energía y seductora sinceridad. Disfruta de sus notas:Salida: Bergamota, pimienta rosa y toronja.Corazón: Cardamomo, lavanda y notas acuáticas.Fondo: Musgo de roble, almizcle blanco, madera de cachemira y maderas blancas.",
    "tipo": "EDT"
+  },
+  {
+   "codigo": "697027",
+   "nombre": "Montblanc Legend Spirit 200 ml",
+   "ml": 200,
+   "costo": 0,
+   "existencia": 0,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h0f/h41/386579818971166.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Montblanc-Legend-Spirit-200-ml/p/697027",
+   "desc": "Las Notas de Salida son bergamota, pimienta rosa y toronja (pomelo); las Notas de Corazón son cardamomo, lavanda y notas acuáticas; las Notas de Fondo son musgo de roble, almizcle blanco, madera de cachemira y maderas blancas.",
+   "tipo": ""
   },
   {
    "codigo": "628239",
@@ -5734,7 +6411,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Montblanc-Signature-90ml/p/667095",
    "antes": 2690,
    "liverpool": "MONTBLANC Eau de parfum Signature para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Signature de Montblanc es una fragancia de la familia olfativa Ámbar Floral para Mujeres. Disfruta de sus notas: Salida: Clementina Corazón: Magnolia, ylang-ylang y peonía Fondo: Vainilla, almizcle blanco y benjuí",
    "tipo": "EDP"
   },
@@ -5749,6 +6426,19 @@
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h3c/hfc/189581935280158.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Montblanc-Signature-Absolue-90-ml/p/682972",
    "desc": "Las notas de salida son pera, mandarina y pimienta rosa; las notas de corazón son ylang-ylang, frangipani (plumeria, plumaria, atapaima) y nardos; las notas de fondo son haba tonka y cedro.",
+   "tipo": ""
+  },
+  {
+   "codigo": "695818",
+   "nombre": "Montblanc Vetiver Glacier 125 ml",
+   "ml": 125,
+   "costo": 1299,
+   "existencia": 1,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h85/hb5/367525852610590.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Montblanc-Vetiver-Glacier-125-ml/p/695818",
+   "desc": "La Nota de Salida es vetiver; la Nota de Corazón es enebro de Virginia; la Nota de Fondo es sándalo.",
    "tipo": ""
   },
   {
@@ -5828,7 +6518,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Moschino-Toy-2-Pearl-100-ml/p/692975",
    "antes": 2800,
    "liverpool": "MOSCHINO Eau de parfum Toy 2 Pearl unisex",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son limón (lima ácida), sorbete y orégano; las Notas de Corazón son arena, fresia y jazmín; las Notas de Fondo son almizcle, ciprés y vetiver.",
    "tipo": ""
   },
@@ -5846,6 +6536,22 @@
    "tipo": "EDP"
   },
   {
+   "codigo": "706893",
+   "nombre": "Moschino Toy Boy 2 100 ml",
+   "ml": 100,
+   "costo": 1199,
+   "existencia": 1,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hf7/hac/523359296061470.jpg",
+   "url": "https://www.costco.com.mx/c/Moschino-Toy-Boy-2-100-ml/p/706893",
+   "desc": "",
+   "tipo": "EDP",
+   "antes": 2800,
+   "liverpool": "MOSCHINO Eau de parfum Toy Boy 2 para hombre",
+   "ref_fecha": "2026-11-10"
+  },
+  {
    "codigo": "697021",
    "nombre": "Mugler Alien 60 ml",
    "ml": 60,
@@ -5857,9 +6563,25 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Mugler-Alien-60-ml/p/697021",
    "antes": 1001.01,
    "liverpool": "MUGLER Eau de parfum Alien para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "La Nota de Salida es jazmín; la Nota de Corazón es notas amaderadas; la Nota de Fondo es ámbar.",
    "tipo": ""
+  },
+  {
+   "codigo": "697058",
+   "nombre": "Mugler Alien Hypersense 90 ml",
+   "ml": 90,
+   "costo": 1399,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 0,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hbe/hcd/386580114931742.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Mugler-Alien-Hypersense-90-ml/p/697058",
+   "desc": "Las Notas de Salida son pera y mandarina verde; las Notas de Corazón son jazmín sambac (sampaguita) y jazmín de la India; las Notas de Fondo son cachemira, almizcle, Amberwood y trozos de madera a la deriva.",
+   "tipo": "",
+   "antes": 3200,
+   "liverpool": "MUGLER Eau de parfum Alien Hypersense para mujer",
+   "ref_fecha": "2026-11-10"
   },
   {
    "codigo": "694997",
@@ -5873,7 +6595,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Mugler-Alien-Refillable-90-ml/p/694997",
    "antes": 1001.01,
    "liverpool": "MUGLER Refill de Eau de Parfum Alien para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
@@ -5925,9 +6647,9 @@
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h9a/h7c/11022031159326.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Nautica-Blue-100-ml/p/643188",
    "desc": "Se lanzó en 2005. La Nariz detrás de esta fragrancia es Maurice Roucel. Disfruta de sus notas: Salida: Piña, durazno y bergamota. Corazón: Jazmín y nenúfar. Fondo: Sándalo, almizcle y cedro.",
-   "antes": 478.1,
+   "antes": 495,
    "liverpool": "NAUTICA Eau de toilette Blue para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDT"
   },
   {
@@ -5943,7 +6665,7 @@
    "desc": "Nautica Blue Sail de Nautica es una fragancia de la familia olfativa acuática amaderada para hombres. Disfruta de sus notas: Salida: Cáscara de naranja, bergamota y romero Corazón: Ciprés azul, lavanda y baya de enebro Fondo: Sándalo y vetiver y maderas.",
    "antes": 376,
    "liverpool": "NAUTICA Eau de toilette blue sail para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDT"
   },
   {
@@ -5959,7 +6681,7 @@
    "desc": "Disfruta de sus notas: Salida: Aldehídos, lima, cilantro, ciprés, canela, estragón, esclarea, neroli, bergamota y limón. Corazón: Ciclamen, jazmín, alcaravea, rosa y geranio Fondo: Sándalo, ámbar, pachulí, almizcle, musgo de roble y cedro.",
    "antes": 840,
    "liverpool": "NAUTICA Eau de toilette Classic para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDT"
   },
   {
@@ -5973,9 +6695,9 @@
    "foto": "https://www.costco.com.mx/medias/sys_master/products/hcd/hb5/11535708061726.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Nautica-Voyage-100-ml/p/653647",
    "desc": "Voyage fue lanzada en el 2006 por Nautica. Disfruta sus notas: Salida: Hojas verdes y manzana. Corazón: Mimosa y flor de loto. Fondo: Ámbar, almizcle, musgo de roble y cedro.",
-   "antes": 679.01,
-   "liverpool": "NAUTICA Eau de toilette Nautica Voyage para hombre",
-   "ref_fecha": "2026-11-06",
+   "antes": 950,
+   "liverpool": "NAUTICA Eau de toilette Voyage para hombre",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDT"
   },
   {
@@ -5989,9 +6711,9 @@
    "foto": "https://www.costco.com.mx/medias/sys_master/products/he4/h81/119653240340510.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Nautica-Voyage-200-ml/p/674534",
    "desc": "Nautica Voyage de Nautica es una fragancia de la familia olfativa Amaderada Acuática para Hombres. Disfruta de sus notas: Salida: hojas verdes y manzana Corazón: mimosa y flor de loto Fondo: ámbar, almizcle, musgo de roble y cedro.",
-   "antes": 679.01,
-   "liverpool": "NAUTICA Eau de toilette Nautica Voyage para hombre",
-   "ref_fecha": "2026-11-06",
+   "antes": 950,
+   "liverpool": "NAUTICA Eau de toilette Voyage para hombre",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDT"
   },
   {
@@ -6168,7 +6890,7 @@
    "nombre": "Orientica Luxury Collection Velvet Gold 150 ml",
    "ml": 150,
    "costo": 2099,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 1,
    "caballero": 0,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h81/h41/175849353707550.jpg",
@@ -6609,41 +7331,12 @@
    "nombre": "Parfums De Marly Cassili 75 ml",
    "ml": 75,
    "costo": 3959,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 1,
    "caballero": 0,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h8a/hb8/384372830142494.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Parfums-De-Marly-Cassili-75-ml/p/696817",
    "desc": "Notas de Salida: Grosella roja, rosa búlgara y flores blancas transparentes. • Notas de Corazón: Acuerdo de ciruela, absoluto de mimosa, plumería y pétalos. • Notas de Fondo: Sándalo, haba tonka y vaina de vainilla.",
-   "tipo": ""
-  },
-  {
-   "codigo": "696806",
-   "nombre": "Parfums De Marly Greenley 125 ml",
-   "ml": 125,
-   "costo": 4999,
-   "existencia": 1,
-   "dama": 1,
-   "caballero": 1,
-   "foto": "https://www.costco.com.mx/medias/sys_master/products/he1/ha9/384372822671390.jpg",
-   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Parfums-De-Marly-Greenley-125-ml/p/696806",
-   "desc": "Notas de Salida: Bergamota, mandarina, manzana verde, madera de cachemira. • Notas de Fondo: Musgo de roble, almizcle, acorde de madera de ámbar. • Notas de Corazón: Madera de cedro, petitgrain, violeta, pomarosa.",
-   "tipo": ""
-  },
-  {
-   "codigo": "696820",
-   "nombre": "Parfums De Marly Oriana 75 ml",
-   "ml": 75,
-   "costo": 0,
-   "existencia": 0,
-   "dama": 1,
-   "caballero": 0,
-   "foto": "https://www.costco.com.mx/medias/sys_master/products/h25/h2d/384372835713054.jpg",
-   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Parfums-De-Marly-Oriana-75-ml/p/696820",
-   "desc": "Las Notas de Salida son mandarina, bergamota y toronja (pomelo); las Notas de Corazón son flor de azahar del naranjo, frambuesa y grosellas negras; las Notas de Fondo son malvavisco (bombón), crema batida, almizcle y almizcle ambreta.",
-   "antes": 9290.9,
-   "liverpool": "PARFUMS DE MARLY Eau de parfum Oriana para mujer",
-   "ref_fecha": "2026-11-06",
    "tipo": ""
   },
   {
@@ -6658,7 +7351,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Parfums-De-Marly-Pegasus-125-ml/p/704849",
    "antes": 7242.99,
    "liverpool": "PARFUMS DE MARLY Eau de parfum Pegasus para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": ""
   },
   {
@@ -6682,14 +7375,14 @@
    "nombre": "Parfums De Marly Percival 125 ml",
    "ml": 125,
    "costo": 4999,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 1,
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h89/h33/384372835188766.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Parfums-De-Marly-Percival-125-ml/p/696818",
    "antes": 8390,
    "liverpool": "PARFUMS DE MARLY Eau de parfum Percival para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Notas de salida refrescantes: Bergamota y mandarina • Notas de corazón floral y herbáceo: Lavanda y geranio. • Notas de fondo cálidas y amaderadas: El abeto balsámico y las especias amaderadas forman la base de la fragancia",
    "tipo": ""
   },
@@ -6698,14 +7391,14 @@
    "nombre": "Parfums De Marly Perseus 125 ml",
    "ml": 125,
    "costo": 4999,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 0,
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h36/h04/384372836106270.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Parfums-De-Marly-Perseus-125-ml/p/696821",
-   "antes": 6706.53,
+   "antes": 6706.52,
    "liverpool": "PARFUMS DE MARLY Eau de parfum Perseus para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son toronja (pomelo), bergamota y grosellas negras; las Notas de Corazón son vetiver, mandarina verde y geranio; las Notas de Fondo son Madera seca, madera de cachemira, ámbar gris, abeto balsámico, cedro y haba tonka.",
    "tipo": ""
   },
@@ -6721,7 +7414,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Parfums-De-Marly-Valaya-75-ml/p/701489",
    "antes": 11590.9,
    "liverpool": "PARFUMS DE MARLY Eau de parfum Valaya para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son aldehídos, durazno blanco (melocotón blanco), bergamota y mandarina; las Notas de Corazón son flor de azahar del naranjo, lirio de los valles (muguete), petalia, Nympheal™, vetiver y Mahonia; las Notas de Fondo son almizcle, ambroxan, Akigalawood y vainilla.",
    "tipo": ""
   },
@@ -6730,7 +7423,7 @@
    "nombre": "Perry Ellis 18 Orchid 100 ml",
    "ml": 100,
    "costo": 449,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 1,
    "caballero": 0,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h97/hc6/520116318076958.jpg",
@@ -6808,7 +7501,7 @@
    "nombre": "Perry Ellis 360° Red 100 ml",
    "ml": 100,
    "costo": 449,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 0,
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h1b/he8/420616706097182.jpg",
@@ -6842,7 +7535,7 @@
    "desc": "Las Notas de Salida son enebro, bergamota y cardamomo; las Notas de Corazón son lavanda, romero y nuez moscada; las Notas de Fondo son vetiver, cedro y haba tonka.",
    "antes": 1550,
    "liverpool": "PERRY ELLIS Eau de toilette Red Sky para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDT"
   },
   {
@@ -6898,6 +7591,22 @@
    "tipo": "EDP"
   },
   {
+   "codigo": "673036",
+   "nombre": "Prada Luna Rossa Carbon 100 ml",
+   "ml": 100,
+   "costo": 1399,
+   "existencia": 1,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h65/hff/104956715139102.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Prada-Luna-Rossa-Carbon-100-ml/p/673036",
+   "desc": "Luna Rossa Carbon de Prada es una fragancia de la familia olfativa Aromática Fougère para Hombres. Disfruta de sus notas: Salida: bergamota y pimienta Corazón: lavanda, tintura de tierra, notas acuosas, notas metálicas y carbón Fondo: pachulí y ambroxan.",
+   "tipo": "EDT",
+   "antes": 3760,
+   "liverpool": "PRADA Eau de parfum Luna Rossa Carbon para hombre",
+   "ref_fecha": "2026-11-10"
+  },
+  {
    "codigo": "694241",
    "nombre": "Prada Luna Rossa Ocean Le Parfum Refillable 100 ml",
    "ml": 100,
@@ -6948,7 +7657,7 @@
    "url": "https://www.costco.com.mx/c/Rabanne-Fame-150-ml/p/706272",
    "antes": 2630,
    "liverpool": "RABANNE Eau de parfum Fame para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas De Salida Son Mango Y Bergamota; Las Notas De Corazón Son Jazmín Y Incienso De Olíbano (Franquincienso); Las Notas De Fondo Son Vainilla Y Sándalo.",
    "tipo": "EDP"
   },
@@ -6977,7 +7686,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Rabanne-Lady-Million-Royal-80-ml/p/695012",
    "antes": 3200,
    "liverpool": "RABANNE Eau de parfum Lady Million Royal para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
@@ -7020,18 +7729,34 @@
    "tipo": "EDT"
   },
   {
+   "codigo": "623553",
+   "nombre": "Ralph Lauren Polo Blue 125ml",
+   "ml": 125,
+   "costo": 1199,
+   "existencia": 1,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h88/h60/10754710175774.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Ralph-Lauren-Polo-Blue-125ml/p/623553",
+   "desc": "El concepto de esta fragancia se basa en un ideal de un hombre que vive la vida al máximo. Es la nueva definición de casual elegante.Los perfumes de Ralph Lauren reflejan siempre un espíritu y un estilo de vida a tono con la época. Polo Blue está destinado a un hombre joven, a gusto consigo mismo y conocedor de lo bello. La fragancia ofrece a los hombres una frescura a la vez vivificante y cálida.Disfruta de sus notas:Entrada afrutada y dulce, se vuelve suave y aterciopelada gracias a la salvia esclareaFondo de maderas sensuales y delicadas.",
+   "tipo": "EDT",
+   "antes": 2990,
+   "liverpool": "POLO RALPH LAUREN Eau de parfum Blue para hombre",
+   "ref_fecha": "2026-11-10"
+  },
+  {
    "codigo": "693758",
    "nombre": "Ralph Lauren Polo Deep Blue 200 ml",
    "ml": 200,
    "costo": 2299,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 0,
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h50/h70/346414701608990.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Ralph-Lauren-Polo-Deep-Blue-200-ml/p/693758",
    "antes": 3350,
    "liverpool": "POLO RALPH LAUREN Perfume Deep Blue para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "• Notas de Salida: Mango Verde, Toronja (Pomelo) y Bergamota. • Notas de Corazón: Ciprés, Esclarea y Geranio. • Notas de Fondo: Notas Marinas, Ambroxan, Resina de Abeto, Almizcle y Pachulí.",
    "tipo": "EDP"
   },
@@ -7047,7 +7772,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Ralph-Lauren-Polo-Red-125ml/p/643830",
    "antes": 2850,
    "liverpool": "POLO RALPH LAUREN Eau de toilette Red para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Polo Red es la nueva fragancia de Ralph Lauren, exuda pasión y confianza audaz con un profundo significado de velocidad, adrenalina y seducción. Salida: Toronja, limón y arándano. Corazón: Azafrán y salvia. Fondo:Notas amaderadas, ámbar y café.",
    "tipo": "EDT"
   },
@@ -7082,7 +7807,7 @@
    "nombre": "Ralph Lauren Romance Elixir 70 ml",
    "ml": 70,
    "costo": 2199,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 1,
    "caballero": 0,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h91/h8f/386579719946270.jpg",
@@ -7102,7 +7827,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Ralph-Lauren-Safari-for-Men-125ml/p/654445",
    "antes": 1332.71,
    "liverpool": "RALPH LAUREN Eau de toilette Safari para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Safari for Men es una fragancia de Ralph Lauren. Disfruta sus notas: Salida:Aldehídos, abrótano, cilantro, lavanda, notas verdes, neroli, bergamota y limón (lima ácida). Corazón:Ciclamen (violeta persa), clavel, canela, estragón, jazmín y rosa. Fondo:Cuero, sándalo, ámbar, pachulí, almizcle, musgo de roble y cedro.",
    "tipo": "EDT"
   },
@@ -7111,7 +7836,7 @@
    "nombre": "Rasasi Hawas 100 ml",
    "ml": 100,
    "costo": 529,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 0,
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h33/he4/189581980499998.jpg",
@@ -7119,7 +7844,7 @@
    "desc": "Notas de salida: explosión refrescante de manzana jugosa, bergamota cítrica, canela cálida y limón ácido.Crean un impulso energizante que te envuelve en una sensación de frescura desde el primer momento. Notas de corazón: de la fragancia, encontrarás una combinación seductora de notas acuosas cristalinas, ciruela jugosa, flor de azahar del naranjo y cardamomo picante. Estas notas crean un aroma adictivo y estimulante que deja una impresión duradera. Notas de fondo: son ámbar gris, almizcle suave, trozos de madera a la deriva y pachulí terroso. Estas notas adicionales aportan profundidad y calidez a la fragancia, dándole una base distintiva y sensual.",
    "antes": 747,
    "liverpool": "RASASI Eau de parfum HAWAS para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": ""
   },
   {
@@ -7127,7 +7852,7 @@
    "nombre": "Sabrina Carpenter Caramel Dream 75 ml",
    "ml": 75,
    "costo": 529,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 1,
    "caballero": 0,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/hd8/h89/484393856630814.jpg",
@@ -7146,9 +7871,9 @@
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h37/hf7/484393857220638.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Sabrina-Carpenter-Cherry-Baby-75ml/p/701041",
    "desc": "Las notas de salida son cereza, azúcar moreno, ciruela y manzana; las notas de corazón son chocolate oscuro, amapola roja, orquídea de vainilla y peonía; las notas de Fondo son madera de cachemira, almizcle, ámbar, pachulí y resina.",
-   "antes": 783,
+   "antes": 838.7,
    "liverpool": "SABRINA CARPENTER Eau de parfum Cherry Baby para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
@@ -7164,7 +7889,7 @@
    "desc": "Las notas de salida son malvavisco (bombón), chocolate, Jengibre confitado y bergamota; las notas de corazón son vainilla de Madagascar, leche de coco y jazmín; las notas de Fondo son crema batida, azúcar, almizcle y madera de cachemira.",
    "antes": 791,
    "liverpool": "SABRINA CARPENTER Eau de parfum Sweet Tooth para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
@@ -7198,7 +7923,7 @@
    "nombre": "Salvatore Ferragamo Amo 100 ml",
    "ml": 100,
    "costo": 849,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 1,
    "caballero": 0,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/hb0/h4b/349262846591006.jpg",
@@ -7233,6 +7958,19 @@
    "tipo": "EDT"
   },
   {
+   "codigo": "679666",
+   "nombre": "Salvatore Ferragamo Incanto Shine 100 ml",
+   "ml": 100,
+   "costo": 399,
+   "existencia": 0,
+   "dama": 1,
+   "caballero": 0,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hb3/h79/155946379804702.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Salvatore-Ferragamo-Incanto-Shine-100-ml/p/679666",
+   "desc": "Incanto Shine de Salvatore Ferragamo es una fragancia de la familia olfativa Floral Frutal para Mujeres. Disfruta de sus notas: Salida: piña, maracuyá y bergamota Corazón: fresia, durazno y peonía rosa Fondo: ámbar, almizcle y cedro.",
+   "tipo": "EDT"
+  },
+  {
    "codigo": "697015",
    "nombre": "Salvatore Ferragamo Pour Homme 100 ml",
    "ml": 100,
@@ -7255,9 +7993,9 @@
    "caballero": 0,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/hea/h19/349262850392094.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Salvatore-Ferragamo-Signorina-100-ml/p/694244",
-   "antes": 865,
+   "antes": 868,
    "liverpool": "SALVATORE FERRAGAMO Eau de parfum Signorina para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son pera y toronja (pomelo); las Notas de Corazón son osmanto (olivo oloroso) y almendra; las Notas de Fondo son pachulí y cuero.",
    "tipo": "EDP"
   },
@@ -7271,11 +8009,24 @@
    "caballero": 0,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h59/ha5/349262852620318.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Salvatore-Ferragamo-Signorina-Misteriosa-100-ml/p/694246",
-   "antes": 1242.5,
+   "antes": 1240.13,
    "liverpool": "SALVATORE FERRAGAMO Eau de parfum SIGNORINA MISTERIOSA para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son zarzamora (frambuesa negra) y neroli; las Notas de Corazón son nardos y flor de azahar del naranjo; las Notas de Fondo son mousse de dulce de leche, vaina de vainilla negra y pachulí.",
    "tipo": "EDP"
+  },
+  {
+   "codigo": "694243",
+   "nombre": "Salvatore Ferragamo Uomo 100 ml",
+   "ml": 100,
+   "costo": 749,
+   "existencia": 1,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h8e/h15/349262848426014.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Salvatore-Ferragamo-Uomo-100-ml/p/694243",
+   "desc": "Las Notas de Salida son cardamomo, pimienta negra y bergamota; las Notas de Corazón son notas dulces, ambroxan y flor de azahar del naranjo; las Notas de Fondo son haba tonka, sándalo y madera de cachemira.",
+   "tipo": "EDT"
   },
   {
    "codigo": "684603",
@@ -7302,7 +8053,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Tom-Ford-Neroli-Portofino-100-ml/p/704851",
    "antes": 6700,
    "liverpool": "TOM FORD Eau de parfum Neroli Portofino unisex",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": ""
   },
   {
@@ -7310,14 +8061,14 @@
    "nombre": "Tom Ford Velvet Orchid 100 ml",
    "ml": 100,
    "costo": 2699,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 1,
    "caballero": 0,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h70/h64/119653248270366.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Tom-Ford-Velvet-Orchid-100-ml/p/674540",
    "antes": 3300,
    "liverpool": "TOM FORD Eau de parfum Velvet Orchid para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Velvet Orchid De Tom Ford es una fragancia de la familia olfativa Ámbar Floral para mujeres. Disfruta de sus notas: Salida: Ron, Miel, Mandarina y Bergamota Corazón: Orquídea Negra, Orquídea, Jazmín, Heliotropo, Jacinto, Aceite De Rosas, Narciso, Magnolia y Flor De Azahar Del Naranjo Fondo: Vainilla, Mirra, Gamuza, Sándalo, Bálsamo Del Perú y Ládano.",
    "tipo": "EDP"
   },
@@ -7359,7 +8110,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Tommy-Hilfiger-Impact-100-ml/p/679669",
    "antes": 2250,
    "liverpool": "TOMMY HILFIGER Eau de toilette Impact para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Impact de tommy hilfiger es una fragancia con aroma a madera para hombres audaces. Impact empodera a la próxima generación de visionarios con la combinación seductora de hoja de coca y Akigalawood, el extracto amaderado y picante del pachulí, matizada con contundentes notas cítricas, aromas ahumados y un trío de maderas preciosas.",
    "tipo": "EDT"
   },
@@ -7375,7 +8126,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Tommy-Hilfiger-Impact-Spark-100-ml/p/679668",
    "antes": 2120,
    "liverpool": "TOMMY HILFIGER Eau de toilette Impact Spark para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Para aquellos con un sentido ilimitado de la imaginación, que se atreven a soñar y desear, impact spark es una fragancia amaderada afrutada que aporta una frescura audaz y eléctrica al trío de fragancias tommy hilfiger impact",
    "tipo": "EDT"
   },
@@ -7391,7 +8142,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Tommy-Hilfiger-Tommy-Forever-100-ml/p/694258",
    "antes": 1910,
    "liverpool": "TOMMY HILFIGER Eau de toilette Forever para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son jengibre, pimienta negra y limón (lima ácida); las Notas de Corazón son lavanda, salvia y canela; las Notas de Fondo son trozos de madera a la deriva, almizcle y pachulí.",
    "tipo": "EDT"
   },
@@ -7460,7 +8211,7 @@
    "desc": "Las Notas de Salida son durazno (melocotón) y mandarina; las Notas de Corazón son jazmín y rosa; las Notas de Fondo son almizcle y sándalo.",
    "antes": 2650,
    "liverpool": "TOUS Eau de parfum Love Me Silver para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDP"
   },
   {
@@ -7489,28 +8240,31 @@
    "desc": "Tous Man Sport es el perfume del amante, el amigo, la persona deportiva, alguien que disfruta de la vida. Disfruta de sus notas: Entrada: Limón y la nota brillante de los aldehídos. Salida: Cedro.",
    "antes": 1900,
    "liverpool": "TOUS Eau de toilette Man Sport para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "tipo": "EDT"
   },
   {
-   "codigo": "648279",
-   "nombre": "Valentino Notte D' Oro 100 ml Parfum",
+   "codigo": "701455",
+   "nombre": "Valentino Donna Born In Roma 100 ml",
    "ml": 100,
-   "costo": 5499,
-   "existencia": 1,
+   "costo": 0,
+   "existencia": 0,
    "dama": 1,
-   "caballero": 1,
-   "foto": "https://www.costco.com.mx/medias/sys_master/products/ha3/h31/492371132940318.jpg",
-   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Valentino-Notte-D-Oro-100-ml-Parfum/p/648279",
-   "desc": "Las Notas de Salida son Cereza negra, toronja (pomelo) y naranja dulce; las Notas de Corazón son aceite de rosas, jazmín de la India y geranio; las Notas de Fondo son madera de oud, pachulí y sándalo.",
-   "tipo": "Parfum"
+   "caballero": 0,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h6f/hec/420616748367902.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Valentino-Donna-Born-In-Roma-100-ml/p/701455",
+   "desc": "Las notas de salida son grosellas negras, pimienta rosa y bergamota; las notas de corazón son jazmín, jazmín sambac (sampaguita) y Té del jazmín; las notas de fondo son vainilla Bourbon, cachemira y madera de gaiac.",
+   "tipo": "",
+   "antes": 4100,
+   "liverpool": "VALENTINO Eau de parfum Donna Born In Roma para mujer",
+   "ref_fecha": "2026-11-10"
   },
   {
    "codigo": "701457",
    "nombre": "Valentino Uomo Born In Roma Green Stravaganza 100 ml",
    "ml": 100,
    "costo": 1749,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 0,
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h70/hd6/420616750923806.jpg",
@@ -7582,7 +8336,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Versace-Bright-Crystal-Parfum-90-ml/p/701453",
    "antes": 4000,
    "liverpool": "VERSACE Perfume Bright Crystal Parfum para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las notas de salida son yuzu, Frutas rojas, granada y caramelo; las notas de corazón son peonía, Helvetolida, flor de loto y magnolia; las notas de fondo son Ambroxan Super, Norlimbanol™ y almizcle.",
    "tipo": ""
   },
@@ -7598,7 +8352,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Versace-Dylan-Blue-100-ml/p/643835",
    "antes": 3000,
    "liverpool": "VERSACE Eau de toilette Dylan Blue para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Versace Dylan Blue; una fragancia sensual y atractiva, maximiza el poder del hombre sin olvidar su lado sensible, seductor y arriesgado ¿Te atreves a ser Dyaln Blue?",
    "tipo": "EDT"
   },
@@ -7614,7 +8368,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Versace-Dylan-Blue-200-ml/p/702518",
    "antes": 3000,
    "liverpool": "VERSACE Eau de toilette Dylan Blue para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son notas acuáticas, bergamota de Calabria, toronja (pomelo) y hojas de higuera; las Notas de Corazón son hojas de violeta, papiro de Egipto, pachulí, pimienta negra y ambroxan; las Notas de Fondo son almizcle, incienso, haba tonka y azafrán.",
    "tipo": "EDT"
   },
@@ -7643,7 +8397,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Versace-Dylan-Purple-100-ml/p/682982",
    "antes": 3800,
    "liverpool": "VERSACE Eau de parfum Dylan Purple para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Notas de salida: Orpur de naranja amarga de Italia, acorde de zumo de pera y Orpur de bergamota de Italia Notas de corazón: fresia púrpura, Pomarose y Mohanial Notas de fondo: iso e super, Orpur de madera de cedro de Virginia, Ambrofix™, Belambre y Sylkolide Familia olfativa: floral, afrutada y almizclada Fórmula vegana",
    "tipo": ""
   },
@@ -7672,7 +8426,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Versace-Eau-Fraiche-100ml/p/517548",
    "antes": 3000,
    "liverpool": "VERSACE Eau de toilette Fraiche para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Fraiche es la fragancia amaderada para caballero de VersaceDisfruta de sus notas:Notas de Salida: bergamota, palo de rosa de Brasil, cardamomo, limón (lima ácida) y carambolaNotas de corazón: estragón, salvia, cedro y pimientaNotas de Fondo: ámbar, azafrán, almizcle, notas amaderadas y madera de sicómoro",
    "tipo": "EDT"
   },
@@ -7688,7 +8442,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Versace-Eau-Fraiche-200-ml/p/695832",
    "antes": 3000,
    "liverpool": "VERSACE Eau de toilette Fraiche para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son bergamota, palo de rosa de Brasil, cardamomo, limón (lima ácida) y carambola; las Notas de Corazón son estragón, salvia, cedro y pimienta; las Notas de Fondo son ámbar, azafrán, almizcle, notas amaderadas y madera de sicómoro.",
    "tipo": ""
   },
@@ -7704,7 +8458,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Versace-Eros-100-ml/p/693766",
    "antes": 3000,
    "liverpool": "VERSACE Eau de toilette Eros para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "• Notas de Salida: Menta, Manzana Verde y Limón (Lima Ácida). • Notas de Corazón: Haba Tonka, Geranio y Ambroxan. • Notas de Fondo: Vainilla de Madagascar, Vetiver, Musgo de Roble, Cedro de Virginia y Cedro del Atlas.",
    "tipo": "EDP"
   },
@@ -7720,7 +8474,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Versace-Eros-100ml/p/645750",
    "antes": 3000,
    "liverpool": "VERSACE Eau de toilette Eros para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Notas de Salida menta, manzana verde y limón (lima ácida)Notas de corazón haba tonka, geranio y ambroxanNotas de Fondo vainilla de Madagascar, vetiver, musgo de roble, cedro de Virginia y cedro del Atlas",
    "tipo": "EDT"
   },
@@ -7736,7 +8490,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Versace-Eros-200-ml/p/695834",
    "antes": 3000,
    "liverpool": "VERSACE Eau de toilette Eros para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son menta, manzana acaramelada, limón (lima ácida) y mandarina; las Notas de Corazón son ambroxan, geranio y esclarea; las Notas de Fondo son vainilla, cedro, sándalo, naranja amarga, pachulí y cuero.",
    "tipo": ""
   },
@@ -7752,7 +8506,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Versace-Eros-200-ml/p/695831",
    "antes": 3000,
    "liverpool": "VERSACE Eau de toilette Eros para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son menta, manzana verde y limón (lima ácida); las Notas de Corazón son haba tonka, geranio y ambroxan; las Notas de Fondo son vainilla de Madagascar, vetiver, musgo de roble, cedro de Virginia y cedro del Atlas.",
    "tipo": ""
   },
@@ -7768,9 +8522,25 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Versace-Eros-Energy-100-ml/p/701454",
    "antes": 3500,
    "liverpool": "VERSACE Eau de parfum Eros Energy para Hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las notas de salida son limón (lima ácida), lima (limón verde), toronja (pomelo), naranja sanguina, bergamota de Sicilia y mandarina; las notas de corazón son pimienta rosa, ámbar blanco y grosellas negras; las notas de fondo son almizcle, musgo de roble y pachulí.",
    "tipo": ""
+  },
+  {
+   "codigo": "706894",
+   "nombre": "Versace Eros Najim 100 ml",
+   "ml": 100,
+   "costo": 1699,
+   "existencia": 1,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hb8/hf4/523359293964318.jpg",
+   "url": "https://www.costco.com.mx/c/Versace-Eros-Najim-100-ml/p/706894",
+   "desc": "",
+   "tipo": "EDP",
+   "antes": 5300,
+   "liverpool": "VERSACE Parfum Eros Najim para hombre",
+   "ref_fecha": "2026-11-10"
   },
   {
    "codigo": "518849",
@@ -7784,7 +8554,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Versace-Eros-Pour-Femme-100ml/p/518849",
    "antes": 3250,
    "liverpool": "VERSACE Eau de toilette Eros Femme para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Eros Pour Femme es la fragancia floral amaderada para dama de Versace.Disfruta de sus notas:Notas de Salida limón siciliano (lima siciliana), bergamota de Calabria y granadaNotas de corazón flores de azahar del limonero, jazmín sambac (sampaguita), jazmín y peoníaNotas de Fondo sándalo, ambroxan, almizcle y notas amaderadas.",
    "tipo": "EDP"
   },
@@ -7800,9 +8570,25 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Versace-Pour-Homme-100ml/p/517550",
    "antes": 3000,
    "liverpool": "VERSACE Eau de toilette Pour Homme para hombre",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Pour Homme es la fragancia fougére para caballero de Versace.Disfruta de sus notas:Notas de Salida limón (lima ácida), neroli, bergamota y rosa de MaiNotas de corazón jacinto, esclarea, cedro y geranioNotas de Fondo haba tonka, almizcle y ámbar.",
    "tipo": "EDT"
+  },
+  {
+   "codigo": "695839",
+   "nombre": "Versace Pour Homme 200 ml",
+   "ml": 200,
+   "costo": 1299,
+   "existencia": 1,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hbc/hc2/367525873844254.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Versace-Pour-Homme-200-ml/p/695839",
+   "desc": "Las Notas de Salida son limón (lima ácida), neroli, bergamota y rosa de Mai; las Notas de Corazón son jacinto, esclarea, cedro y geranio; las Notas de Fondo son haba tonka, almizcle y ámbar.",
+   "tipo": "",
+   "antes": 3000,
+   "liverpool": "VERSACE Eau de toilette Pour Homme para hombre",
+   "ref_fecha": "2026-11-09"
   },
   {
    "codigo": "518314",
@@ -7842,7 +8628,7 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Viktor-Rolf-Flowerbomb-Extreme-100-ml/p/697011",
    "antes": 3660,
    "liverpool": "VIKTOR&ROLF Eau de parfum Flowerbomb Extreme para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son jazmín y bergamota; las Notas de Corazón son flores blancas, osmanto (olivo oloroso) y hojas de palmera; las Notas de Fondo son vainilla, ámbar, pachulí y benjuí.",
    "tipo": ""
   },
@@ -7856,9 +8642,9 @@
    "caballero": 0,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h4a/he6/245743039578142.jpg",
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Viktor-Rolf-Good-Fortune-90-Ml/p/686456",
-   "antes": 2232.96,
+   "antes": 2233.95,
    "liverpool": "VIKTOR&ROLF Eau de parfum Good Fortune para mujer",
-   "ref_fecha": "2026-11-06",
+   "ref_fecha": "2026-11-09",
    "desc": "Las Notas de Salida son hinojo y genciana; la Nota de Corazón es jazmín; la Nota de Fondo es vainilla de Madagascar.",
    "tipo": ""
   },
@@ -7876,11 +8662,24 @@
    "tipo": ""
   },
   {
+   "codigo": "706879",
+   "nombre": "Viktor & Rolf Spicebomb Dark Leather 90 ml",
+   "ml": 90,
+   "costo": 1799,
+   "existencia": 1,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/ha2/hd9/523359352291358.jpg",
+   "url": "https://www.costco.com.mx/c/Viktor-Rolf-Spicebomb-Dark-Leather-90-ml/p/706879",
+   "desc": "",
+   "tipo": "EDP"
+  },
+  {
    "codigo": "697010",
    "nombre": "Viktor & Rolf Spicebomb Infrared 90 ml",
    "ml": 90,
-   "costo": 0,
-   "existencia": 0,
+   "costo": 1999,
+   "existencia": 1,
    "dama": 0,
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/h4a/h28/386579723485214.jpg",
@@ -7893,7 +8692,7 @@
    "nombre": "Viktor & Rolf Spicebomb Night Vision 90 ml",
    "ml": 90,
    "costo": 1999,
-   "existencia": 1,
+   "existencia": 0,
    "dama": 0,
    "caballero": 1,
    "foto": "https://www.costco.com.mx/medias/sys_master/products/hf9/h3a/223982830485534.jpg",
@@ -7954,6 +8753,19 @@
    "tipo": "EDT"
   },
   {
+   "codigo": "696983",
+   "nombre": "Yves Saint Laurent Libre Le Parfum 90 ml",
+   "ml": 90,
+   "costo": 2249,
+   "existencia": 1,
+   "dama": 1,
+   "caballero": 0,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/h86/h9f/386579655131166.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Yves-Saint-Laurent-Libre-Le-Parfum-90-ml/p/696983",
+   "desc": "Las Notas de Salida son jengibre, azafrán, mandarina y bergamota; las Notas de Corazón son flor de azahar del naranjo y lavanda; las Notas de Fondo son vainilla Bourbon, miel, haba tonka y vetiver.",
+   "tipo": ""
+  },
+  {
    "codigo": "685032",
    "nombre": "Yves Saint Laurent Mon Paris Intensement 90 ml",
    "ml": 90,
@@ -7991,6 +8803,19 @@
    "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Dama/Yves-Saint-Laurent-Wild-Leather-125-ml/p/648282",
    "desc": "La fragancia contiene cuero, gamuza, regaliz, azafrán, madera de gaiac, vainilla Bourbon, pachulí, pimienta negra, tomillo, lavanda, flor de azahar del naranjo, bergamota y geranio.",
    "tipo": "EDP"
+  },
+  {
+   "codigo": "685029",
+   "nombre": "Yves Saint Laurent Y Intense 100 ml",
+   "ml": 100,
+   "costo": 2399,
+   "existencia": 1,
+   "dama": 0,
+   "caballero": 1,
+   "foto": "https://www.costco.com.mx/medias/sys_master/products/hbe/hbc/223982832877598.jpg",
+   "url": "https://www.costco.com.mx/Salud-y-Belleza/Fragancias/Fragancias-para-Caballero/Yves-Saint-Laurent-Y-Intense-100-ml/p/685029",
+   "desc": "Las Notas de Salida son jengibre, bayas de enebro y bergamota; las Notas de Corazón son salvia, geranio y lavanda; las Notas de Fondo son vetiver, pachulí y cedro.",
+   "tipo": "EDT"
   },
   {
    "codigo": "682985",
@@ -8032,5 +8857,5 @@
    "tipo": ""
   }
  ],
- "actualizado": "2026-11-06T02:12:47.727Z"
+ "actualizado": "2026-11-10T15:35:49.274Z"
 }

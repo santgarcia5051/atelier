@@ -740,7 +740,7 @@ h2 { font-weight: 500 !important; letter-spacing: -.01em; }
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script src="perfumes.js?v=202611101910"></script>
+<script src="perfumes.js?v=202611101936"></script>
 <script>
 
 const fmt = new Intl.NumberFormat("es-MX", { style: "currency", currency: "MXN", maximumFractionDigits: 0 });
@@ -1083,7 +1083,7 @@ $("drawerBody").addEventListener("click", e => {
 });
 
 /* ===== Carrito ===== */
-const cart = { items: [], step: "items", datos: { nombre: "", destino: "", cp: "", notas: "", correo: "", telefono: "" }, folio: "" };
+const cart = { items: [], step: "items", datos: { nombre: "", tel: "", correo: "", calle: "", colonia: "", cp: "", destino: "", ref: "", notas: "" }, folio: "" };
 try { const saved = JSON.parse(localStorage.getItem("ag-cart") || "[]"); if (Array.isArray(saved)) cart.items = saved.filter(i => PERFUMES.some(p => p.id === i.id && disponible(p) && p.pres.some(x => x.ml === i.ml))); } catch (e) {}
 function saveCart() { try { localStorage.setItem("ag-cart", JSON.stringify(cart.items)); } catch (e) {} }
 
@@ -1168,7 +1168,10 @@ function orderText() {
   return [
     `Pedido ${cart.folio}`,
     `Nombre: ${d.nombre}`,
-    `Destino: ${d.destino}, ${zonaDeCP(d.cp).estado}, C.P. ${d.cp}`,
+    `Teléfono: ${d.tel}`,
+    `Correo: ${d.correo}`,
+    `Domicilio: ${d.calle}, col. ${d.colonia}, ${d.destino}, ${zonaDeCP(d.cp).estado}, C.P. ${d.cp}`,
+    d.ref ? `Referencias: ${d.ref}` : null,
     ``,
     ...lines,
     ``,
@@ -1230,6 +1233,18 @@ function renderCart() {
         <div class="field"><label for="fNombre">Nombre completo</label>
           <input id="fNombre" name="nombre" autocomplete="name" value="${escapeAttr(d.nombre)}" required>
           <span class="err" id="eNombre" hidden>Escriba su nombre.</span></div>
+        <div class="field"><label for="fTel">Teléfono de 10 dígitos</label>
+          <input id="fTel" name="tel" type="tel" inputmode="numeric" autocomplete="tel-national" maxlength="10" value="${escapeAttr(d.tel)}" required>
+          <span class="err" id="eTel" hidden>Escriba su teléfono a 10 dígitos; la paquetería lo pide para avisarle de su entrega.</span></div>
+        <div class="field"><label for="fCorreo">Correo electrónico</label>
+          <input id="fCorreo" name="correo" type="email" autocomplete="email" value="${escapeAttr(d.correo)}" required>
+          <span class="err" id="eCorreo" hidden>Escriba un correo válido.</span></div>
+        <div class="field"><label for="fCalle">Calle y número</label>
+          <input id="fCalle" name="calle" autocomplete="address-line1" placeholder="Ej. Av. Reforma 123, int. 4" value="${escapeAttr(d.calle)}" required>
+          <span class="err" id="eCalle" hidden>Escriba su calle y número.</span></div>
+        <div class="field"><label for="fColonia">Colonia</label>
+          <input id="fColonia" name="colonia" autocomplete="address-level3" value="${escapeAttr(d.colonia)}" required>
+          <span class="err" id="eColonia" hidden>Escriba su colonia.</span></div>
         <div class="field"><label for="fCP">Código postal</label>
           <input id="fCP" name="cp" inputmode="numeric" autocomplete="postal-code" maxlength="5" value="${escapeAttr(d.cp)}" required>
           <span class="cp-hint" id="cpHint">${cpHintText(d.cp)}</span>
@@ -1237,12 +1252,8 @@ function renderCart() {
         <div class="field"><label for="fDestino">Ciudad o municipio</label>
           <input id="fDestino" name="destino" autocomplete="address-level2" placeholder="Ej. Guadalajara" value="${escapeAttr(d.destino)}" required>
           <span class="err" id="eDestino" hidden>Indique su ciudad o municipio.</span></div>
-        <div class="field"><label for="fCorreo">Correo electrónico</label>
-          <input id="fCorreo" name="correo" type="email" autocomplete="email" value="${escapeAttr(d.correo)}" required>
-          <span class="err" id="eCorreo" hidden>Escriba un correo válido.</span></div>
-        <div class="field"><label for="fTel">Teléfono (10 dígitos)</label>
-          <input id="fTel" name="telefono" type="tel" inputmode="tel" autocomplete="tel" maxlength="10" value="${escapeAttr(d.telefono)}" required>
-          <span class="err" id="eTel" hidden>Escriba un teléfono de 10 dígitos.</span></div>
+        <div class="field"><label for="fRef">Referencias de entrega (opcional)</label>
+          <input id="fRef" name="ref" placeholder="Ej. Entre calle A y B, portón negro" value="${escapeAttr(d.ref)}"></div>
         <div class="field"><label for="fNotas">Notas (opcional)</label>
           <textarea id="fNotas" name="notas" rows="2" placeholder="Ej. Es para regalo">${escapeHTML(d.notas)}</textarea></div>
         <div id="sumWrap">${summaryHTML()}</div>
@@ -1289,6 +1300,7 @@ function cpHintText(cp) {
   return z ? `${z.estado} · zona ${z.nombre.toLowerCase()}, ${z.dias}` : "Con él calculamos su costo de envío.";
 }
 $("cartBody").addEventListener("input", e => {
+  if (e.target.id === "fTel") { e.target.value = e.target.value.replace(/\D/g, "").slice(0, 10); return; }
   if (e.target.id !== "fCP") return;
   e.target.value = e.target.value.replace(/\D/g, "").slice(0, 5);
   cart.datos.cp = e.target.value;
@@ -1306,8 +1318,9 @@ function enviarPedido() {
   if (!WORKER_PEDIDOS) return;
   const d = cart.datos;
   const payload = {
-    folio: cart.folio, nombre: d.nombre, telefono: d.telefono, correo: d.correo,
-    direccion: d.destino, codigo_postal: d.cp, notas: d.notas,
+    folio: cart.folio, nombre: d.nombre, telefono: d.tel, correo: d.correo,
+    direccion: [`${d.calle}, col. ${d.colonia}, ${d.destino}`, d.ref ? `Ref: ${d.ref}` : ""].filter(Boolean).join(" · "),
+    codigo_postal: d.cp, notas: d.notas,
     items: cart.items.map(i => { const p = PERFUMES.find(x => x.id === i.id); return { id: i.id, nombre: p ? `${p.marca} ${p.nombre} ${p.conc}` : i.id, ml: i.ml, cantidad: i.qty, precio: p ? unitPrice(p, i.ml) : 0 }; }),
     total: subtotal() + (envioInfo().costo || 0),
     es_prueba: cart.items.some(i => i.id === "prueba-scantalia")
@@ -1341,7 +1354,7 @@ $("cartBody").addEventListener("click", e => {
 
 function saveDatos() {
   const f = $("orderForm"); if (!f) return;
-  cart.datos = { nombre: $("fNombre").value.trim(), destino: $("fDestino").value.trim(), cp: $("fCP").value.trim(), notas: $("fNotas").value.trim(), correo: $("fCorreo").value.trim(), telefono: $("fTel").value.trim() };
+  cart.datos = { nombre: $("fNombre").value.trim(), tel: $("fTel").value.replace(/\D/g, ""), correo: $("fCorreo").value.trim(), calle: $("fCalle").value.trim(), colonia: $("fColonia").value.trim(), cp: $("fCP").value.trim(), destino: $("fDestino").value.trim(), ref: $("fRef").value.trim(), notas: $("fNotas").value.trim() };
 }
 
 $("cartBody").addEventListener("change", e => {
@@ -1353,7 +1366,7 @@ $("cartBody").addEventListener("submit", e => {
   e.preventDefault();
   saveDatos();
   const d = cart.datos;
-  const checks = [["fNombre", "eNombre", d.nombre.length > 1], ["fDestino", "eDestino", d.destino.length > 2], ["fCP", "eCP", !!zonaDeCP(d.cp)], ["fCorreo", "eCorreo", /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(d.correo)], ["fTel", "eTel", /^\d{10}$/.test(d.telefono)]];
+  const checks = [["fNombre", "eNombre", d.nombre.length > 1], ["fTel", "eTel", d.tel.length === 10], ["fCorreo", "eCorreo", /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(d.correo)], ["fCalle", "eCalle", d.calle.length > 3], ["fColonia", "eColonia", d.colonia.length > 2], ["fDestino", "eDestino", d.destino.length > 2], ["fCP", "eCP", !!zonaDeCP(d.cp)]];
   let ok = true;
   checks.forEach(([inp, err, valid]) => {
     $(inp).setAttribute("aria-invalid", String(!valid)); $(err).hidden = valid;

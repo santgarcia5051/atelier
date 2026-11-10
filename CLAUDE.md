@@ -92,6 +92,7 @@ Las fotos externas se muestran **enlazadas** a esos servidores, no copiadas al r
 - **Test «¿No sabe qué perfume escoger?»**: 6 preguntas, resultado con % de compatibilidad y 2 alternativas.
 - **Carrito y pedido**:
   - Datos de entrega y cálculo de envío por código postal (zonas en `ENVIO`; gratis desde 2 perfumes).
+  - El pedido ya pide todo lo que Skydropx necesita para generar la guía: nombre, teléfono (10 dígitos), correo, calle y número, colonia, C.P., ciudad (el estado sale del C.P.) y referencias. Los datos no se guardan en el navegador.
   - **Dos casillas obligatorias** (términos/privacidad y devoluciones) habilitan «Generar pedido».
   - Genera un folio y un texto de pedido que el cliente copia y manda por mensaje directo o correo.
   - **No hay cobro en línea automático**: Scantalia responde con un link de pago (Mercado Pago, aún por configurar).
@@ -122,7 +123,7 @@ Las fotos externas se muestran **enlazadas** a esos servidores, no copiadas al r
 | WhatsApp | Botón oculto (`wa.me/520000000000`) | Número pendiente |
 | Correo `contacto@scantalia.mx` | Contacto, devoluciones, privacidad | Requiere el dominio, aún pendiente |
 | Mercado Pago | Links de pago (comisión en `reglas.json`) | Por configurar el dueño |
-| Skydropx (u otra paquetería) | Envíos | Por configurar el dueño |
+| Skydropx (u otra paquetería) | Envíos | Cuenta por abrir por el dueño. Por ahora las guías se crean a mano en su panel con los datos del pedido; la API (cotizar y generar guías solas) necesita una función con sus credenciales, aún no hecha |
 
 ## Trabajar desde Claude Code en la nube
 
