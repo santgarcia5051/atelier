@@ -23182,5 +23182,1664 @@
   "ocasion": "Día · Oficina",
   "forma": "redondo",
   "liquido": "#7E9A7A"
+ },
+ "704879": {
+  "id": "acqua-di-parma-blu-mediterraneo-mandarino-di-sicilia-edt-uni",
+  "auto": true,
+  "destacadas": [
+   "mandarina",
+   "lavanda",
+   "cedro"
+  ],
+  "marca": "Acqua di Parma",
+  "nombre": "Blu Mediterraneo Mandarino Di Sicilia",
+  "conc": "EDT",
+  "seccion": "Unisex",
+  "familia": "Cítrico almizclado",
+  "lema": "Ligereza y elegancia.",
+  "venta": "Blu Mediterraneo Mandarino Di Sicilia de Acqua di Parma es una fragancia cítrico almizclado unisex. Abre con mandarina verde, naranja sanguina, bergamota y limón; en el corazón aparecen petit grain y spearmint, y un fondo de almizcle, cedro y pachulí le da carácter y duración. Ideal para el día y la oficina.",
+  "salida": [
+   "Mandarina verde",
+   "Naranja sanguina",
+   "Bergamota",
+   "Limón"
+  ],
+  "corazon": [
+   "Petit grain",
+   "Spearmint"
+  ],
+  "fondo": [
+   "Almizcle",
+   "Cedro",
+   "Pachulí"
+  ],
+  "acordes": [
+   [
+    "Cítrico",
+    90
+   ],
+   [
+    "Almizclado",
+    65
+   ],
+   [
+    "Amaderado",
+    65
+   ],
+   [
+    "Aromático",
+    60
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "redondo",
+  "liquido": "#E8C25A"
+ },
+ "685002": {
+  "id": "al-haramain-amber-oud-rouge-edp-hombre",
+  "auto": true,
+  "destacadas": [
+   "bergamota",
+   "jazmin",
+   "ambar"
+  ],
+  "marca": "Al Haramain",
+  "nombre": "Amber Oud Rouge",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Ambarado almizclado",
+  "lema": "Misterio cálido.",
+  "venta": "Amber Oud Rouge de Al Haramain es una fragancia ambarado almizclado unisex. Las notas de azafrán abren con personalidad; jazmín forman su corazón, y ámbar gris, almizcle y extracto de cedro blanco dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Azafrán"
+  ],
+  "corazon": [
+   "Jazmín"
+  ],
+  "fondo": [
+   "Ámbar gris",
+   "Almizcle",
+   "Extracto de cedro blanco"
+  ],
+  "acordes": [
+   [
+    "Ambarado",
+    90
+   ],
+   [
+    "Almizclado",
+    90
+   ],
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Floral",
+    85
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "cuadrado",
+  "liquido": "#C47A2C"
+ },
+ "666382": {
+  "id": "azzaro-wanted-by-night-edp-hombre",
+  "auto": true,
+  "destacadas": [
+   "canela",
+   "cedro",
+   "tabaco"
+  ],
+  "marca": "Azzaro",
+  "nombre": "Wanted by Night",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Amaderada especiada",
+  "lema": "Sobriedad sofisticada.",
+  "venta": "Wanted by Night de Azzaro es una fragancia amaderada especiada para él. Abre con canela, mandarina, lavanda y limón; en el corazón aparecen cedro rojo japonés, incienso, comino y notas afrutadas, y un fondo de cedro, tabaco, ciprés, benjuí y iso e super le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Canela",
+   "Mandarina",
+   "Lavanda",
+   "Limón"
+  ],
+  "corazon": [
+   "Cedro rojo japonés",
+   "Incienso",
+   "Comino",
+   "Notas afrutadas"
+  ],
+  "fondo": [
+   "Cedro",
+   "Tabaco",
+   "Ciprés",
+   "Benjuí",
+   "Iso e super"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Cálido especiado",
+    71
+   ],
+   [
+    "Cítrico",
+    69
+   ],
+   [
+    "Cuero",
+    64
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "redondo",
+  "liquido": "#8A6A48"
+ },
+ "704869": {
+  "id": "bharara-king-edp-hombre",
+  "auto": true,
+  "destacadas": [
+   "mandarina",
+   "lavanda",
+   "vainilla"
+  ],
+  "marca": "Bharara",
+  "nombre": "King",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Cítrico avainillado",
+  "lema": "Brillo fresco y limpio.",
+  "venta": "King de Bharara es una fragancia cítrico avainillado para él. Las notas de naranja, bergamota y limón abren con personalidad; notas afrutadas forman su corazón, y vainilla, almizcle blanco y ámbar dejan una estela memorable. Perfecto para el día a día.",
+  "salida": [
+   "Naranja",
+   "Bergamota",
+   "Limón"
+  ],
+  "corazon": [
+   "Notas afrutadas"
+  ],
+  "fondo": [
+   "Vainilla",
+   "Almizcle blanco",
+   "Ámbar"
+  ],
+  "acordes": [
+   [
+    "Cítrico",
+    90
+   ],
+   [
+    "Avainillado",
+    70
+   ],
+   [
+    "Almizclado",
+    70
+   ],
+   [
+    "Ambarado",
+    70
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "facetado",
+  "liquido": "#E8C25A"
+ },
+ "643768": {
+  "id": "calvin-klein-free-edt-hombre",
+  "auto": true,
+  "destacadas": [
+   "bergamota",
+   "cuero",
+   "cedro"
+  ],
+  "marca": "Calvin Klein",
+  "nombre": "Free",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Amaderado cuero",
+  "lema": "Elegancia con carácter.",
+  "venta": "Free de Calvin Klein es una fragancia amaderado cuero para él, lanzada en 2009. Las notas de ajenjo, anís estrellado, bayas de enebro y yaca abren con personalidad; gamuza, café, tabaco y buchú forman su corazón, y roble, cedro de Virginia, pachulí y notas amaderadas dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Ajenjo",
+   "Anís estrellado",
+   "Bayas de enebro",
+   "Yaca"
+  ],
+  "corazon": [
+   "Gamuza",
+   "Café",
+   "Tabaco",
+   "Buchú"
+  ],
+  "fondo": [
+   "Roble",
+   "Cedro de Virginia",
+   "Pachulí",
+   "Notas amaderadas"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Cuero",
+    85
+   ],
+   [
+    "Gourmand",
+    67
+   ],
+   [
+    "Cálido especiado",
+    63
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "cuadrado",
+  "liquido": "#8A6A48"
+ },
+ "654597": {
+  "id": "carolina-herrera-carolina-herrera-edp-mujer",
+  "auto": true,
+  "destacadas": [
+   "azahar",
+   "jazmin",
+   "sandalo"
+  ],
+  "marca": "Carolina Herrera",
+  "nombre": "Carolina Herrera",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral amaderado",
+  "lema": "Feminidad luminosa.",
+  "venta": "Carolina Herrera de Carolina Herrera es una fragancia floral amaderado para ella. Las notas de chabacano, flor de azahar, notas verdes, bergamota y palo de rosa de Brasil abren con personalidad; madreselva, nardo de la India, jacinto, jazmín y ylang-ylang forman su corazón, y sándalo, ámbar, almizcle, algalia y musgo de roble dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Chabacano",
+   "Flor de azahar",
+   "Notas verdes",
+   "Bergamota",
+   "Palo de rosa de Brasil"
+  ],
+  "corazon": [
+   "Madreselva",
+   "Nardo de la India",
+   "Jacinto",
+   "Jazmín",
+   "Ylang-ylang"
+  ],
+  "fondo": [
+   "Sándalo",
+   "Ámbar",
+   "Almizcle",
+   "Algalia",
+   "Musgo de roble"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Amaderado",
+    67
+   ],
+   [
+    "Ambarado",
+    60
+   ],
+   [
+    "Almizclado",
+    60
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "alto",
+  "liquido": "#E9A9BC"
+ },
+ "671616": {
+  "id": "creed-spring-flower-edp-mujer",
+  "auto": true,
+  "destacadas": [
+   "manzana",
+   "jazmin",
+   "ambar"
+  ],
+  "marca": "Creed",
+  "nombre": "Spring Flower",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral frutal",
+  "lema": "Jugosa y alegre.",
+  "venta": "Spring Flower de Creed es una fragancia floral frutal para ella. Su salida de manzana, melón y durazno da paso a un corazón de jazmín y rosa, que descansa sobre un fondo de almizcle y ámbar gris. Funciona tanto de día como de noche.",
+  "salida": [
+   "Manzana",
+   "Melón",
+   "Durazno"
+  ],
+  "corazon": [
+   "Jazmín",
+   "Rosa"
+  ],
+  "fondo": [
+   "Almizcle",
+   "Ámbar gris"
+  ],
+  "acordes": [
+   [
+    "Afrutado",
+    90
+   ],
+   [
+    "Floral",
+    85
+   ],
+   [
+    "Almizclado",
+    70
+   ],
+   [
+    "Ambarado",
+    70
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E57A8A"
+ },
+ "647835": {
+  "id": "dkny-nectar-love-edp-mujer",
+  "auto": true,
+  "destacadas": [
+   "toronja",
+   "jazmin",
+   "cedro"
+  ],
+  "marca": "DKNY",
+  "nombre": "Nectar Love",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral cítrico",
+  "lema": "Flores con carácter.",
+  "venta": "Nectar Love de DKNY es una fragancia floral cítrico para ella, lanzada en 2017. Abre con toronja, mandarina, nectarina, fresia amarilla y notas solares; en el corazón aparecen jazmín, lirio de los valles y ciruela Mirabel, y un fondo de cera de abeja, cedro, vainilla, almizcle y neroli le da carácter y duración. Versátil para el día y la noche.",
+  "salida": [
+   "Toronja",
+   "Mandarina",
+   "Nectarina",
+   "Fresia amarilla",
+   "Notas solares"
+  ],
+  "corazon": [
+   "Jazmín",
+   "Lirio de los valles",
+   "Ciruela Mirabel"
+  ],
+  "fondo": [
+   "Cera de abeja",
+   "Cedro",
+   "Vainilla",
+   "Almizcle",
+   "Neroli"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Cítrico",
+    89
+   ],
+   [
+    "Amaderado",
+    67
+   ],
+   [
+    "Avainillado",
+    67
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "redondo",
+  "liquido": "#E9A9BC"
+ },
+ "694218": {
+  "id": "delroba-mystique-mirage-edp-hombre",
+  "auto": true,
+  "destacadas": [
+   "mandarina",
+   "canela",
+   "caramelo"
+  ],
+  "marca": "Delroba",
+  "nombre": "Mystique Mirage",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Avainillado cítrico",
+  "lema": "Calidez que envuelve.",
+  "venta": "Mystique Mirage de Delroba es una fragancia avainillado cítrico para él. Abre con naranja, coñac y especias; en el corazón aparecen canela, haba tonka, davana y cítricos, y un fondo de praliné, vainilla, sándalo y almizcle le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Naranja",
+   "Coñac",
+   "Especias"
+  ],
+  "corazon": [
+   "Canela",
+   "Haba tonka",
+   "Davana",
+   "Cítricos"
+  ],
+  "fondo": [
+   "Praliné",
+   "Vainilla",
+   "Sándalo",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Avainillado",
+    90
+   ],
+   [
+    "Cítrico",
+    83
+   ],
+   [
+    "Cálido especiado",
+    83
+   ],
+   [
+    "Gourmand",
+    71
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "cuadrado",
+  "liquido": "#D9A35E"
+ },
+ "702542": {
+  "id": "salvatore-ferragamo-red-leather-edp-hombre",
+  "auto": true,
+  "destacadas": [
+   "bergamota",
+   "azucena",
+   "sandalo"
+  ],
+  "marca": "Salvatore Ferragamo",
+  "nombre": "Red Leather",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Amaderado floral",
+  "lema": "Sobriedad sofisticada.",
+  "venta": "Red Leather de Salvatore Ferragamo es una fragancia amaderado floral para él. Su salida de jengibre, bergamota y mandarina da paso a un corazón de raíz de lirio, romero y jazmín, que descansa sobre un fondo de sándalo, cuero y vetiver. Perfecto para ocasiones especiales y noches frías.",
+  "salida": [
+   "Jengibre",
+   "Bergamota",
+   "Mandarina"
+  ],
+  "corazon": [
+   "Raíz de lirio",
+   "Romero",
+   "Jazmín"
+  ],
+  "fondo": [
+   "Sándalo",
+   "Cuero",
+   "Vetiver"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Floral",
+    85
+   ],
+   [
+    "Cítrico",
+    77
+   ],
+   [
+    "Cuero",
+    70
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "redondo",
+  "liquido": "#8A6A48"
+ },
+ "686450": {
+  "id": "giorgio-armani-my-way-edp-mujer",
+  "auto": true,
+  "destacadas": [
+   "azahar",
+   "jazmin",
+   "vainilla"
+  ],
+  "marca": "Giorgio Armani",
+  "nombre": "My Way",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral avainillado",
+  "lema": "Delicadeza que se recuerda.",
+  "venta": "My Way de Giorgio Armani es una fragancia floral avainillado para ella. Las notas de flor de azahar del naranjo y bergamota abren con personalidad; nardos y jazmín de la India forman su corazón, y vainilla de Madagascar, almizcle blanco y cedro de Virginia dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Flor de azahar del naranjo",
+   "Bergamota"
+  ],
+  "corazon": [
+   "Nardos",
+   "Jazmín de la India"
+  ],
+  "fondo": [
+   "Vainilla de Madagascar",
+   "Almizcle blanco",
+   "Cedro de Virginia"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Avainillado",
+    76
+   ],
+   [
+    "Almizclado",
+    76
+   ],
+   [
+    "Amaderado",
+    76
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "facetado",
+  "liquido": "#E9A9BC"
+ },
+ "702548": {
+  "id": "hugo-boss-jeans-edt-hombre",
+  "auto": true,
+  "destacadas": [
+   "toronja",
+   "menta",
+   "cedro"
+  ],
+  "marca": "Hugo Boss",
+  "nombre": "Hugo Jeans",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Amaderado aromático",
+  "lema": "Elegancia con carácter.",
+  "venta": "Hugo Jeans de Hugo Boss es una fragancia amaderado aromático para él. Abre con toronja y lima; en el corazón aparecen bayas de enebro y menta, y un fondo de cedro y vetiver le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Toronja",
+   "Lima"
+  ],
+  "corazon": [
+   "Bayas de enebro",
+   "Menta"
+  ],
+  "fondo": [
+   "Cedro",
+   "Vetiver"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Aromático",
+    85
+   ],
+   [
+    "Cítrico",
+    77
+   ],
+   [
+    "Afrutado",
+    67
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "cuadrado",
+  "liquido": "#8A6A48"
+ },
+ "676805": {
+  "id": "la-vie-est-belle-intensement-edp-mujer",
+  "auto": true,
+  "destacadas": [
+   "frambuesa",
+   "azahar",
+   "vainilla"
+  ],
+  "marca": "Lancôme",
+  "nombre": "La Vie Est Belle Intensément",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Ámbar floral",
+  "lema": "Un ramo elegante.",
+  "venta": "La Vie Est Belle Intensément de Lancôme es una fragancia ámbar floral para ella. Abre con frambuesa, pimienta rosa y bergamota; en el corazón aparecen heliotropo, flor de azahar del naranjo y jazmín sambac, y un fondo de vainilla, iris, benjuí, pachulí y sándalo le da carácter y duración. Versátil para el día y la noche.",
+  "salida": [
+   "Frambuesa",
+   "Pimienta rosa",
+   "Bergamota"
+  ],
+  "corazon": [
+   "Heliotropo",
+   "Flor de azahar del naranjo",
+   "Jazmín sambac"
+  ],
+  "fondo": [
+   "Vainilla",
+   "Iris",
+   "Benjuí",
+   "Pachulí",
+   "Sándalo"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Avainillado",
+    69
+   ],
+   [
+    "Amaderado",
+    59
+   ],
+   [
+    "Afrutado",
+    56
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E9A9BC"
+ },
+ "685017": {
+  "id": "lattafa-oud-mood-elixir-parfum-mujer",
+  "auto": true,
+  "destacadas": [
+   "canela",
+   "oud",
+   "ambar"
+  ],
+  "marca": "Lattafa",
+  "nombre": "Oud Mood Elixir",
+  "conc": "Parfum",
+  "seccion": "Unisex",
+  "familia": "Cálido especiado amaderado",
+  "lema": "Calor y seducción.",
+  "venta": "Oud Mood Elixir de Lattafa es una fragancia cálido especiado amaderado unisex. Las notas de azafrán, nuez moscada y canela abren con personalidad; madera de oud, gamuza y sándalo forman su corazón, y ámbar y vainilla dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Azafrán",
+   "Nuez moscada",
+   "Canela"
+  ],
+  "corazon": [
+   "Madera de oud",
+   "Gamuza",
+   "Sándalo"
+  ],
+  "fondo": [
+   "Ámbar",
+   "Vainilla"
+  ],
+  "acordes": [
+   [
+    "Cálido especiado",
+    90
+   ],
+   [
+    "Amaderado",
+    85
+   ],
+   [
+    "Ambarado",
+    70
+   ],
+   [
+    "Avainillado",
+    70
+   ]
+  ],
+  "duracion": "9–11 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "redondo",
+  "liquido": "#9E4A2A"
+ },
+ "706252": {
+  "id": "mancera-gold-intensitive-aoud-edp-unisex",
+  "auto": true,
+  "destacadas": [
+   "limon",
+   "rosa",
+   "maderas"
+  ],
+  "marca": "Mancera",
+  "nombre": "Gold Intensitive Aoud",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Amaderado floral",
+  "lema": "Profundidad natural.",
+  "venta": "Gold Intensitive Aoud de Mancera es una fragancia amaderado floral unisex. Abre con limón y notas acuáticas; en el corazón aparecen rosa, madera de gaiac, madera de teca, azafrán y geranio, y un fondo de maderas preciosas, almizcle blanco y ámbar gris le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Limón",
+   "Notas acuáticas"
+  ],
+  "corazon": [
+   "Rosa",
+   "Madera de gaiac",
+   "Madera de teca",
+   "Azafrán",
+   "Geranio"
+  ],
+  "fondo": [
+   "Maderas preciosas",
+   "Almizcle blanco",
+   "Ámbar gris"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Floral",
+    75
+   ],
+   [
+    "Fresco",
+    72
+   ],
+   [
+    "Almizclado",
+    65
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "alto",
+  "liquido": "#8A6A48"
+ },
+ "706235": {
+  "id": "mancera-of-the-wild-edp-unisex",
+  "auto": true,
+  "destacadas": [
+   "fresa",
+   "azahar",
+   "vainilla"
+  ],
+  "marca": "Mancera",
+  "nombre": "Of The Wild",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Floral afrutado",
+  "lema": "Un ramo elegante.",
+  "venta": "Of The Wild de Mancera es una fragancia floral afrutado unisex. Las notas de fresa, pera y heliotropo abren con personalidad; flor de azahar del naranjo, hojas de pachulí de Indonesia y jazmín forman su corazón, y almizcle, vaina de vainilla, tófe y vetiver de Haití dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Fresa",
+   "Pera",
+   "Heliotropo"
+  ],
+  "corazon": [
+   "Flor de azahar del naranjo",
+   "Hojas de pachulí de Indonesia",
+   "Jazmín"
+  ],
+  "fondo": [
+   "Almizcle",
+   "Vaina de vainilla",
+   "Tófe",
+   "Vetiver de Haití"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Afrutado",
+    72
+   ],
+   [
+    "Almizclado",
+    67
+   ],
+   [
+    "Avainillado",
+    67
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E9A9BC"
+ },
+ "706253": {
+  "id": "mancera-royal-vanilla-edp-unisex",
+  "auto": true,
+  "destacadas": [
+   "rosa",
+   "violeta",
+   "vainilla"
+  ],
+  "marca": "Mancera",
+  "nombre": "Royal Vanilla",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Floral avainillado",
+  "lema": "Delicadeza que se recuerda.",
+  "venta": "Royal Vanilla de Mancera es una fragancia floral avainillado unisex. Abre con agua de rosas, rosa, hojas de ruibarbo y cítricos; en el corazón aparecen violeta, pétalos de rosa, caramelo y flor de azahar del naranjo, y un fondo de vainilla, ámbar, hojas de pachulí y almizcle blanco le da carácter y duración. Versátil para el día y la noche.",
+  "salida": [
+   "Agua de rosas",
+   "Rosa",
+   "Hojas de ruibarbo",
+   "Cítricos"
+  ],
+  "corazon": [
+   "Violeta",
+   "Pétalos de rosa",
+   "Caramelo",
+   "Flor de azahar del naranjo"
+  ],
+  "fondo": [
+   "Vainilla",
+   "Ámbar",
+   "Hojas de pachulí",
+   "Almizcle blanco"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Avainillado",
+    60
+   ],
+   [
+    "Ambarado",
+    60
+   ],
+   [
+    "Almizclado",
+    60
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "facetado",
+  "liquido": "#E9A9BC"
+ },
+ "706242": {
+  "id": "mancera-vanille-exclusive-edp-unisex",
+  "auto": true,
+  "destacadas": [
+   "durazno",
+   "violeta",
+   "vainilla"
+  ],
+  "marca": "Mancera",
+  "nombre": "Vanille Exclusive",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Floral gourmand",
+  "lema": "Un ramo elegante.",
+  "venta": "Vanille Exclusive de Mancera es una fragancia floral gourmand unisex. Abre con osmanto, durazno blanco, crema batida y azúcar moreno; en el corazón aparecen nardo de la India, violeta y jazmín egipcio, y un fondo de vainilla de Madagascar, almizcle blanco, ámbar y notas amaderadas le da carácter y duración. Versátil para el día y la noche.",
+  "salida": [
+   "Osmanto",
+   "Durazno blanco",
+   "Crema batida",
+   "Azúcar moreno"
+  ],
+  "corazon": [
+   "Nardo de la India",
+   "Violeta",
+   "Jazmín egipcio"
+  ],
+  "fondo": [
+   "Vainilla de Madagascar",
+   "Almizcle blanco",
+   "Ámbar",
+   "Notas amaderadas"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Gourmand",
+    72
+   ],
+   [
+    "Avainillado",
+    67
+   ],
+   [
+    "Almizclado",
+    67
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E9A9BC"
+ },
+ "688794": {
+  "id": "montblanc-explorer-platinum-edp-hombre",
+  "auto": true,
+  "destacadas": [
+   "violeta",
+   "salvia",
+   "cedro"
+  ],
+  "marca": "Montblanc",
+  "nombre": "Explorer Platinum",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Amaderado aromático",
+  "lema": "Elegancia con carácter.",
+  "venta": "Explorer Platinum de Montblanc es una fragancia amaderado aromático para él. Su salida de hojas de violeta da paso a un corazón de esclarea, que descansa sobre un fondo de cedro. Perfecto para ocasiones especiales y noches frías.",
+  "salida": [
+   "Hojas de violeta"
+  ],
+  "corazon": [
+   "Esclarea"
+  ],
+  "fondo": [
+   "Cedro"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Aromático",
+    85
+   ],
+   [
+    "Floral",
+    77
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "cuadrado",
+  "liquido": "#8A6A48"
+ },
+ "696822": {
+  "id": "parfums-de-marly-darcy-edp-mujer",
+  "auto": true,
+  "destacadas": [
+   "mandarina",
+   "rosa",
+   "pachuli"
+  ],
+  "marca": "Parfums de Marly",
+  "nombre": "Darcy",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Cítrico floral",
+  "lema": "Frescura luminosa.",
+  "venta": "Darcy de Parfums de Marly es una fragancia cítrico floral para ella. Su salida de cítricos, naranja y limón da paso a un corazón de rosa y jazmín, que descansa sobre un fondo de pachulí, notas dulces, almizcle blanco y notas amaderadas. Una elección versátil para todos los días.",
+  "salida": [
+   "Cítricos",
+   "Naranja",
+   "Limón"
+  ],
+  "corazon": [
+   "Rosa",
+   "Jazmín"
+  ],
+  "fondo": [
+   "Pachulí",
+   "Notas dulces",
+   "Almizcle blanco",
+   "Notas amaderadas"
+  ],
+  "acordes": [
+   [
+    "Cítrico",
+    90
+   ],
+   [
+    "Floral",
+    85
+   ],
+   [
+    "Almizclado",
+    70
+   ],
+   [
+    "Amaderado",
+    70
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "cuadrado",
+  "liquido": "#E8C25A"
+ },
+ "704875": {
+  "id": "parfums-de-marly-palatine-edp-mujer",
+  "auto": true,
+  "destacadas": [
+   "pera",
+   "violeta",
+   "sandalo"
+  ],
+  "marca": "Parfums de Marly",
+  "nombre": "Palatine",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral cítrico",
+  "lema": "Feminidad luminosa.",
+  "venta": "Palatine de Parfums de Marly es una fragancia floral cítrico para ella. Abre con pera, bergamota y mandarina; en el corazón aparecen violeta, notas florales y lavanda, y un fondo de almizcle, sándalo, vainilla y pachulí le da carácter y duración. Versátil para el día y la noche.",
+  "salida": [
+   "Pera",
+   "Bergamota",
+   "Mandarina"
+  ],
+  "corazon": [
+   "Violeta",
+   "Notas florales",
+   "Lavanda"
+  ],
+  "fondo": [
+   "Almizcle",
+   "Sándalo",
+   "Vainilla",
+   "Pachulí"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Cítrico",
+    81
+   ],
+   [
+    "Almizclado",
+    73
+   ],
+   [
+    "Amaderado",
+    73
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "alto",
+  "liquido": "#E9A9BC"
+ },
+ "706250": {
+  "id": "ph-gardenia-jasmin-de-cachemire-edp-unisex",
+  "auto": true,
+  "destacadas": [
+   "mandarina",
+   "jazmin",
+   "vainilla"
+  ],
+  "marca": "PH",
+  "nombre": "Gardenia & Jasmin De Cachemire",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Floral ambarado",
+  "lema": "Feminidad luminosa.",
+  "venta": "Gardenia & Jasmin De Cachemire de PH es una fragancia floral ambarado unisex. Su salida de naranja amarga, bergamota y durazno da paso a un corazón de jazmín sambac, gardenia, retama de olor y flor de azahar del naranjo, que descansa sobre un fondo de ládano, bálsamo del Perú y vainilla. Funciona tanto de día como de noche.",
+  "salida": [
+   "Naranja amarga",
+   "Bergamota",
+   "Durazno"
+  ],
+  "corazon": [
+   "Jazmín sambac",
+   "Gardenia",
+   "Retama de olor",
+   "Flor de azahar del naranjo"
+  ],
+  "fondo": [
+   "Ládano",
+   "Bálsamo del Perú",
+   "Vainilla"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Ambarado",
+    81
+   ],
+   [
+    "Cítrico",
+    71
+   ],
+   [
+    "Avainillado",
+    65
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "alto",
+  "liquido": "#E9A9BC"
+ },
+ "706249": {
+  "id": "ph-patchouli-cedre-de-tweed-edp-unisex",
+  "auto": true,
+  "destacadas": [
+   "toronja",
+   "maderas",
+   "pachuli"
+  ],
+  "marca": "PH",
+  "nombre": "Patchouli & Cedre De Tweed",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Amaderado almizclado",
+  "lema": "Elegancia con carácter.",
+  "venta": "Patchouli & Cedre De Tweed de PH es una fragancia amaderado almizclado unisex. Abre con toronja y hojas de pachulí de Indonesia; en el corazón aparecen cachemira y cedro de Marruecos, y un fondo de pachulí y almizcle le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Toronja",
+   "Hojas de pachulí de Indonesia"
+  ],
+  "corazon": [
+   "Cachemira",
+   "Cedro de Marruecos"
+  ],
+  "fondo": [
+   "Pachulí",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Almizclado",
+    73
+   ],
+   [
+    "Fresco",
+    70
+   ],
+   [
+    "Cítrico",
+    65
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "cuadrado",
+  "liquido": "#8A6A48"
+ },
+ "706248": {
+  "id": "ph-tubereuse-ylang-de-pashmina-edp-unisex",
+  "auto": true,
+  "destacadas": [
+   "mandarina",
+   "jazmin",
+   "vainilla"
+  ],
+  "marca": "PH",
+  "nombre": "Tubereuse & Ylang De Pashmina",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Avainillado floral",
+  "lema": "Una caricia de vainilla.",
+  "venta": "Tubereuse & Ylang De Pashmina de PH es una fragancia avainillado floral unisex. Su salida de naranja amarga, bergamota y jengibre da paso a un corazón de nardos, clavos de olor de Madagascar y jazmín, que descansa sobre un fondo de ylang-ylang, vainilla, almizcle, benjuí y sándalo. Perfecto para ocasiones especiales y noches frías.",
+  "salida": [
+   "Naranja amarga",
+   "Bergamota",
+   "Jengibre"
+  ],
+  "corazon": [
+   "Nardos",
+   "Clavos de olor de Madagascar",
+   "Jazmín"
+  ],
+  "fondo": [
+   "Ylang-ylang",
+   "Vainilla",
+   "Almizcle",
+   "Benjuí",
+   "Sándalo"
+  ],
+  "acordes": [
+   [
+    "Avainillado",
+    90
+   ],
+   [
+    "Floral",
+    87
+   ],
+   [
+    "Cálido especiado",
+    81
+   ],
+   [
+    "Cítrico",
+    77
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "redondo",
+  "liquido": "#D9A35E"
+ },
+ "694245": {
+  "id": "salvatore-ferragamo-signorina-in-fiore-edt-mujer",
+  "auto": true,
+  "destacadas": [
+   "granada",
+   "jazmin",
+   "sandalo"
+  ],
+  "marca": "Salvatore Ferragamo",
+  "nombre": "Signorina in Fiore",
+  "conc": "EDT",
+  "seccion": "Mujer",
+  "familia": "Floral afrutado",
+  "lema": "Un ramo elegante.",
+  "venta": "Signorina in Fiore de Salvatore Ferragamo es una fragancia floral afrutado para ella. Abre con granada, sorbete y pera; en el corazón aparecen flor del cerezo y jazmín, y un fondo de almizcle blanco y sándalo le da carácter y duración. Versátil para el día y la noche.",
+  "salida": [
+   "Granada",
+   "Sorbete",
+   "Pera"
+  ],
+  "corazon": [
+   "Flor del cerezo",
+   "Jazmín"
+  ],
+  "fondo": [
+   "Almizcle blanco",
+   "Sándalo"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Afrutado",
+    81
+   ],
+   [
+    "Almizclado",
+    73
+   ],
+   [
+    "Amaderado",
+    73
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E9A9BC"
+ },
+ "704888": {
+  "id": "thameen-regent-leather-parfum-unisex",
+  "auto": true,
+  "destacadas": [
+   "limon",
+   "cardamomo",
+   "vainilla"
+  ],
+  "marca": "Thameen",
+  "nombre": "Regent Leather",
+  "conc": "Parfum",
+  "seccion": "Unisex",
+  "familia": "Ambarado cálido especiado",
+  "lema": "Calidez profunda.",
+  "venta": "Regent Leather de Thameen es una fragancia ambarado cálido especiado unisex. Las notas de limón abren con personalidad; azafrán, cardamomo, jazmín y rosa forman su corazón, y vainilla, notas de animal, cedro, ládano y bálsamo de Gurjum dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Limón"
+  ],
+  "corazon": [
+   "Azafrán",
+   "Cardamomo",
+   "Jazmín",
+   "Rosa"
+  ],
+  "fondo": [
+   "Vainilla",
+   "Notas de animal",
+   "Cedro",
+   "Ládano",
+   "Bálsamo de Gurjum"
+  ],
+  "acordes": [
+   [
+    "Ambarado",
+    90
+   ],
+   [
+    "Cálido especiado",
+    85
+   ],
+   [
+    "Floral",
+    85
+   ],
+   [
+    "Avainillado",
+    70
+   ]
+  ],
+  "duracion": "9–11 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "facetado",
+  "liquido": "#C47A2C"
+ },
+ "528906": {
+  "id": "tous-tous-edt-hombre",
+  "auto": true,
+  "destacadas": [
+   "mandarina",
+   "pina",
+   "sandalo"
+  ],
+  "marca": "Tous",
+  "nombre": "Tous",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Amaderado afrutado",
+  "lema": "Elegancia con carácter.",
+  "venta": "Tous de Tous es una fragancia amaderado afrutado para él. Su salida de naranja brasileña, jengibre, toronja y pimienta de Sichuan da paso a un corazón de piña, manzana roja y campari, que descansa sobre un fondo de sándalo, haba tonka, ámbar, cedro y almizcle blanco. Perfecto para ocasiones especiales y noches frías.",
+  "salida": [
+   "Naranja brasileña",
+   "Jengibre",
+   "Toronja",
+   "Pimienta de Sichuan"
+  ],
+  "corazon": [
+   "Piña",
+   "Manzana roja",
+   "Campari"
+  ],
+  "fondo": [
+   "Sándalo",
+   "Haba tonka",
+   "Ámbar",
+   "Cedro",
+   "Almizcle blanco"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Afrutado",
+    85
+   ],
+   [
+    "Cítrico",
+    77
+   ],
+   [
+    "Cálido especiado",
+    77
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "cuadrado",
+  "liquido": "#8A6A48"
+ },
+ "706234": {
+  "id": "trussardi-lvdm-galleria-vittorio-emmanuele-ii-edp-unisex",
+  "auto": true,
+  "destacadas": [
+   "avellana",
+   "coco",
+   "vainilla"
+  ],
+  "marca": "Trussardi",
+  "nombre": "Le Vie di Milano Galleria Vittorio Emanuele II",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Gourmand avainillado",
+  "lema": "Dulzura irresistible.",
+  "venta": "Le Vie di Milano Galleria Vittorio Emanuele II de Trussardi es una fragancia gourmand avainillado unisex. Las notas de avellana, café y canela abren con personalidad; nardos, coco y jazmín sambac forman su corazón, y vainilla, almizcle blanco y cedro dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Avellana",
+   "Café",
+   "Canela"
+  ],
+  "corazon": [
+   "Nardos",
+   "Coco",
+   "Jazmín sambac"
+  ],
+  "fondo": [
+   "Vainilla",
+   "Almizcle blanco",
+   "Cedro"
+  ],
+  "acordes": [
+   [
+    "Gourmand",
+    90
+   ],
+   [
+    "Avainillado",
+    80
+   ],
+   [
+    "Almizclado",
+    80
+   ],
+   [
+    "Amaderado",
+    80
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "redondo",
+  "liquido": "#A0673A"
+ },
+ "706260": {
+  "id": "trussardi-lvdm-porta-nuova-edp-unisex",
+  "auto": true,
+  "destacadas": [
+   "bergamota",
+   "iris",
+   "vainilla"
+  ],
+  "marca": "Trussardi",
+  "nombre": "Le Vie di Milano Porta Nuova",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Cítrico avainillado",
+  "lema": "Ligereza y elegancia.",
+  "venta": "Le Vie di Milano Porta Nuova de Trussardi es una fragancia cítrico avainillado unisex. Las notas de bergamota de Calabria, neroli y hojas de mandarina abren con personalidad; amaretto, iris y heliotropo forman su corazón, y vainilla, benjuí y ámbar dejan una estela memorable. Perfecto para el día a día.",
+  "salida": [
+   "Bergamota de Calabria",
+   "Neroli",
+   "Hojas de mandarina"
+  ],
+  "corazon": [
+   "Amaretto",
+   "Iris",
+   "Heliotropo"
+  ],
+  "fondo": [
+   "Vainilla",
+   "Benjuí",
+   "Ámbar"
+  ],
+  "acordes": [
+   [
+    "Cítrico",
+    90
+   ],
+   [
+    "Avainillado",
+    90
+   ],
+   [
+    "Floral",
+    85
+   ],
+   [
+    "Ambarado",
+    70
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "redondo",
+  "liquido": "#E8C25A"
+ },
+ "680711": {
+  "id": "viktor-rolf-flower-bomb-edp-mujer",
+  "auto": true,
+  "destacadas": [
+   "bergamota",
+   "jazmin",
+   "pachuli"
+  ],
+  "marca": "Viktor & Rolf",
+  "nombre": "Flower Bomb",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Ámbar floral",
+  "lema": "Un ramo elegante.",
+  "venta": "Flower Bomb de Viktor & Rolf es una fragancia ámbar floral para ella. Las notas de té, bergamota y osmanto abren con personalidad; orquídea, jazmín, rosa, fresia y flor del naranjo africano forman su corazón, y pachulí, almizcle y vainilla dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Té",
+   "Bergamota",
+   "Osmanto"
+  ],
+  "corazon": [
+   "Orquídea",
+   "Jazmín",
+   "Rosa",
+   "Fresia",
+   "Flor del naranjo africano"
+  ],
+  "fondo": [
+   "Pachulí",
+   "Almizcle",
+   "Vainilla"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Almizclado",
+    58
+   ],
+   [
+    "Avainillado",
+    58
+   ],
+   [
+    "Fresco",
+    55
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E9A9BC"
  }
 }
