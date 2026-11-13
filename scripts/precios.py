@@ -3,8 +3,12 @@ import json, math, os
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 R = json.load(open(os.path.join(RAIZ, "datos", "reglas.json"), encoding="utf-8"))
 
+def pct_total():
+    """Porcentaje del precio de venta que se descuenta: Mercado Pago + impuestos + comisión extra."""
+    return R["comision_pct"] + R.get("impuestos_pct", 0) + R.get("comision_extra_pct", 0)
+
 def comision(p):
-    return R["comision_pct"] / 100 * p + R["comision_fija"]
+    return pct_total() / 100 * p + R["comision_fija"]
 
 def abajo_99(x):
     return int(math.floor((x + 1) / 100) * 100 - 1)
@@ -25,6 +29,6 @@ def precio(prod):
                 return p, round(g), ref
         return None
     sr = R["sin_referencia"]
-    minimo = (costo + sr["ganancia_minima"] + R["comision_fija"]) / (1 - R["comision_pct"] / 100)
+    minimo = (costo + sr["ganancia_minima"] + R["comision_fija"]) / (1 - pct_total() / 100)
     p = arriba_99(max(costo * (1 + sr["margen_pct"] / 100), minimo))
     return p, round(p - costo - comision(p)), None

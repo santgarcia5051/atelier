@@ -11,5 +11,7 @@
   },
   "comision_pct": 4.05,
   "comision_fija": 4.64,
-  "_nota": "Comisión de Mercado Pago: 3.49% + $4 + IVA. Todos los precios terminan en 99."
+  "impuestos_pct": 10,
+  "comision_extra_pct": 5,
+  "_nota": "Por cada venta se descuenta: Mercado Pago (3.49% + $4 + IVA = comision_pct + comision_fija), impuestos_pct (10%) y comision_extra_pct (5%), todos sobre el precio de venta. La ganancia mínima se mide después de esos descuentos. Todos los precios terminan en 99."
 }
