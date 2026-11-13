@@ -24841,5 +24841,6096 @@
   "ocasion": "Día · Noche",
   "forma": "cuadrado",
   "liquido": "#E9A9BC"
+ },
+ "697069": {
+  "id": "acqua-di-parma-blu-mediterraneo-mirto-di-panarea-edt-unisex",
+  "destacadas": [
+   "limon",
+   "mar",
+   "cedro"
+  ],
+  "marca": "Acqua di Parma",
+  "nombre": "Blu Mediterraneo Mirto di Panarea",
+  "conc": "EDT",
+  "seccion": "Unisex",
+  "familia": "Floral aromático",
+  "lema": "Feminidad luminosa.",
+  "venta": "Blu Mediterraneo Mirto di Panarea de Acqua di Parma es una fragancia floral aromático unisex. Abre con mirto, albahaca, limón y bergamota; en el corazón aparecen notas marinas, jazmín y rosa, y un fondo de lentisco, bayas de enebro, cedro y ámbar le da carácter y duración. Versátil para el día y la noche.",
+  "salida": [
+   "Mirto",
+   "Albahaca",
+   "Limón",
+   "Bergamota"
+  ],
+  "corazon": [
+   "Notas marinas",
+   "Jazmín",
+   "Rosa"
+  ],
+  "fondo": [
+   "Lentisco",
+   "Bayas de enebro",
+   "Cedro",
+   "Ámbar"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Aromático",
+    88
+   ],
+   [
+    "Cítrico",
+    81
+   ],
+   [
+    "Afrutado",
+    73
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "alto",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "696770": {
+  "id": "acqua-di-parma-colonia-edc-unisex",
+  "destacadas": [
+   "limon",
+   "lavanda",
+   "sandalo"
+  ],
+  "marca": "Acqua di Parma",
+  "nombre": "Colonia",
+  "conc": "EDC",
+  "seccion": "Unisex",
+  "familia": "Aromático cítrico",
+  "lema": "Frescura con distinción.",
+  "venta": "Colonia de Acqua di Parma es una fragancia aromático cítrico unisex, lanzada en 1916. Su salida de limón, bergamota y naranja da paso a un corazón de lavanda, hierba luisa, rosa y romero, que descansa sobre un fondo de sándalo, pachulí y vetiver. Una elección versátil para todos los días.",
+  "salida": [
+   "Limón",
+   "Bergamota",
+   "Naranja"
+  ],
+  "corazon": [
+   "Lavanda",
+   "Hierba luisa",
+   "Rosa",
+   "Romero"
+  ],
+  "fondo": [
+   "Sándalo",
+   "Pachulí",
+   "Vetiver"
+  ],
+  "acordes": [
+   [
+    "Aromático",
+    90
+   ],
+   [
+    "Cítrico",
+    81
+   ],
+   [
+    "Amaderado",
+    81
+   ],
+   [
+    "Floral",
+    63
+   ]
+  ],
+  "duracion": "3–5 h",
+  "proyeccion": 2,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "cuadrado",
+  "liquido": "#7E9A7A",
+  "fuente_notas": "web"
+ },
+ "671451": {
+  "id": "acqua-di-parma-peonia-nobile-edp-mujer",
+  "destacadas": [
+   "frambuesa",
+   "peonia",
+   "ambar"
+  ],
+  "marca": "Acqua di Parma",
+  "nombre": "Peonia Nobile",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral almizclado",
+  "lema": "Feminidad luminosa.",
+  "venta": "Peonia Nobile de Acqua di Parma es una fragancia floral almizclado para ella, lanzada en 2016. Abre con frambuesa y pimienta negra; en el corazón aparecen peonía, rosa, geranio y fresia, y un fondo de almizcle, ámbar y pachulí le da carácter y duración. Versátil para el día y la noche.",
+  "salida": [
+   "Frambuesa",
+   "Pimienta negra"
+  ],
+  "corazon": [
+   "Peonía",
+   "Rosa",
+   "Geranio",
+   "Fresia"
+  ],
+  "fondo": [
+   "Almizcle",
+   "Ámbar",
+   "Pachulí"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Almizclado",
+    62
+   ],
+   [
+    "Ambarado",
+    62
+   ],
+   [
+    "Afrutado",
+    58
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "alto",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "706268": {
+  "id": "adolfo-dominguez-agua-fresca-de-rosas-edt-mujer",
+  "destacadas": [
+   "toronja",
+   "rosa",
+   "sandalo"
+  ],
+  "marca": "Adolfo Domínguez",
+  "nombre": "Agua Fresca de Rosas",
+  "conc": "EDT",
+  "seccion": "Mujer",
+  "familia": "Floral cítrico",
+  "lema": "Un ramo elegante.",
+  "venta": "Agua Fresca de Rosas de Adolfo Domínguez es una fragancia floral cítrico para ella. Las notas de toronja, bergamota y mandarina abren con personalidad; rosa, lirio de los valles, lila y jazmín forman su corazón, y sándalo, musgo de roble, ámbar y almizcle dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Toronja",
+   "Bergamota",
+   "Mandarina"
+  ],
+  "corazon": [
+   "Rosa",
+   "Lirio de los valles",
+   "Lila",
+   "Jazmín"
+  ],
+  "fondo": [
+   "Sándalo",
+   "Musgo de roble",
+   "Ámbar",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Cítrico",
+    73
+   ],
+   [
+    "Amaderado",
+    62
+   ],
+   [
+    "Ambarado",
+    62
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "695013": {
+  "id": "ariana-grande-sweet-like-candy-edp-mujer",
+  "destacadas": [
+   "bergamota",
+   "grosella",
+   "vainilla"
+  ],
+  "marca": "Ariana Grande",
+  "nombre": "Sweet Like Candy",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Afrutado avainillado",
+  "lema": "Alegría en cada aplicación.",
+  "venta": "Sweet Like Candy de Ariana Grande es una fragancia afrutado avainillado para ella. Su salida de zarzamora, bergamota y pera da paso a un corazón de grosellas negras, madreselva y jazmín, que descansa sobre un fondo de vainilla, malvavisco y cachemira. Funciona tanto de día como de noche.",
+  "salida": [
+   "Zarzamora",
+   "Bergamota",
+   "Pera"
+  ],
+  "corazon": [
+   "Grosellas negras",
+   "Madreselva",
+   "Jazmín"
+  ],
+  "fondo": [
+   "Vainilla",
+   "Malvavisco",
+   "Cachemira"
+  ],
+  "acordes": [
+   [
+    "Afrutado",
+    90
+   ],
+   [
+    "Avainillado",
+    68
+   ],
+   [
+    "Gourmand",
+    68
+   ],
+   [
+    "Amaderado",
+    68
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "facetado",
+  "liquido": "#E57A8A",
+  "fuente_notas": "web"
+ },
+ "704842": {
+  "id": "armaf-odyssey-candee-edp-mujer",
+  "destacadas": [
+   "durazno",
+   "caramelo",
+   "ambar"
+  ],
+  "marca": "Armaf",
+  "nombre": "Odyssey Candee",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Afrutado ambarado",
+  "lema": "Dulzura vibrante.",
+  "venta": "Odyssey Candee de Armaf es una fragancia afrutado ambarado para ella. Su salida de durazno, fresa, frambuesa y bergamota da paso a un corazón de caramelo, jazmín y maracuyá, que descansa sobre un fondo de ámbar, pachulí y almizcle. Funciona tanto de día como de noche.",
+  "salida": [
+   "Durazno",
+   "Fresa",
+   "Frambuesa",
+   "Bergamota"
+  ],
+  "corazon": [
+   "Caramelo",
+   "Jazmín",
+   "Maracuyá"
+  ],
+  "fondo": [
+   "Ámbar",
+   "Pachulí",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Afrutado",
+    90
+   ],
+   [
+    "Ambarado",
+    64
+   ],
+   [
+    "Almizclado",
+    64
+   ],
+   [
+    "Gourmand",
+    62
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "alto",
+  "liquido": "#E57A8A",
+  "fuente_notas": "web"
+ },
+ "693770": {
+  "id": "armaf-odyssey-homme-edp-hombre",
+  "destacadas": [
+   "mandarina",
+   "rosa",
+   "sandalo"
+  ],
+  "marca": "Armaf",
+  "nombre": "Odyssey Homme",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Amaderado floral",
+  "lema": "Sobriedad sofisticada.",
+  "venta": "Odyssey Homme de Armaf es una fragancia amaderado floral para él. Las notas de mandarina, neroli y cardamomo abren con personalidad; rosa y flor de azahar del naranjo forman su corazón, y sándalo, vainilla, ámbar y notas amaderadas dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Mandarina",
+   "Neroli",
+   "Cardamomo"
+  ],
+  "corazon": [
+   "Rosa",
+   "Flor de azahar del naranjo"
+  ],
+  "fondo": [
+   "Sándalo",
+   "Vainilla",
+   "Ámbar",
+   "Notas amaderadas"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Floral",
+    85
+   ],
+   [
+    "Cítrico",
+    77
+   ],
+   [
+    "Avainillado",
+    70
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "redondo",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "704840": {
+  "id": "bharara-champagne-blue-edp-hombre",
+  "destacadas": [
+   "manzana",
+   "lavanda",
+   "haba"
+  ],
+  "marca": "Bharara",
+  "nombre": "Champagne Blue",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Floral avainillado",
+  "lema": "Feminidad luminosa.",
+  "venta": "Champagne Blue de Bharara es una fragancia floral avainillado para él. Abre con notas verdes, manzana, bergamota y naranja; en el corazón aparecen lavanda, rosa, violeta y jazmín, y un fondo de haba tonka, pachulí, vainilla y amberwood le da carácter y duración. Versátil para el día y la noche.",
+  "salida": [
+   "Notas verdes",
+   "Manzana",
+   "Bergamota",
+   "Naranja"
+  ],
+  "corazon": [
+   "Lavanda",
+   "Rosa",
+   "Violeta",
+   "Jazmín"
+  ],
+  "fondo": [
+   "Haba tonka",
+   "Pachulí",
+   "Vainilla",
+   "Amberwood"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Avainillado",
+    81
+   ],
+   [
+    "Aromático",
+    74
+   ],
+   [
+    "Cítrico",
+    71
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "alto",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "692955": {
+  "id": "bharara-chocolate-edp-unisex",
+  "destacadas": [
+   "bergamota",
+   "caramelo",
+   "vainilla"
+  ],
+  "marca": "Bharara",
+  "nombre": "Chocolate",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Avainillado cálido especiado",
+  "lema": "Calidez que envuelve.",
+  "venta": "Chocolate de Bharara es una fragancia avainillado cálido especiado unisex. Su salida de bergamota, canela y cardamomo da paso a un corazón de dátil, praliné, nardos, coñac y cuero, que descansa sobre un fondo de benjuí, vainilla, haba tonka, almizcle y madera de oud. Perfecto para ocasiones especiales y noches frías.",
+  "salida": [
+   "Bergamota",
+   "Canela",
+   "Cardamomo"
+  ],
+  "corazon": [
+   "Dátil",
+   "Praliné",
+   "Nardos",
+   "Coñac",
+   "Cuero"
+  ],
+  "fondo": [
+   "Benjuí",
+   "Vainilla",
+   "Haba tonka",
+   "Almizcle",
+   "Madera de oud"
+  ],
+  "acordes": [
+   [
+    "Avainillado",
+    90
+   ],
+   [
+    "Cálido especiado",
+    68
+   ],
+   [
+    "Almizclado",
+    63
+   ],
+   [
+    "Amaderado",
+    63
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "cuadrado",
+  "liquido": "#D9A35E",
+  "fuente_notas": "web"
+ },
+ "704854": {
+  "id": "bharara-gorgeous-edp-mujer",
+  "destacadas": [
+   "mar",
+   "azucena",
+   "merengue"
+  ],
+  "marca": "Bharara",
+  "nombre": "Gorgeous",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral gourmand",
+  "lema": "Feminidad luminosa.",
+  "venta": "Gorgeous de Bharara es una fragancia floral gourmand para ella. Las notas de sal marina, bergamota y frambuesa abren con personalidad; lirio, ylang-ylang y jazmín forman su corazón, y merengue, pachulí y almizcle dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Sal marina",
+   "Bergamota",
+   "Frambuesa"
+  ],
+  "corazon": [
+   "Lirio",
+   "Ylang-ylang",
+   "Jazmín"
+  ],
+  "fondo": [
+   "Merengue",
+   "Pachulí",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Gourmand",
+    65
+   ],
+   [
+    "Almizclado",
+    65
+   ],
+   [
+    "Fresco",
+    60
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "alto",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "704857": {
+  "id": "bharara-pharaoh-ramesses-ii-parfum-hombre",
+  "destacadas": [
+   "cacao",
+   "tabaco",
+   "oud"
+  ],
+  "marca": "Bharara",
+  "nombre": "Pharaoh Ramesses II",
+  "conc": "Parfum",
+  "seccion": "Hombre",
+  "familia": "Cuero ambarado",
+  "lema": "Lujo con actitud.",
+  "venta": "Pharaoh Ramesses II de Bharara es una fragancia cuero ambarado para él. Abre con cacao, azafrán y ládano; en el corazón aparecen tabaco, cuero y canela, y un fondo de madera de oud, ámbar y pachulí le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Cacao",
+   "Azafrán",
+   "Ládano"
+  ],
+  "corazon": [
+   "Tabaco",
+   "Cuero",
+   "Canela"
+  ],
+  "fondo": [
+   "Madera de oud",
+   "Ámbar",
+   "Pachulí"
+  ],
+  "acordes": [
+   [
+    "Cuero",
+    90
+   ],
+   [
+    "Ambarado",
+    88
+   ],
+   [
+    "Cálido especiado",
+    85
+   ],
+   [
+    "Amaderado",
+    73
+   ]
+  ],
+  "duracion": "9–11 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "facetado",
+  "liquido": "#5A3A2A",
+  "fuente_notas": "web"
+ },
+ "706846": {
+  "id": "birkholz-incense-n-fire-edp-unisex",
+  "destacadas": [
+   "bergamota",
+   "lavanda",
+   "pachuli"
+  ],
+  "marca": "Birkholz",
+  "nombre": "Incense N' Fire",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Ambarado amaderado",
+  "lema": "Calidez profunda.",
+  "venta": "Incense N' Fire de Birkholz es una fragancia ambarado amaderado unisex. Las notas de incienso y frutos secos abren con personalidad; ládano forman su corazón, y pachulí y sándalo dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Incienso",
+   "Frutos secos"
+  ],
+  "corazon": [
+   "Ládano"
+  ],
+  "fondo": [
+   "Pachulí",
+   "Sándalo"
+  ],
+  "acordes": [
+   [
+    "Ambarado",
+    90
+   ],
+   [
+    "Amaderado",
+    76
+   ],
+   [
+    "Afrutado",
+    67
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "facetado",
+  "liquido": "#C47A2C",
+  "fuente_notas": "web"
+ },
+ "706847": {
+  "id": "birkholz-roads-of-rome-edp-unisex",
+  "destacadas": [
+   "bergamota",
+   "rosa",
+   "caramelo"
+  ],
+  "marca": "Birkholz",
+  "nombre": "Roads of Rome",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Floral ambarado",
+  "lema": "Feminidad luminosa.",
+  "venta": "Roads of Rome de Birkholz es una fragancia floral ambarado unisex. Las notas de incienso y ciprés abren con personalidad; rosa, jazmín y flores blancas forman su corazón, y ládano, almizcle, praliné, pachulí y vetiver dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Incienso",
+   "Ciprés"
+  ],
+  "corazon": [
+   "Rosa",
+   "Jazmín",
+   "Flores blancas"
+  ],
+  "fondo": [
+   "Ládano",
+   "Almizcle",
+   "Praliné",
+   "Pachulí",
+   "Vetiver"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Ambarado",
+    76
+   ],
+   [
+    "Amaderado",
+    76
+   ],
+   [
+    "Almizclado",
+    65
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "alto",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "706845": {
+  "id": "birkholz-royal-amber-edp-unisex",
+  "destacadas": [
+   "bergamota",
+   "rosa",
+   "sandalo"
+  ],
+  "marca": "Birkholz",
+  "nombre": "Royal Amber",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Amaderado cálido especiado",
+  "lema": "Profundidad natural.",
+  "venta": "Royal Amber de Birkholz es una fragancia amaderado cálido especiado unisex. Las notas de bergamota, chabacano y jengibre abren con personalidad; rosa, lavanda y cardamomo forman su corazón, y sándalo, madera de gaiac y praliné dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Bergamota",
+   "Chabacano",
+   "Jengibre"
+  ],
+  "corazon": [
+   "Rosa",
+   "Lavanda",
+   "Cardamomo"
+  ],
+  "fondo": [
+   "Sándalo",
+   "Madera de gaiac",
+   "Praliné"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Cálido especiado",
+    81
+   ],
+   [
+    "Gourmand",
+    70
+   ],
+   [
+    "Floral",
+    67
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "alto",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "693772": {
+  "id": "burberry-london-for-women-edp-mujer",
+  "destacadas": [
+   "mandarina",
+   "peonia",
+   "sandalo"
+  ],
+  "marca": "Burberry",
+  "nombre": "London for Women",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral amaderado",
+  "lema": "Flores con carácter.",
+  "venta": "London for Women de Burberry es una fragancia floral amaderado para ella, lanzada en 2006. Las notas de madreselva y mandarina abren con personalidad; peonía, jazmín y rosa forman su corazón, y sándalo, almizcle y pachulí dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Madreselva",
+   "Mandarina"
+  ],
+  "corazon": [
+   "Peonía",
+   "Jazmín",
+   "Rosa"
+  ],
+  "fondo": [
+   "Sándalo",
+   "Almizcle",
+   "Pachulí"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Amaderado",
+    65
+   ],
+   [
+    "Almizclado",
+    65
+   ],
+   [
+    "Cítrico",
+    60
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "redondo",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "628244": {
+  "id": "cacharel-amor-amor-edt-mujer",
+  "destacadas": [
+   "grosella",
+   "rosa",
+   "vainilla"
+  ],
+  "marca": "Cacharel",
+  "nombre": "Amor Amor",
+  "conc": "EDT",
+  "seccion": "Mujer",
+  "familia": "Floral cítrico",
+  "lema": "Delicadeza que se recuerda.",
+  "venta": "Amor Amor de Cacharel es una fragancia floral cítrico para ella, lanzada en 2003. Las notas de grosellas negras, naranja, mandarina y toronja abren con personalidad; rosa, chabacano, jazmín y lirio forman su corazón, y vainilla, haba tonka, almizcle y ámbar dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Grosellas negras",
+   "Naranja",
+   "Mandarina",
+   "Toronja"
+  ],
+  "corazon": [
+   "Rosa",
+   "Chabacano",
+   "Jazmín",
+   "Lirio"
+  ],
+  "fondo": [
+   "Vainilla",
+   "Haba tonka",
+   "Almizcle",
+   "Ámbar"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Cítrico",
+    81
+   ],
+   [
+    "Avainillado",
+    81
+   ],
+   [
+    "Almizclado",
+    65
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "facetado",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "694974": {
+  "id": "cacharel-eden-edp-mujer",
+  "destacadas": [
+   "loto",
+   "pina",
+   "pachuli"
+  ],
+  "marca": "Cacharel",
+  "nombre": "Eden",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Afrutado floral",
+  "lema": "Jugosa y alegre.",
+  "venta": "Eden de Cacharel es una fragancia afrutado floral para ella, lanzada en 1994. Su salida de nenúfar, flor de loto y mandarina da paso a un corazón de melón, piña, durazno, violeta y mimosa, que descansa sobre un fondo de pachulí y sándalo. Funciona tanto de día como de noche.",
+  "salida": [
+   "Nenúfar",
+   "Flor de loto",
+   "Mandarina"
+  ],
+  "corazon": [
+   "Melón",
+   "Piña",
+   "Durazno",
+   "Violeta",
+   "Mimosa"
+  ],
+  "fondo": [
+   "Pachulí",
+   "Sándalo"
+  ],
+  "acordes": [
+   [
+    "Afrutado",
+    90
+   ],
+   [
+    "Floral",
+    87
+   ],
+   [
+    "Amaderado",
+    65
+   ],
+   [
+    "Cítrico",
+    60
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E57A8A",
+  "fuente_notas": "web"
+ },
+ "694975": {
+  "id": "calvin-klein-ck-one-essence-parfum-unisex",
+  "destacadas": [
+   "bergamota",
+   "lavanda",
+   "sandalo"
+  ],
+  "marca": "Calvin Klein",
+  "nombre": "CK One Essence",
+  "conc": "Parfum",
+  "seccion": "Unisex",
+  "familia": "Cítrico amaderado",
+  "lema": "Ligereza y elegancia.",
+  "venta": "CK One Essence de Calvin Klein es una fragancia cítrico amaderado unisex, lanzada en 2024. Las notas de bergamota y naranja sanguina abren con personalidad; té verde forman su corazón, y sándalo y almizcle dejan una estela memorable. Perfecto para el día a día.",
+  "salida": [
+   "Bergamota",
+   "Naranja sanguina"
+  ],
+  "corazon": [
+   "Té verde"
+  ],
+  "fondo": [
+   "Sándalo",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Cítrico",
+    90
+   ],
+   [
+    "Amaderado",
+    80
+   ],
+   [
+    "Almizclado",
+    80
+   ],
+   [
+    "Aromático",
+    76
+   ]
+  ],
+  "duracion": "9–11 h",
+  "proyeccion": 4,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "redondo",
+  "liquido": "#E8C25A",
+  "fuente_notas": "web"
+ },
+ "643194": {
+  "id": "calvin-klein-eternity-for-men-edt-hombre",
+  "destacadas": [
+   "bergamota",
+   "salvia",
+   "rosa"
+  ],
+  "marca": "Calvin Klein",
+  "nombre": "Eternity for Men",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Aromático amaderado",
+  "lema": "Aromático y elegante.",
+  "venta": "Eternity for Men de Calvin Klein es una fragancia aromático amaderado para él, lanzada en 1990. Las notas de bergamota, limón, lavanda y mandarina abren con personalidad; albahaca, bayas de enebro, cilantro, salvia y geranio forman su corazón, y palo de rosa, vetiver, sándalo, ámbar y almizcle dejan una estela memorable. Perfecto para el día a día.",
+  "salida": [
+   "Bergamota",
+   "Limón",
+   "Lavanda",
+   "Mandarina"
+  ],
+  "corazon": [
+   "Albahaca",
+   "Bayas de enebro",
+   "Cilantro",
+   "Salvia",
+   "Geranio"
+  ],
+  "fondo": [
+   "Palo de rosa",
+   "Vetiver",
+   "Sándalo",
+   "Ámbar",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Aromático",
+    90
+   ],
+   [
+    "Amaderado",
+    79
+   ],
+   [
+    "Cítrico",
+    69
+   ],
+   [
+    "Floral",
+    68
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "redondo",
+  "liquido": "#7E9A7A",
+  "fuente_notas": "web"
+ },
+ "625929": {
+  "id": "calvin-klein-euphoria-edp-mujer",
+  "destacadas": [
+   "granada",
+   "loto",
+   "violeta"
+  ],
+  "marca": "Calvin Klein",
+  "nombre": "Euphoria",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral gourmand",
+  "lema": "Un ramo elegante.",
+  "venta": "Euphoria de Calvin Klein es una fragancia floral gourmand para ella, lanzada en 2005. Las notas de granada, notas verdes y caqui abren con personalidad; orquídea, flor de loto y champaca forman su corazón, y caoba, crema, violeta y ámbar dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Granada",
+   "Notas verdes",
+   "Caqui"
+  ],
+  "corazon": [
+   "Orquídea",
+   "Flor de loto",
+   "Champaca"
+  ],
+  "fondo": [
+   "Caoba",
+   "Crema",
+   "Violeta",
+   "Ámbar"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Gourmand",
+    65
+   ],
+   [
+    "Ambarado",
+    65
+   ],
+   [
+    "Afrutado",
+    60
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "643833": {
+  "id": "calvin-klein-ck-one-edt-unisex",
+  "destacadas": [
+   "bergamota",
+   "rosa",
+   "ambar"
+  ],
+  "marca": "Calvin Klein",
+  "nombre": "CK One",
+  "conc": "EDT",
+  "seccion": "Unisex",
+  "familia": "Floral cítrico",
+  "lema": "Un ramo elegante.",
+  "venta": "CK One de Calvin Klein es una fragancia floral cítrico unisex, lanzada en 1994. Abre con papaya, bergamota, limón y mandarina; en el corazón aparecen rosa, jazmín, iris y violeta, y un fondo de almizcle, notas verdes, ámbar y cedro le da carácter y duración. Versátil para el día y la noche.",
+  "salida": [
+   "Papaya",
+   "Bergamota",
+   "Limón",
+   "Mandarina"
+  ],
+  "corazon": [
+   "Rosa",
+   "Jazmín",
+   "Iris",
+   "Violeta"
+  ],
+  "fondo": [
+   "Almizcle",
+   "Notas verdes",
+   "Ámbar",
+   "Cedro"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Cítrico",
+    73
+   ],
+   [
+    "Almizclado",
+    62
+   ],
+   [
+    "Aromático",
+    62
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "706851": {
+  "id": "carner-barcelona-lukomorie-edp-unisex",
+  "destacadas": [
+   "toronja",
+   "rosa",
+   "caramelo"
+  ],
+  "marca": "Carner Barcelona",
+  "nombre": "Lukomorie",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Cítrico gourmand",
+  "lema": "Energía cítrica para todo el día.",
+  "venta": "Lukomorie de Carner Barcelona es una fragancia cítrico gourmand unisex. Su salida de toronja, bergamota, pimienta rosa y té de limón da paso a un corazón de rosa, zarzamora y semillas de ambreta, que descansa sobre un fondo de caramelo, pachulí y almizcle. Una elección versátil para todos los días.",
+  "salida": [
+   "Toronja",
+   "Bergamota",
+   "Pimienta rosa",
+   "Té de limón"
+  ],
+  "corazon": [
+   "Rosa",
+   "Zarzamora",
+   "Semillas de ambreta"
+  ],
+  "fondo": [
+   "Caramelo",
+   "Pachulí",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Cítrico",
+    90
+   ],
+   [
+    "Gourmand",
+    83
+   ],
+   [
+    "Floral",
+    81
+   ],
+   [
+    "Almizclado",
+    70
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "alto",
+  "liquido": "#E8C25A",
+  "fuente_notas": "web"
+ },
+ "706863": {
+  "id": "carolina-herrera-212-men-edt-hombre",
+  "destacadas": [
+   "bergamota",
+   "violeta",
+   "sandalo"
+  ],
+  "marca": "Carolina Herrera",
+  "nombre": "212 Men",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Amaderado floral",
+  "lema": "Sobriedad sofisticada.",
+  "venta": "212 Men de Carolina Herrera es una fragancia amaderado floral para él, lanzada en 1999. Abre con notas especiadas, notas verdes, bergamota y toronja; en el corazón aparecen violeta, gardenia, jengibre y salvia, y un fondo de almizcle, sándalo, vetiver y madera de gaiac le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Notas especiadas",
+   "Notas verdes",
+   "Bergamota",
+   "Toronja"
+  ],
+  "corazon": [
+   "Violeta",
+   "Gardenia",
+   "Jengibre",
+   "Salvia"
+  ],
+  "fondo": [
+   "Almizcle",
+   "Sándalo",
+   "Vetiver",
+   "Madera de gaiac"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Floral",
+    73
+   ],
+   [
+    "Cálido especiado",
+    70
+   ],
+   [
+    "Aromático",
+    70
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "redondo",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "706880": {
+  "id": "carolina-herrera-212-men-mtv-edt-hombre",
+  "destacadas": [
+   "pimienta",
+   "gardenia",
+   "tabaco"
+  ],
+  "marca": "Carolina Herrera",
+  "nombre": "212 Men MTV",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Cálido especiado cuero",
+  "lema": "Calor y seducción.",
+  "venta": "212 Men MTV de Carolina Herrera es una fragancia cálido especiado cuero para él, lanzada en 2024. Su salida de pimienta de Sichuan y cardamomo da paso a un corazón de elemí y gardenia, que descansa sobre un fondo de tabaco y notas amaderadas. Perfecto para ocasiones especiales y noches frías.",
+  "salida": [
+   "Pimienta de Sichuan",
+   "Cardamomo"
+  ],
+  "corazon": [
+   "Elemí",
+   "Gardenia"
+  ],
+  "fondo": [
+   "Tabaco",
+   "Notas amaderadas"
+  ],
+  "acordes": [
+   [
+    "Cálido especiado",
+    90
+   ],
+   [
+    "Cuero",
+    80
+   ],
+   [
+    "Amaderado",
+    80
+   ],
+   [
+    "Ambarado",
+    76
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "redondo",
+  "liquido": "#9E4A2A",
+  "fuente_notas": "web"
+ },
+ "623549": {
+  "id": "carolina-herrera-212-nyc-edt-mujer",
+  "destacadas": [
+   "azahar",
+   "gardenia",
+   "sandalo"
+  ],
+  "marca": "Carolina Herrera",
+  "nombre": "212 NYC",
+  "conc": "EDT",
+  "seccion": "Mujer",
+  "familia": "Floral cítrico",
+  "lema": "Flores con carácter.",
+  "venta": "212 NYC de Carolina Herrera es una fragancia floral cítrico para ella, lanzada en 1997. Su salida de flor de azahar del naranjo, mandarina, flor de cactus y bergamota da paso a un corazón de camelia, gardenia, fresia, jazmín y lirio de los valles, que descansa sobre un fondo de sándalo y almizcle. Funciona tanto de día como de noche.",
+  "salida": [
+   "Flor de azahar del naranjo",
+   "Mandarina",
+   "Flor de cactus",
+   "Bergamota"
+  ],
+  "corazon": [
+   "Camelia",
+   "Gardenia",
+   "Fresia",
+   "Jazmín",
+   "Lirio de los valles"
+  ],
+  "fondo": [
+   "Sándalo",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Cítrico",
+    59
+   ],
+   [
+    "Amaderado",
+    57
+   ],
+   [
+    "Almizclado",
+    57
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "redondo",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "693767": {
+  "id": "carolina-herrera-212-vip-rose-elixir-edp-mujer",
+  "destacadas": [
+   "grosella",
+   "rosa",
+   "vainilla"
+  ],
+  "marca": "Carolina Herrera",
+  "nombre": "212 VIP Rosé Elixir",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral afrutado",
+  "lema": "Un ramo elegante.",
+  "venta": "212 VIP Rosé Elixir de Carolina Herrera es una fragancia floral afrutado para ella. Su salida de grosellas negras, lichi y mandarina da paso a un corazón de rosa, flor del duraznero y fresia, que descansa sobre un fondo de vainilla, pachulí y almizcle. Funciona tanto de día como de noche.",
+  "salida": [
+   "Grosellas negras",
+   "Lichi",
+   "Mandarina"
+  ],
+  "corazon": [
+   "Rosa",
+   "Flor del duraznero",
+   "Fresia"
+  ],
+  "fondo": [
+   "Vainilla",
+   "Pachulí",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Afrutado",
+    71
+   ],
+   [
+    "Avainillado",
+    65
+   ],
+   [
+    "Almizclado",
+    65
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "617757": {
+  "id": "carolina-herrera-ch-edt-mujer",
+  "destacadas": [
+   "bergamota",
+   "azahar",
+   "cuero"
+  ],
+  "marca": "Carolina Herrera",
+  "nombre": "CH",
+  "conc": "EDT",
+  "seccion": "Mujer",
+  "familia": "Floral cítrico",
+  "lema": "Feminidad luminosa.",
+  "venta": "CH de Carolina Herrera es una fragancia floral cítrico para ella, lanzada en 2007. Las notas de bergamota, limón, toronja, frutas tropicales y notas acuáticas abren con personalidad; flor de azahar del naranjo, canela, rosa, jazmín y praliné forman su corazón, y gamuza, cedro, cuero, pachulí y sándalo dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Bergamota",
+   "Limón",
+   "Toronja",
+   "Frutas tropicales",
+   "Notas acuáticas"
+  ],
+  "corazon": [
+   "Flor de azahar del naranjo",
+   "Canela",
+   "Rosa",
+   "Jazmín",
+   "Praliné"
+  ],
+  "fondo": [
+   "Gamuza",
+   "Cedro",
+   "Cuero",
+   "Pachulí",
+   "Sándalo"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Cítrico",
+    81
+   ],
+   [
+    "Cuero",
+    81
+   ],
+   [
+    "Amaderado",
+    81
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "alto",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "617780": {
+  "id": "carolina-herrera-ch-men-edt-hombre",
+  "destacadas": [
+   "bergamota",
+   "jazmin",
+   "cuero"
+  ],
+  "marca": "Carolina Herrera",
+  "nombre": "CH Men",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Cuero amaderado",
+  "lema": "Lujo con actitud.",
+  "venta": "CH Men de Carolina Herrera es una fragancia cuero amaderado para él, lanzada en 2009. Abre con bergamota, toronja, hierba verde y violeta; en el corazón aparecen azafrán, nuez moscada, jazmín y notas amaderadas, y un fondo de cuero, gamuza, sándalo, vainilla y ámbar le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Bergamota",
+   "Toronja",
+   "Hierba verde",
+   "Violeta"
+  ],
+  "corazon": [
+   "Azafrán",
+   "Nuez moscada",
+   "Jazmín",
+   "Notas amaderadas"
+  ],
+  "fondo": [
+   "Cuero",
+   "Gamuza",
+   "Sándalo",
+   "Vainilla",
+   "Ámbar"
+  ],
+  "acordes": [
+   [
+    "Cuero",
+    90
+   ],
+   [
+    "Amaderado",
+    87
+   ],
+   [
+    "Cálido especiado",
+    85
+   ],
+   [
+    "Floral",
+    81
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "facetado",
+  "liquido": "#5A3A2A",
+  "fuente_notas": "web"
+ },
+ "706864": {
+  "id": "carolina-herrera-good-girl-edp-mujer",
+  "destacadas": [
+   "almendra",
+   "jazmin",
+   "cacao"
+  ],
+  "marca": "Carolina Herrera",
+  "nombre": "Good Girl",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Gourmand avainillado",
+  "lema": "Golosa y envolvente.",
+  "venta": "Good Girl de Carolina Herrera es una fragancia gourmand avainillado para ella, lanzada en 2016. Las notas de almendra abren con personalidad; nardos, jazmín, iris y sándalo forman su corazón, y cacao, haba tonka, vainilla y café dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Almendra"
+  ],
+  "corazon": [
+   "Nardos",
+   "Jazmín",
+   "Iris",
+   "Sándalo"
+  ],
+  "fondo": [
+   "Cacao",
+   "Haba tonka",
+   "Vainilla",
+   "Café"
+  ],
+  "acordes": [
+   [
+    "Gourmand",
+    90
+   ],
+   [
+    "Avainillado",
+    80
+   ],
+   [
+    "Floral",
+    76
+   ],
+   [
+    "Amaderado",
+    63
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "alto",
+  "liquido": "#A0673A",
+  "fuente_notas": "web"
+ },
+ "706852": {
+  "id": "clive-christian-no-1-masculine-edp-hombre",
+  "destacadas": [
+   "limon",
+   "iris",
+   "sandalo"
+  ],
+  "marca": "Clive Christian",
+  "nombre": "No. 1 Masculine",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Floral amaderado",
+  "lema": "Delicadeza que se recuerda.",
+  "venta": "No. 1 Masculine de Clive Christian es una fragancia floral amaderado para él, lanzada en 2001. Las notas de lima, estragón, cardamomo, nuez moscada y mandarina abren con personalidad; iris, jazmín, lirio de los valles, ylang-ylang y rosa forman su corazón, y sándalo, vetiver, cedro, haba tonka y almizcle dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Lima",
+   "Estragón",
+   "Cardamomo",
+   "Nuez moscada",
+   "Mandarina"
+  ],
+  "corazon": [
+   "Iris",
+   "Jazmín",
+   "Lirio de los valles",
+   "Ylang-ylang",
+   "Rosa"
+  ],
+  "fondo": [
+   "Sándalo",
+   "Vetiver",
+   "Cedro",
+   "Haba tonka",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Amaderado",
+    78
+   ],
+   [
+    "Cítrico",
+    62
+   ],
+   [
+    "Cálido especiado",
+    62
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "facetado",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "623554": {
+  "id": "dolce-gabbana-pour-homme-edt-hombre",
+  "destacadas": [
+   "bergamota",
+   "salvia",
+   "cedro"
+  ],
+  "marca": "Dolce & Gabbana",
+  "nombre": "Pour Homme",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Cítrico aromático",
+  "lema": "Ligereza y elegancia.",
+  "venta": "Pour Homme de Dolce & Gabbana es una fragancia cítrico aromático para él, lanzada en 2012. Abre con bergamota, mandarina y neroli; en el corazón aparecen salvia, pimienta negra y lavanda, y un fondo de cedro, haba tonka y tabaco le da carácter y duración. Ideal para el día y la oficina.",
+  "salida": [
+   "Bergamota",
+   "Mandarina",
+   "Neroli"
+  ],
+  "corazon": [
+   "Salvia",
+   "Pimienta negra",
+   "Lavanda"
+  ],
+  "fondo": [
+   "Cedro",
+   "Haba tonka",
+   "Tabaco"
+  ],
+  "acordes": [
+   [
+    "Cítrico",
+    90
+   ],
+   [
+    "Aromático",
+    85
+   ],
+   [
+    "Amaderado",
+    70
+   ],
+   [
+    "Avainillado",
+    70
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "redondo",
+  "liquido": "#E8C25A",
+  "fuente_notas": "web"
+ },
+ "706855": {
+  "id": "ex-nihilo-rose-hubris-edp-unisex",
+  "destacadas": [
+   "lichi",
+   "rosa",
+   "pachuli"
+  ],
+  "marca": "Ex Nihilo",
+  "nombre": "Rose Hubris",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Almizclado floral",
+  "lema": "Suavidad que se queda.",
+  "venta": "Rose Hubris de Ex Nihilo es una fragancia almizclado floral unisex, lanzada en 2014. Abre con lichi; en el corazón aparecen rosa y ládano, y un fondo de pachulí, musgo de roble y almizcle blanco le da carácter y duración. Versátil para el día y la noche.",
+  "salida": [
+   "Lichi"
+  ],
+  "corazon": [
+   "Rosa",
+   "Ládano"
+  ],
+  "fondo": [
+   "Pachulí",
+   "Musgo de roble",
+   "Almizcle blanco"
+  ],
+  "acordes": [
+   [
+    "Almizclado",
+    90
+   ],
+   [
+    "Floral",
+    85
+   ],
+   [
+    "Ambarado",
+    85
+   ],
+   [
+    "Afrutado",
+    77
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E8E0D6",
+  "fuente_notas": "web"
+ },
+ "694989": {
+  "id": "salvatore-ferragamo-f-by-ferragamo-black-edt-hombre",
+  "destacadas": [
+   "lavanda",
+   "pimienta",
+   "haba"
+  ],
+  "marca": "Salvatore Ferragamo",
+  "nombre": "F by Ferragamo Black",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Aromático avainillado",
+  "lema": "Aromático y elegante.",
+  "venta": "F by Ferragamo Black de Salvatore Ferragamo es una fragancia aromático avainillado para él, lanzada en 2009. Su salida de lavanda y manzana da paso a un corazón de pimienta negra y cilantro, que descansa sobre un fondo de haba tonka y ládano. Una elección versátil para todos los días.",
+  "salida": [
+   "Lavanda",
+   "Manzana"
+  ],
+  "corazon": [
+   "Pimienta negra",
+   "Cilantro"
+  ],
+  "fondo": [
+   "Haba tonka",
+   "Ládano"
+  ],
+  "acordes": [
+   [
+    "Aromático",
+    90
+   ],
+   [
+    "Avainillado",
+    76
+   ],
+   [
+    "Ambarado",
+    76
+   ],
+   [
+    "Cálido especiado",
+    73
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "redondo",
+  "liquido": "#7E9A7A",
+  "fuente_notas": "web"
+ },
+ "694982": {
+  "id": "salvatore-ferragamo-tuscan-creations-calimala-edp-unisex",
+  "destacadas": [
+   "rosa",
+   "azahar",
+   "cuero"
+  ],
+  "marca": "Salvatore Ferragamo",
+  "nombre": "Tuscan Creations Calimala",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Floral cuero",
+  "lema": "Flores con carácter.",
+  "venta": "Tuscan Creations Calimala de Salvatore Ferragamo es una fragancia floral cuero unisex. Las notas de rosa, naranja y cardamomo abren con personalidad; rosa centifolia, rosa de Damasco y flor de azahar del naranjo forman su corazón, y gamuza, vainilla y cipriol dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Rosa",
+   "Naranja",
+   "Cardamomo"
+  ],
+  "corazon": [
+   "Rosa centifolia",
+   "Rosa de Damasco",
+   "Flor de azahar del naranjo"
+  ],
+  "fondo": [
+   "Gamuza",
+   "Vainilla",
+   "Cipriol"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Cuero",
+    62
+   ],
+   [
+    "Avainillado",
+    62
+   ],
+   [
+    "Cítrico",
+    58
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "redondo",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "706883": {
+  "id": "salvatore-ferragamo-cieli-di-seta-edp-unisex",
+  "destacadas": [
+   "pimienta",
+   "lavanda",
+   "maderas"
+  ],
+  "marca": "Salvatore Ferragamo",
+  "nombre": "Cieli di Seta",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Almizclado afrutado",
+  "lema": "Suavidad que se queda.",
+  "venta": "Cieli di Seta de Salvatore Ferragamo es una fragancia almizclado afrutado unisex, lanzada en 2023. Las notas de pimienta negra abren con personalidad; arándano y acorde de seda forman su corazón, y almizcle dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Pimienta negra"
+  ],
+  "corazon": [
+   "Arándano",
+   "Acorde de seda"
+  ],
+  "fondo": [
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Almizclado",
+    90
+   ],
+   [
+    "Afrutado",
+    85
+   ],
+   [
+    "Cálido especiado",
+    77
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E8E0D6",
+  "fuente_notas": "web"
+ },
+ "694981": {
+  "id": "salvatore-ferragamo-tuscan-creations-convivio-edp-unisex",
+  "destacadas": [
+   "bergamota",
+   "jazmin",
+   "maderas"
+  ],
+  "marca": "Salvatore Ferragamo",
+  "nombre": "Tuscan Creations Convivio",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Ambarado amaderado",
+  "lema": "Misterio cálido.",
+  "venta": "Tuscan Creations Convivio de Salvatore Ferragamo es una fragancia ambarado amaderado unisex, lanzada en 2018. Abre con bergamota, toronja y semilla de zanahoria; en el corazón aparecen ciprés, jazmín y violeta, y un fondo de cachemira, incienso y ambroxan le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Bergamota",
+   "Toronja",
+   "Semilla de zanahoria"
+  ],
+  "corazon": [
+   "Ciprés",
+   "Jazmín",
+   "Violeta"
+  ],
+  "fondo": [
+   "Cachemira",
+   "Incienso",
+   "Ambroxan"
+  ],
+  "acordes": [
+   [
+    "Ambarado",
+    90
+   ],
+   [
+    "Amaderado",
+    87
+   ],
+   [
+    "Floral",
+    85
+   ],
+   [
+    "Cítrico",
+    77
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "cuadrado",
+  "liquido": "#C47A2C",
+  "fuente_notas": "web"
+ },
+ "706882": {
+  "id": "salvatore-ferragamo-foreste-di-seta-edp-unisex",
+  "destacadas": [
+   "salvia",
+   "lavanda",
+   "vetiver"
+  ],
+  "marca": "Salvatore Ferragamo",
+  "nombre": "Foreste di Seta",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Amaderado cálido especiado",
+  "lema": "Sobriedad sofisticada.",
+  "venta": "Foreste di Seta de Salvatore Ferragamo es una fragancia amaderado cálido especiado unisex, lanzada en 2023. Las notas de esclarea y geranio abren con personalidad; nuez y acorde de seda forman su corazón, y vetiver dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Esclarea",
+   "Geranio"
+  ],
+  "corazon": [
+   "Nuez",
+   "Acorde de seda"
+  ],
+  "fondo": [
+   "Vetiver"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Cálido especiado",
+    85
+   ],
+   [
+    "Aromático",
+    77
+   ],
+   [
+    "Floral",
+    77
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "redondo",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "694987": {
+  "id": "salvatore-ferragamo-tuscan-creations-gentil-suono-edp-unisex",
+  "destacadas": [
+   "mandarina",
+   "lavanda",
+   "cedro"
+  ],
+  "marca": "Salvatore Ferragamo",
+  "nombre": "Tuscan Creations Gentil Suono",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Ambarado amaderado",
+  "lema": "Sensualidad oriental.",
+  "venta": "Tuscan Creations Gentil Suono de Salvatore Ferragamo es una fragancia ambarado amaderado unisex, lanzada en 2019. Abre con mandarina, pimienta negra y geranio; en el corazón aparecen mirra, ciruela y ládano, y un fondo de cedro, vetiver y incienso le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Mandarina",
+   "Pimienta negra",
+   "Geranio"
+  ],
+  "corazon": [
+   "Mirra",
+   "Ciruela",
+   "Ládano"
+  ],
+  "fondo": [
+   "Cedro",
+   "Vetiver",
+   "Incienso"
+  ],
+  "acordes": [
+   [
+    "Ambarado",
+    90
+   ],
+   [
+    "Amaderado",
+    79
+   ],
+   [
+    "Afrutado",
+    63
+   ],
+   [
+    "Cítrico",
+    60
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "alto",
+  "liquido": "#C47A2C",
+  "fuente_notas": "web"
+ },
+ "706886": {
+  "id": "salvatore-ferragamo-giungle-di-seta-edp-unisex",
+  "destacadas": [
+   "bergamota",
+   "peonia",
+   "maderas"
+  ],
+  "marca": "Salvatore Ferragamo",
+  "nombre": "Giungle di Seta",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Almizclado floral",
+  "lema": "Delicadeza duradera.",
+  "venta": "Giungle di Seta de Salvatore Ferragamo es una fragancia almizclado floral unisex. Su salida de chícharo da paso a un corazón de peonía, que descansa sobre un fondo de almizcle. Funciona tanto de día como de noche.",
+  "salida": [
+   "Chícharo"
+  ],
+  "corazon": [
+   "Peonía"
+  ],
+  "fondo": [
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Almizclado",
+    90
+   ],
+   [
+    "Floral",
+    85
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "facetado",
+  "liquido": "#E8E0D6",
+  "fuente_notas": "web"
+ },
+ "706884": {
+  "id": "salvatore-ferragamo-incanto-charms-edt-mujer",
+  "destacadas": [
+   "mar",
+   "jazmin",
+   "maderas"
+  ],
+  "marca": "Salvatore Ferragamo",
+  "nombre": "Incanto Charms",
+  "conc": "EDT",
+  "seccion": "Mujer",
+  "familia": "Floral almizclado",
+  "lema": "Delicadeza que se recuerda.",
+  "venta": "Incanto Charms de Salvatore Ferragamo es una fragancia floral almizclado para ella, lanzada en 2006. Abre con maracuyá y madreselva; en el corazón aparecen jazmín y rosa, y un fondo de almizcle blanco y madera de amyris le da carácter y duración. Versátil para el día y la noche.",
+  "salida": [
+   "Maracuyá",
+   "Madreselva"
+  ],
+  "corazon": [
+   "Jazmín",
+   "Rosa"
+  ],
+  "fondo": [
+   "Almizcle blanco",
+   "Madera de amyris"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Almizclado",
+    73
+   ],
+   [
+    "Amaderado",
+    73
+   ],
+   [
+    "Afrutado",
+    65
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "facetado",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "694986": {
+  "id": "salvatore-ferragamo-tuscan-creations-la-commedia-edp-unisex",
+  "destacadas": [
+   "toronja",
+   "lavanda",
+   "vetiver"
+  ],
+  "marca": "Salvatore Ferragamo",
+  "nombre": "Tuscan Creations La Commedia",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Cálido especiado cítrico",
+  "lema": "Carácter especiado.",
+  "venta": "Tuscan Creations La Commedia de Salvatore Ferragamo es una fragancia cálido especiado cítrico unisex, lanzada en 2018. Las notas de toronja, cardamomo y naranja amarga abren con personalidad; nuez moscada, akigalawood y chile forman su corazón, y vetiver, haba tonka, cuero y amberwood dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Toronja",
+   "Cardamomo",
+   "Naranja amarga"
+  ],
+  "corazon": [
+   "Nuez moscada",
+   "Akigalawood",
+   "Chile"
+  ],
+  "fondo": [
+   "Vetiver",
+   "Haba tonka",
+   "Cuero",
+   "Amberwood"
+  ],
+  "acordes": [
+   [
+    "Cálido especiado",
+    90
+   ],
+   [
+    "Cítrico",
+    85
+   ],
+   [
+    "Amaderado",
+    76
+   ],
+   [
+    "Avainillado",
+    76
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "facetado",
+  "liquido": "#9E4A2A",
+  "fuente_notas": "web"
+ },
+ "694983": {
+  "id": "salvatore-ferragamo-tuscan-creations-la-corte-edp-unisex",
+  "destacadas": [
+   "almendra",
+   "jazmin",
+   "ambar"
+  ],
+  "marca": "Salvatore Ferragamo",
+  "nombre": "Tuscan Creations La Corte",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Floral ambarado",
+  "lema": "Un ramo elegante.",
+  "venta": "Tuscan Creations La Corte de Salvatore Ferragamo es una fragancia floral ambarado unisex, lanzada en 2018. Las notas de leche de almendra y fresia abren con personalidad; jazmín y lirio blanco forman su corazón, y ámbar, vainilla y cachemira dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Leche de almendra",
+   "Fresia"
+  ],
+  "corazon": [
+   "Jazmín",
+   "Lirio blanco"
+  ],
+  "fondo": [
+   "Ámbar",
+   "Vainilla",
+   "Cachemira"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Ambarado",
+    67
+   ],
+   [
+    "Avainillado",
+    67
+   ],
+   [
+    "Amaderado",
+    67
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "694988": {
+  "id": "salvatore-ferragamo-tuscan-creations-rinascimento-edp-unisex",
+  "destacadas": [
+   "mandarina",
+   "azucena",
+   "sandalo"
+  ],
+  "marca": "Salvatore Ferragamo",
+  "nombre": "Tuscan Creations Rinascimento",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Amaderado floral",
+  "lema": "Elegancia con carácter.",
+  "venta": "Tuscan Creations Rinascimento de Salvatore Ferragamo es una fragancia amaderado floral unisex. Las notas de mandarina, albahaca y pimienta verde abren con personalidad; lirio, nardos y iris forman su corazón, y sándalo, vetiver y ambroxan dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Mandarina",
+   "Albahaca",
+   "Pimienta verde"
+  ],
+  "corazon": [
+   "Lirio",
+   "Nardos",
+   "Iris"
+  ],
+  "fondo": [
+   "Sándalo",
+   "Vetiver",
+   "Ambroxan"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Floral",
+    85
+   ],
+   [
+    "Aromático",
+    77
+   ],
+   [
+    "Ambarado",
+    70
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "cuadrado",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "695011": {
+  "id": "salvatore-ferragamo-signorina-ribelle-edp-mujer",
+  "destacadas": [
+   "mandarina",
+   "rosa",
+   "vainilla"
+  ],
+  "marca": "Salvatore Ferragamo",
+  "nombre": "Signorina Ribelle",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral avainillado",
+  "lema": "Delicadeza que se recuerda.",
+  "venta": "Signorina Ribelle de Salvatore Ferragamo es una fragancia floral avainillado para ella, lanzada en 2019. Las notas de mandarina y pimienta rosa abren con personalidad; frangipani y ylang-ylang forman su corazón, y vainilla, coco y sándalo dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Mandarina",
+   "Pimienta rosa"
+  ],
+  "corazon": [
+   "Frangipani",
+   "Ylang-ylang"
+  ],
+  "fondo": [
+   "Vainilla",
+   "Coco",
+   "Sándalo"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Avainillado",
+    76
+   ],
+   [
+    "Afrutado",
+    76
+   ],
+   [
+    "Amaderado",
+    76
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "facetado",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "706885": {
+  "id": "salvatore-ferragamo-sublime-leather-edp-hombre",
+  "destacadas": [
+   "bergamota",
+   "cacao",
+   "cuero"
+  ],
+  "marca": "Salvatore Ferragamo",
+  "nombre": "Sublime Leather",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Amaderado afrutado",
+  "lema": "Profundidad natural.",
+  "venta": "Sublime Leather de Salvatore Ferragamo es una fragancia amaderado afrutado para él. Su salida de bergamota, canela, manzana y piña da paso a un corazón de davana, cacao, flor de azahar del naranjo y haba tonka, que descansa sobre un fondo de cuero, cedro, vetiver y pachulí. Perfecto para ocasiones especiales y noches frías.",
+  "salida": [
+   "Bergamota",
+   "Canela",
+   "Manzana",
+   "Piña"
+  ],
+  "corazon": [
+   "Davana",
+   "Cacao",
+   "Flor de azahar del naranjo",
+   "Haba tonka"
+  ],
+  "fondo": [
+   "Cuero",
+   "Cedro",
+   "Vetiver",
+   "Pachulí"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Afrutado",
+    77
+   ],
+   [
+    "Cuero",
+    70
+   ],
+   [
+    "Gourmand",
+    67
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "alto",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "694980": {
+  "id": "salvatore-ferragamo-tuscan-creations-terra-rossa-edp-unisex",
+  "destacadas": [
+   "bergamota",
+   "pachuli",
+   "ambar"
+  ],
+  "marca": "Salvatore Ferragamo",
+  "nombre": "Tuscan Creations Terra Rossa",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Ambarado cítrico",
+  "lema": "Una estela inolvidable.",
+  "venta": "Tuscan Creations Terra Rossa de Salvatore Ferragamo es una fragancia ambarado cítrico unisex. Su salida de bergamota, naranja amarga y rosa da paso a un corazón de ciprés, ládano y pachulí, que descansa sobre un fondo de ámbar, haba tonka y amberwood. Perfecto para ocasiones especiales y noches frías.",
+  "salida": [
+   "Bergamota",
+   "Naranja amarga",
+   "Rosa"
+  ],
+  "corazon": [
+   "Ciprés",
+   "Ládano",
+   "Pachulí"
+  ],
+  "fondo": [
+   "Ámbar",
+   "Haba tonka",
+   "Amberwood"
+  ],
+  "acordes": [
+   [
+    "Ambarado",
+    90
+   ],
+   [
+    "Cítrico",
+    79
+   ],
+   [
+    "Avainillado",
+    71
+   ],
+   [
+    "Amaderado",
+    69
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "redondo",
+  "liquido": "#C47A2C",
+  "fuente_notas": "web"
+ },
+ "694985": {
+  "id": "salvatore-ferragamo-tuscan-creations-vendemmia-edp-unisex",
+  "destacadas": [
+   "bergamota",
+   "mandarina",
+   "ambar"
+  ],
+  "marca": "Salvatore Ferragamo",
+  "nombre": "Tuscan Creations Vendemmia",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Cítrico afrutado",
+  "lema": "Energía cítrica para todo el día.",
+  "venta": "Tuscan Creations Vendemmia de Salvatore Ferragamo es una fragancia cítrico afrutado unisex. Su salida de cidra, bergamota y durazno da paso a un corazón de mandarina, jazmín y higo, que descansa sobre un fondo de ambroxan, sándalo y haba tonka. Una elección versátil para todos los días.",
+  "salida": [
+   "Cidra",
+   "Bergamota",
+   "Durazno"
+  ],
+  "corazon": [
+   "Mandarina",
+   "Jazmín",
+   "Higo"
+  ],
+  "fondo": [
+   "Ambroxan",
+   "Sándalo",
+   "Haba tonka"
+  ],
+  "acordes": [
+   [
+    "Cítrico",
+    90
+   ],
+   [
+    "Afrutado",
+    78
+   ],
+   [
+    "Ambarado",
+    68
+   ],
+   [
+    "Amaderado",
+    68
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "alto",
+  "liquido": "#E8C25A",
+  "fuente_notas": "web"
+ },
+ "694984": {
+  "id": "salvatore-ferragamo-tuscan-creations-viola-essenziale-edp-un",
+  "destacadas": [
+   "mimosa",
+   "iris",
+   "pachuli"
+  ],
+  "marca": "Salvatore Ferragamo",
+  "nombre": "Tuscan Creations Viola Essenziale",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Floral afrutado",
+  "lema": "Delicadeza que se recuerda.",
+  "venta": "Tuscan Creations Viola Essenziale de Salvatore Ferragamo es una fragancia floral afrutado unisex, lanzada en 2018. Las notas de mimosa, durazno y lichi abren con personalidad; notas atalcadas, iris, heliotropo y lirio forman su corazón, y pachulí, vainilla y vetiver dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Mimosa",
+   "Durazno",
+   "Lichi"
+  ],
+  "corazon": [
+   "Notas atalcadas",
+   "Iris",
+   "Heliotropo",
+   "Lirio"
+  ],
+  "fondo": [
+   "Pachulí",
+   "Vainilla",
+   "Vetiver"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Afrutado",
+    66
+   ],
+   [
+    "Avainillado",
+    62
+   ],
+   [
+    "Amaderado",
+    62
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "facetado",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "639011": {
+  "id": "giorgio-armani-eau-pour-homme-edt-hombre",
+  "destacadas": [
+   "bergamota",
+   "azucena",
+   "pachuli"
+  ],
+  "marca": "Giorgio Armani",
+  "nombre": "Eau pour Homme",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Cálido especiado cítrico",
+  "lema": "Calor y seducción.",
+  "venta": "Eau pour Homme de Giorgio Armani es una fragancia cálido especiado cítrico para él, lanzada en 1984. Las notas de bergamota, mandarina y albahaca abren con personalidad; clavo, lirio y nuez moscada forman su corazón, y pachulí, musgo de roble y sándalo dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Bergamota",
+   "Mandarina",
+   "Albahaca"
+  ],
+  "corazon": [
+   "Clavo",
+   "Lirio",
+   "Nuez moscada"
+  ],
+  "fondo": [
+   "Pachulí",
+   "Musgo de roble",
+   "Sándalo"
+  ],
+  "acordes": [
+   [
+    "Cálido especiado",
+    90
+   ],
+   [
+    "Cítrico",
+    81
+   ],
+   [
+    "Amaderado",
+    73
+   ],
+   [
+    "Floral",
+    70
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "redondo",
+  "liquido": "#9E4A2A",
+  "fuente_notas": "web"
+ },
+ "706895": {
+  "id": "givenchy-irresistible-nude-velvet-edp-mujer",
+  "destacadas": [
+   "almendra",
+   "iris",
+   "cedro"
+  ],
+  "marca": "Givenchy",
+  "nombre": "Irresistible Nude Velvet",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral almizclado",
+  "lema": "Un ramo elegante.",
+  "venta": "Irresistible Nude Velvet de Givenchy es una fragancia floral almizclado para ella, lanzada en 2025. Las notas de almizcle ambreta, almendra y neroli abren con personalidad; iris, rosa de Damasco y agua de rosas forman su corazón, y almizcle, polvo de arroz y cedro dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Almizcle ambreta",
+   "Almendra",
+   "Neroli"
+  ],
+  "corazon": [
+   "Iris",
+   "Rosa de Damasco",
+   "Agua de rosas"
+  ],
+  "fondo": [
+   "Almizcle",
+   "Polvo de arroz",
+   "Cedro"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Almizclado",
+    76
+   ],
+   [
+    "Amaderado",
+    65
+   ],
+   [
+    "Fresco",
+    63
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "706858": {
+  "id": "goldfield-banks-purple-suede-edp-unisex",
+  "destacadas": [
+   "rosa",
+   "lavanda",
+   "pachuli"
+  ],
+  "marca": "Goldfield & Banks",
+  "nombre": "Purple Suede",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Aromático cuero",
+  "lema": "Clásico y versátil.",
+  "venta": "Purple Suede de Goldfield & Banks es una fragancia aromático cuero unisex, lanzada en 2022. Abre con pimienta rosa y bergamota; en el corazón aparecen lavanda y cilantro, y un fondo de pachulí y cuero le da carácter y duración. Ideal para el día y la oficina.",
+  "salida": [
+   "Pimienta rosa",
+   "Bergamota"
+  ],
+  "corazon": [
+   "Lavanda",
+   "Cilantro"
+  ],
+  "fondo": [
+   "Pachulí",
+   "Cuero"
+  ],
+  "acordes": [
+   [
+    "Aromático",
+    90
+   ],
+   [
+    "Cuero",
+    73
+   ],
+   [
+    "Floral",
+    65
+   ],
+   [
+    "Cálido especiado",
+    65
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "alto",
+  "liquido": "#7E9A7A",
+  "fuente_notas": "web"
+ },
+ "706859": {
+  "id": "goldfield-banks-island-lush-edp-unisex",
+  "destacadas": [
+   "cardamomo",
+   "lavanda",
+   "vetiver"
+  ],
+  "marca": "Goldfield & Banks",
+  "nombre": "Island Lush",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Amaderado floral",
+  "lema": "Maderas con presencia.",
+  "venta": "Island Lush de Goldfield & Banks es una fragancia amaderado floral unisex. Su salida de nuez moscada y cardamomo da paso a un corazón de flores blancas y geranio, que descansa sobre un fondo de vetiver y madera de gaiac. Perfecto para ocasiones especiales y noches frías.",
+  "salida": [
+   "Nuez moscada",
+   "Cardamomo"
+  ],
+  "corazon": [
+   "Flores blancas",
+   "Geranio"
+  ],
+  "fondo": [
+   "Vetiver",
+   "Madera de gaiac"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Floral",
+    85
+   ],
+   [
+    "Cálido especiado",
+    77
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "facetado",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "639017": {
+  "id": "guerlain-l-homme-ideal-edt-hombre",
+  "destacadas": [
+   "azahar",
+   "almendra",
+   "cuero"
+  ],
+  "marca": "Guerlain",
+  "nombre": "L'Homme Idéal",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Amaderado avainillado",
+  "lema": "Maderas con presencia.",
+  "venta": "L'Homme Idéal de Guerlain es una fragancia amaderado avainillado para él, lanzada en 2014. Abre con flor de azahar del naranjo, romero, cítricos y naranja amarga; en el corazón aparecen almendra y haba tonka, y un fondo de cuero, cedro, vetiver y vainilla le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Flor de azahar del naranjo",
+   "Romero",
+   "Cítricos",
+   "Naranja amarga"
+  ],
+  "corazon": [
+   "Almendra",
+   "Haba tonka"
+  ],
+  "fondo": [
+   "Cuero",
+   "Cedro",
+   "Vetiver",
+   "Vainilla"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Avainillado",
+    87
+   ],
+   [
+    "Cítrico",
+    77
+   ],
+   [
+    "Cuero",
+    70
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "facetado",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "682938": {
+  "id": "hugo-boss-boss-bottled-edt-hombre",
+  "destacadas": [
+   "manzana",
+   "canela",
+   "sandalo"
+  ],
+  "marca": "Hugo Boss",
+  "nombre": "Boss Bottled",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Amaderado floral",
+  "lema": "Maderas con presencia.",
+  "venta": "Boss Bottled de Hugo Boss es una fragancia amaderado floral para él, lanzada en 1998. Las notas de manzana, ciruela, bergamota, limón y geranio abren con personalidad; canela, clavel y caoba forman su corazón, y sándalo, cedro, vetiver, vainilla y olivo dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Manzana",
+   "Ciruela",
+   "Bergamota",
+   "Limón",
+   "Geranio"
+  ],
+  "corazon": [
+   "Canela",
+   "Clavel",
+   "Caoba"
+  ],
+  "fondo": [
+   "Sándalo",
+   "Cedro",
+   "Vetiver",
+   "Vainilla",
+   "Olivo"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Floral",
+    70
+   ],
+   [
+    "Afrutado",
+    68
+   ],
+   [
+    "Cítrico",
+    68
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "facetado",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "635928": {
+  "id": "hugo-boss-boss-bottled-edt-hombre",
+  "destacadas": [
+   "manzana",
+   "canela",
+   "sandalo"
+  ],
+  "marca": "Hugo Boss",
+  "nombre": "Boss Bottled",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Amaderado floral",
+  "lema": "Sobriedad sofisticada.",
+  "venta": "Boss Bottled de Hugo Boss es una fragancia amaderado floral para él, lanzada en 1998. Abre con manzana, ciruela, bergamota, limón y geranio; en el corazón aparecen canela, clavel y caoba, y un fondo de sándalo, cedro, vetiver, vainilla y olivo le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Manzana",
+   "Ciruela",
+   "Bergamota",
+   "Limón",
+   "Geranio"
+  ],
+  "corazon": [
+   "Canela",
+   "Clavel",
+   "Caoba"
+  ],
+  "fondo": [
+   "Sándalo",
+   "Cedro",
+   "Vetiver",
+   "Vainilla",
+   "Olivo"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Floral",
+    70
+   ],
+   [
+    "Afrutado",
+    68
+   ],
+   [
+    "Cítrico",
+    68
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "redondo",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "643788": {
+  "id": "hugo-boss-boss-bottled-unlimited-edt-hombre",
+  "destacadas": [
+   "menta",
+   "canela",
+   "sandalo"
+  ],
+  "marca": "Hugo Boss",
+  "nombre": "Boss Bottled Unlimited",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Floral ambarado",
+  "lema": "Flores con carácter.",
+  "venta": "Boss Bottled Unlimited de Hugo Boss es una fragancia floral ambarado para él, lanzada en 2014. Abre con menta, notas florales y violeta; en el corazón aparecen canela y piña, y un fondo de ládano, sándalo y almizcle blanco le da carácter y duración. Versátil para el día y la noche.",
+  "salida": [
+   "Menta",
+   "Notas florales",
+   "Violeta"
+  ],
+  "corazon": [
+   "Canela",
+   "Piña"
+  ],
+  "fondo": [
+   "Ládano",
+   "Sándalo",
+   "Almizcle blanco"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Ambarado",
+    80
+   ],
+   [
+    "Amaderado",
+    80
+   ],
+   [
+    "Almizclado",
+    80
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "redondo",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "639022": {
+  "id": "hugo-boss-hugo-deep-red-edp-mujer",
+  "destacadas": [
+   "mandarina",
+   "fresia",
+   "vainilla"
+  ],
+  "marca": "Hugo Boss",
+  "nombre": "Hugo Deep Red",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Amaderado floral",
+  "lema": "Maderas con presencia.",
+  "venta": "Hugo Deep Red de Hugo Boss es una fragancia amaderado floral para ella, lanzada en 2001. Abre con naranja sanguina, grosellas negras, mandarina, clementina y pera; en el corazón aparecen fresia, jengibre, hibisco y nardos, y un fondo de vainilla, sándalo, almizcle y cedro le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Naranja sanguina",
+   "Grosellas negras",
+   "Mandarina",
+   "Clementina",
+   "Pera"
+  ],
+  "corazon": [
+   "Fresia",
+   "Jengibre",
+   "Hibisco",
+   "Nardos"
+  ],
+  "fondo": [
+   "Vainilla",
+   "Sándalo",
+   "Almizcle",
+   "Cedro"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Floral",
+    85
+   ],
+   [
+    "Cítrico",
+    77
+   ],
+   [
+    "Afrutado",
+    77
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "facetado",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "517604": {
+  "id": "hugo-boss-boss-ma-vie-edp-mujer",
+  "destacadas": [
+   "bergamota",
+   "fresia",
+   "cedro"
+  ],
+  "marca": "Hugo Boss",
+  "nombre": "Boss Ma Vie",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral amaderado",
+  "lema": "Delicadeza que se recuerda.",
+  "venta": "Boss Ma Vie de Hugo Boss es una fragancia floral amaderado para ella, lanzada en 2014. Su salida de flor de cactus da paso a un corazón de fresia, rosa y jazmín, que descansa sobre un fondo de cedro y notas amaderadas. Funciona tanto de día como de noche.",
+  "salida": [
+   "Flor de cactus"
+  ],
+  "corazon": [
+   "Fresia",
+   "Rosa",
+   "Jazmín"
+  ],
+  "fondo": [
+   "Cedro",
+   "Notas amaderadas"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Amaderado",
+    74
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "facetado",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "639018": {
+  "id": "hugo-boss-hugo-xy-edt-hombre",
+  "destacadas": [
+   "pera",
+   "menta",
+   "pachuli"
+  ],
+  "marca": "Hugo Boss",
+  "nombre": "Hugo XY",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Aromático almizclado",
+  "lema": "Aromático y elegante.",
+  "venta": "Hugo XY de Hugo Boss es una fragancia aromático almizclado para él, lanzada en 2007. Las notas de hojas de pera y bergamota abren con personalidad; albahaca y menta forman su corazón, y pachulí, almizcle y cedro dejan una estela memorable. Perfecto para el día a día.",
+  "salida": [
+   "Hojas de pera",
+   "Bergamota"
+  ],
+  "corazon": [
+   "Albahaca",
+   "Menta"
+  ],
+  "fondo": [
+   "Pachulí",
+   "Almizcle",
+   "Cedro"
+  ],
+  "acordes": [
+   [
+    "Aromático",
+    90
+   ],
+   [
+    "Almizclado",
+    73
+   ],
+   [
+    "Amaderado",
+    73
+   ],
+   [
+    "Afrutado",
+    65
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "redondo",
+  "liquido": "#7E9A7A",
+  "fuente_notas": "web"
+ },
+ "701482": {
+  "id": "initio-oud-for-greatness-neo-edp-unisex",
+  "destacadas": [
+   "bergamota",
+   "lavanda",
+   "oud"
+  ],
+  "marca": "Initio",
+  "nombre": "Oud for Greatness Neo",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Amaderado almizclado",
+  "lema": "Maderas con presencia.",
+  "venta": "Oud for Greatness Neo de Initio es una fragancia amaderado almizclado unisex, lanzada en 2024. Las notas de azafrán y bergamota abren con personalidad; lavanda y abeto balsámico forman su corazón, y madera de oud y almizcle dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Azafrán",
+   "Bergamota"
+  ],
+  "corazon": [
+   "Lavanda",
+   "Abeto balsámico"
+  ],
+  "fondo": [
+   "Madera de oud",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Almizclado",
+    90
+   ],
+   [
+    "Aromático",
+    85
+   ],
+   [
+    "Cálido especiado",
+    77
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "facetado",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "701464": {
+  "id": "versace-atelier-versace-iris-d-elite-edp-unisex",
+  "destacadas": [
+   "mandarina",
+   "cedro",
+   "haba"
+  ],
+  "marca": "Versace",
+  "nombre": "Atelier Versace Iris d'Élite",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Avainillado amaderado",
+  "lema": "Calidez que envuelve.",
+  "venta": "Atelier Versace Iris d'Élite de Versace es una fragancia avainillado amaderado unisex. Las notas de mandarina, pimienta rosa, cilantro y iris abren con personalidad; cedro, sándalo y ámbar gris forman su corazón, y benjuí, haba tonka, vainilla y almizcle dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Mandarina",
+   "Pimienta rosa",
+   "Cilantro",
+   "Iris"
+  ],
+  "corazon": [
+   "Cedro",
+   "Sándalo",
+   "Ámbar gris"
+  ],
+  "fondo": [
+   "Benjuí",
+   "Haba tonka",
+   "Vainilla",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Avainillado",
+    90
+   ],
+   [
+    "Amaderado",
+    73
+   ],
+   [
+    "Floral",
+    68
+   ],
+   [
+    "Almizclado",
+    63
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "cuadrado",
+  "liquido": "#D9A35E",
+  "fuente_notas": "web"
+ },
+ "695800": {
+  "id": "jean-paul-gaultier-scandal-pour-homme-absolu-parfum-hombre",
+  "destacadas": [
+   "bergamota",
+   "castana",
+   "sandalo"
+  ],
+  "marca": "Jean Paul Gaultier",
+  "nombre": "Scandal Pour Homme Absolu",
+  "conc": "Parfum",
+  "seccion": "Hombre",
+  "familia": "Amaderado afrutado",
+  "lema": "Elegancia con carácter.",
+  "venta": "Scandal Pour Homme Absolu de Jean Paul Gaultier es una fragancia amaderado afrutado para él, lanzada en 2024. Abre con ciruela mirabel; en el corazón aparecen castaña, y un fondo de sándalo le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Ciruela mirabel"
+  ],
+  "corazon": [
+   "Castaña"
+  ],
+  "fondo": [
+   "Sándalo"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Afrutado",
+    77
+   ]
+  ],
+  "duracion": "9–11 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "cuadrado",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "695799": {
+  "id": "jean-paul-gaultier-scandal-absolu-parfum-mujer",
+  "destacadas": [
+   "bergamota",
+   "rosa",
+   "sandalo"
+  ],
+  "marca": "Jean Paul Gaultier",
+  "nombre": "Scandal Absolu",
+  "conc": "Parfum",
+  "seccion": "Mujer",
+  "familia": "Amaderado afrutado",
+  "lema": "Elegancia con carácter.",
+  "venta": "Scandal Absolu de Jean Paul Gaultier es una fragancia amaderado afrutado para ella, lanzada en 2024. Su salida de nardos da paso a un corazón de higo, que descansa sobre un fondo de sándalo. Perfecto para ocasiones especiales y noches frías.",
+  "salida": [
+   "Nardos"
+  ],
+  "corazon": [
+   "Higo"
+  ],
+  "fondo": [
+   "Sándalo"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Afrutado",
+    85
+   ]
+  ],
+  "duracion": "9–11 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "cuadrado",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "521793": {
+  "id": "jesus-del-pozo-halloween-blue-drop-edt-mujer",
+  "destacadas": [
+   "manzana",
+   "jazmin",
+   "ambar"
+  ],
+  "marca": "Jesús del Pozo",
+  "nombre": "Halloween Blue Drop",
+  "conc": "EDT",
+  "seccion": "Mujer",
+  "familia": "Floral cálido especiado",
+  "lema": "Flores con carácter.",
+  "venta": "Halloween Blue Drop de Jesús del Pozo es una fragancia floral cálido especiado para ella. Su salida de cítricos, manzana y lavanda da paso a un corazón de jazmín, violeta y flores blancas, que descansa sobre un fondo de almizcle, ámbar, especias y canela. Funciona tanto de día como de noche.",
+  "salida": [
+   "Cítricos",
+   "Manzana",
+   "Lavanda"
+  ],
+  "corazon": [
+   "Jazmín",
+   "Violeta",
+   "Flores blancas"
+  ],
+  "fondo": [
+   "Almizcle",
+   "Ámbar",
+   "Especias",
+   "Canela"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Cálido especiado",
+    81
+   ],
+   [
+    "Almizclado",
+    65
+   ],
+   [
+    "Ambarado",
+    65
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "redondo",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "505436": {
+  "id": "jesus-del-pozo-halloween-man-edt-hombre",
+  "destacadas": [
+   "mandarina",
+   "lavanda",
+   "ambar"
+  ],
+  "marca": "Jesús del Pozo",
+  "nombre": "Halloween Man",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Floral cálido especiado",
+  "lema": "Feminidad luminosa.",
+  "venta": "Halloween Man de Jesús del Pozo es una fragancia floral cálido especiado para él. Las notas de mandarina, albahaca, hojas de violeta y martini abren con personalidad; lavanda, flor de azahar del naranjo, flor de jengibre y canela forman su corazón, y almizcle, ámbar, vainilla y cuero dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Mandarina",
+   "Albahaca",
+   "Hojas de violeta",
+   "Martini"
+  ],
+  "corazon": [
+   "Lavanda",
+   "Flor de azahar del naranjo",
+   "Flor de jengibre",
+   "Canela"
+  ],
+  "fondo": [
+   "Almizcle",
+   "Ámbar",
+   "Vainilla",
+   "Cuero"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Cálido especiado",
+    79
+   ],
+   [
+    "Aromático",
+    76
+   ],
+   [
+    "Almizclado",
+    67
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "alto",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "505437": {
+  "id": "jesus-del-pozo-halloween-man-rock-edt-hombre",
+  "destacadas": [
+   "rosa",
+   "manzana",
+   "sandalo"
+  ],
+  "marca": "Jesús del Pozo",
+  "nombre": "Halloween Man Rock",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Aromático floral",
+  "lema": "Limpio y seguro.",
+  "venta": "Halloween Man Rock de Jesús del Pozo es una fragancia aromático floral para él. Abre con pimienta rosa, cardamomo, bambú y lima; en el corazón aparecen manzana, lavanda, romero y hojas de violeta, y un fondo de musgo de roble, sándalo, almizcle y ámbar le da carácter y duración. Ideal para el día y la oficina.",
+  "salida": [
+   "Pimienta rosa",
+   "Cardamomo",
+   "Bambú",
+   "Lima"
+  ],
+  "corazon": [
+   "Manzana",
+   "Lavanda",
+   "Romero",
+   "Hojas de violeta"
+  ],
+  "fondo": [
+   "Musgo de roble",
+   "Sándalo",
+   "Almizcle",
+   "Ámbar"
+  ],
+  "acordes": [
+   [
+    "Aromático",
+    90
+   ],
+   [
+    "Floral",
+    85
+   ],
+   [
+    "Cálido especiado",
+    81
+   ],
+   [
+    "Amaderado",
+    73
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "facetado",
+  "liquido": "#7E9A7A",
+  "fuente_notas": "web"
+ },
+ "654437": {
+  "id": "kenzo-amour-edp-mujer",
+  "destacadas": [
+   "bergamota",
+   "rosa",
+   "vainilla"
+  ],
+  "marca": "Kenzo",
+  "nombre": "Amour",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral ambarado",
+  "lema": "Un ramo elegante.",
+  "venta": "Amour de Kenzo es una fragancia floral ambarado para ella, lanzada en 2006. Su salida de té y polvo de arroz da paso a un corazón de heliotropo, frangipani y flor del cerezo, que descansa sobre un fondo de incienso, vainilla y almizcle. Funciona tanto de día como de noche.",
+  "salida": [
+   "Té",
+   "Polvo de arroz"
+  ],
+  "corazon": [
+   "Heliotropo",
+   "Frangipani",
+   "Flor del cerezo"
+  ],
+  "fondo": [
+   "Incienso",
+   "Vainilla",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Ambarado",
+    73
+   ],
+   [
+    "Avainillado",
+    73
+   ],
+   [
+    "Almizclado",
+    73
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "640068": {
+  "id": "lacoste-essential-edt-hombre",
+  "destacadas": [
+   "bergamota",
+   "pimienta",
+   "pachuli"
+  ],
+  "marca": "Lacoste",
+  "nombre": "Essential",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Amaderado cítrico",
+  "lema": "Maderas con presencia.",
+  "venta": "Essential de Lacoste es una fragancia amaderado cítrico para él, lanzada en 2005. Las notas de bergamota, mandarina, hojas de tomatera y grosellas negras abren con personalidad; pimienta negra y rosa forman su corazón, y pachulí, sándalo y notas amaderadas dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Bergamota",
+   "Mandarina",
+   "Hojas de tomatera",
+   "Grosellas negras"
+  ],
+  "corazon": [
+   "Pimienta negra",
+   "Rosa"
+  ],
+  "fondo": [
+   "Pachulí",
+   "Sándalo",
+   "Notas amaderadas"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Cítrico",
+    77
+   ],
+   [
+    "Cálido especiado",
+    67
+   ],
+   [
+    "Floral",
+    67
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "facetado",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "667172": {
+  "id": "lacoste-l-12-12-pour-elle-french-panache-edt-mujer",
+  "destacadas": [
+   "grosella",
+   "rosa",
+   "pachuli"
+  ],
+  "marca": "Lacoste",
+  "nombre": "L.12.12 Pour Elle French Panache",
+  "conc": "EDT",
+  "seccion": "Mujer",
+  "familia": "Floral amaderado",
+  "lema": "Flores con carácter.",
+  "venta": "L.12.12 Pour Elle French Panache de Lacoste es una fragancia floral amaderado para ella, lanzada en 2019. Abre con grosellas negras, bergamota y pimienta rosa; en el corazón aparecen rosa, champán rosado y jazmín, y un fondo de pachulí, maderas blancas y almizcle le da carácter y duración. Versátil para el día y la noche.",
+  "salida": [
+   "Grosellas negras",
+   "Bergamota",
+   "Pimienta rosa"
+  ],
+  "corazon": [
+   "Rosa",
+   "Champán rosado",
+   "Jazmín"
+  ],
+  "fondo": [
+   "Pachulí",
+   "Maderas blancas",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Amaderado",
+    62
+   ],
+   [
+    "Almizclado",
+    62
+   ],
+   [
+    "Afrutado",
+    58
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "redondo",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "643187": {
+  "id": "lacoste-touch-of-pink-edt-mujer",
+  "destacadas": [
+   "mandarina",
+   "jazmin",
+   "sandalo"
+  ],
+  "marca": "Lacoste",
+  "nombre": "Touch of Pink",
+  "conc": "EDT",
+  "seccion": "Mujer",
+  "familia": "Floral amaderado",
+  "lema": "Feminidad luminosa.",
+  "venta": "Touch of Pink de Lacoste es una fragancia floral amaderado para ella, lanzada en 2004. Las notas de naranja, cilantro y cardamomo abren con personalidad; jazmín, hojas de violeta y semilla de zanahoria forman su corazón, y sándalo y almizcle dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Naranja",
+   "Cilantro",
+   "Cardamomo"
+  ],
+  "corazon": [
+   "Jazmín",
+   "Hojas de violeta",
+   "Semilla de zanahoria"
+  ],
+  "fondo": [
+   "Sándalo",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Amaderado",
+    73
+   ],
+   [
+    "Almizclado",
+    73
+   ],
+   [
+    "Cítrico",
+    65
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "alto",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "648278": {
+  "id": "lancome-absolue-hot-as-rose-edp-mujer",
+  "destacadas": [
+   "grosella",
+   "rosa",
+   "maderas"
+  ],
+  "marca": "Lancôme",
+  "nombre": "Absolue Hot As Rose",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Aromático afrutado",
+  "lema": "Limpio y seguro.",
+  "venta": "Absolue Hot As Rose de Lancôme es una fragancia aromático afrutado para ella, lanzada en 2024. Su salida de grosellas negras, bayas de enebro, romero y tomillo da paso a un corazón de rosa y buchú, que descansa sobre un fondo de ciprés. Una elección versátil para todos los días.",
+  "salida": [
+   "Grosellas negras",
+   "Bayas de enebro",
+   "Romero",
+   "Tomillo"
+  ],
+  "corazon": [
+   "Rosa",
+   "Buchú"
+  ],
+  "fondo": [
+   "Ciprés"
+  ],
+  "acordes": [
+   [
+    "Aromático",
+    90
+   ],
+   [
+    "Afrutado",
+    77
+   ],
+   [
+    "Amaderado",
+    70
+   ],
+   [
+    "Floral",
+    67
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "facetado",
+  "liquido": "#7E9A7A",
+  "fuente_notas": "web"
+ },
+ "648275": {
+  "id": "lancome-absolue-storm-roses-edp-mujer",
+  "destacadas": [
+   "grosella",
+   "rosa",
+   "pachuli"
+  ],
+  "marca": "Lancôme",
+  "nombre": "Absolue Storm & Roses",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral afrutado",
+  "lema": "Flores con carácter.",
+  "venta": "Absolue Storm & Roses de Lancôme es una fragancia floral afrutado para ella, lanzada en 2024. Su salida de grosellas negras y notas verdes da paso a un corazón de rosa, que descansa sobre un fondo de pachulí. Funciona tanto de día como de noche.",
+  "salida": [
+   "Grosellas negras",
+   "Notas verdes"
+  ],
+  "corazon": [
+   "Rosa"
+  ],
+  "fondo": [
+   "Pachulí"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Afrutado",
+    81
+   ],
+   [
+    "Aromático",
+    81
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "redondo",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "617765": {
+  "id": "lancome-tresor-edp-mujer",
+  "destacadas": [
+   "durazno",
+   "iris",
+   "vainilla"
+  ],
+  "marca": "Lancôme",
+  "nombre": "Trésor",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral avainillado",
+  "lema": "Flores con carácter.",
+  "venta": "Trésor de Lancôme es una fragancia floral avainillado para ella, lanzada en 1990. Abre con durazno, rosa, lila y bergamota; en el corazón aparecen iris, heliotropo y jazmín, y un fondo de chabacano, vainilla, sándalo y ámbar le da carácter y duración. Versátil para el día y la noche.",
+  "salida": [
+   "Durazno",
+   "Rosa",
+   "Lila",
+   "Bergamota"
+  ],
+  "corazon": [
+   "Iris",
+   "Heliotropo",
+   "Jazmín"
+  ],
+  "fondo": [
+   "Chabacano",
+   "Vainilla",
+   "Sándalo",
+   "Ámbar"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Avainillado",
+    60
+   ],
+   [
+    "Amaderado",
+    60
+   ],
+   [
+    "Ambarado",
+    60
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "redondo",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "694994": {
+  "id": "moncler-les-sommets-haute-montagne-edp-unisex",
+  "destacadas": [
+   "vainilla",
+   "cedro",
+   "maderas"
+  ],
+  "marca": "Moncler",
+  "nombre": "Les Sommets Haute Montagne",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Almizclado amaderado",
+  "lema": "Una segunda piel.",
+  "venta": "Les Sommets Haute Montagne de Moncler es una fragancia almizclado amaderado unisex. Abre con vainilla; en el corazón aparecen cedro, y un fondo de almizcle blanco y musgo le da carácter y duración. Versátil para el día y la noche.",
+  "salida": [
+   "Vainilla"
+  ],
+  "corazon": [
+   "Cedro"
+  ],
+  "fondo": [
+   "Almizcle blanco",
+   "Musgo"
+  ],
+  "acordes": [
+   [
+    "Almizclado",
+    90
+   ],
+   [
+    "Amaderado",
+    85
+   ],
+   [
+    "Avainillado",
+    77
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "redondo",
+  "liquido": "#E8E0D6",
+  "fuente_notas": "web"
+ },
+ "696792": {
+  "id": "moncler-pour-femme-edp-mujer",
+  "destacadas": [
+   "bergamota",
+   "jazmin",
+   "vainilla"
+  ],
+  "marca": "Moncler",
+  "nombre": "Pour Femme",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Amaderado floral",
+  "lema": "Sobriedad sofisticada.",
+  "venta": "Pour Femme de Moncler es una fragancia amaderado floral para ella, lanzada en 2017. Las notas de acorde de nieve, notas atalcadas y bergamota abren con personalidad; heliotropo y jazmín forman su corazón, y vainilla, sándalo, ámbar y cedro dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Acorde de nieve",
+   "Notas atalcadas",
+   "Bergamota"
+  ],
+  "corazon": [
+   "Heliotropo",
+   "Jazmín"
+  ],
+  "fondo": [
+   "Vainilla",
+   "Sándalo",
+   "Ámbar",
+   "Cedro"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Floral",
+    85
+   ],
+   [
+    "Avainillado",
+    70
+   ],
+   [
+    "Ambarado",
+    70
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "redondo",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "696789": {
+  "id": "moncler-pour-femme-led-edp-mujer",
+  "destacadas": [
+   "bergamota",
+   "jazmin",
+   "vainilla"
+  ],
+  "marca": "Moncler",
+  "nombre": "Pour Femme LED",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Amaderado floral",
+  "lema": "Maderas con presencia.",
+  "venta": "Pour Femme LED de Moncler es una fragancia amaderado floral para ella, lanzada en 2017. Abre con acorde de nieve, notas atalcadas y bergamota; en el corazón aparecen heliotropo y jazmín, y un fondo de vainilla, sándalo, ámbar y cedro le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Acorde de nieve",
+   "Notas atalcadas",
+   "Bergamota"
+  ],
+  "corazon": [
+   "Heliotropo",
+   "Jazmín"
+  ],
+  "fondo": [
+   "Vainilla",
+   "Sándalo",
+   "Ámbar",
+   "Cedro"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Floral",
+    85
+   ],
+   [
+    "Avainillado",
+    70
+   ],
+   [
+    "Ambarado",
+    70
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "facetado",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "706232": {
+  "id": "montale-vanilla-cake-edp-unisex",
+  "destacadas": [
+   "almendra",
+   "caramelo",
+   "vainilla"
+  ],
+  "marca": "Montale",
+  "nombre": "Vanilla Cake",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Gourmand avainillado",
+  "lema": "Para quien ama lo dulce.",
+  "venta": "Vanilla Cake de Montale es una fragancia gourmand avainillado unisex, lanzada en 2018. Las notas de almendra abren con personalidad; leche, caramelo y crema batida forman su corazón, y vainilla y merengue dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Almendra"
+  ],
+  "corazon": [
+   "Leche",
+   "Caramelo",
+   "Crema batida"
+  ],
+  "fondo": [
+   "Vainilla",
+   "Merengue"
+  ],
+  "acordes": [
+   [
+    "Gourmand",
+    90
+   ],
+   [
+    "Avainillado",
+    59
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "facetado",
+  "liquido": "#A0673A",
+  "fuente_notas": "web"
+ },
+ "628237": {
+  "destacadas": [
+   "lavanda",
+   "manzana",
+   "haba"
+  ],
+  "marca": "Montblanc",
+  "nombre": "Legend",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Aromático fougère",
+  "lema": "Un clásico fresco y elegante.",
+  "venta": "Montblanc Legend es un clásico fresco y elegante. La lavanda, la piña y la bergamota abren con frescura; la manzana roja, la rosa y el geranio forman un corazón limpio, y un fondo de haba tonka, sándalo y musgo de roble le da calidez y seguridad. Ideal para la oficina y el día a día.",
+  "salida": [
+   "Lavanda",
+   "Piña",
+   "Bergamota"
+  ],
+  "corazon": [
+   "Manzana roja",
+   "Rosa",
+   "Geranio"
+  ],
+  "fondo": [
+   "Haba tonka",
+   "Sándalo",
+   "Musgo de roble"
+  ],
+  "acordes": [
+   [
+    "Aromático",
+    82
+   ],
+   [
+    "Fresco",
+    70
+   ],
+   [
+    "Afrutado",
+    55
+   ],
+   [
+    "Cálido",
+    45
+   ]
+  ],
+  "duracion": "6–8 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "cuadrado",
+  "liquido": "#2C2C2C",
+  "id": "legend"
+ },
+ "706893": {
+  "id": "moschino-toy-boy-2-edp-hombre",
+  "destacadas": [
+   "bergamota",
+   "cedro",
+   "vetiver"
+  ],
+  "marca": "Moschino",
+  "nombre": "Toy Boy 2",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Cálido especiado ambarado",
+  "lema": "Intensidad magnética.",
+  "venta": "Toy Boy 2 de Moschino es una fragancia cálido especiado ambarado para él, lanzada en 2025. Su salida de azafrán, nuez moscada y jengibre da paso a un corazón de café, cedro y akigalawood, que descansa sobre un fondo de ládano, vetiver y mirra. Perfecto para ocasiones especiales y noches frías.",
+  "salida": [
+   "Azafrán",
+   "Nuez moscada",
+   "Jengibre"
+  ],
+  "corazon": [
+   "Café",
+   "Cedro",
+   "Akigalawood"
+  ],
+  "fondo": [
+   "Ládano",
+   "Vetiver",
+   "Mirra"
+  ],
+  "acordes": [
+   [
+    "Cálido especiado",
+    90
+   ],
+   [
+    "Ambarado",
+    90
+   ],
+   [
+    "Amaderado",
+    87
+   ],
+   [
+    "Gourmand",
+    67
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "alto",
+  "liquido": "#9E4A2A",
+  "fuente_notas": "web"
+ },
+ "694996": {
+  "id": "mugler-angel-edp-mujer",
+  "destacadas": [
+   "caramelo",
+   "miel",
+   "pachuli"
+  ],
+  "marca": "Mugler",
+  "nombre": "Angel",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Afrutado gourmand",
+  "lema": "Un toque frutal irresistible.",
+  "venta": "Angel de Mugler es una fragancia afrutado gourmand para ella, lanzada en 1992. Abre con algodón de azúcar, bergamota, coco y piña; en el corazón aparecen miel, frutas rojas, zarzamora y ciruela, y un fondo de pachulí, cacao, caramelo y vainilla le da carácter y duración. Versátil para el día y la noche.",
+  "salida": [
+   "Algodón de azúcar",
+   "Bergamota",
+   "Coco",
+   "Piña"
+  ],
+  "corazon": [
+   "Miel",
+   "Frutas rojas",
+   "Zarzamora",
+   "Ciruela"
+  ],
+  "fondo": [
+   "Pachulí",
+   "Cacao",
+   "Caramelo",
+   "Vainilla"
+  ],
+  "acordes": [
+   [
+    "Afrutado",
+    90
+   ],
+   [
+    "Gourmand",
+    86
+   ],
+   [
+    "Avainillado",
+    60
+   ],
+   [
+    "Cítrico",
+    57
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "redondo",
+  "liquido": "#E57A8A",
+  "fuente_notas": "web"
+ },
+ "655177": {
+  "id": "nautica-voyage-heritage-edt-hombre",
+  "destacadas": [
+   "bergamota",
+   "vetiver",
+   "ambar"
+  ],
+  "marca": "Nautica",
+  "nombre": "Voyage Heritage",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Amaderado aromático",
+  "lema": "Sobriedad sofisticada.",
+  "venta": "Voyage Heritage de Nautica es una fragancia amaderado aromático para él. Abre con romero, bergamota y menta; en el corazón aparecen vetiver, jengibre y lavanda, y un fondo de ambroxan, sándalo y madera de gaiac le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Romero",
+   "Bergamota",
+   "Menta"
+  ],
+  "corazon": [
+   "Vetiver",
+   "Jengibre",
+   "Lavanda"
+  ],
+  "fondo": [
+   "Ambroxan",
+   "Sándalo",
+   "Madera de gaiac"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Aromático",
+    81
+   ],
+   [
+    "Ambarado",
+    64
+   ],
+   [
+    "Cálido especiado",
+    62
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "redondo",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "694999": {
+  "id": "orientica-amber-noir-edp-unisex",
+  "destacadas": [
+   "bergamota",
+   "azucena",
+   "cedro"
+  ],
+  "marca": "Orientica",
+  "nombre": "Amber Noir",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Amaderado almizclado",
+  "lema": "Maderas con presencia.",
+  "venta": "Amber Noir de Orientica es una fragancia amaderado almizclado unisex, lanzada en 2023. Su salida de semilla de zanahoria, elemí y higo da paso a un corazón de lirio de los valles, que descansa sobre un fondo de almizcle, cedro y sándalo. Perfecto para ocasiones especiales y noches frías.",
+  "salida": [
+   "Semilla de zanahoria",
+   "Elemí",
+   "Higo"
+  ],
+  "corazon": [
+   "Lirio de los valles"
+  ],
+  "fondo": [
+   "Almizcle",
+   "Cedro",
+   "Sándalo"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Almizclado",
+    70
+   ],
+   [
+    "Floral",
+    67
+   ],
+   [
+    "Ambarado",
+    63
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "facetado",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "681771": {
+  "id": "paco-rabanne-black-xs-edt-hombre",
+  "destacadas": [
+   "limon",
+   "cardamomo",
+   "ambar"
+  ],
+  "marca": "Paco Rabanne",
+  "nombre": "Black XS",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Ambarado cálido especiado",
+  "lema": "Calidez profunda.",
+  "venta": "Black XS de Paco Rabanne es una fragancia ambarado cálido especiado para él, lanzada en 2005. Las notas de limón, calamondín, salvia y cempasúchil abren con personalidad; cardamomo, canela, bálsamo de Tolú y praliné forman su corazón, y ámbar, ébano, pachulí y palo de rosa dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Limón",
+   "Calamondín",
+   "Salvia",
+   "Cempasúchil"
+  ],
+  "corazon": [
+   "Cardamomo",
+   "Canela",
+   "Bálsamo de Tolú",
+   "Praliné"
+  ],
+  "fondo": [
+   "Ámbar",
+   "Ébano",
+   "Pachulí",
+   "Palo de rosa"
+  ],
+  "acordes": [
+   [
+    "Ambarado",
+    90
+   ],
+   [
+    "Cálido especiado",
+    87
+   ],
+   [
+    "Floral",
+    71
+   ],
+   [
+    "Amaderado",
+    71
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "facetado",
+  "liquido": "#C47A2C",
+  "fuente_notas": "web"
+ },
+ "524966": {
+  "id": "paco-rabanne-invictus-edt-hombre",
+  "destacadas": [
+   "toronja",
+   "laurel",
+   "maderas"
+  ],
+  "marca": "Paco Rabanne",
+  "nombre": "Invictus",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Cítrico amaderado",
+  "lema": "Ligereza y elegancia.",
+  "venta": "Invictus de Paco Rabanne es una fragancia cítrico amaderado para él, lanzada en 2013. Su salida de toronja, notas marinas y mandarina da paso a un corazón de hojas de laurel y jazmín, que descansa sobre un fondo de madera de gaiac, musgo de roble, pachulí y ámbar gris. Una elección versátil para todos los días.",
+  "salida": [
+   "Toronja",
+   "Notas marinas",
+   "Mandarina"
+  ],
+  "corazon": [
+   "Hojas de laurel",
+   "Jazmín"
+  ],
+  "fondo": [
+   "Madera de gaiac",
+   "Musgo de roble",
+   "Pachulí",
+   "Ámbar gris"
+  ],
+  "acordes": [
+   [
+    "Cítrico",
+    90
+   ],
+   [
+    "Amaderado",
+    80
+   ],
+   [
+    "Ambarado",
+    80
+   ],
+   [
+    "Floral",
+    76
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "redondo",
+  "liquido": "#E8C25A",
+  "fuente_notas": "web"
+ },
+ "688788": {
+  "id": "paco-rabanne-invictus-parfum-parfum-hombre",
+  "destacadas": [
+   "mar",
+   "violeta",
+   "maderas"
+  ],
+  "marca": "Paco Rabanne",
+  "nombre": "Invictus Parfum",
+  "conc": "Parfum",
+  "seccion": "Hombre",
+  "familia": "Amaderado floral",
+  "lema": "Sobriedad sofisticada.",
+  "venta": "Invictus Parfum de Paco Rabanne es una fragancia amaderado floral para él, lanzada en 2024. Abre con notas marinas, lavanda y pimienta rosa; en el corazón aparecen jabón negro, hojas de violeta y mirto, y un fondo de almizcle, cachemira y sándalo le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Notas marinas",
+   "Lavanda",
+   "Pimienta rosa"
+  ],
+  "corazon": [
+   "Jabón negro",
+   "Hojas de violeta",
+   "Mirto"
+  ],
+  "fondo": [
+   "Almizcle",
+   "Cachemira",
+   "Sándalo"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Floral",
+    81
+   ],
+   [
+    "Almizclado",
+    70
+   ],
+   [
+    "Fresco",
+    63
+   ]
+  ],
+  "duracion": "9–11 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "redondo",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "681773": {
+  "id": "paco-rabanne-invictus-victory-elixir-parfum-hombre",
+  "destacadas": [
+   "lavanda",
+   "pachuli",
+   "vainilla"
+  ],
+  "marca": "Paco Rabanne",
+  "nombre": "Invictus Victory Elixir",
+  "conc": "Parfum",
+  "seccion": "Hombre",
+  "familia": "Avainillado cálido especiado",
+  "lema": "Suavidad adictiva.",
+  "venta": "Invictus Victory Elixir de Paco Rabanne es una fragancia avainillado cálido especiado para él, lanzada en 2023. Su salida de lavanda, cardamomo y pimienta negra da paso a un corazón de incienso y pachulí, que descansa sobre un fondo de vainilla y haba tonka. Perfecto para ocasiones especiales y noches frías.",
+  "salida": [
+   "Lavanda",
+   "Cardamomo",
+   "Pimienta negra"
+  ],
+  "corazon": [
+   "Incienso",
+   "Pachulí"
+  ],
+  "fondo": [
+   "Vainilla",
+   "Haba tonka"
+  ],
+  "acordes": [
+   [
+    "Avainillado",
+    90
+   ],
+   [
+    "Cálido especiado",
+    77
+   ],
+   [
+    "Ambarado",
+    67
+   ],
+   [
+    "Aromático",
+    63
+   ]
+  ],
+  "duracion": "9–11 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "facetado",
+  "liquido": "#D9A35E",
+  "fuente_notas": "web"
+ },
+ "681776": {
+  "id": "paco-rabanne-invictus-victory-elixir-parfum-hombre",
+  "destacadas": [
+   "lavanda",
+   "pachuli",
+   "vainilla"
+  ],
+  "marca": "Paco Rabanne",
+  "nombre": "Invictus Victory Elixir",
+  "conc": "Parfum",
+  "seccion": "Hombre",
+  "familia": "Avainillado cálido especiado",
+  "lema": "Calidez que envuelve.",
+  "venta": "Invictus Victory Elixir de Paco Rabanne es una fragancia avainillado cálido especiado para él, lanzada en 2023. Las notas de lavanda, cardamomo y pimienta negra abren con personalidad; incienso y pachulí forman su corazón, y vainilla y haba tonka dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Lavanda",
+   "Cardamomo",
+   "Pimienta negra"
+  ],
+  "corazon": [
+   "Incienso",
+   "Pachulí"
+  ],
+  "fondo": [
+   "Vainilla",
+   "Haba tonka"
+  ],
+  "acordes": [
+   [
+    "Avainillado",
+    90
+   ],
+   [
+    "Cálido especiado",
+    77
+   ],
+   [
+    "Ambarado",
+    67
+   ],
+   [
+    "Aromático",
+    63
+   ]
+  ],
+  "duracion": "9–11 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "cuadrado",
+  "liquido": "#D9A35E",
+  "fuente_notas": "web"
+ },
+ "506884": {
+  "id": "paco-rabanne-lady-million-edp-mujer",
+  "destacadas": [
+   "frambuesa",
+   "jazmin",
+   "miel"
+  ],
+  "marca": "Paco Rabanne",
+  "nombre": "Lady Million",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral cítrico",
+  "lema": "Un ramo elegante.",
+  "venta": "Lady Million de Paco Rabanne es una fragancia floral cítrico para ella, lanzada en 2010. Abre con frambuesa, neroli y limón; en el corazón aparecen jazmín, flor de azahar del naranjo y gardenia, y un fondo de miel, pachulí y ámbar le da carácter y duración. Versátil para el día y la noche.",
+  "salida": [
+   "Frambuesa",
+   "Neroli",
+   "Limón"
+  ],
+  "corazon": [
+   "Jazmín",
+   "Flor de azahar del naranjo",
+   "Gardenia"
+  ],
+  "fondo": [
+   "Miel",
+   "Pachulí",
+   "Ámbar"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Cítrico",
+    71
+   ],
+   [
+    "Gourmand",
+    65
+   ],
+   [
+    "Ambarado",
+    65
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "524221": {
+  "id": "paco-rabanne-1-million-parfum-parfum-hombre",
+  "destacadas": [
+   "toronja",
+   "maderas",
+   "cuero"
+  ],
+  "marca": "Paco Rabanne",
+  "nombre": "1 Million Parfum",
+  "conc": "Parfum",
+  "seccion": "Hombre",
+  "familia": "Ambarado avainillado",
+  "lema": "Misterio cálido.",
+  "venta": "1 Million Parfum de Paco Rabanne es una fragancia ambarado avainillado para él, lanzada en 2020. Abre con toronja, aceite de monoi y sal; en el corazón aparecen nardos, pino, cachemira y canela, y un fondo de cuero, ládano, ámbar, vainilla y haba tonka le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Toronja",
+   "Aceite de monoi",
+   "Sal"
+  ],
+  "corazon": [
+   "Nardos",
+   "Pino",
+   "Cachemira",
+   "Canela"
+  ],
+  "fondo": [
+   "Cuero",
+   "Ládano",
+   "Ámbar",
+   "Vainilla",
+   "Haba tonka"
+  ],
+  "acordes": [
+   [
+    "Ambarado",
+    90
+   ],
+   [
+    "Avainillado",
+    90
+   ],
+   [
+    "Cuero",
+    70
+   ],
+   [
+    "Amaderado",
+    67
+   ]
+  ],
+  "duracion": "9–11 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "cuadrado",
+  "liquido": "#C47A2C",
+  "fuente_notas": "web"
+ },
+ "681775": {
+  "id": "paco-rabanne-1-million-parfum-parfum-hombre",
+  "destacadas": [
+   "toronja",
+   "maderas",
+   "cuero"
+  ],
+  "marca": "Paco Rabanne",
+  "nombre": "1 Million Parfum",
+  "conc": "Parfum",
+  "seccion": "Hombre",
+  "familia": "Ambarado avainillado",
+  "lema": "Una estela inolvidable.",
+  "venta": "1 Million Parfum de Paco Rabanne es una fragancia ambarado avainillado para él, lanzada en 2020. Abre con toronja, aceite de monoi y sal; en el corazón aparecen nardos, pino, cachemira y canela, y un fondo de cuero, ládano, ámbar, vainilla y haba tonka le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Toronja",
+   "Aceite de monoi",
+   "Sal"
+  ],
+  "corazon": [
+   "Nardos",
+   "Pino",
+   "Cachemira",
+   "Canela"
+  ],
+  "fondo": [
+   "Cuero",
+   "Ládano",
+   "Ámbar",
+   "Vainilla",
+   "Haba tonka"
+  ],
+  "acordes": [
+   [
+    "Ambarado",
+    90
+   ],
+   [
+    "Avainillado",
+    90
+   ],
+   [
+    "Cuero",
+    70
+   ],
+   [
+    "Amaderado",
+    67
+   ]
+  ],
+  "duracion": "9–11 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "redondo",
+  "liquido": "#C47A2C",
+  "fuente_notas": "web"
+ },
+ "522709": {
+  "id": "paco-rabanne-1-million-edt-hombre",
+  "destacadas": [
+   "toronja",
+   "rosa",
+   "cuero"
+  ],
+  "marca": "Paco Rabanne",
+  "nombre": "1 Million",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Cálido especiado cítrico",
+  "lema": "Carácter especiado.",
+  "venta": "1 Million de Paco Rabanne es una fragancia cálido especiado cítrico para él, lanzada en 2008. Abre con toronja, menta y mandarina; en el corazón aparecen rosa, canela y especias, y un fondo de cuero, notas amaderadas, ámbar y pachulí le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Toronja",
+   "Menta",
+   "Mandarina"
+  ],
+  "corazon": [
+   "Rosa",
+   "Canela",
+   "Especias"
+  ],
+  "fondo": [
+   "Cuero",
+   "Notas amaderadas",
+   "Ámbar",
+   "Pachulí"
+  ],
+  "acordes": [
+   [
+    "Cálido especiado",
+    90
+   ],
+   [
+    "Cítrico",
+    81
+   ],
+   [
+    "Cuero",
+    73
+   ],
+   [
+    "Amaderado",
+    73
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "facetado",
+  "liquido": "#9E4A2A",
+  "fuente_notas": "web"
+ },
+ "681772": {
+  "id": "paco-rabanne-xs-pour-homme-edt-hombre",
+  "destacadas": [
+   "bergamota",
+   "lavanda",
+   "sandalo"
+  ],
+  "marca": "Paco Rabanne",
+  "nombre": "XS pour Homme",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Aromático cítrico",
+  "lema": "Clásico y versátil.",
+  "venta": "XS pour Homme de Paco Rabanne es una fragancia aromático cítrico para él, lanzada en 1993. Abre con bergamota, limón, menta y romero; en el corazón aparecen geranio, cilantro y bayas de enebro, y un fondo de musgo de roble y sándalo le da carácter y duración. Ideal para el día y la oficina.",
+  "salida": [
+   "Bergamota",
+   "Limón",
+   "Menta",
+   "Romero"
+  ],
+  "corazon": [
+   "Geranio",
+   "Cilantro",
+   "Bayas de enebro"
+  ],
+  "fondo": [
+   "Musgo de roble",
+   "Sándalo"
+  ],
+  "acordes": [
+   [
+    "Aromático",
+    90
+   ],
+   [
+    "Cítrico",
+    67
+   ],
+   [
+    "Amaderado",
+    63
+   ],
+   [
+    "Floral",
+    61
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "alto",
+  "liquido": "#7E9A7A",
+  "fuente_notas": "web"
+ },
+ "704849": {
+  "id": "parfums-de-marly-pegasus-edp-hombre",
+  "destacadas": [
+   "bergamota",
+   "almendra",
+   "vainilla"
+  ],
+  "marca": "Parfums de Marly",
+  "nombre": "Pegasus",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Floral amaderado",
+  "lema": "Feminidad luminosa.",
+  "venta": "Pegasus de Parfums de Marly es una fragancia floral amaderado para él, lanzada en 2011. Las notas de heliotropo, comino, bergamota y pimienta rosa abren con personalidad; almendra, lavanda y jazmín forman su corazón, y vainilla, sándalo, cedro y ámbar dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Heliotropo",
+   "Comino",
+   "Bergamota",
+   "Pimienta rosa"
+  ],
+  "corazon": [
+   "Almendra",
+   "Lavanda",
+   "Jazmín"
+  ],
+  "fondo": [
+   "Vainilla",
+   "Sándalo",
+   "Cedro",
+   "Ámbar"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Amaderado",
+    86
+   ],
+   [
+    "Cálido especiado",
+    74
+   ],
+   [
+    "Avainillado",
+    68
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "alto",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "701432": {
+  "id": "perry-ellis-18-sensual-edp-mujer",
+  "destacadas": [
+   "bergamota",
+   "azucena",
+   "vainilla"
+  ],
+  "marca": "Perry Ellis",
+  "nombre": "18 Sensual",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral cítrico",
+  "lema": "Un ramo elegante.",
+  "venta": "18 Sensual de Perry Ellis es una fragancia floral cítrico para ella, lanzada en 2008. Las notas de bergamota, mandarina, pera y notas afrutadas abren con personalidad; lirio de los valles, jazmín y rosa forman su corazón, y vainilla, almizcle y notas amaderadas dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Bergamota",
+   "Mandarina",
+   "Pera",
+   "Notas afrutadas"
+  ],
+  "corazon": [
+   "Lirio de los valles",
+   "Jazmín",
+   "Rosa"
+  ],
+  "fondo": [
+   "Vainilla",
+   "Almizcle",
+   "Notas amaderadas"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Cítrico",
+    71
+   ],
+   [
+    "Afrutado",
+    71
+   ],
+   [
+    "Avainillado",
+    65
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "701431": {
+  "id": "perry-ellis-360-black-edt-hombre",
+  "destacadas": [
+   "cardamomo",
+   "lavanda",
+   "tabaco"
+  ],
+  "marca": "Perry Ellis",
+  "nombre": "360° Black",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Cálido especiado cuero",
+  "lema": "Calor y seducción.",
+  "venta": "360° Black de Perry Ellis es una fragancia cálido especiado cuero para él, lanzada en 2006. Abre con cardamomo y jengibre; en el corazón aparecen albahaca, nuez moscada y tamarindo, y un fondo de tabaco, gamuza y ámbar le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Cardamomo",
+   "Jengibre"
+  ],
+  "corazon": [
+   "Albahaca",
+   "Nuez moscada",
+   "Tamarindo"
+  ],
+  "fondo": [
+   "Tabaco",
+   "Gamuza",
+   "Ámbar"
+  ],
+  "acordes": [
+   [
+    "Cálido especiado",
+    90
+   ],
+   [
+    "Cuero",
+    86
+   ],
+   [
+    "Ambarado",
+    68
+   ],
+   [
+    "Aromático",
+    66
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "redondo",
+  "liquido": "#9E4A2A",
+  "fuente_notas": "web"
+ },
+ "695012": {
+  "id": "paco-rabanne-lady-million-royal-edp-mujer",
+  "destacadas": [
+   "granada",
+   "jazmin",
+   "maderas"
+  ],
+  "marca": "Paco Rabanne",
+  "nombre": "Lady Million Royal",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Amaderado floral",
+  "lema": "Profundidad natural.",
+  "venta": "Lady Million Royal de Paco Rabanne es una fragancia amaderado floral para ella, lanzada en 2023. Las notas de granada abren con personalidad; jazmín forman su corazón, y notas amaderadas dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Granada"
+  ],
+  "corazon": [
+   "Jazmín"
+  ],
+  "fondo": [
+   "Notas amaderadas"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Floral",
+    85
+   ],
+   [
+    "Afrutado",
+    77
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "alto",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "623552": {
+  "id": "ralph-lauren-big-pony-2-pink-edt-mujer",
+  "destacadas": [
+   "bergamota",
+   "rosa",
+   "haba"
+  ],
+  "marca": "Ralph Lauren",
+  "nombre": "Big Pony 2 Pink",
+  "conc": "EDT",
+  "seccion": "Mujer",
+  "familia": "Avainillado floral",
+  "lema": "Suavidad adictiva.",
+  "venta": "Big Pony 2 Pink de Ralph Lauren es una fragancia avainillado floral para ella, lanzada en 2012. Abre con arándano; en el corazón aparecen notas florales, y un fondo de haba tonka le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Arándano"
+  ],
+  "corazon": [
+   "Notas florales"
+  ],
+  "fondo": [
+   "Haba tonka"
+  ],
+  "acordes": [
+   [
+    "Avainillado",
+    90
+   ],
+   [
+    "Floral",
+    85
+   ],
+   [
+    "Afrutado",
+    77
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "facetado",
+  "liquido": "#D9A35E",
+  "fuente_notas": "web"
+ },
+ "623553": {
+  "id": "ralph-lauren-polo-blue-edt-hombre",
+  "destacadas": [
+   "bergamota",
+   "mar",
+   "cuero"
+  ],
+  "marca": "Ralph Lauren",
+  "nombre": "Polo Blue",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Aromático cuero",
+  "lema": "Clásico y versátil.",
+  "venta": "Polo Blue de Ralph Lauren es una fragancia aromático cuero para él, lanzada en 2003. Abre con melón, pepino y bergamota; en el corazón aparecen notas acuáticas, salvia, geranio y albahaca, y un fondo de gamuza, pachulí y almizcle le da carácter y duración. Ideal para el día y la oficina.",
+  "salida": [
+   "Melón",
+   "Pepino",
+   "Bergamota"
+  ],
+  "corazon": [
+   "Notas acuáticas",
+   "Salvia",
+   "Geranio",
+   "Albahaca"
+  ],
+  "fondo": [
+   "Gamuza",
+   "Pachulí",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Aromático",
+    90
+   ],
+   [
+    "Cuero",
+    73
+   ],
+   [
+    "Almizclado",
+    73
+   ],
+   [
+    "Fresco",
+    70
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "alto",
+  "liquido": "#7E9A7A",
+  "fuente_notas": "web"
+ },
+ "679669": {
+  "id": "tommy-hilfiger-impact-edt-hombre",
+  "destacadas": [
+   "manzana",
+   "salvia",
+   "cedro"
+  ],
+  "marca": "Tommy Hilfiger",
+  "nombre": "Impact",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Amaderado ambarado",
+  "lema": "Profundidad natural.",
+  "venta": "Impact de Tommy Hilfiger es una fragancia amaderado ambarado para él, lanzada en 2020. Su salida de manzana, toronja, naranja amarga, bergamota y pimienta rosa da paso a un corazón de elemí, ciprés, salvia y ládano, que descansa sobre un fondo de cedro, ámbar, almizcle, sándalo y akigalawood. Perfecto para ocasiones especiales y noches frías.",
+  "salida": [
+   "Manzana",
+   "Toronja",
+   "Naranja amarga",
+   "Bergamota",
+   "Pimienta rosa"
+  ],
+  "corazon": [
+   "Elemí",
+   "Ciprés",
+   "Salvia",
+   "Ládano"
+  ],
+  "fondo": [
+   "Cedro",
+   "Ámbar",
+   "Almizcle",
+   "Sándalo",
+   "Akigalawood"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Ambarado",
+    88
+   ],
+   [
+    "Cítrico",
+    78
+   ],
+   [
+    "Almizclado",
+    64
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "alto",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "679668": {
+  "id": "tommy-hilfiger-impact-spark-edt-hombre",
+  "destacadas": [
+   "bergamota",
+   "cardamomo",
+   "cedro"
+  ],
+  "marca": "Tommy Hilfiger",
+  "nombre": "Impact Spark",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Cítrico amaderado",
+  "lema": "Brillo fresco y limpio.",
+  "venta": "Impact Spark de Tommy Hilfiger es una fragancia cítrico amaderado para él, lanzada en 2022. Abre con bergamota, limón, naranja amarga y hojas de violeta; en el corazón aparecen cardamomo y té, y un fondo de akigalawood, cedro, sándalo y ambroxan le da carácter y duración. Ideal para el día y la oficina.",
+  "salida": [
+   "Bergamota",
+   "Limón",
+   "Naranja amarga",
+   "Hojas de violeta"
+  ],
+  "corazon": [
+   "Cardamomo",
+   "Té"
+  ],
+  "fondo": [
+   "Akigalawood",
+   "Cedro",
+   "Sándalo",
+   "Ambroxan"
+  ],
+  "acordes": [
+   [
+    "Cítrico",
+    90
+   ],
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Fresco",
+    81
+   ],
+   [
+    "Ambarado",
+    70
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "facetado",
+  "liquido": "#E8C25A",
+  "fuente_notas": "web"
+ },
+ "628242": {
+  "id": "tommy-hilfiger-tommy-girl-edt-mujer",
+  "destacadas": [
+   "mandarina",
+   "limon",
+   "cuero"
+  ],
+  "marca": "Tommy Hilfiger",
+  "nombre": "Tommy Girl",
+  "conc": "EDT",
+  "seccion": "Mujer",
+  "familia": "Floral cítrico",
+  "lema": "Flores con carácter.",
+  "venta": "Tommy Girl de Tommy Hilfiger es una fragancia floral cítrico para ella, lanzada en 1996. Abre con flor de manzano, mandarina, grosellas negras y camelia; en el corazón aparecen limón, toronja, rosa y violeta, y un fondo de cuero, cedro, sándalo y jazmín le da carácter y duración. Versátil para el día y la noche.",
+  "salida": [
+   "Flor de manzano",
+   "Mandarina",
+   "Grosellas negras",
+   "Camelia"
+  ],
+  "corazon": [
+   "Limón",
+   "Toronja",
+   "Rosa",
+   "Violeta"
+  ],
+  "fondo": [
+   "Cuero",
+   "Cedro",
+   "Sándalo",
+   "Jazmín"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Cítrico",
+    74
+   ],
+   [
+    "Amaderado",
+    70
+   ],
+   [
+    "Cuero",
+    60
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "redondo",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "524959": {
+  "id": "tous-l-eau-edp-mujer",
+  "destacadas": [
+   "limon",
+   "fresia",
+   "pachuli"
+  ],
+  "marca": "Tous",
+  "nombre": "L'Eau",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral cítrico",
+  "lema": "Un ramo elegante.",
+  "venta": "L'Eau de Tous es una fragancia floral cítrico para ella, lanzada en 2011. Abre con limón, mandarina y notas florales; en el corazón aparecen fresia, peonía, jazmín y grosellas negras, y un fondo de almizcle, pachulí y ámbar le da carácter y duración. Versátil para el día y la noche.",
+  "salida": [
+   "Limón",
+   "Mandarina",
+   "Notas florales"
+  ],
+  "corazon": [
+   "Fresia",
+   "Peonía",
+   "Jazmín",
+   "Grosellas negras"
+  ],
+  "fondo": [
+   "Almizcle",
+   "Pachulí",
+   "Ámbar"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Cítrico",
+    66
+   ],
+   [
+    "Almizclado",
+    62
+   ],
+   [
+    "Ambarado",
+    62
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "643773": {
+  "id": "tous-man-sport-edt-hombre",
+  "destacadas": [
+   "limon",
+   "manzana",
+   "maderas"
+  ],
+  "marca": "Tous",
+  "nombre": "Man Sport",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Amaderado almizclado",
+  "lema": "Profundidad natural.",
+  "venta": "Man Sport de Tous es una fragancia amaderado almizclado para él, lanzada en 2010. Las notas de limón y aldehídos abren con personalidad; manzana y jengibre forman su corazón, y madera de cachemira, almizcle, cedro y musgo de roble dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Limón",
+   "Aldehídos"
+  ],
+  "corazon": [
+   "Manzana",
+   "Jengibre"
+  ],
+  "fondo": [
+   "Madera de cachemira",
+   "Almizcle",
+   "Cedro",
+   "Musgo de roble"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Almizclado",
+    70
+   ],
+   [
+    "Afrutado",
+    67
+   ],
+   [
+    "Cálido especiado",
+    67
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "alto",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "645749": {
+  "id": "versace-bright-crystal-edt-mujer",
+  "destacadas": [
+   "granada",
+   "loto",
+   "ambar"
+  ],
+  "marca": "Versace",
+  "nombre": "Bright Crystal",
+  "conc": "EDT",
+  "seccion": "Mujer",
+  "familia": "Floral almizclado",
+  "lema": "Un ramo elegante.",
+  "venta": "Bright Crystal de Versace es una fragancia floral almizclado para ella, lanzada en 2006. Las notas de yuzu, granada y notas acuáticas abren con personalidad; flor de loto, magnolia y peonía forman su corazón, y almizcle, caoba y ámbar dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Yuzu",
+   "Granada",
+   "Notas acuáticas"
+  ],
+  "corazon": [
+   "Flor de loto",
+   "Magnolia",
+   "Peonía"
+  ],
+  "fondo": [
+   "Almizcle",
+   "Caoba",
+   "Ámbar"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Almizclado",
+    65
+   ],
+   [
+    "Ambarado",
+    65
+   ],
+   [
+    "Cítrico",
+    60
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "645750": {
+  "id": "versace-eros-edt-hombre",
+  "destacadas": [
+   "menta",
+   "haba",
+   "vainilla"
+  ],
+  "marca": "Versace",
+  "nombre": "Eros",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Amaderado avainillado",
+  "lema": "Profundidad natural.",
+  "venta": "Eros de Versace es una fragancia amaderado avainillado para él, lanzada en 2012. Abre con menta, manzana verde y limón; en el corazón aparecen haba tonka, geranio y ambroxan, y un fondo de vainilla, vetiver, musgo de roble y cedro le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Menta",
+   "Manzana verde",
+   "Limón"
+  ],
+  "corazon": [
+   "Haba tonka",
+   "Geranio",
+   "Ambroxan"
+  ],
+  "fondo": [
+   "Vainilla",
+   "Vetiver",
+   "Musgo de roble",
+   "Cedro"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Avainillado",
+    87
+   ],
+   [
+    "Aromático",
+    77
+   ],
+   [
+    "Floral",
+    67
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "alto",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "706894": {
+  "id": "versace-eros-najim-parfum-hombre",
+  "destacadas": [
+   "caramelo",
+   "cardamomo",
+   "pachuli"
+  ],
+  "marca": "Versace",
+  "nombre": "Eros Najim",
+  "conc": "Parfum",
+  "seccion": "Hombre",
+  "familia": "Amaderado ambarado",
+  "lema": "Sobriedad sofisticada.",
+  "venta": "Eros Najim de Versace es una fragancia amaderado ambarado para él, lanzada en 2024. Las notas de caramelo y mandarina abren con personalidad; cardamomo y madera de oud forman su corazón, y incienso, pachulí y vetiver dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Caramelo",
+   "Mandarina"
+  ],
+  "corazon": [
+   "Cardamomo",
+   "Madera de oud"
+  ],
+  "fondo": [
+   "Incienso",
+   "Pachulí",
+   "Vetiver"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Ambarado",
+    71
+   ],
+   [
+    "Cálido especiado",
+    69
+   ],
+   [
+    "Gourmand",
+    64
+   ]
+  ],
+  "duracion": "9–11 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "redondo",
+  "liquido": "#8A6A48",
+  "fuente_notas": "web"
+ },
+ "518849": {
+  "id": "versace-eros-pour-femme-edp-mujer",
+  "destacadas": [
+   "limon",
+   "azahar",
+   "sandalo"
+  ],
+  "marca": "Versace",
+  "nombre": "Eros pour Femme",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral amaderado",
+  "lema": "Flores con carácter.",
+  "venta": "Eros pour Femme de Versace es una fragancia floral amaderado para ella, lanzada en 2014. Abre con limón, bergamota y granada; en el corazón aparecen flor de azahar, jazmín sambac y peonía, y un fondo de sándalo, ambroxan, almizcle y notas amaderadas le da carácter y duración. Versátil para el día y la noche.",
+  "salida": [
+   "Limón",
+   "Bergamota",
+   "Granada"
+  ],
+  "corazon": [
+   "Flor de azahar",
+   "Jazmín sambac",
+   "Peonía"
+  ],
+  "fondo": [
+   "Sándalo",
+   "Ambroxan",
+   "Almizcle",
+   "Notas amaderadas"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Amaderado",
+    81
+   ],
+   [
+    "Cítrico",
+    71
+   ],
+   [
+    "Ambarado",
+    65
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "redondo",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "518314": {
+  "id": "versace-yellow-diamond-edt-mujer",
+  "destacadas": [
+   "neroli",
+   "azahar",
+   "maderas"
+  ],
+  "marca": "Versace",
+  "nombre": "Yellow Diamond",
+  "conc": "EDT",
+  "seccion": "Mujer",
+  "familia": "Floral cítrico",
+  "lema": "Delicadeza que se recuerda.",
+  "venta": "Yellow Diamond de Versace es una fragancia floral cítrico para ella, lanzada en 2011. Las notas de neroli, bergamota, limón y pera abren con personalidad; flor de azahar del naranjo, nenúfar, fresia y mimosa forman su corazón, y almizcle, madera de gaiac y ámbar dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Neroli",
+   "Bergamota",
+   "Limón",
+   "Pera"
+  ],
+  "corazon": [
+   "Flor de azahar del naranjo",
+   "Nenúfar",
+   "Fresia",
+   "Mimosa"
+  ],
+  "fondo": [
+   "Almizcle",
+   "Madera de gaiac",
+   "Ámbar"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Cítrico",
+    81
+   ],
+   [
+    "Almizclado",
+    65
+   ],
+   [
+    "Amaderado",
+    65
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "facetado",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "706879": {
+  "id": "viktor-rolf-spicebomb-dark-leather-edp-hombre",
+  "destacadas": [
+   "pimienta",
+   "canela",
+   "cuero"
+  ],
+  "marca": "Viktor & Rolf",
+  "nombre": "Spicebomb Dark Leather",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Cálido especiado cuero",
+  "lema": "Intensidad magnética.",
+  "venta": "Spicebomb Dark Leather de Viktor & Rolf es una fragancia cálido especiado cuero para él, lanzada en 2024. Abre con pimienta negra y nuez moscada; en el corazón aparecen incienso y canela, y un fondo de cuero y tabaco le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Pimienta negra",
+   "Nuez moscada"
+  ],
+  "corazon": [
+   "Incienso",
+   "Canela"
+  ],
+  "fondo": [
+   "Cuero",
+   "Tabaco"
+  ],
+  "acordes": [
+   [
+    "Cálido especiado",
+    90
+   ],
+   [
+    "Cuero",
+    86
+   ],
+   [
+    "Ambarado",
+    66
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "alto",
+  "liquido": "#9E4A2A",
+  "fuente_notas": "web"
+ },
+ "648282": {
+  "id": "yves-saint-laurent-wild-leather-edp-unisex",
+  "destacadas": [
+   "bergamota",
+   "lavanda",
+   "pachuli"
+  ],
+  "marca": "Yves Saint Laurent",
+  "nombre": "Wild Leather",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Cálido especiado aromático",
+  "lema": "Calor y seducción.",
+  "venta": "Wild Leather de Yves Saint Laurent es una fragancia cálido especiado aromático unisex. Abre con bergamota, pimienta negra y tomillo; en el corazón aparecen lavanda, azafrán y geranio, y un fondo de pachulí, cuero y madera de gaiac le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Bergamota",
+   "Pimienta negra",
+   "Tomillo"
+  ],
+  "corazon": [
+   "Lavanda",
+   "Azafrán",
+   "Geranio"
+  ],
+  "fondo": [
+   "Pachulí",
+   "Cuero",
+   "Madera de gaiac"
+  ],
+  "acordes": [
+   [
+    "Cálido especiado",
+    90
+   ],
+   [
+    "Aromático",
+    90
+   ],
+   [
+    "Cuero",
+    76
+   ],
+   [
+    "Amaderado",
+    76
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "redondo",
+  "liquido": "#9E4A2A",
+  "fuente_notas": "web"
+ },
+ "682985": {
+  "id": "yves-saint-laurent-libre-edp-mujer",
+  "destacadas": [
+   "mandarina",
+   "azahar",
+   "vainilla"
+  ],
+  "marca": "Yves Saint Laurent",
+  "nombre": "Libre",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral avainillado",
+  "lema": "Feminidad luminosa.",
+  "venta": "Libre de Yves Saint Laurent es una fragancia floral avainillado para ella, lanzada en 2019. Su salida de mandarina, lavanda, grosellas negras y petit grain da paso a un corazón de flor de azahar del naranjo y jazmín, que descansa sobre un fondo de vainilla, cedro, ámbar gris y almizcle. Funciona tanto de día como de noche.",
+  "salida": [
+   "Mandarina",
+   "Lavanda",
+   "Grosellas negras",
+   "Petit grain"
+  ],
+  "corazon": [
+   "Flor de azahar del naranjo",
+   "Jazmín"
+  ],
+  "fondo": [
+   "Vainilla",
+   "Cedro",
+   "Ámbar gris",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Avainillado",
+    73
+   ],
+   [
+    "Amaderado",
+    73
+   ],
+   [
+    "Ambarado",
+    73
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "alto",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "682986": {
+  "id": "yves-saint-laurent-y-edp-hombre",
+  "destacadas": [
+   "bergamota",
+   "lavanda",
+   "cedro"
+  ],
+  "marca": "Yves Saint Laurent",
+  "nombre": "Y",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Aromático amaderado",
+  "lema": "Limpio y seguro.",
+  "venta": "Y de Yves Saint Laurent es una fragancia aromático amaderado para él, lanzada en 2018. Su salida de bergamota, jengibre, bayas de enebro y manzana da paso a un corazón de lavanda, geranio y salvia, que descansa sobre un fondo de cedro, vetiver, pachulí, haba tonka y incienso. Una elección versátil para todos los días.",
+  "salida": [
+   "Bergamota",
+   "Jengibre",
+   "Bayas de enebro",
+   "Manzana"
+  ],
+  "corazon": [
+   "Lavanda",
+   "Geranio",
+   "Salvia"
+  ],
+  "fondo": [
+   "Cedro",
+   "Vetiver",
+   "Pachulí",
+   "Haba tonka",
+   "Incienso"
+  ],
+  "acordes": [
+   [
+    "Aromático",
+    90
+   ],
+   [
+    "Amaderado",
+    83
+   ],
+   [
+    "Afrutado",
+    72
+   ],
+   [
+    "Avainillado",
+    67
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "facetado",
+  "liquido": "#7E9A7A",
+  "fuente_notas": "web"
  }
 }
