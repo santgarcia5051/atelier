@@ -740,7 +740,7 @@ h2 { font-weight: 500 !important; letter-spacing: -.01em; }
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script src="perfumes.js?v=202611131943"></script>
+<script src="perfumes.js?v=202611132001"></script>
 <script>
 
 const fmt = new Intl.NumberFormat("es-MX", { style: "currency", currency: "MXN", maximumFractionDigits: 0 });
@@ -1083,7 +1083,7 @@ $("drawerBody").addEventListener("click", e => {
 });
 
 /* ===== Carrito ===== */
-const cart = { items: [], step: "items", datos: { nombre: "", tel: "", correo: "", calle: "", colonia: "", cp: "", destino: "", ref: "", notas: "" }, folio: "" };
+const cart = { items: [], step: "items", datos: { nombre: "", tel: "", correo: "", calle: "", colonia: "", cp: "", destino: "", ref: "", notas: "" }, folio: "", pagoUrl: "" };
 try { const saved = JSON.parse(localStorage.getItem("ag-cart") || "[]"); if (Array.isArray(saved)) cart.items = saved.filter(i => PERFUMES.some(p => p.id === i.id && disponible(p) && p.pres.some(x => x.ml === i.ml))); } catch (e) {}
 function saveCart() { try { localStorage.setItem("ag-cart", JSON.stringify(cart.items)); } catch (e) {} }
 
@@ -1276,19 +1276,27 @@ function renderCart() {
       <div class="d-head reveal">
         <span class="eyebrow">Folio</span>
         <span class="folio">${cart.folio}</span>
-        <p>Su pedido está listo. Envíenoslo para confirmar disponibilidad y recibir su link de pago.</p>
+        <p>${cart.pagoUrl ? "Su pedido quedó registrado. Complete su pago en la página segura de Stripe." : "Su pedido está listo. Envíenoslo para confirmar disponibilidad y recibir su link de pago."}</p>
       </div>
       <div class="order-box reveal" id="orderBox" style="animation-delay:.05s">${escapeHTML(orderText())}</div>
       <div class="stack reveal" style="animation-delay:.1s">
-        <button class="btn block" type="button" data-act="copy">Copiar pedido</button>
-        <a class="btn ghost block" href="#contacto" data-act="contact">Ver redes y correo</a>
+        ${cart.pagoUrl
+          ? `<a class="btn block" href="${escapeAttr(cart.pagoUrl)}" rel="noopener">Pagar con tarjeta</a>
+        <button class="btn ghost block" type="button" data-act="copy">Copiar pedido</button>`
+          : `<button class="btn block" type="button" data-act="copy">Copiar pedido</button>
+        <a class="btn ghost block" href="#contacto" data-act="contact">Ver redes y correo</a>`}
       </div>
       <div class="d-section reveal" style="animation-delay:.15s">
         <h3>Siguientes pasos</h3>
-        <ol class="howto">
+        <ol class="howto">${cart.pagoUrl
+          ? `
+          <li>Pague con tarjeta en la página segura de Stripe. Scantalia no recibe ni guarda los datos de su tarjeta.</li>
+          <li>Le escribiremos a ${escapeHTML(cart.datos.correo)} para confirmar su pedido.</li>
+          <li>Al enviarlo, le mandaremos su número de rastreo.</li>`
+          : `
           <li>Copie el pedido y envíelo por mensaje directo a nuestras redes o a nuestro correo.</li>
           <li>Le responderemos con un link de pago seguro por el total de su pedido.</li>
-          <li>Al confirmarse su pago, le enviaremos su número de rastreo.</li>
+          <li>Al confirmarse su pago, le enviaremos su número de rastreo.</li>`}
         </ol>
       </div>
       <div style="text-align:center" class="reveal"><button class="link-btn" type="button" data-act="done">Vaciar carrito y empezar un pedido nuevo</button></div>`;
@@ -1313,21 +1321,22 @@ function escapeHTML(s) { return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp
 const escapeAttr = escapeHTML;
 
 /* Envío del pedido a la base de datos (Cloudflare). Vacío = no se envía; la página sigue igual. */
-const WORKER_PEDIDOS = "";
-function enviarPedido() {
-  if (!WORKER_PEDIDOS) return;
+const WORKER_PEDIDOS = location.hostname === "scantalia.com" ? "/api/pedido" : "";
+/* Manda el pedido al sistema. El total lo calcula el servidor con los precios del catálogo.
+   Devuelve { folio, pagoUrl } o null si no se pudo registrar (la página sigue con el pedido por texto). */
+async function enviarPedido() {
+  if (!WORKER_PEDIDOS) return null;
   const d = cart.datos;
-  const payload = {
-    folio: cart.folio, nombre: d.nombre, telefono: d.tel, correo: d.correo,
-    direccion: [`${d.calle}, col. ${d.colonia}, ${d.destino}`, d.ref ? `Ref: ${d.ref}` : ""].filter(Boolean).join(" · "),
-    codigo_postal: d.cp, notas: d.notas,
-    items: cart.items.map(i => { const p = PERFUMES.find(x => x.id === i.id); return { id: i.id, nombre: p ? `${p.marca} ${p.nombre} ${p.conc}` : i.id, ml: i.ml, cantidad: i.qty, precio: p ? unitPrice(p, i.ml) : 0 }; }),
-    total: subtotal() + (envioInfo().costo || 0),
-    es_prueba: cart.items.some(i => i.id === "prueba-scantalia")
-  };
-  fetch(WORKER_PEDIDOS, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) })
-    .then(r => { if (!r.ok) throw new Error(String(r.status)); })
-    .catch(() => toast("No pudimos registrar su pedido en el sistema. Envíe el texto del pedido al equipo de Scantalia."));
+  const payload = { ...d, items: cart.items.map(i => ({ id: i.id, ml: i.ml, qty: i.qty })) };
+  try {
+    const r = await fetch(WORKER_PEDIDOS, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok || !j.ok) { toast(j.error || "No pudimos registrar su pedido en el sistema. Envíe el texto del pedido al equipo de Scantalia."); return null; }
+    return j;
+  } catch (e) {
+    toast("No pudimos registrar su pedido en el sistema. Envíe el texto del pedido al equipo de Scantalia.");
+    return null;
+  }
 }
 
 function newFolio() {
@@ -1374,10 +1383,24 @@ $("cartBody").addEventListener("submit", e => {
   });
   if (!ok) return;
   if (!($("acTerminos").checked && $("acDevol").checked)) { $("eAcepta").hidden = false; $("acepta").scrollIntoView({ block: "center", behavior: "smooth" }); return; }
-  cart.folio = newFolio(); enviarPedido(); cart.step = "listo";
-  renderCart(); $("cartBody").scrollTop = 0;
+  const btn = $("btnGenerar"); btn.disabled = true; btn.textContent = "Generando pedido…";
+  enviarPedido().then(res => {
+    cart.folio = res ? res.folio : newFolio();
+    cart.pagoUrl = res && res.pagoUrl ? res.pagoUrl : "";
+    cart.step = "listo";
+    renderCart(); $("cartBody").scrollTop = 0;
+  });
 });
 
+/* Regreso desde Stripe: ?pago=ok o ?pago=cancelado */
+(function () {
+  const q = new URLSearchParams(location.search), pago = q.get("pago");
+  if (!pago) return;
+  const folio = (q.get("folio") || "").replace(/[^A-Z0-9-]/g, "");
+  if (pago === "ok") { cart.items = []; saveCart(); setTimeout(() => toast(`Gracias. Estamos confirmando el pago de su pedido ${folio}; le escribiremos a su correo.`), 600); }
+  if (pago === "cancelado") setTimeout(() => toast("El pago no se completó. Su carrito sigue guardado."), 600);
+  history.replaceState(null, "", location.pathname + location.hash);
+})();
 updateBadge();
 
 /* ===== Copiar al portapapeles ===== */

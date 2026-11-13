@@ -111,6 +111,17 @@ const PERFUMES = [
 
 open(os.path.join(RAIZ, "perfumes.js"), "w", encoding="utf-8").write(cabecera + ",\n".join(lineas) + "\n];\n\n" + base)
 
+# tienda.json: precios públicos para el cobro (lo lee el Worker de pedidos). Sin costos ni códigos de Costco.
+m_gratis = re.search(r"gratisDesde:\s*(\d+)", base)
+zonas = {k: int(v) for k, v in re.findall(r"(\w+):\s*\{[^{}]*?precio:\s*(\d+)", base)}
+assert m_gratis and set(zonas) >= {"local", "nacional", "extendida"}, "No se pudo leer ENVIO de datos/base.js"
+tienda = {
+    "envio": {"gratisDesde": int(m_gratis.group(1)), "zonas": zonas},
+    "perfumes": {p["id"]: {"n": f'{p["marca"]} {p["nombre"]} {p["conc"]}', "d": p["disponible"],
+                           "p": {str(x["ml"]): x["precio"] for x in p["pres"]}} for p in salida},
+}
+open(os.path.join(RAIZ, "tienda.json"), "w", encoding="utf-8").write(json.dumps(tienda, ensure_ascii=False, separators=(",", ":")))
+
 # notas destacadas que no existen en base.js: avisar
 claves = set(re.findall(r"^\s{2}([a-z_]+):\s*\{", base, re.M))
 huerfanas = sorted({k for p in salida for k in p["destacadas"] if k not in claves})
