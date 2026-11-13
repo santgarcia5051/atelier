@@ -4,7 +4,7 @@
    y deja los cambios en window.name para el paso 2 (en Liverpool, misma pestaña).
    Devuelve un resumen corto. */
 (async () => {
-  const SITIO = "https://santgarcia5051.github.io/atelier/datos/costco.json";
+  const SITIO = "https://scantalia.com/datos/costco.json";
   const COSTO_MIN = 0;
   const NO_PERFUME = /\b(set|estuche|kit|loci[oó]n corporal|desodorante|gel de ba[ñn]o|crema|mini|minis|travel|body|bruma|mist|paquete|coffret|d[uú]o|tr[ií]o|regalo|miniaturas?|vela|difusor|shower|jab[oó]n|aceite|cofre|pzas?|pzs|piezas)\b|\+/i;
   const todos = [];

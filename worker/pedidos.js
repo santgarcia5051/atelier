@@ -1,7 +1,7 @@
 // Recibe los pedidos de la página de Scantalia y los guarda en la base de datos.
 // No contiene claves ni contraseñas.
 
-const ORIGEN_PERMITIDO = "https://santgarcia5051.github.io";
+const ORIGEN_PERMITIDO = "https://scantalia.com";
 
 const cabeceras = {
   "Access-Control-Allow-Origin": ORIGEN_PERMITIDO,

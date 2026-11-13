@@ -10,7 +10,7 @@ import html, json, os, re
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TIENDA = "../index.html"
-SITIO = "https://santgarcia5051.github.io/atelier"
+SITIO = "https://scantalia.com"
 
 ARTICULOS = [
 {

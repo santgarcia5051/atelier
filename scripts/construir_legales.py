@@ -46,7 +46,7 @@ def pagina(titulo, descripcion, ruta, etiqueta, h1, cuerpo):
 <meta property="og:title" content="{titulo} | Scantalia Perfumería">
 <meta property="og:description" content="{descripcion}">
 <meta property="og:site_name" content="Scantalia Perfumería">
-<link rel="canonical" href="https://santgarcia5051.github.io/atelier/{ruta}">
+<link rel="canonical" href="https://scantalia.com/{ruta}">
 <meta name="theme-color" content="#0F0F0E">
 <script>try{{var t=localStorage.getItem("ag-theme");document.documentElement.setAttribute("data-theme",t==="light"?"light":"dark")}}catch(e){{document.documentElement.setAttribute("data-theme","dark")}}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
