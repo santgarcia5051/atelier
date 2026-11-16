@@ -556,6 +556,23 @@ h2 { font-weight: 500 !important; letter-spacing: -.01em; }
 .field .err { font-size: 12px; color: var(--danger); }
 .order-box { white-space: pre-wrap; font-size: 14px; line-height: 1.6; padding: 16px 18px; border-radius: var(--r-md); background: var(--surface); border: 1px solid var(--line); font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
 .howto { margin: 0; padding-left: 20px; display: grid; gap: 6px; font-size: 14px; color: var(--muted); }
+/* Cuenta del cliente */
+.cta-tabs { display: grid; grid-template-columns: 1fr 1fr; border: 1px solid var(--line2, var(--line)); }
+.cta-tabs button { border: 0; background: transparent; color: var(--muted); padding: 12px 8px; font: inherit; font-size: 14px; cursor: pointer; transition: background .6s, color .6s; }
+.cta-tabs button[aria-selected="true"] { background: var(--fg); color: var(--bg); }
+.cta-form { display: grid; gap: 14px; }
+.cta-pass { position: relative; }
+.cta-pass input { width: 100%; padding-right: 76px; }
+.cta-pass .ver { position: absolute; right: 8px; top: 50%; transform: translateY(-50%); border: 0; background: none; color: var(--muted); font-size: 12px; cursor: pointer; text-decoration: underline; }
+.cta-codigo { font-size: 30px !important; letter-spacing: .5em; text-align: center; font-variant-numeric: tabular-nums; padding: 14px 8px 14px calc(8px + .5em) !important; }
+.cta-nota { font-size: 13px; color: var(--muted); line-height: 1.5; margin: 0; }
+.cta-demo { border: 1px dashed var(--accent); padding: 10px 12px; font-size: 13px; color: var(--fg); }
+.cta-demo b { color: var(--accent); letter-spacing: .2em; font-size: 16px; }
+.cta-fila { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
+.cta-check { display: flex; gap: 10px; align-items: flex-start; font-size: 13px; color: var(--muted); }
+.cta-check input { margin-top: 3px; accent-color: var(--accent); }
+.cta-dato { display: grid; gap: 2px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.cta-dato span { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
 .folio { font-family: var(--font-display); font-size: 28px; font-weight: 300; letter-spacing: .04em; }
 
 .toast {
@@ -737,10 +754,19 @@ h2 { font-weight: 500 !important; letter-spacing: -.01em; }
   </div>
   <div class="drawer-scroll" id="cartBody"></div>
 </aside>
+<aside class="drawer" id="cuenta" role="dialog" aria-modal="true" aria-labelledby="cuentaTitle" hidden>
+  <div class="drawer-bar">
+    <span class="eyebrow" id="cuentaTitle">Su cuenta</span>
+    <button class="close-btn" id="closeCuenta" type="button" aria-label="Cerrar cuenta">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+  </div>
+  <div class="drawer-scroll" id="cuentaBody"></div>
+</aside>
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script src="perfumes.js?v=202611132001"></script>
+<script src="perfumes.js?v=202611160214"></script>
 <script>
 
 const fmt = new Intl.NumberFormat("es-MX", { style: "currency", currency: "MXN", maximumFractionDigits: 0 });
@@ -1391,6 +1417,236 @@ $("cartBody").addEventListener("submit", e => {
     renderCart(); $("cartBody").scrollTop = 0;
   });
 });
+
+/* ===== Cuenta del cliente: crear cuenta, iniciar sesión y verificar con código de 5 dígitos =====
+   CUENTA_API vacío = modo de prueba: no hay servidor ni correo; el código se genera en el navegador y se
+   muestra en pantalla. Con servidor, cada acción hace POST a CUENTA_API + "/" + acción. */
+const CUENTA_API = "";
+const CUENTA_MIN_PASS = 8, CUENTA_REENVIO_S = 60;
+const cta = { vista: "entrar", correo: "", nombre: "", motivo: "", sesion: null, demoCodigo: "", reenvioHasta: 0, error: "", aviso: "" };
+
+const ctaDemo = {
+  leer(k, d) { try { return JSON.parse(sessionStorage.getItem(k)) ?? d; } catch (e) { return d; } },
+  guardar(k, v) { try { sessionStorage.setItem(k, JSON.stringify(v)); } catch (e) {} },
+  async hash(t) { const b = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(t)); return [...new Uint8Array(b)].map(x => x.toString(16).padStart(2, "0")).join(""); },
+  nuevoCodigo(anterior) { let c; do { c = String(crypto.getRandomValues(new Uint32Array(1))[0] % 100000).padStart(5, "0"); } while (c === anterior); return c; },
+  enviar(correo, motivo) {
+    const pend = this.leer("demo-codigos", {}); const prev = pend[correo] && pend[correo].codigo;
+    const codigo = this.nuevoCodigo(prev);
+    pend[correo] = { codigo, motivo, expira: Date.now() + 10 * 60 * 1000, intentos: 5 };
+    this.guardar("demo-codigos", pend); cta.demoCodigo = codigo;
+  },
+  async llamar(accion, d) {
+    const cuentas = this.leer("demo-cuentas", {}); const correo = (d.correo || "").toLowerCase();
+    if (accion === "crear") {
+      if (cuentas[correo] && cuentas[correo].verificada) return { error: "Ya existe una cuenta con ese correo. Inicie sesión." };
+      cuentas[correo] = { nombre: d.nombre, pass: await this.hash(d.pass), verificada: false }; this.guardar("demo-cuentas", cuentas);
+      this.enviar(correo, "registro"); return { ok: true };
+    }
+    if (accion === "entrar") {
+      const c = cuentas[correo];
+      if (!c || c.pass !== await this.hash(d.pass)) return { error: "El correo o la contraseña no son correctos." };
+      this.enviar(correo, c.verificada ? "entrar" : "registro"); return { ok: true };
+    }
+    if (accion === "olvide") { if (cuentas[correo] && cuentas[correo].verificada) this.enviar(correo, "recuperar"); return { ok: true }; }
+    if (accion === "reenviar") { if (cuentas[correo]) this.enviar(correo, d.motivo); return { ok: true }; }
+    if (accion === "verificar") {
+      const pend = this.leer("demo-codigos", {}); const p = pend[correo];
+      if (!p || p.motivo !== d.motivo) return { error: "Pida un código nuevo." };
+      if (Date.now() > p.expira) { delete pend[correo]; this.guardar("demo-codigos", pend); return { error: "El código venció. Pida uno nuevo." }; }
+      if (p.codigo !== d.codigo) {
+        p.intentos -= 1; if (p.intentos <= 0) delete pend[correo]; this.guardar("demo-codigos", pend);
+        return { error: p.intentos > 0 ? `Código incorrecto. Le quedan ${p.intentos} intento${p.intentos === 1 ? "" : "s"}.` : "Demasiados intentos. Pida un código nuevo." };
+      }
+      delete pend[correo]; this.guardar("demo-codigos", pend); cta.demoCodigo = "";
+      if (d.motivo === "recuperar") return { ok: true, permiso: "demo-" + correo };
+      cuentas[correo].verificada = true; this.guardar("demo-cuentas", cuentas);
+      const sesion = { nombre: cuentas[correo].nombre, correo }; this.guardar("demo-sesion", sesion); return { ok: true, sesion };
+    }
+    if (accion === "nueva") {
+      if (d.permiso !== "demo-" + correo || !cuentas[correo]) return { error: "Vuelva a pedir el código." };
+      cuentas[correo].pass = await this.hash(d.pass); this.guardar("demo-cuentas", cuentas); return { ok: true };
+    }
+    if (accion === "sesion") return { ok: true, sesion: this.leer("demo-sesion", null) };
+    if (accion === "salir") { try { sessionStorage.removeItem("demo-sesion"); } catch (e) {} return { ok: true }; }
+    return { error: "Acción no válida." };
+  }
+};
+
+async function ctaLlamar(accion, datos = {}) {
+  if (!CUENTA_API) return ctaDemo.llamar(accion, datos);
+  try {
+    const r = await fetch(`${CUENTA_API}/${accion}`, { method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" }, body: JSON.stringify(datos) });
+    return await r.json().catch(() => ({ error: "No pudimos conectar. Intente de nuevo." }));
+  } catch (e) { return { error: "No pudimos conectar. Intente de nuevo." }; }
+}
+
+const ctaCorreoOk = c => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(c);
+const ctaPassOk = p => p.length >= CUENTA_MIN_PASS && /[A-Za-zÁÉÍÓÚáéíóúÑñ]/.test(p) && /\d/.test(p);
+const ctaPassCampo = (id, label, auto) => `
+  <div class="field"><label for="${id}">${label}</label>
+    <div class="cta-pass"><input id="${id}" type="password" autocomplete="${auto}" required>
+      <button class="ver" type="button" data-ver="${id}" aria-label="Mostrar contraseña">Mostrar</button></div></div>`;
+
+function renderCuenta() {
+  const b = $("cuentaBody"); if (!b) return;
+  const err = cta.error ? `<p class="err" role="alert" style="margin:0;font-size:13px;color:var(--danger)">${escapeHTML(cta.error)}</p>` : "";
+  const aviso = cta.aviso ? `<p class="cta-nota" role="status">${escapeHTML(cta.aviso)}</p>` : "";
+  const tabs = `<div class="cta-tabs" role="tablist">
+      <button type="button" role="tab" data-cta="entrar" aria-selected="${cta.vista === "entrar"}">Iniciar sesión</button>
+      <button type="button" role="tab" data-cta="crear" aria-selected="${cta.vista === "crear"}">Crear cuenta</button></div>`;
+  let h = "";
+  if (cta.vista === "entrar") {
+    $("cuentaTitle").textContent = "Iniciar sesión";
+    h = `${tabs}<form class="cta-form" id="ctaForm" novalidate>
+      <div class="field"><label for="ctaCorreo">Correo electrónico</label><input id="ctaCorreo" type="email" autocomplete="email" value="${escapeAttr(cta.correo)}" required></div>
+      ${ctaPassCampo("ctaPass", "Contraseña", "current-password")}
+      ${err}${aviso}
+      <button class="btn block" type="submit">Continuar</button>
+      <div class="cta-fila"><button class="link-btn" type="button" data-cta="olvide">¿Olvidó su contraseña?</button></div>
+      <p class="cta-nota">Por su seguridad, cada vez que inicie sesión le enviaremos un código de 5 dígitos a su correo.</p></form>`;
+  } else if (cta.vista === "crear") {
+    $("cuentaTitle").textContent = "Crear cuenta";
+    h = `${tabs}<form class="cta-form" id="ctaForm" novalidate>
+      <div class="field"><label for="ctaNombre">Nombre completo</label><input id="ctaNombre" type="text" autocomplete="name" value="${escapeAttr(cta.nombre)}" required></div>
+      <div class="field"><label for="ctaCorreo">Correo electrónico</label><input id="ctaCorreo" type="email" autocomplete="email" value="${escapeAttr(cta.correo)}" required></div>
+      ${ctaPassCampo("ctaPass", "Contraseña", "new-password")}
+      <p class="cta-nota" style="margin-top:-6px">Mínimo ${CUENTA_MIN_PASS} caracteres, con al menos una letra y un número.</p>
+      ${ctaPassCampo("ctaPass2", "Confirme su contraseña", "new-password")}
+      <label class="cta-check"><input type="checkbox" id="ctaAcepto"> <span>Acepto los <a href="terminos.html" target="_blank" rel="noopener">términos y condiciones</a> y el <a href="privacidad.html" target="_blank" rel="noopener">aviso de privacidad</a>.</span></label>
+      ${err}
+      <button class="btn block" type="submit">Crear cuenta</button></form>`;
+  } else if (cta.vista === "codigo") {
+    $("cuentaTitle").textContent = "Verifique su correo";
+    const espera = Math.max(0, Math.ceil((cta.reenvioHasta - Date.now()) / 1000));
+    h = `<div class="d-head"><span class="eyebrow">Código de verificación</span>
+        <p class="cta-nota">Le enviamos un código de 5 dígitos a <b>${escapeHTML(cta.correo)}</b>. Vence en 10 minutos.</p></div>
+      ${!CUENTA_API && cta.demoCodigo ? `<div class="cta-demo" role="note">Modo de prueba: todavía no se envían correos. Su código es <b>${cta.demoCodigo}</b></div>` : ""}
+      <form class="cta-form" id="ctaForm" novalidate>
+        <div class="field"><label for="ctaCodigo">Código</label>
+          <input id="ctaCodigo" class="cta-codigo" type="text" inputmode="numeric" autocomplete="one-time-code" maxlength="5" pattern="[0-9]{5}" required></div>
+        ${err}${aviso}
+        <button class="btn block" type="submit">Verificar</button>
+        <div class="cta-fila">
+          <button class="link-btn" type="button" data-cta="reenviar" id="ctaReenviar" ${espera ? "disabled" : ""}>${espera ? `Reenviar código en ${espera} s` : "Reenviar código"}</button>
+          <button class="link-btn" type="button" data-cta="${cta.motivo === "registro" ? "crear" : "entrar"}">Cambiar correo</button>
+        </div>
+        <p class="cta-nota">¿No lo ve? Revise su carpeta de correo no deseado.</p></form>`;
+  } else if (cta.vista === "olvide") {
+    $("cuentaTitle").textContent = "Recuperar contraseña";
+    h = `<form class="cta-form" id="ctaForm" novalidate>
+      <p class="cta-nota">Escriba el correo de su cuenta. Le enviaremos un código de 5 dígitos para crear una contraseña nueva.</p>
+      <div class="field"><label for="ctaCorreo">Correo electrónico</label><input id="ctaCorreo" type="email" autocomplete="email" value="${escapeAttr(cta.correo)}" required></div>
+      ${err}
+      <button class="btn block" type="submit">Enviar código</button>
+      <div class="cta-fila"><button class="link-btn" type="button" data-cta="entrar">Volver a iniciar sesión</button></div></form>`;
+  } else if (cta.vista === "nueva") {
+    $("cuentaTitle").textContent = "Contraseña nueva";
+    h = `<form class="cta-form" id="ctaForm" novalidate>
+      ${ctaPassCampo("ctaPass", "Contraseña nueva", "new-password")}
+      <p class="cta-nota" style="margin-top:-6px">Mínimo ${CUENTA_MIN_PASS} caracteres, con al menos una letra y un número.</p>
+      ${ctaPassCampo("ctaPass2", "Confirme su contraseña", "new-password")}
+      ${err}
+      <button class="btn block" type="submit">Guardar contraseña</button></form>`;
+  } else if (cta.vista === "perfil") {
+    $("cuentaTitle").textContent = "Mi cuenta";
+    const s = cta.sesion || {};
+    h = `<div class="d-head"><span class="eyebrow">Bienvenido</span><h2 style="margin:0">${escapeHTML(s.nombre || "")}</h2></div>
+      <div><div class="cta-dato"><span>Correo</span>${escapeHTML(s.correo || "")}</div></div>
+      <div class="d-section"><h3>Mis pedidos</h3><p class="cta-nota">Todavía no tiene pedidos con esta cuenta.</p></div>
+      ${aviso}
+      <button class="btn ghost block" type="button" data-cta="salir">Cerrar sesión</button>`;
+  }
+  b.innerHTML = `<div class="stack" style="gap:18px">${h}</div>`;
+  cta.error = ""; cta.aviso = "";
+  const foco = b.querySelector("#ctaCodigo, #ctaNombre, #ctaCorreo, #ctaPass");
+  if (foco && !foco.value) setTimeout(() => foco.focus({ preventScroll: true }), 50);
+}
+
+function ctaIr(vista, extra = {}) { Object.assign(cta, { vista }, extra); renderCuenta(); $("cuentaBody").scrollTop = 0; }
+function ctaOcupado(on) { const btn = document.querySelector("#ctaForm button[type=submit]"); if (btn) { btn.disabled = on; if (on) { btn.dataset.txt = btn.textContent; btn.textContent = "Un momento…"; } else if (btn.dataset.txt) btn.textContent = btn.dataset.txt; } }
+function ctaRelojReenvio() {
+  clearInterval(ctaRelojReenvio._t);
+  ctaRelojReenvio._t = setInterval(() => {
+    const el = $("ctaReenviar"); if (!el || cta.vista !== "codigo") return clearInterval(ctaRelojReenvio._t);
+    const s = Math.max(0, Math.ceil((cta.reenvioHasta - Date.now()) / 1000));
+    el.disabled = s > 0; el.textContent = s ? `Reenviar código en ${s} s` : "Reenviar código";
+    if (!s) clearInterval(ctaRelojReenvio._t);
+  }, 1000);
+}
+function ctaACodigo(motivo) { ctaIr("codigo", { motivo, reenvioHasta: Date.now() + CUENTA_REENVIO_S * 1000 }); ctaRelojReenvio(); }
+
+async function abrirCuenta(trigger) {
+  const r = await ctaLlamar("sesion");
+  if (r && r.sesion) { cta.sesion = r.sesion; cta.vista = "perfil"; }
+  else if (cta.vista === "perfil") cta.vista = "entrar";
+  renderCuenta(); openPanel($("cuenta"), trigger);
+}
+
+if ($("cuenta")) {
+  if ($("cuentaBtn")) $("cuentaBtn").addEventListener("click", e => abrirCuenta(e.currentTarget));
+  $("closeCuenta").addEventListener("click", closePanel);
+  $("cuentaBody").addEventListener("click", async e => {
+    const ver = e.target.closest("[data-ver]");
+    if (ver) { const i = $(ver.dataset.ver); const mostrar = i.type === "password"; i.type = mostrar ? "text" : "password"; ver.textContent = mostrar ? "Ocultar" : "Mostrar"; ver.setAttribute("aria-label", mostrar ? "Ocultar contraseña" : "Mostrar contraseña"); return; }
+    const a = e.target.closest("[data-cta]"); if (!a) return;
+    const acc = a.dataset.cta, correoCampo = $("ctaCorreo");
+    if (correoCampo) cta.correo = correoCampo.value.trim();
+    if (acc === "entrar" || acc === "crear" || acc === "olvide") return ctaIr(acc);
+    if (acc === "reenviar") {
+      if (Date.now() < cta.reenvioHasta) return;
+      const r = await ctaLlamar("reenviar", { correo: cta.correo, motivo: cta.motivo });
+      if (r.error) return ctaIr("codigo", { error: r.error });
+      ctaACodigo(cta.motivo); cta.aviso = "Le enviamos un código nuevo. El anterior ya no sirve."; renderCuenta(); ctaRelojReenvio(); return;
+    }
+    if (acc === "salir") { await ctaLlamar("salir"); cta.sesion = null; ctaIr("entrar", { aviso: "Cerró su sesión." }); }
+  });
+  $("cuentaBody").addEventListener("input", e => { if (e.target.id === "ctaCodigo") e.target.value = e.target.value.replace(/\D/g, "").slice(0, 5); });
+  $("cuentaBody").addEventListener("submit", async e => {
+    e.preventDefault();
+    const v = id => ($(id) ? $(id).value.trim() : "");
+    const pass = $("ctaPass") ? $("ctaPass").value : "", pass2 = $("ctaPass2") ? $("ctaPass2").value : "";
+    if (cta.vista === "entrar") {
+      cta.correo = v("ctaCorreo");
+      if (!ctaCorreoOk(cta.correo) || !pass) return ctaIr("entrar", { error: "Escriba su correo y su contraseña." });
+      ctaOcupado(true); const r = await ctaLlamar("entrar", { correo: cta.correo, pass }); ctaOcupado(false);
+      if (r.error) return ctaIr("entrar", { error: r.error });
+      return ctaACodigo("entrar");
+    }
+    if (cta.vista === "crear") {
+      cta.nombre = v("ctaNombre"); cta.correo = v("ctaCorreo");
+      if (cta.nombre.length < 2) return ctaIr("crear", { error: "Escriba su nombre completo." });
+      if (!ctaCorreoOk(cta.correo)) return ctaIr("crear", { error: "Escriba un correo válido." });
+      if (!ctaPassOk(pass)) return ctaIr("crear", { error: `La contraseña debe tener mínimo ${CUENTA_MIN_PASS} caracteres, con al menos una letra y un número.` });
+      if (pass !== pass2) return ctaIr("crear", { error: "Las contraseñas no coinciden." });
+      if (!$("ctaAcepto").checked) return ctaIr("crear", { error: "Para crear su cuenta, acepte los términos y el aviso de privacidad." });
+      ctaOcupado(true); const r = await ctaLlamar("crear", { nombre: cta.nombre, correo: cta.correo, pass }); ctaOcupado(false);
+      if (r.error) return ctaIr("crear", { error: r.error });
+      return ctaACodigo("registro");
+    }
+    if (cta.vista === "codigo") {
+      const codigo = v("ctaCodigo");
+      if (!/^\d{5}$/.test(codigo)) return ctaIr("codigo", { error: "Escriba los 5 dígitos del código." });
+      ctaOcupado(true); const r = await ctaLlamar("verificar", { correo: cta.correo, motivo: cta.motivo, codigo }); ctaOcupado(false);
+      if (r.error) { ctaIr("codigo", { error: r.error }); ctaRelojReenvio(); return; }
+      if (cta.motivo === "recuperar") return ctaIr("nueva", { permiso: r.permiso });
+      cta.sesion = r.sesion; return ctaIr("perfil", { aviso: cta.motivo === "registro" ? "Su cuenta quedó verificada." : "" });
+    }
+    if (cta.vista === "olvide") {
+      cta.correo = v("ctaCorreo");
+      if (!ctaCorreoOk(cta.correo)) return ctaIr("olvide", { error: "Escriba un correo válido." });
+      cta.demoCodigo = ""; ctaOcupado(true); await ctaLlamar("olvide", { correo: cta.correo }); ctaOcupado(false);
+      ctaACodigo("recuperar"); cta.aviso = "Si existe una cuenta con ese correo, le llegará un código."; renderCuenta(); ctaRelojReenvio(); return;
+    }
+    if (cta.vista === "nueva") {
+      if (!ctaPassOk(pass)) return ctaIr("nueva", { error: `La contraseña debe tener mínimo ${CUENTA_MIN_PASS} caracteres, con al menos una letra y un número.` });
+      if (pass !== pass2) return ctaIr("nueva", { error: "Las contraseñas no coinciden." });
+      ctaOcupado(true); const r = await ctaLlamar("nueva", { correo: cta.correo, permiso: cta.permiso, pass }); ctaOcupado(false);
+      if (r.error) return ctaIr("olvide", { error: r.error });
+      return ctaIr("entrar", { aviso: "Su contraseña se cambió. Inicie sesión con la nueva." });
+    }
+  });
+}
 
 /* Regreso desde Stripe: ?pago=ok o ?pago=cancelado */
 (function () {
