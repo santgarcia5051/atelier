@@ -942,7 +942,7 @@ footer { border-top: 1px solid var(--line); font-size: 12px; }
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script src="perfumes.js?v=202611160214"></script>
+<script src="perfumes.js?v=202611160244"></script>
 <script>
 
 const fmt = new Intl.NumberFormat("es-MX", { style: "currency", currency: "MXN", maximumFractionDigits: 0 });
@@ -1625,7 +1625,14 @@ $("cartBody").addEventListener("submit", e => {
 /* ===== Cuenta del cliente: crear cuenta, iniciar sesión y verificar con código de 5 dígitos =====
    CUENTA_API vacío = modo de prueba: no hay servidor ni correo; el código se genera en el navegador y se
    muestra en pantalla. Con servidor, cada acción hace POST a CUENTA_API + "/" + acción. */
-const CUENTA_API = "";
+let CUENTA_API = "";
+let ctaRevisado = false;
+/* En scantalia.com pregunta al servidor si las cuentas reales ya están activas (correo configurado). */
+async function ctaRevisarServidor() {
+  if (ctaRevisado || location.hostname !== "scantalia.com") return;
+  ctaRevisado = true;
+  try { const r = await fetch("/api/cuenta/estado", { credentials: "same-origin" }); const j = await r.json(); if (j && j.listo) CUENTA_API = "/api/cuenta"; } catch (e) {}
+}
 const CUENTA_MIN_PASS = 8, CUENTA_REENVIO_S = 60;
 const cta = { vista: "entrar", correo: "", nombre: "", motivo: "", sesion: null, demoCodigo: "", reenvioHasta: 0, error: "", aviso: "" };
 
@@ -1757,7 +1764,9 @@ function renderCuenta() {
     const s = cta.sesion || {};
     h = `<div class="d-head"><span class="eyebrow">Bienvenido</span><h2 style="margin:0">${escapeHTML(s.nombre || "")}</h2></div>
       <div><div class="cta-dato"><span>Correo</span>${escapeHTML(s.correo || "")}</div></div>
-      <div class="d-section"><h3>Mis pedidos</h3><p class="cta-nota">Todavía no tiene pedidos con esta cuenta.</p></div>
+      <div class="d-section"><h3>Mis pedidos</h3>${(s.pedidos && s.pedidos.length)
+        ? s.pedidos.map(o => `<div class="cta-dato"><span>${escapeHTML(o.folio)} · ${escapeHTML(String(o.creado_en || "").slice(0, 10))}</span>${escapeHTML(ctaEstadoPedido(o.estado))} · ${fmt.format(o.total)}</div>`).join("")
+        : `<p class="cta-nota">Todavía no tiene pedidos con esta cuenta.</p>`}</div>
       ${aviso}
       <button class="btn ghost block" type="button" data-cta="salir">Cerrar sesión</button>`;
   }
@@ -1767,6 +1776,7 @@ function renderCuenta() {
   if (foco && !foco.value) setTimeout(() => foco.focus({ preventScroll: true }), 50);
 }
 
+const ctaEstadoPedido = e => ({ pagado: "Pagado", pago_fallido: "Pago no completado", enviado: "Enviado", entregado: "Entregado", cancelado: "Cancelado" }[e] || e);
 function ctaIr(vista, extra = {}) { Object.assign(cta, { vista }, extra); renderCuenta(); $("cuentaBody").scrollTop = 0; }
 function ctaOcupado(on) { const btn = document.querySelector("#ctaForm button[type=submit]"); if (btn) { btn.disabled = on; if (on) { btn.dataset.txt = btn.textContent; btn.textContent = "Un momento…"; } else if (btn.dataset.txt) btn.textContent = btn.dataset.txt; } }
 function ctaRelojReenvio() {
@@ -1781,6 +1791,7 @@ function ctaRelojReenvio() {
 function ctaACodigo(motivo) { ctaIr("codigo", { motivo, reenvioHasta: Date.now() + CUENTA_REENVIO_S * 1000 }); ctaRelojReenvio(); }
 
 async function abrirCuenta(trigger) {
+  await ctaRevisarServidor();
   const r = await ctaLlamar("sesion");
   if (r && r.sesion) { cta.sesion = r.sesion; cta.vista = "perfil"; }
   else if (cta.vista === "perfil") cta.vista = "entrar";
@@ -1815,7 +1826,7 @@ if ($("cuenta")) {
       if (!ctaCorreoOk(cta.correo) || !pass) return ctaIr("entrar", { error: "Escriba su correo y su contraseña." });
       ctaOcupado(true); const r = await ctaLlamar("entrar", { correo: cta.correo, pass }); ctaOcupado(false);
       if (r.error) return ctaIr("entrar", { error: r.error });
-      return ctaACodigo("entrar");
+      return ctaACodigo(r.motivo || "entrar");
     }
     if (cta.vista === "crear") {
       cta.nombre = v("ctaNombre"); cta.correo = v("ctaCorreo");
@@ -1826,7 +1837,7 @@ if ($("cuenta")) {
       if (!$("ctaAcepto").checked) return ctaIr("crear", { error: "Para crear su cuenta, acepte los términos y el aviso de privacidad." });
       ctaOcupado(true); const r = await ctaLlamar("crear", { nombre: cta.nombre, correo: cta.correo, pass }); ctaOcupado(false);
       if (r.error) return ctaIr("crear", { error: r.error });
-      return ctaACodigo("registro");
+      return ctaACodigo(r.motivo || "registro");
     }
     if (cta.vista === "codigo") {
       const codigo = v("ctaCodigo");

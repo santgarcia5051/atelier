@@ -84,10 +84,11 @@ async function crearPedido(request, env) {
 
   const folio = nuevoFolio();
   const direccion = `${c.calle}, col. ${c.colonia}, ${c.destino}, ${zona.estado}` + (c.ref ? ` · Ref: ${c.ref}` : "");
+  const cuenta = await sesionActual(request, env).catch(() => null);
   await env.DB.prepare(
-    `INSERT INTO pedidos (folio, creado_en, estado, nombre, telefono, correo, direccion, codigo_postal, items, total, es_prueba, envio, notas, ip)
-     VALUES (?, datetime('now'), 'pendiente_pago', ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
-  ).bind(folio, c.nombre, c.tel, c.correo, direccion, c.cp, JSON.stringify(lineas), total, esPrueba, envio, c.notas, ip).run();
+    `INSERT INTO pedidos (folio, creado_en, estado, nombre, telefono, correo, direccion, codigo_postal, items, total, es_prueba, envio, notas, ip, cliente_id)
+     VALUES (?, datetime('now'), 'pendiente_pago', ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+  ).bind(folio, c.nombre, c.tel, c.correo, direccion, c.cp, JSON.stringify(lineas), total, esPrueba, envio, c.notas, ip, cuenta ? cuenta.id : null).run();
 
   let pagoUrl = null;
   if (env.STRIPE_SECRET && total >= MINIMO_STRIPE) {
@@ -142,12 +143,216 @@ async function avisoStripe(request, env) {
   return resp({ recibido: true });
 }
 
+// ───────────────────────── Cuentas de clientes ─────────────────────────
+// POST /api/cuenta/<accion>: crear, entrar, verificar, reenviar, olvide, nueva, sesion, salir. GET/POST estado.
+// Contraseñas con PBKDF2-SHA256; códigos de 5 dígitos y tokens de sesión se guardan solo como hash.
+// El código se envía por correo con Resend (secreto RESEND_KEY). Sin RESEND_KEY la cuenta queda desactivada.
+
+const CODIGO_MIN = 10, REENVIO_S = 60, INTENTOS = 5, SESION_DIAS = 30, PBKDF2_IT = 100000;
+const MAX_CODIGOS_HORA = 8;
+const REMITENTE = "Scantalia Perfumería <codigos@scantalia.com>";
+const COOKIE = "sc_sesion";
+
+const b64 = buf => btoa(String.fromCharCode(...new Uint8Array(buf)));
+const b64url = buf => b64(buf).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+const deB64 = s => Uint8Array.from(atob(s), ch => ch.charCodeAt(0));
+async function sha256(texto) { return hex(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(texto))); }
+
+async function hashPass(pass, salB64) {
+  const sal = salB64 ? deB64(salB64) : crypto.getRandomValues(new Uint8Array(16));
+  const llave = await crypto.subtle.importKey("raw", new TextEncoder().encode(pass), "PBKDF2", false, ["deriveBits"]);
+  const bits = await crypto.subtle.deriveBits({ name: "PBKDF2", hash: "SHA-256", salt: sal, iterations: PBKDF2_IT }, llave, 256);
+  return `pbkdf2$${PBKDF2_IT}$${b64(sal)}$${b64(bits)}`;
+}
+async function passOk(pass, guardado) {
+  const [tipo, , sal] = String(guardado || "").split("$");
+  if (tipo !== "pbkdf2" || !sal) return false;
+  return igual(await hashPass(pass, sal), guardado);
+}
+
+const correoOk = c => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(c);
+const passValida = p => typeof p === "string" && p.length >= 8 && p.length <= 200 && /[A-Za-zÁÉÍÓÚáéíóúÑñ]/.test(p) && /\d/.test(p);
+const hashCodigo = (correo, motivo, codigo) => sha256(`${correo.toLowerCase()}|${motivo}|${codigo}`);
+
+function leerCookie(request, nombre) {
+  const m = (request.headers.get("Cookie") || "").match(new RegExp(`(?:^|;\\s*)${nombre}=([^;]+)`));
+  return m ? m[1] : "";
+}
+function cookieSesion(token, segundos) {
+  return `${COOKIE}=${token}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=${segundos}`;
+}
+function respCookie(datos, cookie, estado = 200) {
+  return new Response(JSON.stringify(datos), { status: estado, headers: { ...JSON_H, "Set-Cookie": cookie } });
+}
+
+async function sesionActual(request, env) {
+  const token = leerCookie(request, COOKIE);
+  if (!token) return null;
+  return await env.DB.prepare(
+    `SELECT c.id, c.nombre, c.correo FROM sesiones s JOIN clientes c ON c.id = s.cliente_id
+     WHERE s.token_hash = ? AND s.expira_en > datetime('now') AND c.estado = 'activo'`
+  ).bind(await sha256(token)).first();
+}
+
+async function enviarCorreoCodigo(env, correo, codigo, motivo) {
+  const asunto = { registro: "Confirme su cuenta en Scantalia", entrar: "Su código para iniciar sesión", recuperar: "Su código para cambiar la contraseña" }[motivo];
+  const texto = `Su código de verificación es: ${codigo}\n\nVence en ${CODIGO_MIN} minutos. Si usted no lo pidió, ignore este correo; nadie podrá entrar a su cuenta sin este código.\n\nEl equipo de Scantalia\nhttps://scantalia.com`;
+  const html = `<div style="font-family:Arial,Helvetica,sans-serif;max-width:480px;margin:0 auto;color:#1E1D1C">
+    <p style="font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:#8C6A2E">Scantalia Perfumería</p>
+    <p style="font-size:16px">Su código de verificación es:</p>
+    <p style="font-size:34px;letter-spacing:.35em;font-weight:bold;margin:12px 0">${codigo}</p>
+    <p style="font-size:14px;color:#555">Vence en ${CODIGO_MIN} minutos. Si usted no lo pidió, ignore este correo; nadie podrá entrar a su cuenta sin este código.</p>
+    <p style="font-size:14px">El equipo de Scantalia</p></div>`;
+  const r = await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: { Authorization: "Bearer " + env.RESEND_KEY, "Content-Type": "application/json" },
+    body: JSON.stringify({ from: REMITENTE, to: [correo], subject: asunto, text: texto, html }),
+  });
+  return r.ok;
+}
+
+// Genera un código nuevo (distinto del anterior), invalida los anteriores y lo envía.
+async function nuevoCodigo(env, correo, motivo) {
+  const hora = await env.DB.prepare("SELECT COUNT(*) AS n FROM codigos WHERE correo = ? AND creado_en > datetime('now', '-1 hour') AND codigo_hash NOT LIKE 'permiso:%'").bind(correo).first();
+  if (hora && hora.n >= MAX_CODIGOS_HORA) return { error: "Pidió demasiados códigos. Intente en una hora.", estado: 429 };
+  const ultimo = await env.DB.prepare("SELECT codigo_hash, creado_en FROM codigos WHERE correo = ? AND motivo = ? AND codigo_hash NOT LIKE 'permiso:%' ORDER BY id DESC LIMIT 1").bind(correo, motivo).first();
+  let codigo;
+  do { codigo = String(crypto.getRandomValues(new Uint32Array(1))[0] % 100000).padStart(5, "0"); }
+  while (ultimo && ultimo.codigo_hash === await hashCodigo(correo, motivo, codigo));
+  await env.DB.prepare("UPDATE codigos SET usado_en = datetime('now') WHERE correo = ? AND motivo = ? AND usado_en IS NULL").bind(correo, motivo).run();
+  await env.DB.prepare(`INSERT INTO codigos (correo, motivo, codigo_hash, intentos, expira_en) VALUES (?, ?, ?, ?, datetime('now', '+${CODIGO_MIN} minutes'))`)
+    .bind(correo, motivo, await hashCodigo(correo, motivo, codigo), INTENTOS).run();
+  if (!(await enviarCorreoCodigo(env, correo, codigo, motivo))) {
+    await env.DB.prepare("UPDATE codigos SET usado_en = datetime('now') WHERE correo = ? AND motivo = ? AND usado_en IS NULL").bind(correo, motivo).run();
+    return { error: "No pudimos enviar el código. Intente en unos minutos.", estado: 502 };
+  }
+  return { ok: true };
+}
+
+async function abrirSesion(request, env, cliente) {
+  const token = b64url(crypto.getRandomValues(new Uint8Array(32)));
+  await env.DB.prepare(`INSERT INTO sesiones (token_hash, cliente_id, expira_en, ip) VALUES (?, ?, datetime('now', '+${SESION_DIAS} days'), ?)`)
+    .bind(await sha256(token), cliente.id, request.headers.get("CF-Connecting-IP") || "").run();
+  await env.DB.prepare("UPDATE clientes SET ultimo_acceso = datetime('now') WHERE id = ?").bind(cliente.id).run();
+  await env.DB.prepare("DELETE FROM sesiones WHERE expira_en < datetime('now')").run();
+  return token;
+}
+
+async function pedidosDe(env, cliente) {
+  const r = await env.DB.prepare(
+    `SELECT folio, creado_en, estado, total FROM pedidos
+     WHERE (cliente_id = ? OR lower(correo) = lower(?)) AND es_prueba = 0 AND estado <> 'pendiente_pago'
+     ORDER BY id DESC LIMIT 30`
+  ).bind(cliente.id, cliente.correo).all();
+  return r.results || [];
+}
+
+async function cuentaRuta(request, env, accion) {
+  const listo = !!env.RESEND_KEY;
+  if (accion === "estado") return resp({ listo });
+  if (request.method !== "POST") return resp({ error: "Método no permitido" }, 405);
+  const origen = request.headers.get("Origin");
+  if (origen && !ORIGENES.includes(origen)) return resp({ error: "Origen no permitido" }, 403);
+  if (Number(request.headers.get("Content-Length") || 0) > 4000) return resp({ error: "Datos demasiado grandes" }, 413);
+  let d = {};
+  try { d = JSON.parse((await request.text()).slice(0, 4000) || "{}"); } catch { return resp({ error: "Datos no válidos" }, 400); }
+  const correo = txt(d.correo, 120).toLowerCase();
+
+  if (accion === "sesion") {
+    const c = await sesionActual(request, env);
+    return resp({ ok: true, sesion: c ? { nombre: c.nombre, correo: c.correo, pedidos: await pedidosDe(env, c) } : null });
+  }
+  if (accion === "salir") {
+    const token = leerCookie(request, COOKIE);
+    if (token) await env.DB.prepare("DELETE FROM sesiones WHERE token_hash = ?").bind(await sha256(token)).run();
+    return respCookie({ ok: true }, cookieSesion("", 0));
+  }
+  if (!listo) return resp({ error: "Las cuentas todavía no están disponibles." }, 503);
+
+  if (accion === "crear") {
+    const nombre = txt(d.nombre, 100);
+    if (nombre.length < 2 || !correoOk(correo) || !passValida(d.pass)) return resp({ error: "Revise su nombre, su correo y su contraseña." }, 400);
+    const existe = await env.DB.prepare("SELECT id, verificado FROM clientes WHERE correo = ?").bind(correo).first();
+    if (existe && existe.verificado) return resp({ error: "Ya existe una cuenta con ese correo. Inicie sesión." }, 409);
+    const hash = await hashPass(d.pass);
+    if (existe) await env.DB.prepare("UPDATE clientes SET nombre = ?, pass_hash = ? WHERE id = ?").bind(nombre, hash, existe.id).run();
+    else await env.DB.prepare("INSERT INTO clientes (correo, nombre, pass_hash) VALUES (?, ?, ?)").bind(correo, nombre, hash).run();
+    const r = await nuevoCodigo(env, correo, "registro");
+    return r.error ? resp({ error: r.error }, r.estado) : resp({ ok: true, motivo: "registro" });
+  }
+  if (accion === "entrar") {
+    const c = await env.DB.prepare("SELECT id, pass_hash, verificado, estado FROM clientes WHERE correo = ?").bind(correo).first();
+    if (!c || c.estado !== "activo" || !(await passOk(String(d.pass || ""), c.pass_hash))) return resp({ error: "El correo o la contraseña no son correctos." }, 401);
+    const motivo = c.verificado ? "entrar" : "registro";
+    const r = await nuevoCodigo(env, correo, motivo);
+    return r.error ? resp({ error: r.error }, r.estado) : resp({ ok: true, motivo });
+  }
+  if (accion === "olvide") {
+    if (correoOk(correo)) {
+      const c = await env.DB.prepare("SELECT id FROM clientes WHERE correo = ? AND verificado = 1 AND estado = 'activo'").bind(correo).first();
+      if (c) { const r = await nuevoCodigo(env, correo, "recuperar"); if (r.estado === 429) return resp({ error: r.error }, 429); }
+    }
+    return resp({ ok: true, motivo: "recuperar" });
+  }
+  if (accion === "reenviar") {
+    const motivo = ["registro", "entrar", "recuperar"].includes(d.motivo) ? d.motivo : "";
+    if (!motivo || !correoOk(correo)) return resp({ error: "Datos no válidos" }, 400);
+    const u = await env.DB.prepare("SELECT (strftime('%s','now') - strftime('%s', creado_en)) AS seg FROM codigos WHERE correo = ? AND motivo = ? AND codigo_hash NOT LIKE 'permiso:%' ORDER BY id DESC LIMIT 1").bind(correo, motivo).first();
+    if (!u) return resp({ error: "Vuelva a empezar." }, 400);
+    if (u.seg < REENVIO_S) return resp({ error: `Espere ${REENVIO_S - u.seg} segundos para pedir otro código.` }, 429);
+    const r = await nuevoCodigo(env, correo, motivo);
+    return r.error ? resp({ error: r.error }, r.estado) : resp({ ok: true });
+  }
+  if (accion === "verificar") {
+    const motivo = ["registro", "entrar", "recuperar"].includes(d.motivo) ? d.motivo : "";
+    const codigo = txt(d.codigo, 5);
+    if (!motivo || !/^\d{5}$/.test(codigo)) return resp({ error: "Escriba los 5 dígitos del código." }, 400);
+    const p = await env.DB.prepare(
+      `SELECT id, codigo_hash, intentos, (expira_en < datetime('now')) AS vencido FROM codigos
+       WHERE correo = ? AND motivo = ? AND usado_en IS NULL AND codigo_hash NOT LIKE 'permiso:%' ORDER BY id DESC LIMIT 1`
+    ).bind(correo, motivo).first();
+    if (!p) return resp({ error: "Pida un código nuevo." }, 400);
+    if (p.vencido) { await env.DB.prepare("UPDATE codigos SET usado_en = datetime('now') WHERE id = ?").bind(p.id).run(); return resp({ error: "El código venció. Pida uno nuevo." }, 400); }
+    if (!igual(p.codigo_hash, await hashCodigo(correo, motivo, codigo))) {
+      const quedan = p.intentos - 1;
+      await env.DB.prepare(`UPDATE codigos SET intentos = ?${quedan <= 0 ? ", usado_en = datetime('now')" : ""} WHERE id = ?`).bind(Math.max(quedan, 0), p.id).run();
+      return resp({ error: quedan > 0 ? `Código incorrecto. Le quedan ${quedan} intento${quedan === 1 ? "" : "s"}.` : "Demasiados intentos. Pida un código nuevo." }, 400);
+    }
+    await env.DB.prepare("UPDATE codigos SET usado_en = datetime('now') WHERE id = ?").bind(p.id).run();
+    const c = await env.DB.prepare("SELECT id, nombre, correo FROM clientes WHERE correo = ?").bind(correo).first();
+    if (!c) return resp({ error: "Vuelva a empezar." }, 400);
+    if (motivo === "recuperar") {
+      const permiso = b64url(crypto.getRandomValues(new Uint8Array(24)));
+      await env.DB.prepare("INSERT INTO codigos (correo, motivo, codigo_hash, intentos, expira_en) VALUES (?, 'recuperar', ?, 1, datetime('now', '+15 minutes'))")
+        .bind(correo, "permiso:" + await sha256(permiso)).run();
+      return resp({ ok: true, permiso });
+    }
+    if (motivo === "registro") await env.DB.prepare("UPDATE clientes SET verificado = 1 WHERE id = ?").bind(c.id).run();
+    const token = await abrirSesion(request, env, c);
+    return respCookie({ ok: true, sesion: { nombre: c.nombre, correo: c.correo, pedidos: await pedidosDe(env, c) } }, cookieSesion(token, SESION_DIAS * 86400));
+  }
+  if (accion === "nueva") {
+    if (!passValida(d.pass) || !correoOk(correo)) return resp({ error: "Revise la contraseña nueva." }, 400);
+    const p = await env.DB.prepare(
+      "SELECT id FROM codigos WHERE correo = ? AND motivo = 'recuperar' AND codigo_hash = ? AND usado_en IS NULL AND expira_en > datetime('now')"
+    ).bind(correo, "permiso:" + await sha256(txt(d.permiso, 100))).first();
+    if (!p) return resp({ error: "Vuelva a pedir el código." }, 400);
+    await env.DB.prepare("UPDATE codigos SET usado_en = datetime('now') WHERE id = ?").bind(p.id).run();
+    const c = await env.DB.prepare("SELECT id FROM clientes WHERE correo = ?").bind(correo).first();
+    await env.DB.prepare("UPDATE clientes SET pass_hash = ? WHERE id = ?").bind(await hashPass(d.pass), c.id).run();
+    await env.DB.prepare("DELETE FROM sesiones WHERE cliente_id = ?").bind(c.id).run();
+    return resp({ ok: true });
+  }
+  return resp({ error: "No encontrado" }, 404);
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     try {
       if (url.pathname === "/api/pedido" && request.method === "POST") return await crearPedido(request, env);
       if (url.pathname === "/api/stripe" && request.method === "POST") return await avisoStripe(request, env);
+      if (url.pathname.startsWith("/api/cuenta/")) return await cuentaRuta(request, env, url.pathname.slice(12));
       return resp({ error: "No encontrado" }, 404);
     } catch (e) {
       return resp({ error: "Error del servidor" }, 500);
