@@ -16,7 +16,7 @@ Tienda en línea de perfumes originales (México). El sitio es **estático**: HT
   - **Sin rojo y sin colores pastel.**
   - Animaciones lentas.
   - Al menos **3 perfumes por renglón con su foto**, también en celular.
-  - Fondo de las fotos de frasco: beige `#E9E1D5` (claro) y gris `#292929` (oscuro), variable `--foto-bg` en `construir_recetas.py`.
+  - Fondo de las fotos de frasco: beige `#E9E1D5` (claro) y gris `#292929` (oscuro), variable `--foto-bg` en `construir_recetas.py`. Todas las fotos ocupan el mismo cuadro.
 - No cambiar `datos/reglas.json` ni `scripts/precios.py` sin que el dueño lo pida.
 - No poner precios a mano: los calcula `precios.py`.
 - No borrar fichas existentes.
@@ -84,7 +84,7 @@ Si está agotado se muestra «No disponible».
 5. Costco (740 px)
 
 Las fotos externas se muestran **enlazadas** a esos servidores, no copiadas al repo. Si una tienda cambia la URL, esa foto deja de verse.
-Las fotos de tienda tienen fondo blanco: en el catálogo llevan la clase `.blanco` y se funden sobre un panel beige (en modo oscuro se ve como un recuadro beige). Al pasar un perfume a recorte propio, el recuadro desaparece solo.
+Las fotos de tienda con fondo blanco llevan la clase `.blanco` y se funden con `multiply` sobre el fondo del tema (`--foto-bg`), así que el blanco desaparece en claro y en oscuro. En oscuro se ven más oscuras porque `multiply` nunca supera el gris del fondo; el brillo completo solo se logra con recorte transparente. Las fotos con fondo gris (p. ej. El Palacio de Hierro, 1 Million Gold Elixir) no se funden: necesitan recorte propio.
 
 ## Funcionalidades del sitio
 

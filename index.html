@@ -577,11 +577,9 @@ section.block { border-top: 1px solid var(--line); padding-block: 56px; }
 .it > * { position: relative; min-width: 0; }
 .it .th { order: -1; display: flex; align-items: center; justify-content: center; aspect-ratio: 4 / 5; background: var(--foto-bg); overflow: hidden; margin-bottom: 12px; }
 /* Fotos de frasco: recorte propio 1200x1200 transparente (fotos/recortes, el frasco ya ocupa el 70 %) sobre el fondo del tema.
-   Las fotos de tienda con fondo blanco (.blanco) se funden sobre un panel beige, también en modo oscuro. */
+   Las fotos de tienda con fondo blanco (.blanco) se funden con multiply sobre el fondo del tema (--foto-bg): el blanco desaparece en claro y en oscuro. */
 .it .th img { width: 100%; height: 100%; object-fit: contain; transition: transform 1.2s cubic-bezier(.16,.8,.2,1); }
-.it .th.blanco { isolation: isolate; }
-.it .th.blanco::before { content: ""; position: absolute; inset: 7% 11%; background: #E9E1D5; }
-.it .th.blanco img { position: relative; width: 78%; height: 86%; mix-blend-mode: multiply; }
+.it .th.blanco img { mix-blend-mode: multiply; }
 .it .n { padding: 0 14px; font-size: 10.5px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .it .n b { color: var(--accent); font-weight: 600; }
 .it .t { padding: 0 14px; font-family: var(--font-display); font-weight: 900; font-size: clamp(22px, 2.1vw, 32px); line-height: .98; text-transform: uppercase; color: var(--fg); margin: 4px 0 8px; transition: color .5s; overflow-wrap: anywhere; }
@@ -948,7 +946,7 @@ footer { border-top: 1px solid var(--line); font-size: 12px; }
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script src="perfumes.js?v=202611171728"></script>
+<script src="perfumes.js?v=202611171759"></script>
 <script>
 
 const fmt = new Intl.NumberFormat("es-MX", { style: "currency", currency: "MXN", maximumFractionDigits: 0 });
