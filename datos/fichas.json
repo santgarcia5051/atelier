@@ -30932,5 +30932,415 @@
   "forma": "facetado",
   "liquido": "#7E9A7A",
   "fuente_notas": "web"
+ },
+ "696774": {
+  "id": "acqua-di-parma-colonia-intensa-edc-hombre",
+  "auto": true,
+  "destacadas": [
+   "bergamota",
+   "oud",
+   "cuero"
+  ],
+  "marca": "Acqua di Parma",
+  "nombre": "Colonia Intensa",
+  "conc": "EDC",
+  "seccion": "Hombre",
+  "familia": "Cuero almizclado",
+  "lema": "Carácter con elegancia.",
+  "venta": "Colonia Intensa de Acqua di Parma es una fragancia cuero almizclado para él. Las notas de cítricos abren con personalidad; madera de oud, cilantro y flor de cuaba blanca forman su corazón, y cuero y almizcle dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Cítricos"
+  ],
+  "corazon": [
+   "Madera de oud",
+   "Cilantro",
+   "Flor de cuaba blanca"
+  ],
+  "fondo": [
+   "Cuero",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Cuero",
+    90
+   ],
+   [
+    "Almizclado",
+    90
+   ],
+   [
+    "Amaderado",
+    85
+   ],
+   [
+    "Aromático",
+    85
+   ]
+  ],
+  "duracion": "3–5 h",
+  "proyeccion": 2,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "alto",
+  "liquido": "#5A3A2A"
+ },
+ "654430": {
+  "id": "calvin-klein-ck-all-edt-mujer",
+  "auto": true,
+  "destacadas": [
+   "mandarina",
+   "jazmin",
+   "ambar"
+  ],
+  "marca": "Calvin Klein",
+  "nombre": "CK All",
+  "conc": "EDT",
+  "seccion": "Unisex",
+  "familia": "Floral cítrico",
+  "lema": "Delicadeza que se recuerda.",
+  "venta": "CK All de Calvin Klein es una fragancia floral cítrico para ella. Su salida de mandarina, bergamota y flor del pomelo da paso a un corazón de jazmín, azucena, ruibarbo y fresia, que descansa sobre un fondo de ámbar, almizcle y vetiver. Funciona tanto de día como de noche.",
+  "salida": [
+   "Mandarina",
+   "Bergamota",
+   "Flor del pomelo"
+  ],
+  "corazon": [
+   "Jazmín",
+   "Azucena",
+   "Ruibarbo",
+   "Fresia"
+  ],
+  "fondo": [
+   "Ámbar",
+   "Almizcle",
+   "Vetiver"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Cítrico",
+    74
+   ],
+   [
+    "Ambarado",
+    62
+   ],
+   [
+    "Almizclado",
+    62
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "facetado",
+  "liquido": "#E9A9BC"
+ },
+ "694219": {
+  "id": "delroba-sweet-amber-edp-hombre",
+  "auto": true,
+  "destacadas": [
+   "manzana",
+   "lavanda",
+   "vainilla"
+  ],
+  "marca": "Delroba",
+  "nombre": "Sweet Amber",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Afrutado floral",
+  "lema": "Un toque frutal irresistible.",
+  "venta": "Sweet Amber de Delroba es una fragancia afrutado floral para él. Las notas de manzana, pera, casis, piña y plátano abren con personalidad; lavanda, spearmint, lirio de los valles, rosa y raíz de lirio forman su corazón, y vainilla, ámbar, almizcle, cedro y sándalo dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Manzana",
+   "Pera",
+   "Casis",
+   "Piña",
+   "Plátano"
+  ],
+  "corazon": [
+   "Lavanda",
+   "Hierbabuena",
+   "Lirio de los valles",
+   "Rosa",
+   "Raíz de lirio"
+  ],
+  "fondo": [
+   "Vainilla",
+   "Ámbar",
+   "Almizcle",
+   "Cedro",
+   "Sándalo"
+  ],
+  "acordes": [
+   [
+    "Afrutado",
+    90
+   ],
+   [
+    "Floral",
+    89
+   ],
+   [
+    "Amaderado",
+    80
+   ],
+   [
+    "Avainillado",
+    65
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "redondo",
+  "liquido": "#E57A8A"
+ },
+ "674538": {
+  "id": "tom-ford-ombre-leather-edp-unisex",
+  "auto": true,
+  "destacadas": [
+   "violeta",
+   "jazmin",
+   "cuero"
+  ],
+  "marca": "Tom Ford",
+  "nombre": "Ombre Leather",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Cuero",
+  "lema": "Flores con carácter.",
+  "venta": "Ombre Leather de Tom Ford es una fragancia cuero unisex. Las notas de hojas de violeta y cedro abren con personalidad; jazmín sambac y raíz de lirio forman su corazón, y cuero, notas amaderadas y tabaco dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Hojas de violeta",
+   "Cedro"
+  ],
+  "corazon": [
+   "Jazmín sambac",
+   "Raíz de lirio"
+  ],
+  "fondo": [
+   "Cuero",
+   "Notas amaderadas",
+   "Tabaco"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Cuero",
+    83
+   ],
+   [
+    "Amaderado",
+    78
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "redondo",
+  "liquido": "#E9A9BC"
+ },
+ "701456": {
+  "id": "valentino-donna-born-in-roma-coral-fantasy-edp-mujer",
+  "auto": true,
+  "destacadas": [
+   "mandarina",
+   "jazmin",
+   "cedro"
+  ],
+  "marca": "Valentino",
+  "nombre": "Donna Born In Roma Coral Fantasy",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Almizclado floral",
+  "lema": "Delicadeza duradera.",
+  "venta": "Donna Born In Roma Coral Fantasy de Valentino es una fragancia almizclado floral para ella. Las notas de kiwi y naranja brasileña abren con personalidad; jazmín de la India, almizcle ambreta y rosa forman su corazón, y almizcle blanco y cedro de Texas dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Kiwi",
+   "Naranja brasileña"
+  ],
+  "corazon": [
+   "Jazmín de la India",
+   "Almizcle ambreta",
+   "Rosa"
+  ],
+  "fondo": [
+   "Almizcle blanco",
+   "Cedro de Texas"
+  ],
+  "acordes": [
+   [
+    "Almizclado",
+    90
+   ],
+   [
+    "Floral",
+    87
+   ],
+   [
+    "Amaderado",
+    71
+   ],
+   [
+    "Fresco",
+    71
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "facetado",
+  "liquido": "#E8E0D6"
+ },
+ "644219": {
+  "id": "michael-kors-sexy-amber-edp-mujer",
+  "destacadas": [
+   "ambar",
+   "gardenia",
+   "sandalo"
+  ],
+  "marca": "Michael Kors",
+  "nombre": "Sexy Amber",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral oriental",
+  "lema": "Calidez que envuelve.",
+  "venta": "Sexy Amber de Michael Kors es una fragancia floral oriental para ella, lanzada en 2009. Abre con ámbar y flores blancas; su corazón floral se vuelve cálido y sensual, y un fondo de ámbar y sándalo le da una estela suave y duradera. Ideal para la tarde y la noche.",
+  "salida": [
+   "Ámbar",
+   "Flores blancas"
+  ],
+  "corazon": [
+   "Flores blancas"
+  ],
+  "fondo": [
+   "Ámbar",
+   "Sándalo"
+  ],
+  "acordes": [
+   [
+    "Ambarado",
+    90
+   ],
+   [
+    "Floral",
+    80
+   ],
+   [
+    "Amaderado",
+    62
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "redondo",
+  "liquido": "#B07A3A",
+  "fuente_notas": "web"
+ },
+ "648276": {
+  "id": "lancome-absolue-6am-rose-edp-mujer",
+  "destacadas": [
+   "rosa",
+   "jazmin",
+   "fresia"
+  ],
+  "marca": "Lancôme",
+  "nombre": "Absolue 6AM Rose",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral fresco",
+  "lema": "Una rosa al amanecer.",
+  "venta": "Absolue 6AM Rose de Lancôme es una fragancia floral fresca para ella, lanzada en 2024. Evoca una rosa de mayo recién cortada con gotas de rocío; el lirio de los valles y el jazmín francés la vuelven luminosa y limpia. Perfecta para el día y la oficina.",
+  "salida": [
+   "Gota de rocío",
+   "Lirio de los valles"
+  ],
+  "corazon": [
+   "Rosa de mayo"
+  ],
+  "fondo": [
+   "Jazmín francés"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Fresco",
+    78
+   ],
+   [
+    "Verde",
+    62
+   ]
+  ],
+  "duracion": "6–8 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "facetado",
+  "liquido": "#E9A9BC",
+  "fuente_notas": "web"
+ },
+ "648277": {
+  "id": "lancome-absolue-rose-on-the-moon-edp-mujer",
+  "destacadas": [
+   "rosa",
+   "sandalo",
+   "vainilla"
+  ],
+  "marca": "Lancôme",
+  "nombre": "Absolue Rose On The Moon",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral amaderado",
+  "lema": "Una rosa bajo la luna.",
+  "venta": "Absolue Rose On The Moon de Lancôme es una fragancia floral amaderada para ella, lanzada en 2024. La rosa de mayo se envuelve en incienso y descansa sobre un fondo cremoso de sándalo y vainilla. Elegante y cálida, ideal para la noche.",
+  "salida": [
+   "Rosa de mayo"
+  ],
+  "corazon": [
+   "Incienso"
+  ],
+  "fondo": [
+   "Sándalo",
+   "Vainilla"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Amaderado",
+    80
+   ],
+   [
+    "Avainillado",
+    65
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "facetado",
+  "liquido": "#C99AA6",
+  "fuente_notas": "web"
  }
 }
