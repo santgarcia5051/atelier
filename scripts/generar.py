@@ -24,6 +24,7 @@ base = open(os.path.join(RAIZ, "datos", "base.js"), encoding="utf-8").read()
 # Fotos de alta calidad: El Palacio de Hierro primero, luego Liverpool, luego Amazon; si no hay, la de Costco
 palacio = leer("palacio.json")
 liverpool = leer("liverpool_fotos.json")
+arome = leer("arome_fotos.json")  # Arome México (Shopify): fotos de frasco, mismo perfume y presentación
 amazon = leer("amazon_fotos.json")  # foto principal de Amazon México (fondo blanco, hasta 1500 px)
 FOTO_PALACIO = "https://www.elpalaciodehierro.com/dw/image/v2/BDKB_PRD/on/demandware.static/-/Sites-palacio-master-catalog/default/images/{pid}/large/{pid}_x1.jpg?sw=1000&sh=1000&sm=fit&q=90"
 
@@ -81,6 +82,8 @@ for prod in costco["productos"]:
         item["recorte"] = True
     elif not f.get("img") and pid in palacio:
         item["img"] = FOTO_PALACIO.format(pid=palacio[pid]["pid"])
+    elif not f.get("img") and pid in arome:
+        item["img"] = arome[pid]["img"]
     elif not f.get("img") and pid in liverpool:
         item["img"] = liverpool[pid]["img"] if liverpool[pid].get("xl") is False else re.sub(r"https://s[ps]701\.liverpool\.com\.mx/(?:i|lg)/", "https://ss701.liverpool.com.mx/xl/", liverpool[pid]["img"])  # versión grande (940 px)
     elif not f.get("img") and pid in amazon:
