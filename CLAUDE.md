@@ -16,6 +16,7 @@ Tienda en línea de perfumes originales (México). El sitio es **estático**: HT
   - **Sin rojo y sin colores pastel.**
   - Animaciones lentas.
   - Al menos **3 perfumes por renglón con su foto**, también en celular.
+  - Fondo de las fotos de frasco: beige `#E9E1D5` (claro) y gris `#292929` (oscuro), variable `--foto-bg` en `construir_recetas.py`.
 - No cambiar `datos/reglas.json` ni `scripts/precios.py` sin que el dueño lo pida.
 - No poner precios a mano: los calcula `precios.py`.
 - No borrar fichas existentes.
@@ -76,13 +77,14 @@ Si está agotado se muestra «No disponible».
 - En ambos casos se descuenta la comisión de Mercado Pago (4.05 % + $4.64) y el precio termina en 99.
 
 **Fotos de frascos** (orden de prioridad en `generar.py`):
-1. recorte propio (`fotos/recortes/`)
+1. recorte propio (`fotos/recortes/<id>.webp`, 1200 × 1200, transparente, frasco al 70 %). Se crea con `scripts/fotos.py` (o `--local <id> <archivo>` para una foto ya recortada). Verificar antes que sea la versión exacta (EDT/EDP/Parfum, flanker).
 2. El Palacio de Hierro (CDN demandware, 1000 px)
 3. Liverpool (`ss701…/xl/`, unos 940 px; los marcados `"xl": false` usan `sp701…/i/`)
 4. Amazon México (`m.media-amazon.com …_AC_SL1500_`)
 5. Costco (740 px)
 
 Las fotos externas se muestran **enlazadas** a esos servidores, no copiadas al repo. Si una tienda cambia la URL, esa foto deja de verse.
+Las fotos de tienda tienen fondo blanco: en el catálogo llevan la clase `.blanco` y se funden sobre un panel beige (en modo oscuro se ve como un recuadro beige). Al pasar un perfume a recorte propio, el recuadro desaparece solo.
 
 ## Funcionalidades del sitio
 
@@ -143,7 +145,7 @@ Las fotos externas se muestran **enlazadas** a esos servidores, no copiadas al r
 - Domicilio del responsable en el aviso de privacidad (marcado como pendiente; puede ser una oficina virtual).
 - Activar `contacto@scantalia.mx` y conectar el dominio.
 - Número de WhatsApp, URL de TikTok, Mercado Pago y paquetería.
-- 47 perfumes siguen con foto de Costco; recortes de fondo propios con `fotos.py` (requiere acceso de red a las tiendas).
+- Recortes propios: 10 de 436 hechos y verificados. Faltan los demás (`fotos.py`; requiere acceso de red a las tiendas). 180 perfumes siguen con foto de Costco (740 px).
 - Inicio de sesión y programa de lealtad (propuesto con Supabase; no aprobado aún).
 - `nuevo.html` y `base.html` son públicos aunque no se enlazan; conviene ocultarlos o redirigirlos.
 - `scripts/__pycache__/` está versionado por error (falta `.gitignore`).

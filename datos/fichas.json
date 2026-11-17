@@ -50,8 +50,7 @@
   "ocasion": "Día · Oficina",
   "forma": "redondo",
   "liquido": "#7A5A3C",
-  "id": "explorer",
-  "img": "fotos/explorer.webp?v=3"
+  "id": "explorer"
  },
  "673768": {
   "destacadas": [
@@ -160,8 +159,7 @@
   "ocasion": "Día · Oficina",
   "forma": "cuadrado",
   "liquido": "#1F3A6E",
-  "id": "dylan-blue",
-  "img": "fotos/dylan-blue.webp?v=3"
+  "id": "dylan-blue"
  },
  "702492": {
   "destacadas": [
@@ -215,8 +213,7 @@
   "ocasion": "Día · Vacaciones",
   "forma": "alto",
   "liquido": "#CFE3F2",
-  "id": "light-blue",
-  "img": "fotos/light-blue.webp?v=3"
+  "id": "light-blue"
  },
  "643823": {
   "id": "euphoria-men",

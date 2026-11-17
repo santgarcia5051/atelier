@@ -39,7 +39,7 @@ CSS = r"""
 :root, :root[data-theme="dark"] {
   --bg: #0F0F0E; --surface: #171715; --tile: #1E1D1B; --fg: #ECE9E2; --muted: #9C988F; --line: #2A2926; --line2: #2A2926;
   --accent: #C9A35E; --accent-fg: #111110; --paper: #ECE9E2; --ink: #111110; --dim: #4A4843;
-  --overlay: rgba(0,0,0,.7); --shadow: 0 30px 60px -20px rgba(0,0,0,.8); --glow: rgba(201,163,94,.12); --danger: #E0A64B; --ok: #C9A35E;
+  --foto-bg: #292929; --overlay: rgba(0,0,0,.7); --shadow: 0 30px 60px -20px rgba(0,0,0,.8); --glow: rgba(201,163,94,.12); --danger: #E0A64B; --ok: #C9A35E;
   --font-display: "Big Shoulders Display", Impact, "Arial Narrow", sans-serif;
   --font-body: "IBM Plex Mono", ui-monospace, Menlo, monospace;
   --font-type: "Courier Prime", "Courier New", monospace;
@@ -48,7 +48,7 @@ CSS = r"""
 :root[data-theme="light"] {
   --bg: #EFEDE7; --surface: #F8F6F1; --tile: #E3E0D8; --fg: #141413; --muted: #6E6B64; --line: #141413; --line2: #CFCBC2;
   --accent: #8C6A2E; --accent-fg: #FFFFFF; --paper: #F8F6F1; --ink: #141413; --dim: #B5B0A6;
-  --overlay: rgba(20,20,19,.5); --shadow: 0 26px 50px -20px rgba(0,0,0,.3); --glow: rgba(140,106,46,.10); --danger: #9A5B12; --ok: #8C6A2E;
+  --foto-bg: #E9E1D5; --overlay: rgba(20,20,19,.5); --shadow: 0 26px 50px -20px rgba(0,0,0,.3); --glow: rgba(140,106,46,.10); --danger: #9A5B12; --ok: #8C6A2E;
   color-scheme: light;
 }
 body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 14px; }
@@ -129,8 +129,13 @@ section.block { border-top: 1px solid var(--line); padding-block: 56px; }
 .it:nth-child(3n) { border-right: 0; }
 .it::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 4px; background: var(--accent); transform: scaleX(0); transform-origin: left; transition: transform .85s cubic-bezier(.16,.8,.2,1); z-index: 3; }
 .it > * { position: relative; min-width: 0; }
-.it .th { order: -1; display: flex; align-items: center; justify-content: center; aspect-ratio: 4 / 5; background: var(--paper); overflow: hidden; margin-bottom: 12px; }
-.it .th img { width: 78%; height: 86%; object-fit: contain; mix-blend-mode: multiply; transition: transform 1.2s cubic-bezier(.16,.8,.2,1); }
+.it .th { order: -1; display: flex; align-items: center; justify-content: center; aspect-ratio: 4 / 5; background: var(--foto-bg); overflow: hidden; margin-bottom: 12px; }
+/* Fotos de frasco: recorte propio 1200x1200 transparente (fotos/recortes, el frasco ya ocupa el 70 %) sobre el fondo del tema.
+   Las fotos de tienda con fondo blanco (.blanco) se funden sobre un panel beige, también en modo oscuro. */
+.it .th img { width: 100%; height: 100%; object-fit: contain; transition: transform 1.2s cubic-bezier(.16,.8,.2,1); }
+.it .th.blanco { isolation: isolate; }
+.it .th.blanco::before { content: ""; position: absolute; inset: 7% 11%; background: #E9E1D5; }
+.it .th.blanco img { position: relative; width: 78%; height: 86%; mix-blend-mode: multiply; }
 .it .n { padding: 0 14px; font-size: 10.5px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .it .n b { color: var(--accent); font-weight: 600; }
 .it .t { padding: 0 14px; font-family: var(--font-display); font-weight: 900; font-size: clamp(22px, 2.1vw, 32px); line-height: .98; text-transform: uppercase; color: var(--fg); margin: 4px 0 8px; transition: color .5s; overflow-wrap: anywhere; }
@@ -188,7 +193,8 @@ section.block { border-top: 1px solid var(--line); padding-block: 56px; }
 footer { border-top: 1px solid var(--line); font-size: 12px; }
 .drawer { background: var(--bg) !important; border-left: 1px solid var(--line); }
 #dName { font-size: clamp(44px, 9vw, 64px) !important; line-height: .9 !important; }
-.foto-tienda-wrap, .d-media.foto-tienda-wrap, .dx-media.foto-tienda-wrap { background: var(--paper) !important; }
+.foto-tienda-wrap, .d-media.foto-tienda-wrap, .dx-media.foto-tienda-wrap { background: #E9E1D5 !important; }
+:root[data-theme] .foto-tienda-wrap.recorte-wrap { background: var(--foto-bg) !important; }
 .sim-card { border-color: var(--line2) !important; }
 .cookies b { font-family: var(--font-display); font-weight: 900; text-transform: uppercase; font-size: 22px; }
 .cookies { background: var(--paper) !important; color: #111 !important; box-shadow: 8px 8px 0 var(--accent) !important; border: 0 !important; }
@@ -322,7 +328,7 @@ s = s[:i] + r'''function renderGrid() {
       <span class="t">${p.nombre}</span>
       <span class="mn">${ns.map(n => notaImg(n)).join("")}<em>${ns.map(n => n.nombre).join(" + ")}</em></span>
       <span class="p">${precioCorto(p)}</span>
-      <span class="th">${p.img ? `<img src="${p.img}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ""}</span>
+      <span class="th${/^https?:/.test(p.img || "") && !p.recorte ? " blanco" : ""}">${p.img ? `<img src="${p.img}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ""}</span>
       ${disponible(p) ? `<span class="qa" role="button" tabindex="0" data-add="${p.id}" aria-label="Agregar ${p.nombre} a la bolsa">+</span>` : ""}
     </button>`;
   }).join("") : `<p class="vacio">${state.texto ? "No encontramos perfumes con esa búsqueda. Pruebe otra palabra." : "No hay fragancias con esa nota en esta sección. Pruebe otra nota o quite el filtro."}</p>`;
