@@ -578,7 +578,9 @@ section.block { border-top: 1px solid var(--line); padding-block: 56px; }
 .it .th { order: -1; display: flex; align-items: center; justify-content: center; aspect-ratio: 4 / 5; background: var(--foto-bg); overflow: hidden; margin-bottom: 12px; }
 /* Fotos de frasco: recorte propio 1200x1200 transparente (fotos/recortes, el frasco ya ocupa el 70 %) sobre el fondo del tema.
    Las fotos de tienda con fondo blanco (.blanco) se funden sobre un panel beige, también en modo oscuro. */
-.it .th img { width: 100%; height: 100%; object-fit: contain; transition: transform 1.2s cubic-bezier(.16,.8,.2,1); }
+.it .th img { width: 100%; height: 100%; object-fit: contain; transition: transform 1.2s cubic-bezier(.16,.8,.2,1); position: relative; z-index: 2; }
+.it .th { container-type: inline-size; }
+.it .palabra { position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%); z-index: 1; pointer-events: none; text-align: center; font: 900 clamp(34px, 15cqw, 64px)/1 var(--font-display); text-transform: uppercase; white-space: nowrap; overflow: hidden; color: transparent; -webkit-text-stroke: 1px var(--accent); opacity: .42; }
 .it .th.blanco { isolation: isolate; }
 .it .th.blanco::before { content: ""; position: absolute; inset: 7% 11%; background: #E9E1D5; }
 .it .th.blanco img { position: relative; width: 78%; height: 86%; mix-blend-mode: multiply; }
@@ -948,7 +950,7 @@ footer { border-top: 1px solid var(--line); font-size: 12px; }
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script src="perfumes.js?v=202611171728"></script>
+<script src="perfumes.js?v=202611171747"></script>
 <script>
 
 const fmt = new Intl.NumberFormat("es-MX", { style: "currency", currency: "MXN", maximumFractionDigits: 0 });
@@ -1038,7 +1040,7 @@ function renderGrid() {
       <span class="t">${p.nombre}</span>
       <span class="mn">${ns.map(n => notaImg(n)).join("")}<em>${ns.map(n => n.nombre).join(" + ")}</em></span>
       <span class="p">${precioCorto(p)}</span>
-      <span class="th${/^https?:/.test(p.img || "") && !p.recorte ? " blanco" : ""}">${p.img ? `<img src="${p.img}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ""}</span>
+      <span class="th${/^https?:/.test(p.img || "") && !p.recorte ? " blanco" : ""}"><span class="palabra" aria-hidden="true">${p.nombre.split(" ")[0]}</span>${p.img ?`<img src="${p.img}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ""}</span>
       ${disponible(p) ? `<span class="qa" role="button" tabindex="0" data-add="${p.id}" aria-label="Agregar ${p.nombre} a la bolsa">+</span>` : ""}
     </button>`;
   }).join("") : `<p class="vacio">${state.texto ? "No encontramos perfumes con esa búsqueda. Pruebe otra palabra." : "No hay fragancias con esa nota en esta sección. Pruebe otra nota o quite el filtro."}</p>`;
