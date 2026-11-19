@@ -31339,5 +31339,663 @@
   "forma": "facetado",
   "liquido": "#C99AA6",
   "fuente_notas": "web"
+ },
+ "671154": {
+  "id": "bond-no-9-greenwich-village-edp-unisex",
+  "auto": true,
+  "destacadas": [
+   "lichi",
+   "peonia",
+   "ambar"
+  ],
+  "marca": "Bond No. 9",
+  "nombre": "Greenwich Village",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Ámbar floral",
+  "lema": "Luminosa y golosa.",
+  "venta": "Greenwich Village de Bond No. 9 es una fragancia ámbar floral unisex. Las notas de lichi, casis y mandarina abren con personalidad; peonía, nenúfar y jazmín forman su corazón, y ambroxan, praliné, almizcle, vainilla y musgo de roble dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Lichi",
+   "Casis",
+   "Mandarina"
+  ],
+  "corazon": [
+   "Peonía",
+   "Nenúfar",
+   "Jazmín"
+  ],
+  "fondo": [
+   "Ambroxan",
+   "Praliné",
+   "Almizcle",
+   "Vainilla",
+   "Musgo de roble"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Afrutado",
+    81
+   ],
+   [
+    "Ambarado",
+    73
+   ],
+   [
+    "Gourmand",
+    73
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "alto",
+  "liquido": "#E9A9BC"
+ },
+ "656312": {
+  "id": "carolina-herrera-212-vip-edp-mujer",
+  "auto": true,
+  "destacadas": [
+   "mar",
+   "gardenia",
+   "haba"
+  ],
+  "marca": "Carolina Herrera",
+  "nombre": "212 Vip",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Avainillado almizclado",
+  "lema": "Suavidad adictiva.",
+  "venta": "212 Vip de Carolina Herrera es una fragancia avainillado almizclado para ella. Las notas de maracuyá y ron abren con personalidad; almizcle y gardenia forman su corazón, y haba tonka y vainilla dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Maracuyá",
+   "Ron"
+  ],
+  "corazon": [
+   "Almizcle",
+   "Gardenia"
+  ],
+  "fondo": [
+   "Haba tonka",
+   "Vainilla"
+  ],
+  "acordes": [
+   [
+    "Avainillado",
+    90
+   ],
+   [
+    "Almizclado",
+    67
+   ],
+   [
+    "Floral",
+    67
+   ],
+   [
+    "Afrutado",
+    63
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "facetado",
+  "liquido": "#D9A35E"
+ },
+ "656316": {
+  "id": "giorgio-armani-si-passione-edp-mujer",
+  "auto": true,
+  "destacadas": [
+   "rosa",
+   "jazmin",
+   "cedro"
+  ],
+  "marca": "Giorgio Armani",
+  "nombre": "Sí Passione",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral afrutado",
+  "lema": "Flores con carácter.",
+  "venta": "Sí Passione de Giorgio Armani es una fragancia floral afrutado para ella. Las notas de pimienta rosa, pera, grosellas negras y toronja abren con personalidad; rosa, jazmín, heliotropo y piña forman su corazón, y cedro, vainilla, amberwood y pachulí dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Pimienta rosa",
+   "Pera",
+   "Grosellas negras",
+   "Toronja"
+  ],
+  "corazon": [
+   "Rosa",
+   "Jazmín",
+   "Heliotropo",
+   "Piña"
+  ],
+  "fondo": [
+   "Cedro",
+   "Vainilla",
+   "Amberwood",
+   "Pachulí"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Afrutado",
+    77
+   ],
+   [
+    "Amaderado",
+    62
+   ],
+   [
+    "Avainillado",
+    62
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "redondo",
+  "liquido": "#E9A9BC"
+ },
+ "671188": {
+  "id": "prada-olfactories-marienbad-edp-unisex",
+  "auto": true,
+  "destacadas": [
+   "bergamota",
+   "rosa",
+   "ambar"
+  ],
+  "marca": "Prada",
+  "nombre": "Olfactories Marienbad",
+  "conc": "EDP",
+  "seccion": "Unisex",
+  "familia": "Oriental amaderada",
+  "lema": "Calidez profunda.",
+  "venta": "Olfactories Marienbad de Prada es una fragancia oriental amaderada unisex. Abre con bergamota; en el corazón aparecen rosa y ciruela, y un fondo de ámbar, incienso, cuero, vainilla y madera de oud le da carácter y duración. Ideal para la noche y las citas.",
+  "salida": [
+   "Bergamota"
+  ],
+  "corazon": [
+   "Rosa",
+   "Ciruela"
+  ],
+  "fondo": [
+   "Ámbar",
+   "Incienso",
+   "Cuero",
+   "Vainilla",
+   "Madera de oud"
+  ],
+  "acordes": [
+   [
+    "Ambarado",
+    90
+   ],
+   [
+    "Cuero",
+    70
+   ],
+   [
+    "Avainillado",
+    70
+   ],
+   [
+    "Amaderado",
+    70
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "facetado",
+  "liquido": "#C47A2C"
+ },
+ "706271": {
+  "id": "tommy-hilfiger-tommy-new-york-edt-hombre",
+  "auto": true,
+  "destacadas": [
+   "lavanda",
+   "rosa",
+   "vetiver"
+  ],
+  "marca": "Tommy Hilfiger",
+  "nombre": "Tommy New York",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Aromático amaderado",
+  "lema": "Clásico y versátil.",
+  "venta": "Tommy New York de Tommy Hilfiger es una fragancia aromático amaderado para él. Su salida de lavanda, bergamota y salvia da paso a un corazón de pimienta rosa, cardamomo, elemí, pachulí y cilantro, que descansa sobre un fondo de vetiver, cedro y ámbar. Una elección versátil para todos los días.",
+  "salida": [
+   "Lavanda",
+   "Bergamota",
+   "Salvia"
+  ],
+  "corazon": [
+   "Pimienta rosa",
+   "Cardamomo",
+   "Elemí",
+   "Pachulí",
+   "Cilantro"
+  ],
+  "fondo": [
+   "Vetiver",
+   "Cedro",
+   "Ámbar"
+  ],
+  "acordes": [
+   [
+    "Aromático",
+    90
+   ],
+   [
+    "Amaderado",
+    86
+   ],
+   [
+    "Ambarado",
+    84
+   ],
+   [
+    "Cálido especiado",
+    82
+   ]
+  ],
+  "duracion": "5–7 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "alto",
+  "liquido": "#7E9A7A"
+ },
+ "695843": {
+  "id": "yves-saint-laurent-y-elixir-parfum-hombre",
+  "auto": true,
+  "destacadas": [
+   "lavanda",
+   "salvia",
+   "oud"
+  ],
+  "marca": "Yves Saint Laurent",
+  "nombre": "Y Elixir",
+  "conc": "Parfum",
+  "seccion": "Hombre",
+  "familia": "Ambarado amaderado",
+  "lema": "Una estela inolvidable.",
+  "venta": "Y Elixir de Yves Saint Laurent es una fragancia ambarado amaderado para él. Las notas de lavanda abre con personalidad; el geranio forma su corazón, y incienso y madera de oud dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Lavanda"
+  ],
+  "corazon": [
+   "Geranio"
+  ],
+  "fondo": [
+   "Incienso",
+   "Madera de oud"
+  ],
+  "acordes": [
+   [
+    "Ambarado",
+    90
+   ],
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Floral",
+    85
+   ],
+   [
+    "Aromático",
+    77
+   ]
+  ],
+  "duracion": "9–11 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "redondo",
+  "liquido": "#C47A2C"
+ },
+ "694976": {
+  "id": "carolina-herrera-bad-boy-extreme-edp-hombre",
+  "auto": true,
+  "destacadas": [
+   "bergamota",
+   "vetiver",
+   "pachuli"
+  ],
+  "marca": "Carolina Herrera",
+  "nombre": "Bad Boy Extreme",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Avainillado amaderado",
+  "lema": "Calidez que envuelve.",
+  "venta": "Bad Boy Extreme de Carolina Herrera es una fragancia avainillado amaderado para él. Las notas de jengibre y bergamota abren con personalidad; vetiver de las arenas y cacao forman su corazón, y pachulí y haba tonka dejan una estela memorable. Para dejar huella en la noche.",
+  "salida": [
+   "Jengibre",
+   "Bergamota"
+  ],
+  "corazon": [
+   "Vetiver de las arenas",
+   "Cacao"
+  ],
+  "fondo": [
+   "Pachulí",
+   "Haba tonka"
+  ],
+  "acordes": [
+   [
+    "Avainillado",
+    90
+   ],
+   [
+    "Amaderado",
+    85
+   ],
+   [
+    "Gourmand",
+    85
+   ],
+   [
+    "Cálido especiado",
+    77
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "cuadrado",
+  "liquido": "#D9A35E"
+ },
+ "617787": {
+  "id": "ralph-lauren-polo-black-edt-hombre",
+  "destacadas": [
+   "mango",
+   "salvia",
+   "pachuli"
+  ],
+  "marca": "Ralph Lauren",
+  "nombre": "Polo Black",
+  "conc": "EDT",
+  "seccion": "Hombre",
+  "familia": "Amaderado aromático",
+  "lema": "Seguridad urbana.",
+  "venta": "Polo Black de Ralph Lauren es una fragancia amaderada aromática para él. Abre con mango escarchado y aldehídos; en el corazón, la artemisa plateada se une a un acorde acuático, y un fondo de pachulí negro, maderas y haba tonka le da carácter. Para la ciudad, de día o de noche.",
+  "salida": [
+   "Mango",
+   "Aldehídos"
+  ],
+  "corazon": [
+   "Artemisa",
+   "Notas acuáticas"
+  ],
+  "fondo": [
+   "Pachulí",
+   "Maderas",
+   "Haba tonka"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Aromático",
+    78
+   ],
+   [
+    "Afrutado",
+    66
+   ],
+   [
+    "Avainillado",
+    60
+   ]
+  ],
+  "duracion": "6–8 h",
+  "proyeccion": 3,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Día · Noche",
+  "forma": "redondo",
+  "liquido": "#3A3A3A",
+  "fuente_notas": "costco"
+ },
+ "617766": {
+  "id": "ralph-lauren-romance-edp-mujer",
+  "destacadas": [
+   "rosa",
+   "fresia",
+   "loto"
+  ],
+  "marca": "Ralph Lauren",
+  "nombre": "Romance",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral",
+  "lema": "Un clásico enamorado.",
+  "venta": "Romance de Ralph Lauren es una fragancia floral para ella. Su salida de jengibre, manzanilla, limón, fresia amarilla y rosa da paso a un corazón de azucena, clavel, violeta blanca y flor de loto, que descansa sobre un fondo de maderas, pachulí, musgo de roble y almizcle blanco. Elegante para todos los días.",
+  "salida": [
+   "Jengibre",
+   "Manzanilla",
+   "Limón",
+   "Fresia",
+   "Rosa"
+  ],
+  "corazon": [
+   "Azucena",
+   "Clavel",
+   "Violeta",
+   "Flor de loto"
+  ],
+  "fondo": [
+   "Maderas",
+   "Pachulí",
+   "Musgo de roble",
+   "Almizcle blanco"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Fresco",
+    68
+   ],
+   [
+    "Amaderado",
+    62
+   ],
+   [
+    "Almizclado",
+    60
+   ]
+  ],
+  "duracion": "6–8 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Oficina",
+  "forma": "cuadrado",
+  "liquido": "#F0B8B8",
+  "fuente_notas": "costco"
+ },
+ "682931": {
+  "id": "dolce-gabbana-dolce-shine-edp-mujer",
+  "destacadas": [
+   "mango",
+   "toronja",
+   "jazmin"
+  ],
+  "marca": "Dolce & Gabbana",
+  "nombre": "Dolce Shine",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral afrutado",
+  "lema": "Sol en la piel.",
+  "venta": "Dolce Shine de Dolce & Gabbana es una fragancia floral afrutada para ella. El mango, la toronja y el membrillo abren con alegría; jazmín, azahar y un acorde salino forman su corazón, y maderas rubias, sándalo y almizcle blanco la vuelven suave y luminosa. Ideal para el día.",
+  "salida": [
+   "Mango",
+   "Toronja",
+   "Membrillo"
+  ],
+  "corazon": [
+   "Jazmín",
+   "Azahar",
+   "Acorde salino"
+  ],
+  "fondo": [
+   "Maderas rubias",
+   "Sándalo",
+   "Almizcle blanco"
+  ],
+  "acordes": [
+   [
+    "Afrutado",
+    90
+   ],
+   [
+    "Floral",
+    80
+   ],
+   [
+    "Cítrico",
+    66
+   ],
+   [
+    "Amaderado",
+    58
+   ]
+  ],
+  "duracion": "6–8 h",
+  "proyeccion": 3,
+  "temporada": "Primavera · Verano",
+  "ocasion": "Día · Casual",
+  "forma": "cuadrado",
+  "liquido": "#F2B04A",
+  "fuente_notas": "web"
+ },
+ "706881": {
+  "id": "carolina-herrera-212-vip-rose-edp-mujer",
+  "destacadas": [
+   "champana",
+   "rosa",
+   "durazno"
+  ],
+  "marca": "Carolina Herrera",
+  "nombre": "212 VIP Rosé",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral afrutado",
+  "lema": "Brindis rosado.",
+  "venta": "212 VIP Rosé de Carolina Herrera es una fragancia floral afrutada para ella. Abre con champaña rosada y pimienta rosa; en el corazón, la flor del duraznero y la rosa, y un fondo de durazno y almizcle la deja dulce y festiva. Para la noche y las celebraciones.",
+  "salida": [
+   "Champaña rosada",
+   "Pimienta rosa"
+  ],
+  "corazon": [
+   "Flor del duraznero",
+   "Rosa"
+  ],
+  "fondo": [
+   "Durazno",
+   "Almizcle"
+  ],
+  "acordes": [
+   [
+    "Afrutado",
+    90
+   ],
+   [
+    "Floral",
+    80
+   ],
+   [
+    "Almizclado",
+    64
+   ],
+   [
+    "Cálido especiado",
+    55
+   ]
+  ],
+  "duracion": "6–8 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Noche · Eventos",
+  "forma": "cuadrado",
+  "liquido": "#F2A7B8",
+  "fuente_notas": "web"
+ },
+ "682919": {
+  "id": "bharara-viking-dubai-edp-hombre",
+  "destacadas": [
+   "bergamota",
+   "violeta",
+   "ambar"
+  ],
+  "marca": "Bharara",
+  "nombre": "Viking Dubai",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Amaderado aromático",
+  "lema": "Energía con misterio.",
+  "venta": "Viking Dubai de Bharara es una fragancia amaderada para él. Bergamota, naranja dulce, limón, toronja y jengibre abren con energía; madera de cachemira, magnolia, violeta y haba tonka forman su corazón, y ambroxan, pachulí, vetiver y almizcle blanco dejan una estela duradera. Para el día y la noche.",
+  "salida": [
+   "Bergamota",
+   "Naranja",
+   "Limón",
+   "Toronja",
+   "Jengibre"
+  ],
+  "corazon": [
+   "Madera de cachemira",
+   "Magnolia",
+   "Violeta",
+   "Haba tonka"
+  ],
+  "fondo": [
+   "Ambroxan",
+   "Pachulí",
+   "Vetiver",
+   "Almizcle blanco"
+  ],
+  "acordes": [
+   [
+    "Amaderado",
+    90
+   ],
+   [
+    "Cítrico",
+    78
+   ],
+   [
+    "Ambarado",
+    70
+   ],
+   [
+    "Cálido especiado",
+    62
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "cuadrado",
+  "liquido": "#B9C7D6",
+  "fuente_notas": "costco"
  }
 }
