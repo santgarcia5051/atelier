@@ -1,9 +1,9 @@
 # Scantalia Perfumería — guía técnica para continuar el proyecto
 
-Tienda en línea de perfumes originales (México). El sitio es **estático**: HTML + CSS + JavaScript sin framework ni paso de compilación de Node, con datos en un archivo JS. Lo publica **GitHub Pages** desde la rama `main` de `santgarcia5051/atelier`.
+Tienda en línea de perfumes originales (México). La tienda es HTML + CSS + JavaScript sin framework ni paso de compilación de Node, con datos en un archivo JS. Lo publica **GitHub Pages** desde la rama `main` de `santgarcia5051/atelier`. Los pedidos, el cobro y las cuentas los atiende un **Worker de Cloudflare** con base de datos D1.
 
-- Sitio: https://santgarcia5051.github.io/atelier/ (dominio propio pendiente)
-- No hay backend, base de datos, variables de entorno ni secretos en el repositorio.
+- Sitio: https://scantalia.com (archivo `CNAME`; DNS en Cloudflare).
+- El repositorio es **público**: no subir secretos, correos personales ni datos internos. Los secretos viven solo en Cloudflare.
 - Todo el texto público va en **español formal (usted)**.
 
 ## Reglas del proyecto (pedidas por el dueño)
@@ -20,6 +20,9 @@ Tienda en línea de perfumes originales (México). El sitio es **estático**: HT
 - No cambiar `datos/reglas.json` ni `scripts/precios.py` sin que el dueño lo pida.
 - No poner precios a mano: los calcula `precios.py`.
 - No borrar fichas existentes.
+- Antes de aplicar un cambio de diseño, mostrar ejemplos o una prueba; se aplica cuando el dueño lo aprueba.
+- Simular la página con Playwright antes de publicar.
+- No mandar correos, comprar ni aceptar términos sin un sí explícito. Nunca escribir contraseñas, claves de API ni datos de tarjeta: eso lo hace el dueño.
 
 ## Mapa de archivos
 
@@ -30,6 +33,9 @@ Tienda en línea de perfumes originales (México). El sitio es **estático**: HT
 | `prueba.html` | Redirección a `index.html` (enlace viejo), generada por `construir_recetas.py` | No |
 | `nuevo.html` | Diseño anterior (oscuro y dorado), generado por `construir_nuevo.py`. Ya no se enlaza | No |
 | `perfumes.js` | Catálogo **generado** por `scripts/generar.py` (`PERFUMES`, `NOTAS`, `SECCIONES`, `ENVIO`) | No |
+| `tienda.json` | Precios públicos y envíos, generado por `generar.py`. El Worker lo lee para calcular el total en el servidor | No |
+| `worker/pedidos.js` | Worker `scantalia-pedidos` (ruta `scantalia.com/api/*`): pedidos, Stripe y cuentas | Sí (se despliega aparte a Cloudflare) |
+| `db/0001_base_completa.sql` | Esquema de la base D1 | Sí (probar migraciones primero en la base de pruebas) |
 | `blog/` | Guías de compra, generadas por `scripts/construir_blog.py` | No (editar el script) |
 | `terminos.html`, `privacidad.html` | Páginas legales, generadas por `scripts/construir_legales.py` | No |
 | `datos/costco.json` | Lo que hay hoy en Costco: código, nombre, ml, costo, existencia, foto, descripción, tipo, precio de referencia | Lo escribe `aplicar.py` |
@@ -37,14 +43,14 @@ Tienda en línea de perfumes originales (México). El sitio es **estático**: HT
 | `datos/base.js` | `NOTAS` (notas olfativas con foto y color), `SECCIONES`, `ENVIO` (zonas, tarifas, días) | Sí |
 | `datos/reglas.json` | Reglas de precio y comisión | **Solo si el dueño lo pide** |
 | `datos/privacidad.html` | Texto fuente del aviso de privacidad | Sí |
-| `datos/palacio.json`, `liverpool_fotos.json`, `amazon_fotos.json` | Qué foto externa usa cada perfume (id → pid o URL) | Sí |
+| `datos/palacio.json`, `arome_fotos.json`, `liverpool_fotos.json`, `amazon_fotos.json` | Qué foto externa usa cada perfume (id → pid o URL) | Sí |
 | `fotos/` | Fotos propias: `notas/` (46, una por nota), `escenas/` (43), frascos sueltos (`*.webp`) | — |
 | `scripts/` | Generadores y pipeline del catálogo (ver abajo) | Sí |
 
 ## Cómo se genera el sitio
 
 ```bash
-python3 scripts/generar.py            # datos/* -> perfumes.js
+python3 scripts/generar.py            # datos/* -> perfumes.js y tienda.json
 python3 scripts/actualizar_version.py # nueva ?v= para perfumes.js en base.html y reconstruye TODO:
                                       #   construir_nuevo.py   -> nuevo.html
                                       #   construir_recetas.py -> index.html (+ prueba.html)
@@ -74,14 +80,15 @@ Si está agotado se muestra «No disponible».
 **Precios** (`precios.py` + `reglas.json`):
 - Con precio de referencia: referencia −20/−15/−10 % (el primero que deje al menos $350 de ganancia).
 - Sin referencia: costo +30 %, con ganancia mínima de $350.
-- En ambos casos se descuenta la comisión de Mercado Pago (4.05 % + $4.64) y el precio termina en 99.
+- En ambos casos se descuentan la comisión de cobro (4.05 % + $4.64, la de Mercado Pago, aunque ahora se cobra con Stripe), 10 % de impuestos y 5 % de comisión extra. El precio termina en 99.
 
 **Fotos de frascos** (orden de prioridad en `generar.py`):
 1. recorte propio (`fotos/recortes/<id>.webp`, 1200 × 1200, transparente, frasco al 70 %). Se crea con `scripts/fotos.py` (o `--local <id> <archivo>` para una foto ya recortada). Verificar antes que sea la versión exacta (EDT/EDP/Parfum, flanker).
 2. El Palacio de Hierro (CDN demandware, 1000 px)
-3. Liverpool (`ss701…/xl/`, unos 940 px; los marcados `"xl": false` usan `sp701…/i/`)
-4. Amazon México (`m.media-amazon.com …_AC_SL1500_`)
-5. Costco (740 px)
+3. Arome México (`arome_fotos.json`; solo fotos que coinciden exactamente en perfume y presentación)
+4. Liverpool (`ss701…/xl/`, unos 940 px; los marcados `"xl": false` usan `sp701…/i/`)
+5. Amazon México (`m.media-amazon.com …_AC_SL1500_`)
+6. Costco (740 px)
 
 Las fotos externas se muestran **enlazadas** a esos servidores, no copiadas al repo. Si una tienda cambia la URL, esa foto deja de verse.
 Las fotos de tienda con fondo blanco llevan la clase `.blanco` y se funden con `multiply` sobre el fondo del tema (`--foto-bg`), así que el blanco desaparece en claro y en oscuro. En oscuro se ven más oscuras porque `multiply` nunca supera el gris del fondo; el brillo completo solo se logra con recorte transparente. Las fotos con fondo gris (p. ej. El Palacio de Hierro, 1 Million Gold Elixir) no se funden: necesitan recorte propio.
@@ -96,8 +103,9 @@ Las fotos de tienda con fondo blanco llevan la clase `.blanco` y se funden con `
   - Datos de entrega y cálculo de envío por código postal (zonas en `ENVIO`; gratis desde 2 perfumes).
   - El pedido ya pide todo lo que Skydropx necesita para generar la guía: nombre, teléfono (10 dígitos), correo, calle y número, colonia, C.P., ciudad (el estado sale del C.P.) y referencias. Los datos no se guardan en el navegador.
   - **Dos casillas obligatorias** (términos/privacidad y devoluciones) habilitan «Generar pedido».
-  - Genera un folio y un texto de pedido que el cliente copia y manda por mensaje directo o correo.
-  - **No hay cobro en línea automático**: Scantalia responde con un link de pago (Mercado Pago, aún por configurar).
+  - En scantalia.com el pedido se manda a `POST /api/pedido`: el Worker valida, calcula el total con `tienda.json`, lo guarda en D1 (folio `SC-DDMM-NNNN`) y crea la sesión de **Stripe Checkout**. Fuera de scantalia.com (p. ej. en local) la página cae al pedido por texto con folio.
+  - El webhook `POST /api/stripe` marca el pedido como `pagado` o `pago_fallido`.
+- **Cuentas de cliente** (`/api/cuenta/<accion>`): registro, inicio de sesión y código de 5 dígitos por correo (Resend). Sin la clave de Resend quedan desactivadas.
 - Tema claro/oscuro y banner de cookies («Aceptar todo» o «Solo necesarias»). La preferencia de gustos solo se guarda con «todo».
 - Blog con 4 guías de compra, términos y condiciones (20 secciones, devoluciones de 5 días hábiles según el art. 56 de la LFPC) y aviso de privacidad.
 
@@ -123,16 +131,18 @@ Las fotos de tienda con fondo blanco llevan la clase `.blanco` y se funden con `
 | El Palacio de Hierro, Amazon México | Fotos (enlazadas) | Activo |
 | Instagram `@scantalia`, TikTok | Enlaces de contacto | TikTok sin URL de perfil |
 | WhatsApp | Botón oculto (`wa.me/520000000000`) | Número pendiente |
-| Correo `contacto@scantalia.mx` | Contacto, devoluciones, privacidad | Requiere el dominio, aún pendiente |
-| Mercado Pago | Links de pago (comisión en `reglas.json`) | Por configurar el dueño |
+| Cloudflare | DNS de scantalia.com, Worker `scantalia-pedidos` y D1 | Activo. Faltan los secretos del Worker (`STRIPE_SECRET`, `STRIPE_WEBHOOK_SECRET`, `RESEND_KEY`), que guarda el dueño |
+| Correo (Zoho Mail) | `contacto@scantalia.com` y otros buzones | Activo. **No tocar los registros MX, SPF ni DKIM** |
+| Stripe | Cobro con tarjeta (Checkout + webhook) | Cuenta activa; no cobra hasta que haya secretos |
+| Resend | Códigos de verificación de cuentas | Falta cuenta, clave y verificar el dominio (sin tocar los registros de Zoho) |
 | Skydropx (u otra paquetería) | Envíos | Cuenta por abrir por el dueño. Por ahora las guías se crean a mano en su panel con los datos del pedido; la API (cotizar y generar guías solas) necesita una función con sus credenciales, aún no hecha |
 
 ## Trabajar desde Claude Code en la nube
 
 - Clonar: `git clone https://github.com/santgarcia5051/atelier`. Se trabaja y publica directo en `main`; cada push despliega.
-- **Red del entorno cloud**: costco.com.mx, liverpool.com.mx, elpalaciodehierro.com, amazon.com.mx, commons.wikimedia.org y github.io están bloqueados desde la shell. Para pip/npm hay que pasar el proxy explícito (`$HTTPS_PROXY`).
+- **Red del entorno cloud**: costco.com.mx, liverpool.com.mx, elpalaciodehierro.com, amazon.com.mx, arome.mx, cdn.shopify.com, scantalia.com, commons.wikimedia.org y github.io están bloqueados desde la shell. El Worker y D1 se manejan con el conector de Cloudflare. Para pip/npm hay que pasar el proxy explícito (`$HTTPS_PROXY`).
 - **Lo que todavía depende de la computadora del dueño**: los pasos de navegador del catálogo (1 y 2) y cualquier búsqueda de fotos en tiendas. Se ejecutan en el navegador de la app de escritorio de Claude (herramientas `Claude_Browser`) con la sesión vinculada a su computadora.
-- Hay una tarea programada **«Revisión diaria Costco Scantalia»** (8:59, hora de CDMX) que hace todo el pipeline. Necesita la computadora encendida con la app de Claude abierta; si no, queda suspendida por «device_absent». Su instrucción todavía verifica `nuevo.html`; la página principal ahora es `index.html`.
+- Hay una tarea programada **«Revisión diaria Costco Scantalia»** (8:59, hora de CDMX) que hace todo el pipeline. Necesita la computadora encendida con la app de Claude abierta; si no, queda suspendida por «device_absent». Su instrucción todavía verifica `nuevo.html` en github.io; debería verificar `https://scantalia.com/`.
 - **Pruebas locales** (Chromium y Playwright ya instalados en la nube):
   - Servir con `python3 -m http.server 8765` desde la raíz del repo.
   - Probar con Playwright en tamaño iPhone 13 y en escritorio de 1440 px.
@@ -142,10 +152,12 @@ Las fotos de tienda con fondo blanco llevan la clase `.blanco` y se funden con `
 
 ## Pendientes conocidos
 
-- Domicilio del responsable en el aviso de privacidad (marcado como pendiente; puede ser una oficina virtual).
-- Activar `contacto@scantalia.mx` y conectar el dominio.
-- Número de WhatsApp, URL de TikTok, Mercado Pago y paquetería.
-- Recortes propios: 10 de 436 hechos y verificados. Faltan los demás (`fotos.py`; requiere acceso de red a las tiendas). 180 perfumes siguen con foto de Costco (740 px).
-- Inicio de sesión y programa de lealtad (propuesto con Supabase; no aprobado aún).
-- `nuevo.html` y `base.html` son públicos aunque no se enlazan; conviene ocultarlos o redirigirlos.
-- `scripts/__pycache__/` está versionado por error (falta `.gitignore`).
+- **Panel de administración** en `scantalia.com/admin` con rutas `/api/admin/...` protegidas por Cloudflare Access (código por correo). Bloqueado: el dueño debe activar Zero Trust. Hoy no existe ninguna cuenta de admin.
+- Secretos de Stripe y Resend en el Worker, webhook de Stripe y prueba con el producto de $0.01 (con permiso del dueño).
+- Aviso al dueño cuando entra un pedido pagado y guía de Skydropx automática.
+- Confirmar si el envío es siempre gratis o sigue gratis desde 2 perfumes.
+- Unos 90 perfumes solo tienen foto de El Palacio de Hierro: buscar otra fuente y recortar sin fondo (44 recortes propios hechos).
+- Costos y reglas de precio son públicos porque el repo es público: decidir si se hace privado o se saca `datos/` del sitio.
+- `nuevo.html`, `base.html` y `prueba.html` son públicos aunque no se enlazan.
+- Domicilio del responsable en el aviso de privacidad, número de WhatsApp y URL de TikTok.
+- Programa de lealtad (propuesto; no aprobado).
