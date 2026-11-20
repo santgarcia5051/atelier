@@ -31997,5 +31997,117 @@
   "forma": "cuadrado",
   "liquido": "#B9C7D6",
   "fuente_notas": "costco"
+ },
+ "643190": {
+  "id": "dkny-be-tempted-edp-mujer",
+  "auto": true,
+  "destacadas": [
+   "limon",
+   "rosa",
+   "vainilla"
+  ],
+  "marca": "DKNY",
+  "nombre": "Be Tempted",
+  "conc": "EDP",
+  "seccion": "Mujer",
+  "familia": "Floral afrutado",
+  "lema": "Delicadeza que se recuerda.",
+  "venta": "Be Tempted de DKNY es una fragancia floral afrutada para ella, lanzada en 2016. Las notas de grosella negra, limón, bayas rojas, regaliz y manzana abren con personalidad; rosa, violeta y flor de azahar del naranjo forman su corazón, y hojas de pachullí, vainilla y mirra dejan una estela memorable. Un perfume para cualquier ocasión.",
+  "salida": [
+   "Grosella negra",
+   "Limón",
+   "Bayas rojas",
+   "Regaliz",
+   "Manzana"
+  ],
+  "corazon": [
+   "Rosa",
+   "Violeta",
+   "Flor de azahar del naranjo"
+  ],
+  "fondo": [
+   "Hojas de pachullí",
+   "Vainilla",
+   "Mirra"
+  ],
+  "acordes": [
+   [
+    "Floral",
+    90
+   ],
+   [
+    "Afrutado",
+    71
+   ],
+   [
+    "Avainillado",
+    65
+   ],
+   [
+    "Ambarado",
+    65
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 3,
+  "temporada": "Todo el año",
+  "ocasion": "Día · Noche",
+  "forma": "facetado",
+  "liquido": "#E9A9BC"
+ },
+ "697057": {
+  "id": "lattafa-asad-bourbon-edp-hombre",
+  "auto": true,
+  "destacadas": [
+   "lavanda",
+   "cacao",
+   "vainilla"
+  ],
+  "marca": "Lattafa",
+  "nombre": "Asad Bourbon",
+  "conc": "EDP",
+  "seccion": "Hombre",
+  "familia": "Cálido especiado avainillado",
+  "lema": "Intensidad magnética.",
+  "venta": "Asad Bourbon de Lattafa es una fragancia cálido especiado avainillado para él. Su salida de lavanda, ciruela Mirabel y pimienta rosa da paso a un corazón de cacao, nuez moscada y davana, que descansa sobre un fondo de vainilla Bourbon, ámbar y vetiver. Perfecto para ocasiones especiales y noches frías.",
+  "salida": [
+   "Lavanda",
+   "Ciruela Mirabel",
+   "Pimienta rosa"
+  ],
+  "corazon": [
+   "Cacao",
+   "Nuez moscada",
+   "Davana"
+  ],
+  "fondo": [
+   "Vainilla Bourbon",
+   "Ámbar",
+   "Vetiver"
+  ],
+  "acordes": [
+   [
+    "Cálido especiado",
+    90
+   ],
+   [
+    "Avainillado",
+    76
+   ],
+   [
+    "Ambarado",
+    76
+   ],
+   [
+    "Amaderado",
+    76
+   ]
+  ],
+  "duracion": "7–9 h",
+  "proyeccion": 4,
+  "temporada": "Otoño · Invierno",
+  "ocasion": "Noche · Citas",
+  "forma": "alto",
+  "liquido": "#9E4A2A"
  }
 }
