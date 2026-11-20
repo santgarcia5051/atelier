@@ -28,9 +28,9 @@ ARTICULOS = [
 <h3>Devotion Intense, Dolce &amp; Gabbana</h3>
 <p>La versión más profunda de Devotion. Abre con avellana, pasa a flor de azahar y se asienta en una vainilla cremosa que dura toda la noche. Es dulce sin empalagar y huele a postre caro. Ideal para cenas y para quien quiere que le pregunten qué perfume trae.</p>
 [[devotion-intense]]
-<h3>Very Good Girl Elixir, Carolina Herrera</h3>
-<p>Cereza negra, rosa y vainilla en concentración parfum. Es de las que más duran del catálogo, entre 9 y 11 horas, y tiene ese carácter seductor de la línea Good Girl, pero más oscuro y más invernal.</p>
-[[carolina-herrera-very-good-girl-elixir-parfum-mujer]]
+<h3>Very Good Girl, Carolina Herrera</h3>
+<p>Lichi y grosella roja al inicio, rosa en el corazón y un fondo de vainilla con vetiver. Tiene el carácter seductor de la línea Good Girl con un giro frutal, y dura entre 7 y 9 horas: ideal para las cenas de temporada.</p>
+[[carolina-herrera-very-good-girl-edp-mujer]]
 <h3>La Belle, Jean Paul Gaultier</h3>
 <p>Pera jugosa al inicio, vetiver en el corazón y vainilla de fondo. Ese contraste entre lo fresco y lo cálido la hace muy versátil: funciona de día con suéter y de noche con abrigo.</p>
 [[jean-paul-gaultier-la-belle-edp-mujer]]
@@ -42,9 +42,9 @@ ARTICULOS = [
 <h3>Eros Eau de Parfum, Versace</h3>
 <p>Menta fresca arriba, haba tonka y vainilla de Madagascar abajo. Es intenso, se nota al entrar a un lugar y es de los más pedidos para salir de noche.</p>
 [[versace-eros-edp-hombre]]
-<h3>Bad Boy Cobalt Elixir, Carolina Herrera</h3>
-<p>Pimienta negra, trufa y vainilla con incienso. Más oscuro y más duradero que el Bad Boy original, con un frasco que ya es una declaración.</p>
-[[carolina-herrera-bad-boy-cobalt-elixir-parfum-hombre]]
+<h3>Bad Boy Cobalt, Carolina Herrera</h3>
+<p>Pimienta rosa y lavanda arriba, ciruela en el corazón y un fondo de trufa, cedro y roble. Es amaderado y sobrio, con un frasco que ya es una declaración.</p>
+[[carolina-herrera-bad-boy-cobalt-edp-hombre]]
 <h3>L'Homme Idéal L'Intense, Guerlain</h3>
 <p>Chile, rosa de Damasco y cuero. Suena atrevido y lo es, pero en la piel se vuelve suave y muy elegante. Para eventos formales y noches largas.</p>
 [[homme-ideal-intense]]
@@ -101,9 +101,9 @@ ARTICULOS = [
 <h3>La Belle, Jean Paul Gaultier</h3>
 <p>Pera, vetiver y vainilla en el icónico frasco de torso. Un regalo que se nota desde la caja.</p>
 [[jean-paul-gaultier-la-belle-edp-mujer]]
-<h3>Perseus, Parfums de Marly</h3>
-<p>Toronja, vetiver y maderas secas. Perfumería de nicho francesa: para alguien que ya tiene de todo y aprecia lo distinto.</p>
-[[parfums-de-marly-perseus-edp-hombre]]
+<h3>Cedar N' Pepper, Birkholz</h3>
+<p>Pimienta rosa y rosa al inicio, madera de cachemira y cedro blanco en el corazón, y un fondo de almizcle y ámbar. Perfumería de nicho para él o para ella: para alguien que ya tiene de todo y aprecia lo distinto.</p>
+[[birkholz-cedar-n-pepper-edp-unisex]]
 
 <h2>¿No sabe qué le gusta?</h2>
 <p>Si no está seguro de los gustos de la persona, elija algo versátil y de concentración Eau de Parfum: funciona de día y de noche. O haga nuestro test de dos minutos pensando en ella o en él y le sugerimos tres opciones.</p>
